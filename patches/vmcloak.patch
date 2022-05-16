@@ -1,0 +1,45 @@
+diff --git a/vmcloak/dependencies/wic.py b/vmcloak/dependencies/wic.py
+index 9609ac3f23c1..a2b50889877e 100644
+--- a/vmcloak/dependencies/wic.py
++++ b/vmcloak/dependencies/wic.py
+@@ -23,7 +23,8 @@ class WIC(Dependency):
+         "urls": [
+             "https://download.microsoft.com/download/6/4/5/645FED5F-A6E7-44D9-9D10-FE83348796B0/wic_x64_enu.exe",
+         ],
+-        "sha1": "4bdbf76a7bc96453306c893b4a7b2b8ae6127f67",
++        # "sha1": "4bdbf76a7bc96453306c893b4a7b2b8ae6127f67",
++        "sha1": "da12927da6eb931a39e479d55c8b0321e8367f5e",
+     }]
+ 
+     def run(self):
+diff --git a/vmcloak/platforms/qemu.py b/vmcloak/platforms/qemu.py
+index a37882929fd1..3b33254a8dc7 100644
+--- a/vmcloak/platforms/qemu.py
++++ b/vmcloak/platforms/qemu.py
+@@ -26,7 +26,7 @@ def _create_image_disk(path, size):
+ 
+ def _create_snapshot_disk(image_path, path):
+     log.info("Creating snapshot %s with master %s", path, image_path)
+-    subprocess.check_call(["qemu-img", "create", "-f", "qcow2", "-b",
++    subprocess.check_call(["qemu-img", "create", "-f", "qcow2", "-F", "qcow2", "-b",
+                            image_path, path])
+ 
+ def _create_vm(name, attr, iso_path=None, is_snapshot=False):
+@@ -47,7 +47,7 @@ def _create_vm(name, attr, iso_path=None, is_snapshot=False):
+ 
+     args = QEMU_AMD64 + [
+         "-smp", "1,sockets=1,cores=%s,threads=1" % attr["cpus"],
+-        "-realtime", "mlock=off",
++        #"-realtime", "mlock=off",
+         "-rtc", "base=localtime,driftfix=slew",
+         "-m", "%s" % attr["ramsize"],
+         "-netdev", "type=bridge,br=%s,id=net0" % net,
+@@ -55,7 +55,7 @@ def _create_vm(name, attr, iso_path=None, is_snapshot=False):
+ 
+         "-drive", "file=%s,format=qcow2,if=none,id=disk" % attr["path"],
+         "-device", "ich9-ahci,id=ahci",
+-        "-device", "ide-drive,bus=ahci.0,unit=0,drive=disk,bootindex=2",
++        "-device", "ide-hd,bus=ahci.0,unit=0,drive=disk,bootindex=2",
+ 
+         "-drive", "%sif=none,id=cdrom,readonly=on" % iso,
+         "-device", "ide-cd,bus=ahci.1,unit=0,drive=cdrom,bootindex=1"
