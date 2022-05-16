@@ -1,0 +1,67 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 1040,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "True",
+        "psscan": "True",
+        "process_name": "rundll32.exe",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 1
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "6804:7802:80fa:ffff:6804:7802:80fa:ffff",
+        "process_id": "5",
+        "offset": "0x3e7d86f0",
+        "local_address": null
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "88.146.49.2",
+        "process_id": "5",
+        "offset": "0x3e92e360",
+        "local_address": null
+      }
+    ],
+    "added_count": 2
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [],
+    "added_count": 0
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

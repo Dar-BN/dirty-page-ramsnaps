@@ -1,0 +1,79 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "131097",
+        "process_id": 1300,
+        "handle_value": "1060",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\FOLDERDESCRIPTIONS\\{2112AB0A-C86A-4FFE-A368-0DE96E47012E}\\PROPERTYBAG"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 1300,
+        "handle_value": "1324",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 1300,
+        "handle_value": "1328",
+        "handle_type": "Key",
+        "handle_name": "USER\\S-1-5-21-3238137328-1388682902-249016802-500\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 1840,
+        "handle_value": "32",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\????R\u00168???RADES"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1840,
+        "handle_value": "136",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Python27\\Lib\\cgi.py"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1840,
+        "handle_value": "144",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\u0770\u00ef\uf8a0\uffffhon27\\DLLs\\ARGPARSE.P"
+      }
+    ],
+    "added_count": 6
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

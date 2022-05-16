@@ -1,0 +1,5084 @@
+{
+  "dlllist": [
+    {
+      "Pid": 4,
+      "Base": 0,
+      "Size": 0,
+      "LoadCount": 0,
+      "LoadTime": "",
+      "Path": "Error reading PEB for pid"
+    }
+  ],
+  "devicetree": [
+    {
+      "Offset(P)": 1057453520,
+      "Pointers": 7,
+      "Handles": 0,
+      "Start": 18446735827393708032,
+      "Size": 995328,
+      "Service Key": "NDIS",
+      "Name": "NDIS",
+      "Driver Name": "\\Driver\\NDIS"
+    },
+    {
+      "Offset(P)": 1057457440,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827391397888,
+      "Size": 40960,
+      "Service Key": "Fs_Rec",
+      "Name": "Fs_Rec",
+      "Driver Name": "\\FileSystem\\Fs_Rec"
+    },
+    {
+      "Offset(P)": 1057459152,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827391328256,
+      "Size": 69632,
+      "Service Key": "pcw",
+      "Name": "pcw",
+      "Driver Name": "\\Driver\\pcw"
+    },
+    {
+      "Offset(P)": 1057483232,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827395575808,
+      "Size": 2113536,
+      "Service Key": "Tcpip",
+      "Name": "Tcpip",
+      "Driver Name": "\\Driver\\Tcpip"
+    },
+    {
+      "Offset(P)": 1057483728,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827395096576,
+      "Size": 176128,
+      "Service Key": "KSecPkg",
+      "Name": "KSecPkg",
+      "Driver Name": "\\Driver\\KSecPkg"
+    },
+    {
+      "Offset(P)": 1057778288,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827398402048,
+      "Size": 237568,
+      "Service Key": "rdyboost",
+      "Name": "rdyboost",
+      "Driver Name": "\\Driver\\rdyboost"
+    },
+    {
+      "Offset(P)": 1057813984,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827397992448,
+      "Size": 65536,
+      "Service Key": "storflt",
+      "Name": "storflt",
+      "Driver Name": "\\Driver\\storflt"
+    },
+    {
+      "Offset(P)": 1057843248,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827398369280,
+      "Size": 32768,
+      "Service Key": "spldr",
+      "Name": "spldr",
+      "Driver Name": "\\Driver\\spldr"
+    },
+    {
+      "Offset(P)": 1057844848,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827398057984,
+      "Size": 311296,
+      "Service Key": "volsnap",
+      "Name": "volsnap",
+      "Driver Name": "\\Driver\\volsnap"
+    },
+    {
+      "Offset(P)": 1057852512,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827398750208,
+      "Size": 237568,
+      "Service Key": "fvevol",
+      "Name": "fvevol",
+      "Driver Name": "\\Driver\\fvevol"
+    },
+    {
+      "Offset(P)": 1058025856,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827398639616,
+      "Size": 73728,
+      "Service Key": "Mup",
+      "Name": "Mup",
+      "Driver Name": "\\FileSystem\\Mup"
+    },
+    {
+      "Offset(P)": 1058026480,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827398713344,
+      "Size": 36864,
+      "Service Key": "hwpolicy",
+      "Name": "hwpolicy",
+      "Driver Name": "\\Driver\\hwpolicy"
+    },
+    {
+      "Offset(P)": 1058069008,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827398987776,
+      "Size": 90112,
+      "Service Key": "Disk",
+      "Name": "Disk",
+      "Driver Name": "\\Driver\\Disk"
+    },
+    {
+      "Offset(P)": 1061312960,
+      "Pointers": 6,
+      "Handles": 0,
+      "Start": 18446735827391557632,
+      "Size": 1716224,
+      "Service Key": "Ntfs",
+      "Name": "Ntfs",
+      "Driver Name": "\\FileSystem\\Ntfs"
+    },
+    {
+      "Offset(P)": 1061314160,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827385942016,
+      "Size": 385024,
+      "Service Key": "CLFS",
+      "Name": "CLFS",
+      "Driver Name": "\\Driver\\CLFS"
+    },
+    {
+      "Offset(P)": 1061320640,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827391217664,
+      "Size": 110592,
+      "Service Key": "KSecDD",
+      "Name": "KSecDD",
+      "Driver Name": "\\Driver\\KSecDD"
+    },
+    {
+      "Offset(P)": 1061322848,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827390582784,
+      "Size": 466944,
+      "Service Key": "CNG",
+      "Name": "CNG",
+      "Driver Name": "\\Driver\\CNG"
+    },
+    {
+      "Offset(P)": 1061680464,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827386855424,
+      "Size": 45056,
+      "Service Key": "msahci",
+      "Name": "msahci",
+      "Driver Name": "\\Driver\\msahci"
+    },
+    {
+      "Offset(P)": 1072595408,
+      "Pointers": 67,
+      "Handles": 0,
+      "Start": 18446735277656465408,
+      "Size": 0,
+      "Service Key": "\\Driver\\PnpManager",
+      "Name": "PnpManager",
+      "Driver Name": "\\Driver\\PnpManager"
+    },
+    {
+      "Offset(P)": 1072681616,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735277662666752,
+      "Size": 0,
+      "Service Key": "\\Driver\\ACPI_HAL",
+      "Name": "ACPI_HAL",
+      "Driver Name": "\\Driver\\ACPI_HAL"
+    },
+    {
+      "Offset(P)": 1072685712,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735277656465408,
+      "Size": 0,
+      "Service Key": "\\Driver\\WMIxWDM",
+      "Name": "WMIxWDM",
+      "Driver Name": "\\Driver\\WMIxWDM"
+    },
+    {
+      "Offset(P)": 1072894288,
+      "Pointers": 25,
+      "Handles": 0,
+      "Start": 18446735827386327040,
+      "Size": 356352,
+      "Service Key": "ACPI",
+      "Name": "ACPI",
+      "Driver Name": "\\Driver\\ACPI"
+    },
+    {
+      "Offset(P)": 1072935008,
+      "Pointers": 5,
+      "Handles": 0,
+      "Start": 0,
+      "Size": 0,
+      "Service Key": "",
+      "Name": "RAW",
+      "Driver Name": "\\FileSystem\\RAW"
+    },
+    {
+      "Offset(P)": 1073047520,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827387023360,
+      "Size": 671744,
+      "Service Key": "Wdf01000",
+      "Name": "Wdf01000",
+      "Driver Name": "\\Driver\\Wdf01000"
+    },
+    {
+      "Offset(P)": 1073067104,
+      "Pointers": 7,
+      "Handles": 0,
+      "Start": 18446735827387834368,
+      "Size": 86016,
+      "Service Key": "partmgr",
+      "Name": "partmgr",
+      "Driver Name": "\\Driver\\partmgr"
+    },
+    {
+      "Offset(P)": 1073072784,
+      "Pointers": 9,
+      "Handles": 0,
+      "Start": 18446735827387920384,
+      "Size": 86016,
+      "Service Key": "volmgr",
+      "Name": "volmgr",
+      "Driver Name": "\\Driver\\volmgr"
+    },
+    {
+      "Offset(P)": 1073074272,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827384926208,
+      "Size": 376832,
+      "Service Key": "volmgrx",
+      "Name": "volmgrx",
+      "Driver Name": "\\Driver\\volmgrx"
+    },
+    {
+      "Offset(P)": 1073075024,
+      "Pointers": 7,
+      "Handles": 0,
+      "Start": 18446735827385368576,
+      "Size": 106496,
+      "Service Key": "mountmgr",
+      "Name": "mountmgr",
+      "Driver Name": "\\Driver\\mountmgr"
+    },
+    {
+      "Offset(P)": 1073076128,
+      "Pointers": 5,
+      "Handles": 0,
+      "Start": 18446735827389079552,
+      "Size": 32768,
+      "Service Key": "intelide",
+      "Name": "intelide",
+      "Driver Name": "\\Driver\\intelide"
+    },
+    {
+      "Offset(P)": 1073122704,
+      "Pointers": 6,
+      "Handles": 0,
+      "Start": 18446735827385475072,
+      "Size": 36864,
+      "Service Key": "atapi",
+      "Name": "atapi",
+      "Driver Name": "\\Driver\\atapi"
+    },
+    {
+      "Offset(P)": 1073161248,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827389026304,
+      "Size": 53248,
+      "Service Key": "vdrvroot",
+      "Name": "vdrvroot",
+      "Driver Name": "\\Driver\\vdrvroot"
+    },
+    {
+      "Offset(P)": 1073165568,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827387793408,
+      "Size": 40960,
+      "Service Key": "msisadrv",
+      "Name": "msisadrv",
+      "Driver Name": "\\Driver\\msisadrv"
+    },
+    {
+      "Offset(P)": 1073167984,
+      "Pointers": 9,
+      "Handles": 0,
+      "Start": 18446735827388817408,
+      "Size": 208896,
+      "Service Key": "pci",
+      "Name": "pci",
+      "Driver Name": "\\Driver\\pci"
+    },
+    {
+      "Offset(P)": 1073199584,
+      "Pointers": 11,
+      "Handles": 0,
+      "Start": 18446735827389804544,
+      "Size": 311296,
+      "Service Key": "FltMgr",
+      "Name": "FltMgr",
+      "Driver Name": "\\FileSystem\\FltMgr"
+    },
+    {
+      "Offset(P)": 1073227088,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827386900480,
+      "Size": 45056,
+      "Service Key": "amdxata",
+      "Name": "amdxata",
+      "Driver Name": "\\Driver\\amdxata"
+    },
+    {
+      "Offset(P)": 1073338992,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827390115840,
+      "Size": 81920,
+      "Service Key": "FileInfo",
+      "Name": "FileInfo",
+      "Driver Name": "\\FileSystem\\FileInfo"
+    }
+  ],
+  "handles": [
+    {
+      "Offset(V)": 18446738026409007920,
+      "Pid": 4,
+      "Handle": 4,
+      "Access": 2097151,
+      "Type": "Process",
+      "Details": "System(4)"
+    },
+    {
+      "Offset(V)": 18446735964811723664,
+      "Pid": 4,
+      "Handle": 8,
+      "Access": 131103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\HIVELIST"
+    },
+    {
+      "Offset(V)": 18446735964811322160,
+      "Pid": 4,
+      "Handle": 12,
+      "Access": 983055,
+      "Type": "Directory",
+      "Details": "GLOBAL??"
+    },
+    {
+      "Offset(V)": 18446735964811428384,
+      "Pid": 4,
+      "Handle": 16,
+      "Access": 0,
+      "Type": "Key",
+      "Details": ""
+    },
+    {
+      "Offset(V)": 18446735964811673664,
+      "Pid": 4,
+      "Handle": 20,
+      "Access": 131103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\PRODUCTOPTIONS"
+    },
+    {
+      "Offset(V)": 18446735964811673888,
+      "Pid": 4,
+      "Handle": 24,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\\MEMORY MANAGEMENT\\PREFETCHPARAMETERS"
+    },
+    {
+      "Offset(V)": 18446738026409234016,
+      "Pid": 4,
+      "Handle": 28,
+      "Access": 2031617,
+      "Type": "ALPC Port",
+      "Details": "PowerMonitorPort"
+    },
+    {
+      "Offset(V)": 18446735964811828000,
+      "Pid": 4,
+      "Handle": 32,
+      "Access": 131103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\SETUP"
+    },
+    {
+      "Offset(V)": 18446738026409541216,
+      "Pid": 4,
+      "Handle": 36,
+      "Access": 2031617,
+      "Type": "ALPC Port",
+      "Details": "PowerPort"
+    },
+    {
+      "Offset(V)": 18446735964811661856,
+      "Pid": 4,
+      "Handle": 40,
+      "Access": 131097,
+      "Type": "Key",
+      "Details": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\MULTIFUNCTIONADAPTER"
+    },
+    {
+      "Offset(V)": 18446738026418270272,
+      "Pid": 4,
+      "Handle": 44,
+      "Access": 2097151,
+      "Type": "Thread",
+      "Details": "TID 160 PID 4"
+    },
+    {
+      "Offset(V)": 18446735964811843792,
+      "Pid": 4,
+      "Handle": 48,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001"
+    },
+    {
+      "Offset(V)": 18446735964811669568,
+      "Pid": 4,
+      "Handle": 52,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\ENUM"
+    },
+    {
+      "Offset(V)": 18446735964811822944,
+      "Pid": 4,
+      "Handle": 56,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\CLASS"
+    },
+    {
+      "Offset(V)": 18446735964811837840,
+      "Pid": 4,
+      "Handle": 60,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES"
+    },
+    {
+      "Offset(V)": 18446735964813242432,
+      "Pid": 4,
+      "Handle": 64,
+      "Access": 14,
+      "Type": "Token",
+      "Details": ""
+    },
+    {
+      "Offset(V)": 18446735964811806496,
+      "Pid": 4,
+      "Handle": 68,
+      "Access": 131097,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\WMI\\SECURITY"
+    },
+    {
+      "Offset(V)": 18446735964813213488,
+      "Pid": 4,
+      "Handle": 196,
+      "Access": 983103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\\MEMORY MANAGEMENT"
+    },
+    {
+      "Offset(V)": 18446735964813332336,
+      "Pid": 4,
+      "Handle": 204,
+      "Access": 131097,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001"
+    },
+    {
+      "Offset(V)": 18446735964811843552,
+      "Pid": 4,
+      "Handle": 208,
+      "Access": 2,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\RNG"
+    },
+    {
+      "Offset(V)": 18446735964813072688,
+      "Pid": 4,
+      "Handle": 212,
+      "Access": 131103,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\PCW\\SECURITY"
+    },
+    {
+      "Offset(V)": 18446735964813111520,
+      "Pid": 4,
+      "Handle": 216,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\1"
+    },
+    {
+      "Offset(V)": 18446738026409007920,
+      "Pid": 4,
+      "Handle": 220,
+      "Access": 5184,
+      "Type": "Process",
+      "Details": "System(4)"
+    },
+    {
+      "Offset(V)": 18446735964811817600,
+      "Pid": 4,
+      "Handle": 224,
+      "Access": 16,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\FILESYSTEM"
+    },
+    {
+      "Offset(V)": 18446735964813073328,
+      "Pid": 4,
+      "Handle": 228,
+      "Access": 16,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\NETWORKPROVIDER\\ORDER"
+    },
+    {
+      "Offset(V)": 18446735964813585776,
+      "Pid": 4,
+      "Handle": 232,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\23"
+    },
+    {
+      "Offset(V)": 18446735964813376480,
+      "Pid": 4,
+      "Handle": 236,
+      "Access": 16,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\POLICIES"
+    },
+    {
+      "Offset(V)": 18446735964813140912,
+      "Pid": 4,
+      "Handle": 240,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\131"
+    },
+    {
+      "Offset(V)": 18446735964812552784,
+      "Pid": 4,
+      "Handle": 244,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\24"
+    },
+    {
+      "Offset(V)": 18446735964811814096,
+      "Pid": 4,
+      "Handle": 248,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\6"
+    },
+    {
+      "Offset(V)": 18446735964813213760,
+      "Pid": 4,
+      "Handle": 252,
+      "Access": 11,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\71"
+    },
+    {
+      "Offset(V)": 18446735964811313216,
+      "Pid": 4,
+      "Handle": 256,
+      "Access": 983551,
+      "Type": "Token",
+      "Details": ""
+    },
+    {
+      "Offset(V)": 18446735964813073728,
+      "Pid": 4,
+      "Handle": 260,
+      "Access": 131097,
+      "Type": "Key",
+      "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\MUP"
+    },
+    {
+      "Offset(V)": 18446735964813026032,
+      "Pid": 4,
+      "Handle": 288,
+      "Access": 983055,
+      "Type": "Directory",
+      "Details": "Harddisk0"
+    }
+  ],
+  "getsids": [
+    {
+      "PID": 4,
+      "Process": "System",
+      "SID": "S-1-5-18",
+      "Name": "Local System"
+    },
+    {
+      "PID": 4,
+      "Process": "System",
+      "SID": "S-1-5-32-544",
+      "Name": "Administrators"
+    },
+    {
+      "PID": 4,
+      "Process": "System",
+      "SID": "S-1-1-0",
+      "Name": "Everyone"
+    },
+    {
+      "PID": 4,
+      "Process": "System",
+      "SID": "S-1-5-11",
+      "Name": "Authenticated Users"
+    },
+    {
+      "PID": 4,
+      "Process": "System",
+      "SID": "S-1-16-16384",
+      "Name": "System Mandatory Level"
+    }
+  ],
+  "ldrmodules": [],
+  "malfind": [],
+  "callbacks": [
+    {
+      "Type": "GenericKernelCallback",
+      "Callback": 18446735277656775408,
+      "Module": "ntoskrnl.exe",
+      "Details": "-"
+    },
+    {
+      "Type": "IoRegisterFsRegistrationChange",
+      "Callback": 18446735827390040048,
+      "Module": "fltmgr.sys",
+      "Details": "-"
+    },
+    {
+      "Type": "GenericKernelCallback",
+      "Callback": 18446735277660253376,
+      "Module": "ntoskrnl.exe",
+      "Details": "-"
+    },
+    {
+      "Type": "GenericKernelCallback",
+      "Callback": 18446735827390632912,
+      "Module": "cng.sys",
+      "Details": "-"
+    },
+    {
+      "Type": "GenericKernelCallback",
+      "Callback": 18446735827391291872,
+      "Module": "ksecdd.sys",
+      "Details": "-"
+    },
+    {
+      "Type": "GenericKernelCallback",
+      "Callback": 18446735827396109248,
+      "Module": "tcpip.sys",
+      "Details": "-"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735827387966256,
+      "Module": "volmgr.sys",
+      "Details": "volmgr"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735827387966256,
+      "Module": "volmgr.sys",
+      "Details": "volmgr"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735827387894192,
+      "Module": "partmgr.sys",
+      "Details": "partmgr"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735277661627936,
+      "Module": "ntoskrnl.exe",
+      "Details": "PnpManager"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735277661627936,
+      "Module": "ntoskrnl.exe",
+      "Details": "PnpManager"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735277661627936,
+      "Module": "ntoskrnl.exe",
+      "Details": "PnpManager"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735277661627936,
+      "Module": "ntoskrnl.exe",
+      "Details": "PnpManager"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735277661627936,
+      "Module": "ntoskrnl.exe",
+      "Details": "PnpManager"
+    },
+    {
+      "Type": "EventCategoryTargetDeviceChange",
+      "Callback": 18446735277658120576,
+      "Module": "ntoskrnl.exe",
+      "Details": "ACPI"
+    },
+    {
+      "Type": "EventCategoryTargetDeviceChange",
+      "Callback": 18446735827385424148,
+      "Module": "mountmgr.sys",
+      "Details": "mountmgr"
+    },
+    {
+      "Type": "EventCategoryTargetDeviceChange",
+      "Callback": 18446735827385424148,
+      "Module": "mountmgr.sys",
+      "Details": "mountmgr"
+    },
+    {
+      "Type": "EventCategoryDeviceInterfaceChange",
+      "Callback": 18446735827385430400,
+      "Module": "mountmgr.sys",
+      "Details": "mountmgr"
+    },
+    {
+      "Type": "IoRegisterShutdownNotification",
+      "Callback": 18446735827391291408,
+      "Module": "ksecdd.sys",
+      "Details": "\\Driver\\KSecDD"
+    },
+    {
+      "Type": "IoRegisterShutdownNotification",
+      "Callback": 18446735277656883668,
+      "Module": "ntoskrnl.exe",
+      "Details": "\\Driver\\WMIxWDM"
+    },
+    {
+      "Type": "IoRegisterShutdownNotification",
+      "Callback": 18446735277661142896,
+      "Module": "ntoskrnl.exe",
+      "Details": "\\FileSystem\\RAW"
+    },
+    {
+      "Type": "IoRegisterShutdownNotification",
+      "Callback": 18446735827387939904,
+      "Module": "volmgr.sys",
+      "Details": "\\Driver\\volmgr"
+    },
+    {
+      "Type": "IoRegisterShutdownNotification",
+      "Callback": 18446735827385455176,
+      "Module": "mountmgr.sys",
+      "Details": "\\Driver\\mountmgr"
+    },
+    {
+      "Type": "PsRemoveLoadImageNotifyRoutine",
+      "Callback": 18446735277660253376,
+      "Module": "ntoskrnl.exe",
+      "Details": "-"
+    },
+    {
+      "Type": "KeBugCheckCallbackListHead",
+      "Callback": 18446735277662744620,
+      "Module": "hal.dll",
+      "Details": "ACPI x64"
+    }
+  ],
+  "modscan": [
+    {
+      "Offset(P)": 45807073,
+      "Name": "",
+      "Base": 9893335582443634605,
+      "Size": 2218125312,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072857200,
+      "Name": "hal.dll",
+      "Base": 18446735277662666752,
+      "Size": 299008,
+      "File": "\\SystemRoot\\system32\\hal.dll"
+    },
+    {
+      "Offset(P)": 1072857440,
+      "Name": "ntoskrnl.exe",
+      "Base": 18446735277656465408,
+      "Size": 6201344,
+      "File": "\\SystemRoot\\system32\\ntkrnlmp.exe"
+    },
+    {
+      "Offset(P)": 1072883344,
+      "Name": "CLFS.SYS",
+      "Base": 18446735827385942016,
+      "Size": 385024,
+      "File": "\\SystemRoot\\system32\\CLFS.SYS"
+    },
+    {
+      "Offset(P)": 1072883584,
+      "Name": "PSHED.dll",
+      "Base": 18446735827385860096,
+      "Size": 81920,
+      "File": "\\SystemRoot\\system32\\PSHED.dll"
+    },
+    {
+      "Offset(P)": 1072883808,
+      "Name": "mcupdate.dll",
+      "Base": 18446735827385536512,
+      "Size": 323584,
+      "File": "\\SystemRoot\\system32\\mcupdate_GenuineIntel.dll"
+    },
+    {
+      "Offset(P)": 1072884048,
+      "Name": "kdcom.dll",
+      "Base": 18446735277628878848,
+      "Size": 40960,
+      "File": "\\SystemRoot\\system32\\kdcom.dll"
+    },
+    {
+      "Offset(P)": 1072885776,
+      "Name": "CI.dll",
+      "Base": 18446735827388030976,
+      "Size": 786432,
+      "File": "\\SystemRoot\\system32\\CI.dll"
+    },
+    {
+      "Offset(P)": 1072886112,
+      "Name": "msahci.sys",
+      "Base": 18446735827386855424,
+      "Size": 45056,
+      "File": "\\SystemRoot\\system32\\drivers\\msahci.sys"
+    },
+    {
+      "Offset(P)": 1072886336,
+      "Name": "ataport.SYS",
+      "Base": 18446735827386683392,
+      "Size": 172032,
+      "File": "\\SystemRoot\\system32\\drivers\\ataport.SYS"
+    },
+    {
+      "Offset(P)": 1072886576,
+      "Name": "atapi.sys",
+      "Base": 18446735827385475072,
+      "Size": 36864,
+      "File": "\\SystemRoot\\system32\\drivers\\atapi.sys"
+    },
+    {
+      "Offset(P)": 1072886800,
+      "Name": "mountmgr.sys",
+      "Base": 18446735827385368576,
+      "Size": 106496,
+      "File": "\\SystemRoot\\System32\\drivers\\mountmgr.sys"
+    },
+    {
+      "Offset(P)": 1072887040,
+      "Name": "PCIIDEX.SYS",
+      "Base": 18446735827385303040,
+      "Size": 65536,
+      "File": "\\SystemRoot\\system32\\drivers\\PCIIDEX.SYS"
+    },
+    {
+      "Offset(P)": 1072887280,
+      "Name": "intelide.sys",
+      "Base": 18446735827389079552,
+      "Size": 32768,
+      "File": "\\SystemRoot\\system32\\drivers\\intelide.sys"
+    },
+    {
+      "Offset(P)": 1072887520,
+      "Name": "volmgrx.sys",
+      "Base": 18446735827384926208,
+      "Size": 376832,
+      "File": "\\SystemRoot\\System32\\drivers\\volmgrx.sys"
+    },
+    {
+      "Offset(P)": 1072887760,
+      "Name": "volmgr.sys",
+      "Base": 18446735827387920384,
+      "Size": 86016,
+      "File": "\\SystemRoot\\system32\\drivers\\volmgr.sys"
+    },
+    {
+      "Offset(P)": 1072887984,
+      "Name": "partmgr.sys",
+      "Base": 18446735827387834368,
+      "Size": 86016,
+      "File": "\\SystemRoot\\System32\\drivers\\partmgr.sys"
+    },
+    {
+      "Offset(P)": 1072888224,
+      "Name": "vdrvroot.sys",
+      "Base": 18446735827389026304,
+      "Size": 53248,
+      "File": "\\SystemRoot\\system32\\drivers\\vdrvroot.sys"
+    },
+    {
+      "Offset(P)": 1072888464,
+      "Name": "pci.sys",
+      "Base": 18446735827388817408,
+      "Size": 208896,
+      "File": "\\SystemRoot\\system32\\drivers\\pci.sys"
+    },
+    {
+      "Offset(P)": 1072888688,
+      "Name": "msisadrv.sys",
+      "Base": 18446735827387793408,
+      "Size": 40960,
+      "File": "\\SystemRoot\\system32\\drivers\\msisadrv.sys"
+    },
+    {
+      "Offset(P)": 1072888928,
+      "Name": "WMILIB.SYS",
+      "Base": 18446735827387756544,
+      "Size": 36864,
+      "File": "\\SystemRoot\\system32\\drivers\\WMILIB.SYS"
+    },
+    {
+      "Offset(P)": 1072889152,
+      "Name": "ACPI.sys",
+      "Base": 18446735827386327040,
+      "Size": 356352,
+      "File": "\\SystemRoot\\system32\\drivers\\ACPI.sys"
+    },
+    {
+      "Offset(P)": 1072889392,
+      "Name": "WDFLDR.SYS",
+      "Base": 18446735827387695104,
+      "Size": 61440,
+      "File": "\\SystemRoot\\system32\\drivers\\WDFLDR.SYS"
+    },
+    {
+      "Offset(P)": 1072889616,
+      "Name": "Wdf01000.sys",
+      "Base": 18446735827387023360,
+      "Size": 671744,
+      "File": "\\SystemRoot\\system32\\drivers\\Wdf01000.sys"
+    },
+    {
+      "Offset(P)": 1072889872,
+      "Name": "amdxata.sys",
+      "Base": 18446735827386900480,
+      "Size": 45056,
+      "File": "\\SystemRoot\\system32\\drivers\\amdxata.sys"
+    },
+    {
+      "Offset(P)": 1072890320,
+      "Name": "volsnap.sys",
+      "Base": 18446735827398057984,
+      "Size": 311296,
+      "File": "\\SystemRoot\\system32\\drivers\\volsnap.sys"
+    },
+    {
+      "Offset(P)": 1072890560,
+      "Name": "vmstorfl.sys",
+      "Base": 18446735827397992448,
+      "Size": 65536,
+      "File": "\\SystemRoot\\system32\\drivers\\vmstorfl.sys"
+    },
+    {
+      "Offset(P)": 1072890800,
+      "Name": "fwpkclnt.sys",
+      "Base": 18446735827397689344,
+      "Size": 303104,
+      "File": "\\SystemRoot\\System32\\drivers\\fwpkclnt.sys"
+    },
+    {
+      "Offset(P)": 1072891040,
+      "Name": "tcpip.sys",
+      "Base": 18446735827395575808,
+      "Size": 2113536,
+      "File": "\\SystemRoot\\System32\\drivers\\tcpip.sys"
+    },
+    {
+      "Offset(P)": 1072891328,
+      "Name": "ksecpkg.sys",
+      "Base": 18446735827395096576,
+      "Size": 176128,
+      "File": "\\SystemRoot\\System32\\Drivers\\ksecpkg.sys"
+    },
+    {
+      "Offset(P)": 1072891568,
+      "Name": "NETIO.SYS",
+      "Base": 18446735827394703360,
+      "Size": 393216,
+      "File": "\\SystemRoot\\system32\\drivers\\NETIO.SYS"
+    },
+    {
+      "Offset(P)": 1072891808,
+      "Name": "ndis.sys",
+      "Base": 18446735827393708032,
+      "Size": 995328,
+      "File": "\\SystemRoot\\system32\\drivers\\ndis.sys"
+    },
+    {
+      "Offset(P)": 1072892064,
+      "Name": "Fs_Rec.sys",
+      "Base": 18446735827391397888,
+      "Size": 40960,
+      "File": "\\SystemRoot\\System32\\Drivers\\Fs_Rec.sys"
+    },
+    {
+      "Offset(P)": 1072892288,
+      "Name": "pcw.sys",
+      "Base": 18446735827391328256,
+      "Size": 69632,
+      "File": "\\SystemRoot\\System32\\drivers\\pcw.sys"
+    },
+    {
+      "Offset(P)": 1072892512,
+      "Name": "cng.sys",
+      "Base": 18446735827390582784,
+      "Size": 466944,
+      "File": "\\SystemRoot\\System32\\Drivers\\cng.sys"
+    },
+    {
+      "Offset(P)": 1072892752,
+      "Name": "ksecdd.sys",
+      "Base": 18446735827391217664,
+      "Size": 110592,
+      "File": "\\SystemRoot\\System32\\Drivers\\ksecdd.sys"
+    },
+    {
+      "Offset(P)": 1072892976,
+      "Name": "msrpc.sys",
+      "Base": 18446735827390197760,
+      "Size": 385024,
+      "File": "\\SystemRoot\\System32\\Drivers\\msrpc.sys"
+    },
+    {
+      "Offset(P)": 1072893216,
+      "Name": "Ntfs.sys",
+      "Base": 18446735827391557632,
+      "Size": 1716224,
+      "File": "\\SystemRoot\\System32\\Drivers\\Ntfs.sys"
+    },
+    {
+      "Offset(P)": 1072893488,
+      "Name": "fileinfo.sys",
+      "Base": 18446735827390115840,
+      "Size": 81920,
+      "File": "\\SystemRoot\\system32\\drivers\\fileinfo.sys"
+    },
+    {
+      "Offset(P)": 1072893728,
+      "Name": "fltmgr.sys",
+      "Base": 18446735827389804544,
+      "Size": 311296,
+      "File": "\\SystemRoot\\system32\\drivers\\fltmgr.sys"
+    },
+    {
+      "Offset(P)": 1072893968,
+      "Name": "spldr.sys",
+      "Base": 18446735827398369280,
+      "Size": 32768,
+      "File": "\\SystemRoot\\System32\\Drivers\\spldr.sys"
+    },
+    {
+      "Offset(P)": 1072896672,
+      "Name": "CLASSPNP.SYS",
+      "Base": 18446735827399077888,
+      "Size": 196608,
+      "File": "\\SystemRoot\\system32\\drivers\\CLASSPNP.SYS"
+    },
+    {
+      "Offset(P)": 1072896912,
+      "Name": "disk.sys",
+      "Base": 18446735827398987776,
+      "Size": 90112,
+      "File": "\\SystemRoot\\system32\\drivers\\disk.sys"
+    },
+    {
+      "Offset(P)": 1072897136,
+      "Name": "fvevol.sys",
+      "Base": 18446735827398750208,
+      "Size": 237568,
+      "File": "\\SystemRoot\\System32\\DRIVERS\\fvevol.sys"
+    },
+    {
+      "Offset(P)": 1072897360,
+      "Name": "hwpolicy.sys",
+      "Base": 18446735827398713344,
+      "Size": 36864,
+      "File": "\\SystemRoot\\System32\\drivers\\hwpolicy.sys"
+    },
+    {
+      "Offset(P)": 1072897600,
+      "Name": "mup.sys",
+      "Base": 18446735827398639616,
+      "Size": 73728,
+      "File": "\\SystemRoot\\System32\\Drivers\\mup.sys"
+    },
+    {
+      "Offset(P)": 1072897824,
+      "Name": "rdyboost.sys",
+      "Base": 18446735827398402048,
+      "Size": 237568,
+      "File": "\\SystemRoot\\System32\\drivers\\rdyboost.sys"
+    }
+  ],
+  "mutantscan": [],
+  "privs": [
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 2,
+      "Privilege": "SeCreateTokenPrivilege",
+      "Attributes": "Present",
+      "Description": "Create a token object"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 3,
+      "Privilege": "SeAssignPrimaryTokenPrivilege",
+      "Attributes": "Present",
+      "Description": "Replace a process-level token"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 4,
+      "Privilege": "SeLockMemoryPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Lock pages in memory"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 5,
+      "Privilege": "SeIncreaseQuotaPrivilege",
+      "Attributes": "Present",
+      "Description": "Increase quotas"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 6,
+      "Privilege": "SeMachineAccountPrivilege",
+      "Attributes": "",
+      "Description": "Add workstations to the domain"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 7,
+      "Privilege": "SeTcbPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Act as part of the operating system"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 8,
+      "Privilege": "SeSecurityPrivilege",
+      "Attributes": "Present",
+      "Description": "Manage auditing and security log"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 9,
+      "Privilege": "SeTakeOwnershipPrivilege",
+      "Attributes": "Present",
+      "Description": "Take ownership of files/objects"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 10,
+      "Privilege": "SeLoadDriverPrivilege",
+      "Attributes": "Present",
+      "Description": "Load and unload device drivers"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 11,
+      "Privilege": "SeSystemProfilePrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Profile system performance"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 12,
+      "Privilege": "SeSystemtimePrivilege",
+      "Attributes": "Present",
+      "Description": "Change the system time"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 13,
+      "Privilege": "SeProfileSingleProcessPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Profile a single process"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 14,
+      "Privilege": "SeIncreaseBasePriorityPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Increase scheduling priority"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 15,
+      "Privilege": "SeCreatePagefilePrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Create a pagefile"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 16,
+      "Privilege": "SeCreatePermanentPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Create permanent shared objects"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 17,
+      "Privilege": "SeBackupPrivilege",
+      "Attributes": "Present",
+      "Description": "Backup files and directories"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 18,
+      "Privilege": "SeRestorePrivilege",
+      "Attributes": "Present",
+      "Description": "Restore files and directories"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 19,
+      "Privilege": "SeShutdownPrivilege",
+      "Attributes": "Present",
+      "Description": "Shut down the system"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 20,
+      "Privilege": "SeDebugPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Debug programs"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 21,
+      "Privilege": "SeAuditPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Generate security audits"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 22,
+      "Privilege": "SeSystemEnvironmentPrivilege",
+      "Attributes": "Present",
+      "Description": "Edit firmware environment values"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 23,
+      "Privilege": "SeChangeNotifyPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Receive notifications of changes to files or directories"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 24,
+      "Privilege": "SeRemoteShutdownPrivilege",
+      "Attributes": "",
+      "Description": "Force shutdown from a remote system"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 25,
+      "Privilege": "SeUndockPrivilege",
+      "Attributes": "Present",
+      "Description": "Remove computer from docking station"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 26,
+      "Privilege": "SeSyncAgentPrivilege",
+      "Attributes": "",
+      "Description": "Synch directory service data"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 27,
+      "Privilege": "SeEnableDelegationPrivilege",
+      "Attributes": "",
+      "Description": "Enable user accounts to be trusted for delegation"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 28,
+      "Privilege": "SeManageVolumePrivilege",
+      "Attributes": "Present",
+      "Description": "Manage the files on a volume"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 29,
+      "Privilege": "SeImpersonatePrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Impersonate a client after authentication"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 30,
+      "Privilege": "SeCreateGlobalPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Create global objects"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 31,
+      "Privilege": "SeTrustedCredManAccessPrivilege",
+      "Attributes": "Present",
+      "Description": "Access Credential Manager as a trusted caller"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 32,
+      "Privilege": "SeRelabelPrivilege",
+      "Attributes": "Present",
+      "Description": "Modify the mandatory integrity level of an object"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 33,
+      "Privilege": "SeIncreaseWorkingSetPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Allocate more memory for user applications"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 34,
+      "Privilege": "SeTimeZonePrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Adjust the time zone of the computer's internal clock"
+    },
+    {
+      "Pid": 4,
+      "Process": "System",
+      "Value": 35,
+      "Privilege": "SeCreateSymbolicLinkPrivilege",
+      "Attributes": "Present,Enabled,Default",
+      "Description": "Required to create a symbolic link"
+    }
+  ],
+  "pslist": [
+    {
+      "Offset(V)": 18446738026409007920,
+      "Name": "System",
+      "PID": 4,
+      "PPID": 0,
+      "Thds": 56,
+      "Hnds": 34,
+      "Sess": -1,
+      "Wow64": 0,
+      "Start": "",
+      "Exit": ""
+    }
+  ],
+  "netscan": [],
+  "ssdt": [
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 0,
+      "Addr": 18446735277661244576,
+      "Function": "NtMapUserPhysicalPagesScatter",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 1,
+      "Addr": 18446735277660096704,
+      "Function": "NtWaitForSingleObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 2,
+      "Addr": 18446735277656957344,
+      "Function": "NtCallbackReturn",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 3,
+      "Addr": 18446735277660043904,
+      "Function": "NtReadFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 4,
+      "Addr": 18446735277660247968,
+      "Function": "NtDeviceIoControlFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 5,
+      "Addr": 18446735277660211616,
+      "Function": "NtWriteFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 6,
+      "Addr": 18446735277659860112,
+      "Function": "NtRemoveIoCompletion",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 7,
+      "Addr": 18446735277659832864,
+      "Function": "NtReleaseSemaphore",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 8,
+      "Addr": 18446735277660217284,
+      "Function": "NtReplyWaitReceivePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 9,
+      "Addr": 18446735277661047360,
+      "Function": "NtReplyPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 10,
+      "Addr": 18446735277659912048,
+      "Function": "NtSetInformationThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 11,
+      "Addr": 18446735277660041232,
+      "Function": "NtSetEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 12,
+      "Addr": 18446735277660101392,
+      "Function": "NtClose",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 13,
+      "Addr": 18446735277660009776,
+      "Function": "NtQueryObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 14,
+      "Addr": 18446735277659997024,
+      "Function": "NtQueryInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 15,
+      "Addr": 18446735277659982096,
+      "Function": "NtOpenKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 16,
+      "Addr": 18446735277660006240,
+      "Function": "NtEnumerateValueKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 17,
+      "Addr": 18446735277660080992,
+      "Function": "NtFindAtom",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 18,
+      "Addr": 18446735277659800400,
+      "Function": "NtQueryDefaultLocale",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 19,
+      "Addr": 18446735277659939552,
+      "Function": "NtQueryKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 20,
+      "Addr": 18446735277659944144,
+      "Function": "NtQueryValueKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 21,
+      "Addr": 18446735277660101776,
+      "Function": "NtAllocateVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 22,
+      "Addr": 18446735277660206096,
+      "Function": "NtQueryInformationProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 23,
+      "Addr": 18446735277660286880,
+      "Function": "NtWaitForMultipleObjects32",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 24,
+      "Addr": 18446735277661540144,
+      "Function": "NtWriteFileGather",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 25,
+      "Addr": 18446735277660063132,
+      "Function": "NtSetInformationProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 26,
+      "Addr": 18446735277659824496,
+      "Function": "NtCreateKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 27,
+      "Addr": 18446735277656913104,
+      "Function": "NtFreeVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 28,
+      "Addr": 18446735277661435264,
+      "Function": "NtImpersonateClientOfPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 29,
+      "Addr": 18446735277660095492,
+      "Function": "NtReleaseMutant",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 30,
+      "Addr": 18446735277659899328,
+      "Function": "NtQueryInformationToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 31,
+      "Addr": 18446735277660215744,
+      "Function": "NtRequestWaitReplyPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 32,
+      "Addr": 18446735277659982128,
+      "Function": "NtQueryVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 33,
+      "Addr": 18446735277659956024,
+      "Function": "NtOpenThreadToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 34,
+      "Addr": 18446735277660060208,
+      "Function": "NtQueryInformationThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 35,
+      "Addr": 18446735277659951852,
+      "Function": "NtOpenProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 36,
+      "Addr": 18446735277659999408,
+      "Function": "NtSetInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 37,
+      "Addr": 18446735277660240352,
+      "Function": "NtMapViewOfSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 38,
+      "Addr": 18446735277660020896,
+      "Function": "NtAccessCheckAndAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 39,
+      "Addr": 18446735277660232404,
+      "Function": "NtUnmapViewOfSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 40,
+      "Addr": 18446735277660217312,
+      "Function": "NtReplyWaitReceivePortEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 41,
+      "Addr": 18446735277659846052,
+      "Function": "NtTerminateProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 42,
+      "Addr": 18446735277661264256,
+      "Function": "NtSetEventBoostPriority",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 43,
+      "Addr": 18446735277659514564,
+      "Function": "NtReadFileScatter",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 44,
+      "Addr": 18446735277659954560,
+      "Function": "NtOpenThreadTokenEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 45,
+      "Addr": 18446735277659987008,
+      "Function": "NtOpenProcessTokenEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 46,
+      "Addr": 18446735277659812176,
+      "Function": "NtQueryPerformanceCounter",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 47,
+      "Addr": 18446735277659842160,
+      "Function": "NtEnumerateKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 48,
+      "Addr": 18446735277660041436,
+      "Function": "NtOpenFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 49,
+      "Addr": 18446735277660096980,
+      "Function": "NtDelayExecution",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 50,
+      "Addr": 18446735277660043184,
+      "Function": "NtQueryDirectoryFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 51,
+      "Addr": 18446735277660178684,
+      "Function": "NtQuerySystemInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 52,
+      "Addr": 18446735277660241280,
+      "Function": "NtOpenSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 53,
+      "Addr": 18446735277661263136,
+      "Function": "NtQueryTimer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 54,
+      "Addr": 18446735277659981936,
+      "Function": "NtFsControlFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 55,
+      "Addr": 18446735277659773008,
+      "Function": "NtWriteVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 56,
+      "Addr": 18446735277659966524,
+      "Function": "NtCloseObjectAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 57,
+      "Addr": 18446735277659978768,
+      "Function": "NtDuplicateObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 58,
+      "Addr": 18446735277659987488,
+      "Function": "NtQueryAttributesFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 59,
+      "Addr": 18446735277660046728,
+      "Function": "NtClearEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 60,
+      "Addr": 18446735277659773376,
+      "Function": "NtReadVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 61,
+      "Addr": 18446735277660012100,
+      "Function": "NtOpenEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 62,
+      "Addr": 18446735277659829044,
+      "Function": "NtAdjustPrivilegesToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 63,
+      "Addr": 18446735277659769608,
+      "Function": "NtDuplicateToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 64,
+      "Addr": 18446735277656998208,
+      "Function": "NtContinue",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 65,
+      "Addr": 18446735277660836944,
+      "Function": "NtQueryDefaultUILanguage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 66,
+      "Addr": 18446735277660024572,
+      "Function": "NtQueueApcThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 67,
+      "Addr": 18446735277656790376,
+      "Function": "NtYieldExecution",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 68,
+      "Addr": 18446735277659426924,
+      "Function": "NtAddAtom",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 69,
+      "Addr": 18446735277659897440,
+      "Function": "NtCreateEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 70,
+      "Addr": 18446735277660221376,
+      "Function": "NtQueryVolumeInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 71,
+      "Addr": 18446735277659986352,
+      "Function": "NtCreateSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 72,
+      "Addr": 18446735277659739904,
+      "Function": "NtFlushBuffersFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 73,
+      "Addr": 18446735277660006964,
+      "Function": "NtApphelpCacheControl",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 74,
+      "Addr": 18446735277661646624,
+      "Function": "NtCreateProcessEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 75,
+      "Addr": 18446735277661047664,
+      "Function": "NtCreateThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 76,
+      "Addr": 18446735277661265872,
+      "Function": "NtIsProcessInJob",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 77,
+      "Addr": 18446735277660236588,
+      "Function": "NtProtectVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 78,
+      "Addr": 18446735277660253616,
+      "Function": "NtQuerySection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 79,
+      "Addr": 18446735277660074440,
+      "Function": "NtResumeThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 80,
+      "Addr": 18446735277659964720,
+      "Function": "NtTerminateThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 81,
+      "Addr": 18446735277661596176,
+      "Function": "NtReadRequestData",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 82,
+      "Addr": 18446735277660169216,
+      "Function": "NtCreateFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 83,
+      "Addr": 18446735277659718276,
+      "Function": "NtQueryEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 84,
+      "Addr": 18446735277661596048,
+      "Function": "NtWriteRequestData",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 85,
+      "Addr": 18446735277660244224,
+      "Function": "NtOpenDirectoryObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 86,
+      "Addr": 18446735277659749284,
+      "Function": "NtAccessCheckByTypeAndAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 87,
+      "Addr": 18446735277660692128,
+      "Function": "NtQuerySystemTime",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 88,
+      "Addr": 18446735277660098392,
+      "Function": "NtWaitForMultipleObjects",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 89,
+      "Addr": 18446735277659728236,
+      "Function": "NtSetInformationObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 90,
+      "Addr": 18446735277661261328,
+      "Function": "NtCancelIoFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 91,
+      "Addr": 18446735277656882220,
+      "Function": "NtTraceEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 92,
+      "Addr": 18446735277659860540,
+      "Function": "NtPowerInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 93,
+      "Addr": 18446735277659824560,
+      "Function": "NtSetValueKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 94,
+      "Addr": 18446735277656683628,
+      "Function": "NtCancelTimer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 95,
+      "Addr": 18446735277656912036,
+      "Function": "NtSetTimer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 96,
+      "Addr": 18446735277659849440,
+      "Function": "NtAcceptConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 97,
+      "Addr": 18446735277656754900,
+      "Function": "NtAccessCheck",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 98,
+      "Addr": 18446735277656839380,
+      "Function": "NtAccessCheckByType",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 99,
+      "Addr": 18446735277658127904,
+      "Function": "NtAccessCheckByTypeResultList",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 100,
+      "Addr": 18446735277661336928,
+      "Function": "NtAccessCheckByTypeResultListAndAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 101,
+      "Addr": 18446735277661336736,
+      "Function": "NtAccessCheckByTypeResultListAndAuditAlarmByHandle",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 102,
+      "Addr": 18446735277661454384,
+      "Function": "NtAddBootEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 103,
+      "Addr": 18446735277661453712,
+      "Function": "NtAddDriverEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 104,
+      "Addr": 18446735277659611872,
+      "Function": "NtAdjustGroupsToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 105,
+      "Addr": 18446735277661343872,
+      "Function": "NtAlertResumeThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 106,
+      "Addr": 18446735277660036428,
+      "Function": "NtAlertThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 107,
+      "Addr": 18446735277659708800,
+      "Function": "NtAllocateLocallyUniqueId",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 108,
+      "Addr": 18446735277661044768,
+      "Function": "NtAllocateReserveObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 109,
+      "Addr": 18446735277661533312,
+      "Function": "NtAllocateUserPhysicalPages",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 110,
+      "Addr": 18446735277659405088,
+      "Function": "NtAllocateUuids",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 111,
+      "Addr": 18446735277659993904,
+      "Function": "NtAlpcAcceptConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 112,
+      "Addr": 18446735277659513180,
+      "Function": "NtAlpcCancelMessage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 113,
+      "Addr": 18446735277660014044,
+      "Function": "NtAlpcConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 114,
+      "Addr": 18446735277660038184,
+      "Function": "NtAlpcCreatePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 115,
+      "Addr": 18446735277659731876,
+      "Function": "NtAlpcCreatePortSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 116,
+      "Addr": 18446735277660039280,
+      "Function": "NtAlpcCreateResourceReserve",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 117,
+      "Addr": 18446735277659728400,
+      "Function": "NtAlpcCreateSectionView",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 118,
+      "Addr": 18446735277659747620,
+      "Function": "NtAlpcCreateSecurityContext",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 119,
+      "Addr": 18446735277659695940,
+      "Function": "NtAlpcDeletePortSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 120,
+      "Addr": 18446735277660984016,
+      "Function": "NtAlpcDeleteResourceReserve",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 121,
+      "Addr": 18446735277659846652,
+      "Function": "NtAlpcDeleteSectionView",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 122,
+      "Addr": 18446735277659748080,
+      "Function": "NtAlpcDeleteSecurityContext",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 123,
+      "Addr": 18446735277659845264,
+      "Function": "NtAlpcDisconnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 124,
+      "Addr": 18446735277659954000,
+      "Function": "NtAlpcImpersonateClientOfPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 125,
+      "Addr": 18446735277660017452,
+      "Function": "NtAlpcOpenSenderProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 126,
+      "Addr": 18446735277659858848,
+      "Function": "NtAlpcOpenSenderThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 127,
+      "Addr": 18446735277659681152,
+      "Function": "NtAlpcQueryInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 128,
+      "Addr": 18446735277659952832,
+      "Function": "NtAlpcQueryInformationMessage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 129,
+      "Addr": 18446735277660983632,
+      "Function": "NtAlpcRevokeSecurityContext",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 130,
+      "Addr": 18446735277660190400,
+      "Function": "NtAlpcSendWaitReceivePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 131,
+      "Addr": 18446735277660034192,
+      "Function": "NtAlpcSetInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 132,
+      "Addr": 18446735277659404368,
+      "Function": "NtAreMappedFilesTheSame",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 133,
+      "Addr": 18446735277659839700,
+      "Function": "NtAssignProcessToJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 134,
+      "Addr": 18446735277660282832,
+      "Function": "NtCancelIoFileEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 135,
+      "Addr": 18446735277661347440,
+      "Function": "NtCancelSynchronousIoFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 136,
+      "Addr": 18446735277661353072,
+      "Function": "NtCommitComplete",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 137,
+      "Addr": 18446735277661511680,
+      "Function": "NtCommitEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 138,
+      "Addr": 18446735277659669024,
+      "Function": "NtCommitTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 139,
+      "Addr": 18446735277661368048,
+      "Function": "NtCompactKeys",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 140,
+      "Addr": 18446735277659895600,
+      "Function": "NtCompareTokens",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 141,
+      "Addr": 18446735277659654656,
+      "Function": "NtCompleteConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 142,
+      "Addr": 18446735277661700592,
+      "Function": "NtCompressKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 143,
+      "Addr": 18446735277659799880,
+      "Function": "NtConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 144,
+      "Addr": 18446735277661044128,
+      "Function": "NtCreateDebugObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 145,
+      "Addr": 18446735277659707328,
+      "Function": "NtCreateDirectoryObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 146,
+      "Addr": 18446735277659639160,
+      "Function": "NtCreateEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 147,
+      "Addr": 18446735277661044512,
+      "Function": "NtCreateEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 148,
+      "Addr": 18446735277660015920,
+      "Function": "NtCreateIoCompletion",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 149,
+      "Addr": 18446735277661046432,
+      "Function": "NtCreateJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 150,
+      "Addr": 18446735277661328208,
+      "Function": "NtCreateJobSet",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 151,
+      "Addr": 18446735277659650280,
+      "Function": "NtCreateKeyTransacted",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 152,
+      "Addr": 18446735277659820684,
+      "Function": "NtCreateKeyedEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 153,
+      "Addr": 18446735277659563088,
+      "Function": "NtCreateMailslotFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 154,
+      "Addr": 18446735277659770432,
+      "Function": "NtCreateMutant",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 155,
+      "Addr": 18446735277659881440,
+      "Function": "NtCreateNamedPipeFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 156,
+      "Addr": 18446735277661610432,
+      "Function": "NtCreatePagingFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 157,
+      "Addr": 18446735277659858748,
+      "Function": "NtCreatePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 158,
+      "Addr": 18446735277659552964,
+      "Function": "NtCreatePrivateNamespace",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 159,
+      "Addr": 18446735277661646768,
+      "Function": "NtCreateProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 160,
+      "Addr": 18446735277661336416,
+      "Function": "NtCreateProfile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 161,
+      "Addr": 18446735277661336624,
+      "Function": "NtCreateProfileEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 162,
+      "Addr": 18446735277659655160,
+      "Function": "NtCreateResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 163,
+      "Addr": 18446735277659771716,
+      "Function": "NtCreateSemaphore",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 164,
+      "Addr": 18446735277659708928,
+      "Function": "NtCreateSymbolicLinkObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 165,
+      "Addr": 18446735277660070184,
+      "Function": "NtCreateThreadEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 166,
+      "Addr": 18446735277659697208,
+      "Function": "NtCreateTimer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 167,
+      "Addr": 18446735277659704668,
+      "Function": "NtCreateToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 168,
+      "Addr": 18446735277659627488,
+      "Function": "NtCreateTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 169,
+      "Addr": 18446735277659652080,
+      "Function": "NtCreateTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 170,
+      "Addr": 18446735277659788448,
+      "Function": "NtCreateUserProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 171,
+      "Addr": 18446735277661310304,
+      "Function": "NtCreateWaitablePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 172,
+      "Addr": 18446735277660016184,
+      "Function": "NtCreateWorkerFactory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 173,
+      "Addr": 18446735277661503984,
+      "Function": "NtDebugActiveProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 174,
+      "Addr": 18446735277661338512,
+      "Function": "NtDebugContinue",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 175,
+      "Addr": 18446735277661413120,
+      "Function": "NtDeleteAtom",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 176,
+      "Addr": 18446735277661122464,
+      "Function": "NtDeleteBootEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 177,
+      "Addr": 18446735277661121152,
+      "Function": "NtDeleteDriverEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 178,
+      "Addr": 18446735277659457408,
+      "Function": "NtDeleteFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 179,
+      "Addr": 18446735277659615696,
+      "Function": "NtDeleteKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 180,
+      "Addr": 18446735277661333200,
+      "Function": "NtDeleteObjectAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 181,
+      "Addr": 18446735277660270320,
+      "Function": "NtDeletePrivateNamespace",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 182,
+      "Addr": 18446735277659609884,
+      "Function": "NtDeleteValueKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 183,
+      "Addr": 18446735277660982976,
+      "Function": "NtDisableLastKnownGood",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 184,
+      "Addr": 18446735277661542544,
+      "Function": "NtDisplayString",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 185,
+      "Addr": 18446735277658157744,
+      "Function": "NtDrawText",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 186,
+      "Addr": 18446735277661296496,
+      "Function": "NtEnableLastKnownGood",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 187,
+      "Addr": 18446735277661565856,
+      "Function": "NtEnumerateBootEntries",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 188,
+      "Addr": 18446735277661563264,
+      "Function": "NtEnumerateDriverEntries",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 189,
+      "Addr": 18446735277661567328,
+      "Function": "NtEnumerateSystemEnvironmentValuesEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 190,
+      "Addr": 18446735277661326848,
+      "Function": "NtEnumerateTransactionObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 191,
+      "Addr": 18446735277661379696,
+      "Function": "NtExtendSection",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 192,
+      "Addr": 18446735277660283756,
+      "Function": "NtFilterToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 193,
+      "Addr": 18446735277661394592,
+      "Function": "NtFlushInstallUILanguage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 194,
+      "Addr": 18446735277659551940,
+      "Function": "NtFlushInstructionCache",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 195,
+      "Addr": 18446735277659743916,
+      "Function": "NtFlushKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 196,
+      "Addr": 18446735277656598680,
+      "Function": "NtFlushProcessWriteBuffers",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 197,
+      "Addr": 18446735277659501424,
+      "Function": "NtFlushVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 198,
+      "Addr": 18446735277660581456,
+      "Function": "NtFlushWriteBuffer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 199,
+      "Addr": 18446735277661354848,
+      "Function": "NtFreeUserPhysicalPages",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 200,
+      "Addr": 18446735277658004656,
+      "Function": "NtFreezeRegistry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 201,
+      "Addr": 18446735277661343632,
+      "Function": "NtFreezeTransactions",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 202,
+      "Addr": 18446735277659413224,
+      "Function": "NtGetContextThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 203,
+      "Addr": 18446735277659677152,
+      "Function": "NtGetCurrentProcessorNumber",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 204,
+      "Addr": 18446735277661322672,
+      "Function": "NtGetDevicePowerState",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 205,
+      "Addr": 18446735277659820192,
+      "Function": "NtGetMUIRegistryInfo",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 206,
+      "Addr": 18446735277661381280,
+      "Function": "NtGetNextProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 207,
+      "Addr": 18446735277661380528,
+      "Function": "NtGetNextThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 208,
+      "Addr": 18446735277661376240,
+      "Function": "NtGetNlsSectionPtr",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 209,
+      "Addr": 18446735277661343248,
+      "Function": "NtGetNotificationResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 210,
+      "Addr": 18446735277659525920,
+      "Function": "NtGetPlugPlayEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 211,
+      "Addr": 18446735277656598696,
+      "Function": "NtGetWriteWatch",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 212,
+      "Addr": 18446735277659697696,
+      "Function": "NtImpersonateAnonymousToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 213,
+      "Addr": 18446735277659772628,
+      "Function": "NtImpersonateThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 214,
+      "Addr": 18446735277659775528,
+      "Function": "NtInitializeNlsFiles",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 215,
+      "Addr": 18446735277659453248,
+      "Function": "NtInitializeRegistry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 216,
+      "Addr": 18446735277661483328,
+      "Function": "NtInitiatePowerAction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 217,
+      "Addr": 18446735277660575264,
+      "Function": "NtIsSystemResumeAutomatic",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 218,
+      "Addr": 18446735277659876624,
+      "Function": "NtIsUILanguageComitted",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 219,
+      "Addr": 18446735277661369008,
+      "Function": "NtListenPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 220,
+      "Addr": 18446735277661680880,
+      "Function": "NtLoadDriver",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 221,
+      "Addr": 18446735277659604372,
+      "Function": "NtLoadKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 222,
+      "Addr": 18446735277661702560,
+      "Function": "NtLoadKey2",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 223,
+      "Addr": 18446735277659600292,
+      "Function": "NtLoadKeyEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 224,
+      "Addr": 18446735277659564956,
+      "Function": "NtLockFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 225,
+      "Addr": 18446735277661268688,
+      "Function": "NtLockProductActivationKeys",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 226,
+      "Addr": 18446735277661365728,
+      "Function": "NtLockRegistryKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 227,
+      "Addr": 18446735277658112464,
+      "Function": "NtLockVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 228,
+      "Addr": 18446735277661403344,
+      "Function": "NtMakePermanentObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 229,
+      "Addr": 18446735277659716440,
+      "Function": "NtMakeTemporaryObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 230,
+      "Addr": 18446735277659780624,
+      "Function": "NtMapCMFModule",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 231,
+      "Addr": 18446735277661246640,
+      "Function": "NtMapUserPhysicalPages",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 232,
+      "Addr": 18446735277661454336,
+      "Function": "NtModifyBootEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 233,
+      "Addr": 18446735277661453664,
+      "Function": "NtModifyDriverEntry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 234,
+      "Addr": 18446735277659505164,
+      "Function": "NtNotifyChangeDirectoryFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 235,
+      "Addr": 18446735277659832644,
+      "Function": "NtNotifyChangeKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 236,
+      "Addr": 18446735277659830404,
+      "Function": "NtNotifyChangeMultipleKeys",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 237,
+      "Addr": 18446735277661346480,
+      "Function": "NtNotifyChangeSession",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 238,
+      "Addr": 18446735277661314704,
+      "Function": "NtOpenEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 239,
+      "Addr": 18446735277661076880,
+      "Function": "NtOpenEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 240,
+      "Addr": 18446735277661075984,
+      "Function": "NtOpenIoCompletion",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 241,
+      "Addr": 18446735277661077248,
+      "Function": "NtOpenJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 242,
+      "Addr": 18446735277659946128,
+      "Function": "NtOpenKeyEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 243,
+      "Addr": 18446735277661329568,
+      "Function": "NtOpenKeyTransacted",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 244,
+      "Addr": 18446735277659651328,
+      "Function": "NtOpenKeyTransactedEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 245,
+      "Addr": 18446735277661076704,
+      "Function": "NtOpenKeyedEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 246,
+      "Addr": 18446735277660241412,
+      "Function": "NtOpenMutant",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 247,
+      "Addr": 18446735277661333472,
+      "Function": "NtOpenObjectAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 248,
+      "Addr": 18446735277659713140,
+      "Function": "NtOpenPrivateNamespace",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 249,
+      "Addr": 18446735277659770736,
+      "Function": "NtOpenProcessToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 250,
+      "Addr": 18446735277660281068,
+      "Function": "NtOpenResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 251,
+      "Addr": 18446735277659512680,
+      "Function": "NtOpenSemaphore",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 252,
+      "Addr": 18446735277661075840,
+      "Function": "NtOpenSession",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 253,
+      "Addr": 18446735277659770976,
+      "Function": "NtOpenSymbolicLinkObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 254,
+      "Addr": 18446735277660079932,
+      "Function": "NtOpenThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 255,
+      "Addr": 18446735277661077072,
+      "Function": "NtOpenTimer",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 256,
+      "Addr": 18446735277661314032,
+      "Function": "NtOpenTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 257,
+      "Addr": 18446735277661326048,
+      "Function": "NtOpenTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 258,
+      "Addr": 18446735277659892540,
+      "Function": "NtPlugPlayControl",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 259,
+      "Addr": 18446735277661353424,
+      "Function": "NtPrePrepareComplete",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 260,
+      "Addr": 18446735277661511856,
+      "Function": "NtPrePrepareEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 261,
+      "Addr": 18446735277661353600,
+      "Function": "NtPrepareComplete",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 262,
+      "Addr": 18446735277661512032,
+      "Function": "NtPrepareEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 263,
+      "Addr": 18446735277659717696,
+      "Function": "NtPrivilegeCheck",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 264,
+      "Addr": 18446735277661335504,
+      "Function": "NtPrivilegeObjectAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 265,
+      "Addr": 18446735277659522916,
+      "Function": "NtPrivilegedServiceAuditAlarm",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 266,
+      "Addr": 18446735277661537760,
+      "Function": "NtPropagationComplete",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 267,
+      "Addr": 18446735277661345280,
+      "Function": "NtPropagationFailed",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 268,
+      "Addr": 18446735277659500992,
+      "Function": "NtPulseEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 269,
+      "Addr": 18446735277661565184,
+      "Function": "NtQueryBootEntryOrder",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 270,
+      "Addr": 18446735277661121664,
+      "Function": "NtQueryBootOptions",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 271,
+      "Addr": 18446735277657233184,
+      "Function": "NtQueryDebugFilterState",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 272,
+      "Addr": 18446735277660242756,
+      "Function": "NtQueryDirectoryObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 273,
+      "Addr": 18446735277661564512,
+      "Function": "NtQueryDriverEntryOrder",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 274,
+      "Addr": 18446735277661599616,
+      "Function": "NtQueryEaFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 275,
+      "Addr": 18446735277659685076,
+      "Function": "NtQueryFullAttributesFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 276,
+      "Addr": 18446735277661129184,
+      "Function": "NtQueryInformationAtom",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 277,
+      "Addr": 18446735277661307216,
+      "Function": "NtQueryInformationEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 278,
+      "Addr": 18446735277661443856,
+      "Function": "NtQueryInformationJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 279,
+      "Addr": 18446735277660982768,
+      "Function": "NtQueryInformationPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 280,
+      "Addr": 18446735277661304864,
+      "Function": "NtQueryInformationResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 281,
+      "Addr": 18446735277661305488,
+      "Function": "NtQueryInformationTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 282,
+      "Addr": 18446735277660279904,
+      "Function": "NtQueryInformationTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 283,
+      "Addr": 18446735277658121488,
+      "Function": "NtQueryInformationWorkerFactory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 284,
+      "Addr": 18446735277659869632,
+      "Function": "NtQueryInstallUILanguage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 285,
+      "Addr": 18446735277660647584,
+      "Function": "NtQueryIntervalProfile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 286,
+      "Addr": 18446735277661262096,
+      "Function": "NtQueryIoCompletion",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 287,
+      "Addr": 18446735277660024616,
+      "Function": "NtQueryLicenseValue",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 288,
+      "Addr": 18446735277659827524,
+      "Function": "NtQueryMultipleValueKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 289,
+      "Addr": 18446735277661263504,
+      "Function": "NtQueryMutant",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 290,
+      "Addr": 18446735277661490896,
+      "Function": "NtQueryOpenSubKeys",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 291,
+      "Addr": 18446735277661489888,
+      "Function": "NtQueryOpenSubKeysEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 292,
+      "Addr": 18446735277660574656,
+      "Function": "NtQueryPortInformationProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 293,
+      "Addr": 18446735277661596304,
+      "Function": "NtQueryQuotaInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 294,
+      "Addr": 18446735277659892032,
+      "Function": "NtQuerySecurityAttributesToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 295,
+      "Addr": 18446735277659698000,
+      "Function": "NtQuerySecurityObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 296,
+      "Addr": 18446735277661263936,
+      "Function": "NtQuerySemaphore",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 297,
+      "Addr": 18446735277659787900,
+      "Function": "NtQuerySymbolicLinkObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 298,
+      "Addr": 18446735277661455312,
+      "Function": "NtQuerySystemEnvironmentValue",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 299,
+      "Addr": 18446735277661604256,
+      "Function": "NtQuerySystemEnvironmentValueEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 300,
+      "Addr": 18446735277660015760,
+      "Function": "NtQuerySystemInformationEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 301,
+      "Addr": 18446735277659506716,
+      "Function": "NtQueryTimerResolution",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 302,
+      "Addr": 18446735277660024256,
+      "Function": "NtQueueApcThreadEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 303,
+      "Addr": 18446735277656998784,
+      "Function": "NtRaiseException",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 304,
+      "Addr": 18446735277661377184,
+      "Function": "NtRaiseHardError",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 305,
+      "Addr": 18446735277661353248,
+      "Function": "NtReadOnlyEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 306,
+      "Addr": 18446735277661507664,
+      "Function": "NtRecoverEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 307,
+      "Addr": 18446735277659641896,
+      "Function": "NtRecoverResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 308,
+      "Addr": 18446735277659640848,
+      "Function": "NtRecoverTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 309,
+      "Addr": 18446735277661538032,
+      "Function": "NtRegisterProtocolAddressInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 310,
+      "Addr": 18446735277661266112,
+      "Function": "NtRegisterThreadTerminatePort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 311,
+      "Addr": 18446735277660035104,
+      "Function": "NtReleaseKeyedEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 312,
+      "Addr": 18446735277656910508,
+      "Function": "NtReleaseWorkerFactoryWorker",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 313,
+      "Addr": 18446735277659738916,
+      "Function": "NtRemoveIoCompletionEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 314,
+      "Addr": 18446735277661262768,
+      "Function": "NtRemoveProcessDebug",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 315,
+      "Addr": 18446735277661516864,
+      "Function": "NtRenameKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 316,
+      "Addr": 18446735277661443392,
+      "Function": "NtRenameTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 317,
+      "Addr": 18446735277661698736,
+      "Function": "NtReplaceKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 318,
+      "Addr": 18446735277658181264,
+      "Function": "NtReplacePartitionUnit",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 319,
+      "Addr": 18446735277661113552,
+      "Function": "NtReplyWaitReplyPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 320,
+      "Addr": 18446735277660080352,
+      "Function": "NtRequestPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 321,
+      "Addr": 18446735277661264384,
+      "Function": "NtResetEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 322,
+      "Addr": 18446735277656597568,
+      "Function": "NtResetWriteWatch",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 323,
+      "Addr": 18446735277661699472,
+      "Function": "NtRestoreKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 324,
+      "Addr": 18446735277661496672,
+      "Function": "NtResumeProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 325,
+      "Addr": 18446735277661345440,
+      "Function": "NtRollbackComplete",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 326,
+      "Addr": 18446735277661479840,
+      "Function": "NtRollbackEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 327,
+      "Addr": 18446735277661505264,
+      "Function": "NtRollbackTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 328,
+      "Addr": 18446735277661512208,
+      "Function": "NtRollforwardTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 329,
+      "Addr": 18446735277661691136,
+      "Function": "NtSaveKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 330,
+      "Addr": 18446735277661690448,
+      "Function": "NtSaveKeyEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 331,
+      "Addr": 18446735277661689984,
+      "Function": "NtSaveMergedKeys",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 332,
+      "Addr": 18446735277659792884,
+      "Function": "NtSecureConnectPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 333,
+      "Addr": 18446735277660998672,
+      "Function": "NtSerializeBoot",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 334,
+      "Addr": 18446735277661453760,
+      "Function": "NtSetBootEntryOrder",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 335,
+      "Addr": 18446735277661130816,
+      "Function": "NtSetBootOptions",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 336,
+      "Addr": 18446735277659411472,
+      "Function": "NtSetContextThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 337,
+      "Addr": 18446735277660983232,
+      "Function": "NtSetDebugFilterState",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 338,
+      "Addr": 18446735277661000016,
+      "Function": "NtSetDefaultHardErrorPort",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 339,
+      "Addr": 18446735277660837072,
+      "Function": "NtSetDefaultLocale",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 340,
+      "Addr": 18446735277660842928,
+      "Function": "NtSetDefaultUILanguage",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 341,
+      "Addr": 18446735277661453088,
+      "Function": "NtSetDriverEntryOrder",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 342,
+      "Addr": 18446735277661598464,
+      "Function": "NtSetEaFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 343,
+      "Addr": 18446735277661342112,
+      "Function": "NtSetHighEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 344,
+      "Addr": 18446735277661344080,
+      "Function": "NtSetHighWaitLowEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 345,
+      "Addr": 18446735277661329104,
+      "Function": "NtSetInformationDebugObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 346,
+      "Addr": 18446735277661327520,
+      "Function": "NtSetInformationEnlistment",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 347,
+      "Addr": 18446735277661491696,
+      "Function": "NtSetInformationJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 348,
+      "Addr": 18446735277659751616,
+      "Function": "NtSetInformationKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 349,
+      "Addr": 18446735277661536960,
+      "Function": "NtSetInformationResourceManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 350,
+      "Addr": 18446735277659699128,
+      "Function": "NtSetInformationToken",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 351,
+      "Addr": 18446735277661543008,
+      "Function": "NtSetInformationTransaction",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 352,
+      "Addr": 18446735277661443232,
+      "Function": "NtSetInformationTransactionManager",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 353,
+      "Addr": 18446735277656923632,
+      "Function": "NtSetInformationWorkerFactory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 354,
+      "Addr": 18446735277660826352,
+      "Function": "NtSetIntervalProfile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 355,
+      "Addr": 18446735277659684880,
+      "Function": "NtSetIoCompletion",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 356,
+      "Addr": 18446735277661261776,
+      "Function": "NtSetIoCompletionEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 357,
+      "Addr": 18446735277657534992,
+      "Function": "NtSetLdtEntries",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 358,
+      "Addr": 18446735277661342224,
+      "Function": "NtSetLowEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 359,
+      "Addr": 18446735277661344208,
+      "Function": "NtSetLowWaitHighEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 360,
+      "Addr": 18446735277661606080,
+      "Function": "NtSetQuotaInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 361,
+      "Addr": 18446735277659727160,
+      "Function": "NtSetSecurityObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 362,
+      "Addr": 18446735277661454432,
+      "Function": "NtSetSystemEnvironmentValue",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 363,
+      "Addr": 18446735277661603456,
+      "Function": "NtSetSystemEnvironmentValueEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 364,
+      "Addr": 18446735277661659552,
+      "Function": "NtSetSystemInformation",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 365,
+      "Addr": 18446735277659386960,
+      "Function": "NtSetSystemPowerState",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 366,
+      "Addr": 18446735277661291184,
+      "Function": "NtSetSystemTime",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 367,
+      "Addr": 18446735277661464144,
+      "Function": "NtSetThreadExecutionState",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 368,
+      "Addr": 18446735277656655812,
+      "Function": "NtSetTimerEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 369,
+      "Addr": 18446735277661337504,
+      "Function": "NtSetTimerResolution",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 370,
+      "Addr": 18446735277661536000,
+      "Function": "NtSetUuidSeed",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 371,
+      "Addr": 18446735277660278848,
+      "Function": "NtSetVolumeInformationFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 372,
+      "Addr": 18446735277661707696,
+      "Function": "NtShutdownSystem",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 373,
+      "Addr": 18446735277659835864,
+      "Function": "NtShutdownWorkerFactory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 374,
+      "Addr": 18446735277658099424,
+      "Function": "NtSignalAndWaitForSingleObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 375,
+      "Addr": 18446735277661511504,
+      "Function": "NtSinglePhaseReject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 376,
+      "Addr": 18446735277661571760,
+      "Function": "NtStartProfile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 377,
+      "Addr": 18446735277661356896,
+      "Function": "NtStopProfile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 378,
+      "Addr": 18446735277661502512,
+      "Function": "NtSuspendProcess",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 379,
+      "Addr": 18446735277659412784,
+      "Function": "NtSuspendThread",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 380,
+      "Addr": 18446735277659683504,
+      "Function": "NtSystemDebugControl",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 381,
+      "Addr": 18446735277659474064,
+      "Function": "NtTerminateJobObject",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 382,
+      "Addr": 18446735277660079980,
+      "Function": "NtTestAlert",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 383,
+      "Addr": 18446735277658005312,
+      "Function": "NtThawRegistry",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 384,
+      "Addr": 18446735277661005248,
+      "Function": "NtThawTransactions",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 385,
+      "Addr": 18446735277659766944,
+      "Function": "NtTraceControl",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 386,
+      "Addr": 18446735277661332416,
+      "Function": "NtTranslateFilePath",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 387,
+      "Addr": 18446735277660680976,
+      "Function": "NtUmsThreadYield",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 388,
+      "Addr": 18446735277661081024,
+      "Function": "NtUnloadDriver",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 389,
+      "Addr": 18446735277659663168,
+      "Function": "NtUnloadKey",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 390,
+      "Addr": 18446735277659631268,
+      "Function": "NtUnloadKey2",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 391,
+      "Addr": 18446735277661509424,
+      "Function": "NtUnloadKeyEx",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 392,
+      "Addr": 18446735277659564028,
+      "Function": "NtUnlockFile",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 393,
+      "Addr": 18446735277658096656,
+      "Function": "NtUnlockVirtualMemory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 394,
+      "Addr": 18446735277661592784,
+      "Function": "NtVdmControl",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 395,
+      "Addr": 18446735277661410256,
+      "Function": "NtWaitForDebugEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 396,
+      "Addr": 18446735277660035764,
+      "Function": "NtWaitForKeyedEvent",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 397,
+      "Addr": 18446735277656908448,
+      "Function": "NtWaitForWorkViaWorkerFactory",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 398,
+      "Addr": 18446735277661304320,
+      "Function": "NtWaitHighEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 399,
+      "Addr": 18446735277661304464,
+      "Function": "NtWaitLowEventPair",
+      "Owner": "ntoskrnl.exe"
+    },
+    {
+      "Table": "SSDT[0]",
+      "TableOffset": 18446735277656994560,
+      "NumEntries": 401,
+      "Entry": 400,
+      "Addr": 18446735277656942416,
+      "Function": "NtWorkerFactoryWorkerReady",
+      "Owner": "ntoskrnl.exe"
+    }
+  ],
+  "svcscan": [],
+  "psxview": [
+    {
+      "Offset(P)": 1073494832,
+      "Name": "System",
+      "PID": 4,
+      "pslist": "True",
+      "psscan": "True",
+      "thrdproc": "True",
+      "pspcid": "True",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    }
+  ],
+  "yarascan": [],
+  "timers": []
+}

@@ -1,0 +1,2698 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800263ae40",
+        "device_type": "UNKNOWN",
+        "device_name": "Secdrv"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800263a060",
+        "device_type": "UNKNOWN",
+        "device_name": "AscKmd"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800263ba90",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": "SrvNet"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800263a280",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "SrvAdmin"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f7ce20",
+        "device_type": "FILE_DEVICE_CD_ROM",
+        "device_name": "CdRom0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002027050",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e68d00",
+        "device_type": "FILE_DEVICE_NULL",
+        "device_name": "Null"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e95df0",
+        "device_type": "FILE_DEVICE_NAMED_PIPE",
+        "device_name": "NamedPipe"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e95060",
+        "device_type": "FILE_DEVICE_MAILSLOT",
+        "device_name": "Mailslot"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80020088e0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "NetBT_Tcpip_{6D726995-508B-4A65-85CB-5F45C7529146}"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ea0b10",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "NetBt_Wins_Export"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f7ad60",
+            "attached_device_type": "FILE_DEVICE_BUS_EXTENDER",
+            "attached_device_name": " - \\Driver\\Serenum",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001f7a070",
+        "device_type": "FILE_DEVICE_SERIAL_PORT",
+        "device_name": "Serial0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa96c0",
+        "device_type": "FILE_DEVICE_KEYBOARD",
+        "device_name": "KeyboardClass1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f5cce0",
+        "device_type": "FILE_DEVICE_KEYBOARD",
+        "device_name": "KeyboardClass0"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f5cce0",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": "KeyboardClass0 - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001f5c040",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fa96c0",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": "KeyboardClass1 - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001fa9da0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f11340",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbc070",
+        "device_type": "FILE_DEVICE_PARALLEL_PORT",
+        "device_name": "Parallel0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f83050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP3"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f8d870",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "AgileVPN"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa0050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP9"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa49a0",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "RdpBus"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fabe30",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0x000bff30",
+            "attached_device_type": "UNKNOWN",
+            "attached_device_name": " - ",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b628e0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa80022d9de0",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa80028b5030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fea060",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001fc0030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa80016275b0",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001627d70",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "Ntfs"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001627060",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "clfs"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016793c0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ada890",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "RdyBoost"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f6c040",
+            "attached_device_type": "FILE_DEVICE_8042_PORT",
+            "attached_device_name": " - \\Driver\\i8042prt",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001f6ccf0",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass0 - ",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa80016b7460",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": "00000048"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80022bd9c0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80022d9de0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016275b0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001622790",
+        "device_type": "FILE_DEVICE_CD_ROM_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000c8a500",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001622cf0",
+        "device_type": "UNKNOWN",
+        "device_name": "FltMgrMsg"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cdcc50",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "FltMgr"
+      }
+    ],
+    "added_count": 38
+  },
+  "malfind": {
+    "added": [
+      {
+        "process_id": 1056,
+        "process_name": "explorer.exe",
+        "vad_start": "0x2d10000",
+        "vad_tag": "VadS"
+      }
+    ],
+    "added_count": 1
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 2544,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "True",
+        "psscan": "True",
+        "process_name": "LogonUI.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 2416,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "True",
+        "psscan": "True",
+        "process_name": "scrcons.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 2492,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "True",
+        "psscan": "True",
+        "process_name": "SearchProtocol",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 2440,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "True",
+        "psscan": "True",
+        "process_name": "WmiPrvSE.exe",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 4
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2052,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "is32bit.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2392,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "is32bit.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2156,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "is32bit.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2176,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "inject-x86.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2228,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "wmighost.dll",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2408,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "inject-x86.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2256,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "inject-x86.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2072,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "inject-x64.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2240,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "is32bit.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 1060,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "explorer.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 2128,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "SearchProtocol",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 1020,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "pythonw.exe",
+      "thrdproc": "False"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "49154",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "884",
+        "offset": "0x3e764780",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "49154",
+        "remote_port": "0",
+        "remote_address": "::",
+        "process_id": "884",
+        "offset": "0x3e764780",
+        "local_address": "::"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "33696",
+        "remote_address": "192.168.30.1",
+        "process_id": "1468",
+        "offset": "0x3e2b7aa0",
+        "local_address": "192.168.30.22"
+      }
+    ],
+    "added_count": 3
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x3ea65280",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\dxg.sys",
+        "kernel_module_base": "0xfffff960005b0000",
+        "kernel_module_name": "dxg.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3ec95670",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\TDI.SYS",
+        "kernel_module_base": "0xfffff8800117d000",
+        "kernel_module_name": "TDI.SYS",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3ec9b110",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\parport.sys",
+        "kernel_module_base": "0xfffff88003bdf000",
+        "kernel_module_name": "parport.sys",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3ec9b770",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS",
+        "kernel_module_base": "0xfffff88001409000",
+        "kernel_module_name": "Msfs.SYS",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ec9b870",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Npfs.SYS",
+        "kernel_module_base": "0xfffff88001414000",
+        "kernel_module_name": "Npfs.SYS",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3ec9b950",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys",
+        "kernel_module_base": "0xfffff8800120a000",
+        "kernel_module_name": "tdx.sys",
+        "kernel_module_size": 139264
+      },
+      {
+        "kernel_module_offset": "0x3ecc95c0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\wfplwf.sys",
+        "kernel_module_base": "0xfffff880037c4000",
+        "kernel_module_name": "wfplwf.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3eccdf30",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\serial.sys",
+        "kernel_module_base": "0xfffff8800360f000",
+        "kernel_module_name": "serial.sys",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3ed23380",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\kbdclass.sys",
+        "kernel_module_base": "0xfffff88003bb4000",
+        "kernel_module_name": "kbdclass.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ed8ba60",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys",
+        "kernel_module_base": "0xfffff88003a52000",
+        "kernel_module_name": "AgileVpn.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ed95520",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rassstp.sys",
+        "kernel_module_base": "0xfffff880011b9000",
+        "kernel_module_name": "rassstp.sys",
+        "kernel_module_size": 106496
+      },
+      {
+        "kernel_module_offset": "0x3ed9b010",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\raspptp.sys",
+        "kernel_module_base": "0xfffff880036d2000",
+        "kernel_module_name": "raspptp.sys",
+        "kernel_module_size": 135168
+      },
+      {
+        "kernel_module_offset": "0x3eda5a20",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rdpbus.sys",
+        "kernel_module_base": "0xfffff88003ab3000",
+        "kernel_module_name": "rdpbus.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3edab9d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\umbus.sys",
+        "kernel_module_base": "0xfffff880011d3000",
+        "kernel_module_name": "umbus.sys",
+        "kernel_module_size": 73728
+      }
+    ],
+    "added_count": 14
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "40",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\MULTIFUNCTIONADAPTER"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "72",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsTxfLog"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "96",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\BIOS"
+      },
+      {
+        "handle_granted_access": "1048576",
+        "process_id": 4,
+        "handle_value": "104",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\bootstat.dat"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "116",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\BIOS"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "160",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsKtmLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "164",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "168",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "172",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "176",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000002"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "188",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog.blf"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "192",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsTxfLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "312",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 4,
+        "handle_value": "316",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume1"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "320",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "324",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "328",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsKtmLog"
+      },
+      {
+        "handle_granted_access": "1179775",
+        "process_id": 4,
+        "handle_value": "340",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "444",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "456",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "460",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "468",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "524",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "3",
+        "process_id": 4,
+        "handle_value": "572",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\config\\SYSTEM.LOG1"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "608",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\SystemRoot\\System32\\Config\\TxR\\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "612",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\SystemRoot\\System32\\Config\\TxR\\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "792",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\config\\SECURITY"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "796",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\config\\SECURITY.LOG1"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "800",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\config\\SECURITY.LOG2"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "892",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\NetworkService\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "896",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\NetworkService\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "968",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\LocalService\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "972",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\LocalService\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1140",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Users\\Administrator\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1144",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Users\\Administrator\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1184",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\UsrClass.dat{20173777-96c9-11ec-b30b-525400123456}.TM"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1188",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1388",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1416",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "1432",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1468",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "1472",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 4,
+        "handle_value": "1488",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NetBT_Tcpip_{6D726995-508B-4A65-85CB-5F45C7529146}"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "12",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ProtectedPrefix"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "16",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Mailslot\\ProtectedPrefix"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "20",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ProtectedPrefix\\Administrators"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "24",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Mailslot\\ProtectedPrefix\\Administrators"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "28",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ProtectedPrefix\\LocalService"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "32",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Mailslot\\ProtectedPrefix\\LocalService"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "36",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ProtectedPrefix\\NetWorkService"
+      },
+      {
+        "handle_granted_access": "2032127",
+        "process_id": 260,
+        "handle_value": "40",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Mailslot\\ProtectedPrefix\\NetWorkService"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 260,
+        "handle_value": "44",
+        "handle_type": "IoCompletion",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 260,
+        "handle_value": "56",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 384,
+        "handle_value": "28",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 384,
+        "handle_value": "40",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 384,
+        "handle_value": "56",
+        "handle_type": "Event",
+        "handle_name": "FirstWinlogonCheck"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 384,
+        "handle_value": "132",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 384,
+        "handle_value": "200",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\InitShutdown"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 384,
+        "handle_value": "204",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\InitShutdown"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 384,
+        "handle_value": "208",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\InitShutdown"
+      },
+      {
+        "handle_granted_access": "1441929",
+        "process_id": 384,
+        "handle_value": "316",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-180-0"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 396,
+        "handle_value": "176",
+        "handle_type": "Event",
+        "handle_name": "WinSta0_DesktopSwitch"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 396,
+        "handle_value": "180",
+        "handle_type": "File",
+        "handle_name": "\\Device\\00000048"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 396,
+        "handle_value": "192",
+        "handle_type": "File",
+        "handle_name": "\\Device\\00000037"
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 396,
+        "handle_value": "216",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "664",
+        "handle_type": "Thread",
+        "handle_name": "TID 288 PID 1156"
+      },
+      {
+        "handle_granted_access": "983047",
+        "process_id": 396,
+        "handle_value": "720",
+        "handle_type": "Section",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 436,
+        "handle_value": "320",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 436,
+        "handle_value": "324",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 436,
+        "handle_value": "332",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 436,
+        "handle_value": "340",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 436,
+        "handle_value": "356",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 436,
+        "handle_value": "372",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 436,
+        "handle_value": "388",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 436,
+        "handle_value": "428",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 480,
+        "handle_value": "24",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 480,
+        "handle_value": "32",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 480,
+        "handle_value": "40",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "236",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ntsvcs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "240",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ntsvcs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "244",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\ntsvcs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "260",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\scerpc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "264",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\scerpc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 480,
+        "handle_value": "268",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\scerpc"
+      },
+      {
+        "handle_granted_access": "1441929",
+        "process_id": 480,
+        "handle_value": "732",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-1e0-0"
+      },
+      {
+        "handle_granted_access": "1442207",
+        "process_id": 480,
+        "handle_value": "756",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Afd\\Endpoint"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 496,
+        "handle_value": "36",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 496,
+        "handle_value": "40",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 496,
+        "handle_value": "52",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 496,
+        "handle_value": "56",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 496,
+        "handle_value": "60",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 496,
+        "handle_value": "64",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 496,
+        "handle_value": "68",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 496,
+        "handle_value": "416",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 496,
+        "handle_value": "420",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 496,
+        "handle_value": "424",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 668,
+        "handle_value": "128",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 668,
+        "handle_value": "268",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 668,
+        "handle_value": "272",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 668,
+        "handle_value": "276",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1441929",
+        "process_id": 668,
+        "handle_value": "368",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-29c-0"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 668,
+        "handle_value": "428",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\epmapper"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 668,
+        "handle_value": "432",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\epmapper"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 668,
+        "handle_value": "436",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\epmapper"
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 668,
+        "handle_value": "508",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 668,
+        "handle_value": "560",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 668,
+        "handle_value": "680",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 668,
+        "handle_value": "732",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 668,
+        "handle_value": "832",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 668,
+        "handle_value": "880",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 884,
+        "handle_value": "388",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "420",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "424",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "432",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 884,
+        "handle_value": "436",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 884,
+        "handle_value": "444",
+        "handle_type": "Thread",
+        "handle_name": "TID 988 PID 884"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "460",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "576",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "612",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "656",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "688",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "692",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 884,
+        "handle_value": "720",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "732",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "736",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "740",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "744",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 884,
+        "handle_value": "752",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 884,
+        "handle_value": "800",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "940",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "948",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "1012",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 884,
+        "handle_value": "1072",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "1124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "1176",
+        "handle_type": "Timer",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "1184",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\atsvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "1192",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\atsvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "1196",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\atsvc"
+      },
+      {
+        "handle_granted_access": "1441929",
+        "process_id": 884,
+        "handle_value": "1236",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-374-0"
+      },
+      {
+        "handle_granted_access": "1442207",
+        "process_id": 884,
+        "handle_value": "1460",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Afd\\Endpoint"
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 884,
+        "handle_value": "2128",
+        "handle_type": "File",
+        "handle_name": "\\Device\\SrvAdmin"
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 884,
+        "handle_value": "2148",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2168",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 884,
+        "handle_value": "2176",
+        "handle_type": "File",
+        "handle_name": "\\Device\\SrvAdmin"
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 884,
+        "handle_value": "2240",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Srv2"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 884,
+        "handle_value": "2244",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "4",
+        "process_id": 884,
+        "handle_value": "2320",
+        "handle_type": "WmiGuid",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "4",
+        "process_id": 884,
+        "handle_value": "2324",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2492",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "2680",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\srvsvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "2688",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\srvsvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "2716",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\srvsvc"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2852",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2896",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2900",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2952",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 884,
+        "handle_value": "3112",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\SHAREDACCESS\\EPOCH"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 884,
+        "handle_value": "3220",
+        "handle_type": "Thread",
+        "handle_name": "TID 1916 PID 884"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "3324",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\srvsvc"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "3336",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "3340",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\browser"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "3344",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\browser"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "3348",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\browser"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 344,
+        "handle_value": "28",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "52",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 344,
+        "handle_value": "56",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "60",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "64",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "68",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "72",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "76",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "84",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "88",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "228",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "308",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "532",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "536",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\wkssvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "552",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\wkssvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "556",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\wkssvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "620",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\keysvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "628",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\keysvc"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "632",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\keysvc"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 344,
+        "handle_value": "736",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 344,
+        "handle_value": "1152",
+        "handle_type": "Thread",
+        "handle_name": "TID 1304 PID 344"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 344,
+        "handle_value": "1160",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 344,
+        "handle_value": "1172",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\wkssvc"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 344,
+        "handle_value": "1176",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 344,
+        "handle_value": "1432",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1044,
+        "handle_value": "340",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1100,
+        "handle_value": "184",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1156,
+        "handle_value": "124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1156,
+        "handle_value": "224",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1156,
+        "handle_value": "228",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 1156,
+        "handle_value": "252",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1156,
+        "handle_value": "288",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1156,
+        "handle_value": "296",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1156,
+        "handle_value": "392",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1156,
+        "handle_value": "420",
+        "handle_type": "Thread",
+        "handle_name": "TID 1852 PID 1156"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1156,
+        "handle_value": "564",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1156,
+        "handle_value": "568",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\en-US\\msutb.dll.mui"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1156,
+        "handle_value": "572",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 1156,
+        "handle_value": "588",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 1156,
+        "handle_value": "596",
+        "handle_type": "Semaphore",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1156,
+        "handle_value": "644",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048608",
+        "process_id": 1468,
+        "handle_value": "16",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1468,
+        "handle_value": "96",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1468,
+        "handle_value": "144",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1540,
+        "handle_value": "240",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1540,
+        "handle_value": "244",
+        "handle_type": "Thread",
+        "handle_name": "TID 796 PID 1540"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 1768,
+        "handle_value": "280",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "1441929",
+        "process_id": 1768,
+        "handle_value": "332",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-6e8-0"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1768,
+        "handle_value": "380",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1768,
+        "handle_value": "392",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1768,
+        "handle_value": "400",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 1768,
+        "handle_value": "428",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\SHAREDACCESS\\EPOCH"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 1988,
+        "handle_value": "108",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LOCALE\\ALTERNATE SORTS"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1988,
+        "handle_value": "228",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "396",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 1988,
+        "handle_value": "468",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "928",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "932",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "936",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "968",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "972",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "992",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1012",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\1"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1036",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\10"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1056",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\11"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1076",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\12"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1096",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\13"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1116",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\14"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1136",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\2"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1156",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\3"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1176",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\4"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1196",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\5"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1216",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\6"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1236",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\7"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1256",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\8"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1276",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\LOCALHOST\\PATHS\\9"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1304",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\{S-1-5-21-3238137328-1388682902-249016802-500}"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1308",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\{S-1-5-21-3238137328-1388682902-249016802-500}\\PATHS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1328",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\SITES\\{S-1-5-21-3238137328-1388682902-249016802-500}\\PATHS\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1344",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STARTPAGES"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1360",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STARTPAGES\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1388",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STARTPAGES\\1"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1416",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STARTPAGES\\2"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1420",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\EXTENSIONS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1424",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1428",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\CRAWLS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1436",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\MAPPINGS"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1452",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\CSC\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1464",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\FILE\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1476",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\STICKYNOTES\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1488",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\MAPI\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1500",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\IEHISTORY\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1512",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\PROTOCOLS\\IERSS\\0"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1516",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\CRAWLS\\2"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1536",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STREAMLOG"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "1540",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\STREAMLOG"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1988,
+        "handle_value": "1616",
+        "handle_type": "Thread",
+        "handle_name": "TID 2012 PID 1988"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1988,
+        "handle_value": "1848",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\ProgramData\\Microsoft\\Search\\Data\\Applications\\Windows\\Projects\\SystemIndex\\Indexer\\CiFiles\\00010002.ci"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1988,
+        "handle_value": "1904",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\MsFteWds"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1988,
+        "handle_value": "2108",
+        "handle_type": "Event",
+        "handle_name": "UsGthrCtrlFltPipeMssGthrPipe1SDE"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1988,
+        "handle_value": "2144",
+        "handle_type": "Semaphore",
+        "handle_name": "UsGthrFltPipeMssGthrPipe1_1RCM"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1988,
+        "handle_value": "2164",
+        "handle_type": "Semaphore",
+        "handle_name": "UsGthrCtrlFltPipeMssGthrPipe1TRM"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 1988,
+        "handle_value": "2228",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\CRAWLS\\8"
+      },
+      {
+        "handle_granted_access": "16253156",
+        "process_id": 1288,
+        "handle_value": "5068",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "16185872",
+        "process_id": 1288,
+        "handle_value": "18796",
+        "handle_type": "Driver",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "3670034",
+        "process_id": 1288,
+        "handle_value": "18912",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 1288,
+        "handle_value": "19012",
+        "handle_type": "",
+        "handle_name": "\ue47c\u0019"
+      },
+      {
+        "handle_granted_access": "19955416",
+        "process_id": 1288,
+        "handle_value": "32828",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "20572280",
+        "process_id": 1288,
+        "handle_value": "33476",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "19955416",
+        "process_id": 1288,
+        "handle_value": "33852",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "20572280",
+        "process_id": 1288,
+        "handle_value": "34500",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "23493248",
+        "process_id": 1288,
+        "handle_value": "229664",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "42420672",
+        "process_id": 1288,
+        "handle_value": "230864",
+        "handle_type": "",
+        "handle_name": "\ue47c\u0019"
+      },
+      {
+        "handle_granted_access": "8126548",
+        "process_id": 1288,
+        "handle_value": "230952",
+        "handle_type": "",
+        "handle_name": "\ubcbc\u0013"
+      },
+      {
+        "handle_granted_access": "23980376",
+        "process_id": 1288,
+        "handle_value": "231244",
+        "handle_type": "TmEn",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "20572280",
+        "process_id": 1288,
+        "handle_value": "242272",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "16253156",
+        "process_id": 1288,
+        "handle_value": "302028",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 1288,
+        "handle_value": "315572",
+        "handle_type": "Thread",
+        "handle_name": "TID 345 PID 7371"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 1288,
+        "handle_value": "315772",
+        "handle_type": "",
+        "handle_name": "\ue47c\u0019"
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 1288,
+        "handle_value": "315804",
+        "handle_type": "",
+        "handle_name": "\ue47c\u0019"
+      },
+      {
+        "handle_granted_access": "20572280",
+        "process_id": 1288,
+        "handle_value": "330324",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "20572280",
+        "process_id": 1288,
+        "handle_value": "331348",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "19966472",
+        "process_id": 1288,
+        "handle_value": "407624",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "40584560",
+        "process_id": 1288,
+        "handle_value": "408044",
+        "handle_type": "Thread",
+        "handle_name": "TID 345 PID 7371"
+      },
+      {
+        "handle_granted_access": "43952608",
+        "process_id": 1288,
+        "handle_value": "408176",
+        "handle_type": "",
+        "handle_name": "\ue47c\u0019"
+      },
+      {
+        "handle_granted_access": "53174112",
+        "process_id": 1288,
+        "handle_value": "408264",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "20553128",
+        "process_id": 1288,
+        "handle_value": "408340",
+        "handle_type": "Mutant",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 1080,
+        "handle_value": "212",
+        "handle_type": "Event",
+        "handle_name": "MaximumCommitCondition"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 1080,
+        "handle_value": "272",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS SEARCH\\GATHER\\WINDOWS\\SYSTEMINDEX\\EXTENSIONS"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1080,
+        "handle_value": "308",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1080,
+        "handle_value": "332",
+        "handle_type": "Thread",
+        "handle_name": "TID 860 PID 1080"
+      }
+    ],
+    "added_count": 294
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

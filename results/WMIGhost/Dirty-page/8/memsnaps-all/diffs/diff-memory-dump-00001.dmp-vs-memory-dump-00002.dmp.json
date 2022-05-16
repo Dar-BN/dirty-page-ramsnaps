@@ -1,0 +1,298 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1041124512,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827424223232,
+        "Size": 172032,
+        "Service Key": "",
+        "Name": "cdrom",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042671792,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436470272,
+        "Size": 86016,
+        "Service Key": "",
+        "Name": "NDProxy",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042864592,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827418210304,
+        "Size": 147456,
+        "Service Key": "",
+        "Name": "mrxsmb20",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054709168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430940672,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "DfsC",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054718368,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434635264,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "intelppm",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054838880,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434561536,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "RTL8023x64",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061406032,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385204736,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "msahci",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072585696,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827385761792,
+        "Size": 385024,
+        "Service Key": "",
+        "Name": "CLFS",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073122704,
+        "Pointers": 6,
+        "Handles": 0,
+        "Start": 18446735827389059072,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "atapi",
+        "Driver Name": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1073348208,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827389562880,
+        "Size": 81920,
+        "Service Key": "",
+        "Name": "FileInfo",
+        "Driver Name": ""
+      }
+    ]
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [
+      {
+        "Offset(P)": 1038928688,
+        "Name": "wmighost.dll",
+        "PID": 1612,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:51 UTC+0000"
+      },
+      {
+        "Offset(P)": 1042107024,
+        "Name": "is32bit.exe",
+        "PID": 2096,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:45 UTC+0000"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1046564960,
+        "Name": "is32bit.exe",
+        "PID": 1212,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+      },
+      {
+        "Offset(P)": 1044369504,
+        "Name": "inject-x86.exe",
+        "PID": 1548,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+      },
+      {
+        "Offset(P)": 1041166432,
+        "Name": "SearchIndexer.",
+        "PID": 808,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ]
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "connections": {
+    "added": [],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [
+      {
+        "Offset(P)": 1043555776,
+        "Name": "",
+        "Base": 18446735827435257856,
+        "Size": 679936,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1049272656,
+        "Name": "",
+        "Base": 18446735827436777472,
+        "Size": 49152,
+        "File": "\\SystemRoot\\System32\\drivers\\Dxapi.sys"
+      },
+      {
+        "Offset(P)": 1050421328,
+        "Name": "",
+        "Base": 18446735827436883968,
+        "Size": 143360,
+        "File": "\\SystemRoot\\system32\\drivers\\luafv.sys"
+      },
+      {
+        "Offset(P)": 1050754848,
+        "Name": "",
+        "Base": 18446735827433353216,
+        "Size": 110592,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\raspppoe.sys"
+      },
+      {
+        "Offset(P)": 1052080336,
+        "Name": "",
+        "Base": 18446735827436613632,
+        "Size": 49152,
+        "File": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys"
+      },
+      {
+        "Offset(P)": 1052746112,
+        "Name": "",
+        "Base": 18446735827436826624,
+        "Size": 57344,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\monitor.sys"
+      },
+      {
+        "Offset(P)": 1053904688,
+        "Name": "",
+        "Base": 18446735827395317760,
+        "Size": 45056,
+        "File": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS"
+      },
+      {
+        "Offset(P)": 1053965984,
+        "Name": "",
+        "Base": 18446735827434881024,
+        "Size": 147456,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys"
+      },
+      {
+        "Offset(P)": 1054275808,
+        "Name": "",
+        "Base": 18446735827435028480,
+        "Size": 49152,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\ndistapi.sys"
+      },
+      {
+        "Offset(P)": 1054414480,
+        "Name": "",
+        "Base": 18446735827434790912,
+        "Size": 90112,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys"
+      },
+      {
+        "Offset(P)": 1054666768,
+        "Name": "",
+        "Base": 18446735827430879232,
+        "Size": 61440,
+        "File": "\\SystemRoot\\System32\\drivers\\discache.sys"
+      },
+      {
+        "Offset(P)": 1054711120,
+        "Name": "",
+        "Base": 18446735827428966400,
+        "Size": 536576,
+        "File": "\\SystemRoot\\system32\\drivers\\csc.sys"
+      }
+    ],
+    "deleted": []
+  },
+  "handles": {
+    "added": [],
+    "deleted": []
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

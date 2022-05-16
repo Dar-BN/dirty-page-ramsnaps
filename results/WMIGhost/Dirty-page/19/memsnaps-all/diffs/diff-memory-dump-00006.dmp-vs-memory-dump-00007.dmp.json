@@ -1,0 +1,5528 @@
+{
+  "devicetree": {
+    "added": [],
+    "deleted": []
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [],
+    "deleted": []
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [
+      {
+        "Pid": 788,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Pid": 788,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "",
+        "Path": "Error reading PEB for pid"
+      }
+    ],
+    "both": [
+      {
+        "old": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 336,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 336,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 384,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 384,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 396,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 396,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 436,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 436,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 488,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 488,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 608,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 608,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 672,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 672,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 724,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 724,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 848,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 848,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 4288151552,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 4288151552,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2004353024,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2004353024,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2002124800,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2002124800,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791758143488,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791758143488,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791777542144,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791777542144,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791758864384,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791758864384,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791760044032,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791760044032,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791784095744,
+          "Size": 2109440,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791784095744,
+          "Size": 2109440,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791776559104,
+          "Size": 421888,
+          "LoadCount": 101,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791776559104,
+          "Size": 421888,
+          "LoadCount": 101,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2003304448,
+          "Size": 1024000,
+          "LoadCount": 111,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2003304448,
+          "Size": 1024000,
+          "LoadCount": 111,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791787175936,
+          "Size": 57344,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "\ucf2a\u9e4e\u010f\u0001\uff01\u58ff"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791787175936,
+          "Size": 57344,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "\ucf2a\u9e4e\u010f\u0001\uff01\u58ff"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791781474304,
+          "Size": 823296,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791781474304,
+          "Size": 823296,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791783899136,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791783899136,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791791239168,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791791239168,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791753752576,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791753752576,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 4096,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4096,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "added": [],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [],
+    "deleted": []
+  },
+  "handles": {
+    "added": [
+      {
+        "Offset(V)": 18446735964819870832,
+        "Pid": 480,
+        "Handle": 444,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819897728,
+        "Pid": 480,
+        "Handle": 448,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-20"
+      },
+      {
+        "Offset(V)": 18446735964820449488,
+        "Pid": 480,
+        "Handle": 476,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820524192,
+        "Pid": 480,
+        "Handle": 480,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-19"
+      },
+      {
+        "Offset(V)": 18446735964819570592,
+        "Pid": 480,
+        "Handle": 536,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-19"
+      },
+      {
+        "Offset(V)": 18446735964820437184,
+        "Pid": 480,
+        "Handle": 540,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820435472,
+        "Pid": 480,
+        "Handle": 560,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-20"
+      },
+      {
+        "Offset(V)": 18446735964820451424,
+        "Pid": 488,
+        "Handle": 1236,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820975712,
+        "Pid": 488,
+        "Handle": 1264,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820975712,
+        "Pid": 488,
+        "Handle": 1284,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434715232,
+        "Pid": 488,
+        "Handle": 1440,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821867152,
+        "Pid": 488,
+        "Handle": 1496,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434714752,
+        "Pid": 488,
+        "Handle": 1508,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820978560,
+        "Pid": 496,
+        "Handle": 204,
+        "Access": 3,
+        "Type": "PcwObject",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432609360,
+        "Pid": 496,
+        "Handle": 272,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "SmSsWinStationApiPort"
+      },
+      {
+        "Offset(V)": 18446738026432611328,
+        "Pid": 496,
+        "Handle": 396,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "LRPC-2046685ffd7e1f316b"
+      },
+      {
+        "Offset(V)": 18446738026432687312,
+        "Pid": 496,
+        "Handle": 416,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "Offset(V)": 18446738026432686832,
+        "Pid": 496,
+        "Handle": 420,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "Offset(V)": 18446738026432631744,
+        "Pid": 496,
+        "Handle": 424,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\LSM_API_service"
+      },
+      {
+        "Offset(V)": 18446735964820985216,
+        "Pid": 496,
+        "Handle": 468,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER"
+      },
+      {
+        "Offset(V)": 18446735964820984496,
+        "Pid": 496,
+        "Handle": 472,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821003376,
+        "Pid": 496,
+        "Handle": 476,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\LSA\\FIPSALGORITHMPOLICY"
+      },
+      {
+        "Offset(V)": 18446735964821003184,
+        "Pid": 496,
+        "Handle": 480,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820400640,
+        "Pid": 724,
+        "Handle": 4,
+        "Access": 9,
+        "Type": "Key",
+        "Details": "CURRENTVERSION\\IMAGE FILE EXECUTION OPTIONS"
+      },
+      {
+        "Offset(V)": 18446735964812217152,
+        "Pid": 724,
+        "Handle": 8,
+        "Access": 3,
+        "Type": "Directory",
+        "Details": "KnownDlls"
+      },
+      {
+        "Offset(V)": 18446738026432529600,
+        "Pid": 724,
+        "Handle": 12,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446735964820504368,
+        "Pid": 724,
+        "Handle": 16,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431706976,
+        "Pid": 724,
+        "Handle": 20,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432544160,
+        "Pid": 724,
+        "Handle": 24,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432549856,
+        "Pid": 724,
+        "Handle": 28,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820517968,
+        "Pid": 724,
+        "Handle": 32,
+        "Access": 1,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432528224,
+        "Pid": 724,
+        "Handle": 36,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432549280,
+        "Pid": 724,
+        "Handle": 40,
+        "Access": 983935,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e5$"
+      },
+      {
+        "Offset(V)": 18446738026432553104,
+        "Pid": 724,
+        "Handle": 44,
+        "Access": 983551,
+        "Type": "Desktop",
+        "Details": "Default"
+      },
+      {
+        "Offset(V)": 18446738026432549280,
+        "Pid": 724,
+        "Handle": 48,
+        "Access": 983935,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e5$"
+      },
+      {
+        "Offset(V)": 18446738026432536288,
+        "Pid": 724,
+        "Handle": 52,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432556608,
+        "Pid": 724,
+        "Handle": 56,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432456416,
+        "Pid": 724,
+        "Handle": 60,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432538464,
+        "Pid": 724,
+        "Handle": 64,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432549712,
+        "Pid": 724,
+        "Handle": 68,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432556464,
+        "Pid": 724,
+        "Handle": 72,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432556336,
+        "Pid": 724,
+        "Handle": 76,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432554400,
+        "Pid": 724,
+        "Handle": 84,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432554272,
+        "Pid": 724,
+        "Handle": 88,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432552160,
+        "Pid": 724,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026432551296,
+        "Pid": 724,
+        "Handle": 96,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432551424,
+        "Pid": 724,
+        "Handle": 100,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432551168,
+        "Pid": 724,
+        "Handle": 104,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432550992,
+        "Pid": 724,
+        "Handle": 108,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432550800,
+        "Pid": 724,
+        "Handle": 112,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432550656,
+        "Pid": 724,
+        "Handle": 116,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432544864,
+        "Pid": 724,
+        "Handle": 120,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 728 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432737392,
+        "Pid": 724,
+        "Handle": 124,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432738480,
+        "Pid": 724,
+        "Handle": 132,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432738208,
+        "Pid": 724,
+        "Handle": 136,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432569440,
+        "Pid": 724,
+        "Handle": 140,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432573168,
+        "Pid": 724,
+        "Handle": 144,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432571888,
+        "Pid": 724,
+        "Handle": 148,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 736 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432571888,
+        "Pid": 724,
+        "Handle": 152,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 736 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432614000,
+        "Pid": 724,
+        "Handle": 156,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432616560,
+        "Pid": 724,
+        "Handle": 160,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432632672,
+        "Pid": 724,
+        "Handle": 164,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432616384,
+        "Pid": 724,
+        "Handle": 168,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432607008,
+        "Pid": 724,
+        "Handle": 172,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820537440,
+        "Pid": 724,
+        "Handle": 176,
+        "Access": 72,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432684896,
+        "Pid": 724,
+        "Handle": 180,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432722032,
+        "Pid": 724,
+        "Handle": 184,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432615248,
+        "Pid": 724,
+        "Handle": 188,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432755520,
+        "Pid": 724,
+        "Handle": 192,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 748 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432686400,
+        "Pid": 724,
+        "Handle": 196,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820998544,
+        "Pid": 724,
+        "Handle": 200,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-19\\CONTROL PANEL\\INTERNATIONAL"
+      },
+      {
+        "Offset(V)": 18446738026427232368,
+        "Pid": 724,
+        "Handle": 204,
+        "Access": 1180063,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432631232,
+        "Pid": 724,
+        "Handle": 208,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026424058656,
+        "Pid": 724,
+        "Handle": 212,
+        "Access": 1180063,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432689552,
+        "Pid": 724,
+        "Handle": 216,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432812928,
+        "Pid": 724,
+        "Handle": 220,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821000880,
+        "Pid": 724,
+        "Handle": 224,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432599872,
+        "Pid": 724,
+        "Handle": 228,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432811584,
+        "Pid": 724,
+        "Handle": 232,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432830192,
+        "Pid": 724,
+        "Handle": 236,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432811280,
+        "Pid": 724,
+        "Handle": 240,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432794720,
+        "Pid": 724,
+        "Handle": 244,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 780 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434684480,
+        "Pid": 724,
+        "Handle": 256,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432600976,
+        "Pid": 724,
+        "Handle": 260,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432605264,
+        "Pid": 724,
+        "Handle": 264,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432796736,
+        "Pid": 724,
+        "Handle": 268,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432844096,
+        "Pid": 724,
+        "Handle": 272,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432605136,
+        "Pid": 724,
+        "Handle": 276,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432823696,
+        "Pid": 724,
+        "Handle": 280,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432850256,
+        "Pid": 724,
+        "Handle": 284,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 796 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432859072,
+        "Pid": 724,
+        "Handle": 288,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "eventlog"
+      },
+      {
+        "Offset(V)": 18446738026432849936,
+        "Pid": 724,
+        "Handle": 292,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe"
+      },
+      {
+        "Offset(V)": 18446738026432823840,
+        "Pid": 724,
+        "Handle": 296,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\eventlog"
+      },
+      {
+        "Offset(V)": 18446738026432605984,
+        "Pid": 724,
+        "Handle": 300,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\eventlog"
+      },
+      {
+        "Offset(V)": 18446738026432858560,
+        "Pid": 724,
+        "Handle": 304,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432811104,
+        "Pid": 724,
+        "Handle": 308,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432857200,
+        "Pid": 724,
+        "Handle": 316,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821329168,
+        "Pid": 724,
+        "Handle": 328,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MICROSOFT\\WINDOWS NT"
+      },
+      {
+        "Offset(V)": 18446735964821325872,
+        "Pid": 724,
+        "Handle": 332,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434085840,
+        "Pid": 724,
+        "Handle": 336,
+        "Access": 1179926,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\lastalive1.dat"
+      },
+      {
+        "Offset(V)": 18446738026434084976,
+        "Pid": 724,
+        "Handle": 340,
+        "Access": 1179926,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\lastalive0.dat"
+      },
+      {
+        "Offset(V)": 18446738026434096656,
+        "Pid": 724,
+        "Handle": 344,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026427260704,
+        "Pid": 724,
+        "Handle": 348,
+        "Access": 1180063,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434095760,
+        "Pid": 724,
+        "Handle": 356,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432850256,
+        "Pid": 724,
+        "Handle": 364,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 796 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026433937520,
+        "Pid": 724,
+        "Handle": 368,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431910832,
+        "Pid": 724,
+        "Handle": 372,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821522240,
+        "Pid": 724,
+        "Handle": 376,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432761952,
+        "Pid": 724,
+        "Handle": 380,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 756 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432861280,
+        "Pid": 724,
+        "Handle": 388,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821546496,
+        "Pid": 724,
+        "Handle": 396,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446738026427254048,
+        "Pid": 724,
+        "Handle": 400,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Microsoft-Windows-Dhcpv6-Client%4Admin.evtx"
+      },
+      {
+        "Offset(V)": 18446738026432761952,
+        "Pid": 724,
+        "Handle": 408,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 756 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432891456,
+        "Pid": 724,
+        "Handle": 416,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434154608,
+        "Pid": 724,
+        "Handle": 420,
+        "Access": 1442207,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434162656,
+        "Pid": 724,
+        "Handle": 428,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434096656,
+        "Pid": 724,
+        "Handle": 432,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434160336,
+        "Pid": 724,
+        "Handle": 436,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434159056,
+        "Pid": 724,
+        "Handle": 440,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 860 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434165344,
+        "Pid": 724,
+        "Handle": 444,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434168320,
+        "Pid": 724,
+        "Handle": 448,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 864 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432893600,
+        "Pid": 724,
+        "Handle": 456,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Application.evtx"
+      },
+      {
+        "Offset(V)": 18446738026434168032,
+        "Pid": 724,
+        "Handle": 460,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434478192,
+        "Pid": 724,
+        "Handle": 468,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434095360,
+        "Pid": 724,
+        "Handle": 472,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434167424,
+        "Pid": 724,
+        "Handle": 484,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Internet Explorer.evtx"
+      },
+      {
+        "Offset(V)": 18446738026434169616,
+        "Pid": 724,
+        "Handle": 488,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Windows PowerShell.evtx"
+      },
+      {
+        "Offset(V)": 18446738026434175088,
+        "Pid": 724,
+        "Handle": 492,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026434178000,
+        "Pid": 724,
+        "Handle": 496,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Key Management Service.evtx"
+      },
+      {
+        "Offset(V)": 18446738026434504928,
+        "Pid": 724,
+        "Handle": 500,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434182944,
+        "Pid": 724,
+        "Handle": 504,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026434180944,
+        "Pid": 724,
+        "Handle": 508,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434180816,
+        "Pid": 724,
+        "Handle": 512,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434180576,
+        "Pid": 724,
+        "Handle": 516,
+        "Access": 1024,
+        "Type": "EtwConsumer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434096528,
+        "Pid": 724,
+        "Handle": 520,
+        "Access": 1048579,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434168320,
+        "Pid": 724,
+        "Handle": 524,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 864 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434179536,
+        "Pid": 724,
+        "Handle": 528,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434162272,
+        "Pid": 724,
+        "Handle": 532,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434094464,
+        "Pid": 724,
+        "Handle": 536,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434178400,
+        "Pid": 724,
+        "Handle": 540,
+        "Access": 1024,
+        "Type": "EtwConsumer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434186224,
+        "Pid": 724,
+        "Handle": 544,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434182608,
+        "Pid": 724,
+        "Handle": 548,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Microsoft-Windows-NlaSvc%4Operational.evtx"
+      },
+      {
+        "Offset(V)": 18446738026434186448,
+        "Pid": 724,
+        "Handle": 560,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434186096,
+        "Pid": 724,
+        "Handle": 564,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434185856,
+        "Pid": 724,
+        "Handle": 568,
+        "Access": 1024,
+        "Type": "EtwConsumer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434185712,
+        "Pid": 724,
+        "Handle": 572,
+        "Access": 1048579,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434184672,
+        "Pid": 724,
+        "Handle": 580,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434140000,
+        "Pid": 724,
+        "Handle": 644,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 724,
+        "Handle": 652,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 724,
+        "Handle": 660,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446738026409080704,
+        "Pid": 724,
+        "Handle": 664,
+        "Access": 1048577,
+        "Type": "Event",
+        "Details": "MaximumCommitCondition"
+      },
+      {
+        "Offset(V)": 18446738026434139264,
+        "Pid": 724,
+        "Handle": 672,
+        "Access": 2031617,
+        "Type": "Type",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546736,
+        "Pid": 724,
+        "Handle": 692,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546608,
+        "Pid": 724,
+        "Handle": 696,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819500208,
+        "Pid": 724,
+        "Handle": 712,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434142320,
+        "Pid": 724,
+        "Handle": 716,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432129344,
+        "Pid": 724,
+        "Handle": 724,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297952,
+        "Pid": 724,
+        "Handle": 728,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 936 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434546880,
+        "Pid": 724,
+        "Handle": 732,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432129168,
+        "Pid": 724,
+        "Handle": 740,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297952,
+        "Pid": 724,
+        "Handle": 744,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 936 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026432127088,
+        "Pid": 724,
+        "Handle": 748,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432127920,
+        "Pid": 724,
+        "Handle": 752,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432128864,
+        "Pid": 724,
+        "Handle": 756,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409003376,
+        "Pid": 724,
+        "Handle": 760,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "m32\\rastls.dll"
+      },
+      {
+        "Offset(V)": 18446738026434322528,
+        "Pid": 724,
+        "Handle": 768,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434142848,
+        "Pid": 724,
+        "Handle": 772,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546480,
+        "Pid": 724,
+        "Handle": 776,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546352,
+        "Pid": 724,
+        "Handle": 780,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546224,
+        "Pid": 724,
+        "Handle": 784,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546096,
+        "Pid": 724,
+        "Handle": 788,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434545968,
+        "Pid": 724,
+        "Handle": 792,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434535808,
+        "Pid": 724,
+        "Handle": 804,
+        "Access": 1048579,
+        "Type": "File",
+        "Details": "\\Device\\NetBt_Wins_Export"
+      },
+      {
+        "Offset(V)": 18446738026434555744,
+        "Pid": 724,
+        "Handle": 808,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434544640,
+        "Pid": 724,
+        "Handle": 824,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434552896,
+        "Pid": 724,
+        "Handle": 832,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434555872,
+        "Pid": 724,
+        "Handle": 836,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434544448,
+        "Pid": 724,
+        "Handle": 840,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434554464,
+        "Pid": 724,
+        "Handle": 848,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 344 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434559472,
+        "Pid": 724,
+        "Handle": 852,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820429488,
+        "Pid": 724,
+        "Handle": 860,
+        "Access": 15,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821023392,
+        "Pid": 724,
+        "Handle": 868,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "OPTIONS"
+      },
+      {
+        "Offset(V)": 18446738026434557408,
+        "Pid": 724,
+        "Handle": 884,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434557216,
+        "Pid": 724,
+        "Handle": 888,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434531824,
+        "Pid": 724,
+        "Handle": 896,
+        "Access": 2031619,
+        "Type": "Type",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434552256,
+        "Pid": 724,
+        "Handle": 900,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453600,
+        "Pid": 724,
+        "Handle": 912,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 352 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434616736,
+        "Pid": 724,
+        "Handle": 916,
+        "Access": 2031617,
+        "Type": "Type",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821192416,
+        "Pid": 724,
+        "Handle": 928,
+        "Access": 13,
+        "Type": "Key",
+        "Details": "DHCP\\PARAMETERSV6"
+      },
+      {
+        "Offset(V)": 18446735964821279472,
+        "Pid": 724,
+        "Handle": 932,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "MACHINE\\SECURITY\\POLICY\\?\u0018"
+      },
+      {
+        "Offset(V)": 18446735964821191872,
+        "Pid": 724,
+        "Handle": 936,
+        "Access": 15,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821191376,
+        "Pid": 724,
+        "Handle": 940,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "DHCP\\PARAMETERSV6\\OPTIONS"
+      },
+      {
+        "Offset(V)": 18446738026434453600,
+        "Pid": 724,
+        "Handle": 952,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 352 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434453600,
+        "Pid": 724,
+        "Handle": 964,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 352 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434609264,
+        "Pid": 724,
+        "Handle": 972,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434610992,
+        "Pid": 724,
+        "Handle": 976,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434610864,
+        "Pid": 724,
+        "Handle": 980,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434610192,
+        "Pid": 724,
+        "Handle": 984,
+        "Access": 1048704,
+        "Type": "File",
+        "Details": "\\Device\\Nsi"
+      },
+      {
+        "Offset(V)": 18446738026434602176,
+        "Pid": 724,
+        "Handle": 988,
+        "Access": 2031619,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821191680,
+        "Pid": 724,
+        "Handle": 992,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "{6D726995-508B-4A65-85CB-5F45C7529146}"
+      },
+      {
+        "Offset(V)": 18446738026434621152,
+        "Pid": 724,
+        "Handle": 1000,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434554464,
+        "Pid": 724,
+        "Handle": 1004,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 344 PID 724"
+      },
+      {
+        "Offset(V)": 18446738026434621024,
+        "Pid": 724,
+        "Handle": 1008,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964820429984,
+        "Pid": 724,
+        "Handle": 1016,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "{6D726995-508B-4A65-85CB-5F45C7529146}"
+      },
+      {
+        "Offset(V)": 18446735964821033056,
+        "Pid": 788,
+        "Handle": 4,
+        "Access": 9,
+        "Type": "Key",
+        "Details": "CURRENTVERSION\\IMAGE FILE EXECUTION OPTIONS"
+      },
+      {
+        "Offset(V)": 18446735964812217152,
+        "Pid": 788,
+        "Handle": 8,
+        "Access": 3,
+        "Type": "Directory",
+        "Details": "KnownDlls"
+      },
+      {
+        "Offset(V)": 18446738026432603072,
+        "Pid": 788,
+        "Handle": 12,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32"
+      },
+      {
+        "Offset(V)": 18446735964821074016,
+        "Pid": 788,
+        "Handle": 16,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964812328864,
+        "Pid": 788,
+        "Handle": 20,
+        "Access": 1,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432858048,
+        "Pid": 788,
+        "Handle": 24,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432861088,
+        "Pid": 788,
+        "Handle": 28,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432813600,
+        "Pid": 788,
+        "Handle": 32,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026408971024,
+        "Pid": 788,
+        "Handle": 36,
+        "Access": 983935,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026408971024,
+        "Pid": 788,
+        "Handle": 44,
+        "Access": 983935,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432986528,
+        "Pid": 788,
+        "Handle": 52,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432986384,
+        "Pid": 788,
+        "Handle": 56,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432986256,
+        "Pid": 788,
+        "Handle": 60,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432986128,
+        "Pid": 788,
+        "Handle": 64,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432986000,
+        "Pid": 788,
+        "Handle": 68,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432985872,
+        "Pid": 788,
+        "Handle": 72,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432985744,
+        "Pid": 788,
+        "Handle": 76,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964817829296,
+        "Pid": 788,
+        "Handle": 80,
+        "Access": 15,
+        "Type": "Directory",
+        "Details": "BaseNamedObjects"
+      },
+      {
+        "Offset(V)": 18446738026432986704,
+        "Pid": 788,
+        "Handle": 84,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432856320,
+        "Pid": 788,
+        "Handle": 88,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432984752,
+        "Pid": 788,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 788,
+        "Handle": 96,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446738026432856496,
+        "Pid": 788,
+        "Handle": 104,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432605840,
+        "Pid": 788,
+        "Handle": 108,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409080704,
+        "Pid": 788,
+        "Handle": 112,
+        "Access": 1048577,
+        "Type": "Event",
+        "Details": "MaximumCommitCondition"
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 788,
+        "Handle": 116,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446738026432921040,
+        "Pid": 788,
+        "Handle": 120,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac"
+      },
+      {
+        "Offset(V)": 18446738026432921520,
+        "Pid": 788,
+        "Handle": 124,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432866800,
+        "Pid": 788,
+        "Handle": 128,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432919520,
+        "Pid": 788,
+        "Handle": 132,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432919328,
+        "Pid": 788,
+        "Handle": 136,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432920320,
+        "Pid": 788,
+        "Handle": 140,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432885760,
+        "Pid": 788,
+        "Handle": 144,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432868464,
+        "Pid": 788,
+        "Handle": 148,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432920176,
+        "Pid": 788,
+        "Handle": 152,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432868688,
+        "Pid": 788,
+        "Handle": 156,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432919184,
+        "Pid": 788,
+        "Handle": 160,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432919008,
+        "Pid": 788,
+        "Handle": 164,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432918816,
+        "Pid": 788,
+        "Handle": 168,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432918672,
+        "Pid": 788,
+        "Handle": 172,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432824576,
+        "Pid": 788,
+        "Handle": 176,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 792 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026432888416,
+        "Pid": 788,
+        "Handle": 180,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821110880,
+        "Pid": 788,
+        "Handle": 184,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432887056,
+        "Pid": 788,
+        "Handle": 188,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432872272,
+        "Pid": 788,
+        "Handle": 192,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432871904,
+        "Pid": 788,
+        "Handle": 196,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432871536,
+        "Pid": 788,
+        "Handle": 200,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432870256,
+        "Pid": 788,
+        "Handle": 204,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 800 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026432870256,
+        "Pid": 788,
+        "Handle": 208,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 800 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026432869728,
+        "Pid": 788,
+        "Handle": 212,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432921712,
+        "Pid": 788,
+        "Handle": 216,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432816592,
+        "Pid": 788,
+        "Handle": 220,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432823392,
+        "Pid": 788,
+        "Handle": 224,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432923600,
+        "Pid": 788,
+        "Handle": 228,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432964400,
+        "Pid": 788,
+        "Handle": 232,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432917872,
+        "Pid": 788,
+        "Handle": 236,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac"
+      },
+      {
+        "Offset(V)": 18446738026432925136,
+        "Pid": 788,
+        "Handle": 240,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432864688,
+        "Pid": 788,
+        "Handle": 244,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432869408,
+        "Pid": 788,
+        "Handle": 248,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\samr"
+      },
+      {
+        "Offset(V)": 18446738026432963984,
+        "Pid": 788,
+        "Handle": 252,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432995440,
+        "Pid": 788,
+        "Handle": 256,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432997088,
+        "Pid": 788,
+        "Handle": 260,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\winsxs\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a"
+      },
+      {
+        "Offset(V)": 18446738026432976688,
+        "Pid": 788,
+        "Handle": 264,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821114976,
+        "Pid": 788,
+        "Handle": 268,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433810544,
+        "Pid": 788,
+        "Handle": 272,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433794848,
+        "Pid": 788,
+        "Handle": 276,
+        "Access": 1048608,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432997632,
+        "Pid": 788,
+        "Handle": 280,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432996896,
+        "Pid": 788,
+        "Handle": 284,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433811248,
+        "Pid": 788,
+        "Handle": 288,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 808 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026433811120,
+        "Pid": 788,
+        "Handle": 292,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433810992,
+        "Pid": 788,
+        "Handle": 296,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433810864,
+        "Pid": 788,
+        "Handle": 300,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433810736,
+        "Pid": 788,
+        "Handle": 304,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433865696,
+        "Pid": 788,
+        "Handle": 308,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433814448,
+        "Pid": 788,
+        "Handle": 316,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433866784,
+        "Pid": 788,
+        "Handle": 320,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433794656,
+        "Pid": 788,
+        "Handle": 324,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433836128,
+        "Pid": 788,
+        "Handle": 340,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433835840,
+        "Pid": 788,
+        "Handle": 348,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433835552,
+        "Pid": 788,
+        "Handle": 356,
+        "Access": 2031617,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821212080,
+        "Pid": 788,
+        "Handle": 380,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\CLASSES"
+      },
+      {
+        "Offset(V)": 18446738026433889104,
+        "Pid": 788,
+        "Handle": 384,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431942464,
+        "Pid": 788,
+        "Handle": 388,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431942336,
+        "Pid": 788,
+        "Handle": 392,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431942336,
+        "Pid": 788,
+        "Handle": 396,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431941056,
+        "Pid": 788,
+        "Handle": 400,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 812 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026431940768,
+        "Pid": 788,
+        "Handle": 404,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433888032,
+        "Pid": 788,
+        "Handle": 412,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433887888,
+        "Pid": 788,
+        "Handle": 416,
+        "Access": 35586051,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433905824,
+        "Pid": 788,
+        "Handle": 428,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026433908560,
+        "Pid": 788,
+        "Handle": 436,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431941056,
+        "Pid": 788,
+        "Handle": 440,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 812 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026433994192,
+        "Pid": 788,
+        "Handle": 444,
+        "Access": 2031619,
+        "Type": "TmTm",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433907792,
+        "Pid": 788,
+        "Handle": 452,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "LRPC-6ca098246cd5145112"
+      },
+      {
+        "Offset(V)": 18446738026433900128,
+        "Pid": 788,
+        "Handle": 456,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431940288,
+        "Pid": 788,
+        "Handle": 460,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431939056,
+        "Pid": 788,
+        "Handle": 464,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433908304,
+        "Pid": 788,
+        "Handle": 484,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433899664,
+        "Pid": 788,
+        "Handle": 492,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433899536,
+        "Pid": 788,
+        "Handle": 496,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433916528,
+        "Pid": 788,
+        "Handle": 500,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821316800,
+        "Pid": 788,
+        "Handle": 508,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433914128,
+        "Pid": 788,
+        "Handle": 512,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433914000,
+        "Pid": 788,
+        "Handle": 516,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433924064,
+        "Pid": 788,
+        "Handle": 528,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433923904,
+        "Pid": 788,
+        "Handle": 532,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433914880,
+        "Pid": 788,
+        "Handle": 536,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433924064,
+        "Pid": 788,
+        "Handle": 540,
+        "Access": 1048576,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433924640,
+        "Pid": 788,
+        "Handle": 544,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433924512,
+        "Pid": 788,
+        "Handle": 548,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821312752,
+        "Pid": 788,
+        "Handle": 560,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\TRACING\\RASPLAP"
+      },
+      {
+        "Offset(V)": 18446738026433927312,
+        "Pid": 788,
+        "Handle": 564,
+        "Access": 2031619,
+        "Type": "DebugObject",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432213616,
+        "Pid": 788,
+        "Handle": 568,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409003376,
+        "Pid": 788,
+        "Handle": 572,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "m32\\rastls.dll"
+      },
+      {
+        "Offset(V)": 18446738026433926544,
+        "Pid": 788,
+        "Handle": 576,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433941984,
+        "Pid": 788,
+        "Handle": 580,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431911152,
+        "Pid": 788,
+        "Handle": 584,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "MSCTF.CtfMonitorInitialized.Winlogon1"
+      },
+      {
+        "Offset(V)": 18446738026431910992,
+        "Pid": 788,
+        "Handle": 588,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "MSCTF.CtfActivated.Winlogon1"
+      },
+      {
+        "Offset(V)": 18446738026431860352,
+        "Pid": 788,
+        "Handle": 592,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "MSCTF.CtfDeactivated.Winlogon1"
+      },
+      {
+        "Offset(V)": 18446738026431860192,
+        "Pid": 788,
+        "Handle": 596,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "MSCTF.AsmCacheReady.Winlogon1"
+      },
+      {
+        "Offset(V)": 18446738026431859504,
+        "Pid": 788,
+        "Handle": 600,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": "MSCTF.Asm.MutexWinlogon1"
+      },
+      {
+        "Offset(V)": 18446735964821375776,
+        "Pid": 788,
+        "Handle": 604,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": "CTF.AsmListCache.FMPWinlogon1"
+      },
+      {
+        "Offset(V)": 18446738026434013312,
+        "Pid": 788,
+        "Handle": 608,
+        "Access": 1179785,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\en-US\\KernelBase.dll.mui"
+      },
+      {
+        "Offset(V)": 18446738026433991264,
+        "Pid": 788,
+        "Handle": 616,
+        "Access": 2031619,
+        "Type": "TmEn",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434019424,
+        "Pid": 788,
+        "Handle": 620,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 824 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026433908432,
+        "Pid": 788,
+        "Handle": 624,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434019424,
+        "Pid": 788,
+        "Handle": 628,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 824 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026431867392,
+        "Pid": 788,
+        "Handle": 632,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434022368,
+        "Pid": 788,
+        "Handle": 636,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "msctf.serverWinlogon1"
+      },
+      {
+        "Offset(V)": 18446738026434022000,
+        "Pid": 788,
+        "Handle": 640,
+        "Access": 1179785,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\en-US\\msctf.dll.mui"
+      },
+      {
+        "Offset(V)": 18446738026434020880,
+        "Pid": 788,
+        "Handle": 644,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434052208,
+        "Pid": 788,
+        "Handle": 648,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433944592,
+        "Pid": 788,
+        "Handle": 652,
+        "Access": 2052,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431858384,
+        "Pid": 788,
+        "Handle": 656,
+        "Access": 1048579,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431865472,
+        "Pid": 788,
+        "Handle": 660,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431860032,
+        "Pid": 788,
+        "Handle": 664,
+        "Access": 1048579,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434047232,
+        "Pid": 788,
+        "Handle": 668,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "OLEE212E5CC44A64215866629608F79"
+      },
+      {
+        "Offset(V)": 18446738026432962656,
+        "Pid": 788,
+        "Handle": 672,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 804 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026434047968,
+        "Pid": 788,
+        "Handle": 676,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433996112,
+        "Pid": 788,
+        "Handle": 684,
+        "Access": 1048579,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433995648,
+        "Pid": 788,
+        "Handle": 688,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821375008,
+        "Pid": 788,
+        "Handle": 692,
+        "Access": 4,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434044544,
+        "Pid": 788,
+        "Handle": 700,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434063968,
+        "Pid": 788,
+        "Handle": 708,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434063696,
+        "Pid": 788,
+        "Handle": 712,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434060384,
+        "Pid": 788,
+        "Handle": 716,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 832 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026434063568,
+        "Pid": 788,
+        "Handle": 720,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821528480,
+        "Pid": 788,
+        "Handle": 724,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434046336,
+        "Pid": 788,
+        "Handle": 744,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432975808,
+        "Pid": 788,
+        "Handle": 768,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434684080,
+        "Pid": 788,
+        "Handle": 772,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434777200,
+        "Pid": 788,
+        "Handle": 776,
+        "Access": 2031617,
+        "Type": "File",
+        "Details": "\\Device\\\u4030\u0001\u40e0\u0002"
+      },
+      {
+        "Offset(V)": 18446738026434684208,
+        "Pid": 788,
+        "Handle": 780,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434686192,
+        "Pid": 788,
+        "Handle": 784,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964812217152,
+        "Pid": 848,
+        "Handle": 8,
+        "Access": 3,
+        "Type": "Directory",
+        "Details": "KnownDlls"
+      },
+      {
+        "Offset(V)": 18446738026434096128,
+        "Pid": 848,
+        "Handle": 12,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32"
+      },
+      {
+        "Offset(V)": 18446735964821344048,
+        "Pid": 848,
+        "Handle": 16,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432895280,
+        "Pid": 848,
+        "Handle": 24,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432890736,
+        "Pid": 848,
+        "Handle": 28,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819232640,
+        "Pid": 848,
+        "Handle": 32,
+        "Access": 1,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432890288,
+        "Pid": 848,
+        "Handle": 36,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431591600,
+        "Pid": 848,
+        "Handle": 40,
+        "Access": 983406,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e7$"
+      },
+      {
+        "Offset(V)": 18446738026431590944,
+        "Pid": 848,
+        "Handle": 44,
+        "Access": 983247,
+        "Type": "Desktop",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431591600,
+        "Pid": 848,
+        "Handle": 48,
+        "Access": 983406,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e7$"
+      },
+      {
+        "Offset(V)": 18446738026434154272,
+        "Pid": 848,
+        "Handle": 52,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434154416,
+        "Pid": 848,
+        "Handle": 56,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434154144,
+        "Pid": 848,
+        "Handle": 60,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434154016,
+        "Pid": 848,
+        "Handle": 64,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434153888,
+        "Pid": 848,
+        "Handle": 68,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434153760,
+        "Pid": 848,
+        "Handle": 72,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434153632,
+        "Pid": 848,
+        "Handle": 76,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432890592,
+        "Pid": 848,
+        "Handle": 88,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434086592,
+        "Pid": 848,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026432888928,
+        "Pid": 848,
+        "Handle": 96,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432889264,
+        "Pid": 848,
+        "Handle": 104,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432889088,
+        "Pid": 848,
+        "Handle": 108,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432894064,
+        "Pid": 848,
+        "Handle": 112,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432893920,
+        "Pid": 848,
+        "Handle": 116,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434153120,
+        "Pid": 848,
+        "Handle": 124,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819456096,
+        "Pid": 848,
+        "Handle": 128,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434151712,
+        "Pid": 848,
+        "Handle": 132,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434151440,
+        "Pid": 848,
+        "Handle": 136,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434151072,
+        "Pid": 848,
+        "Handle": 140,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434150704,
+        "Pid": 848,
+        "Handle": 144,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432891744,
+        "Pid": 848,
+        "Handle": 148,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 856 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026432891744,
+        "Pid": 848,
+        "Handle": 152,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 856 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434161904,
+        "Pid": 848,
+        "Handle": 156,
+        "Access": 1048578,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434161392,
+        "Pid": 848,
+        "Handle": 160,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434160720,
+        "Pid": 848,
+        "Handle": 164,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434167744,
+        "Pid": 848,
+        "Handle": 172,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819644512,
+        "Pid": 848,
+        "Handle": 176,
+        "Access": 72,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434181216,
+        "Pid": 848,
+        "Handle": 180,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434260960,
+        "Pid": 848,
+        "Handle": 184,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434257952,
+        "Pid": 848,
+        "Handle": 188,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434259680,
+        "Pid": 848,
+        "Handle": 192,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 876 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434151920,
+        "Pid": 848,
+        "Handle": 196,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434257472,
+        "Pid": 848,
+        "Handle": 208,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297056,
+        "Pid": 848,
+        "Handle": 212,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434184080,
+        "Pid": 848,
+        "Handle": 216,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434183936,
+        "Pid": 848,
+        "Handle": 220,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432684720,
+        "Pid": 848,
+        "Handle": 224,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432684592,
+        "Pid": 848,
+        "Handle": 228,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434185024,
+        "Pid": 848,
+        "Handle": 232,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434184848,
+        "Pid": 848,
+        "Handle": 236,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434271072,
+        "Pid": 848,
+        "Handle": 240,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434270880,
+        "Pid": 848,
+        "Handle": 244,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434291328,
+        "Pid": 848,
+        "Handle": 248,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297440,
+        "Pid": 848,
+        "Handle": 252,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297248,
+        "Pid": 848,
+        "Handle": 256,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434296912,
+        "Pid": 848,
+        "Handle": 268,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 848,
+        "Handle": 272,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 848,
+        "Handle": 280,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446738026409080704,
+        "Pid": 848,
+        "Handle": 284,
+        "Access": 1048577,
+        "Type": "Event",
+        "Details": "MaximumCommitCondition"
+      },
+      {
+        "Offset(V)": 18446738026434306144,
+        "Pid": 848,
+        "Handle": 292,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434310080,
+        "Pid": 848,
+        "Handle": 300,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434309904,
+        "Pid": 848,
+        "Handle": 304,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434308624,
+        "Pid": 848,
+        "Handle": 308,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 904 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434143568,
+        "Pid": 848,
+        "Handle": 312,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434258240,
+        "Pid": 848,
+        "Handle": 316,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 880 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434162400,
+        "Pid": 848,
+        "Handle": 320,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432130400,
+        "Pid": 848,
+        "Handle": 324,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434144176,
+        "Pid": 848,
+        "Handle": 332,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432128720,
+        "Pid": 848,
+        "Handle": 336,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434194160,
+        "Pid": 848,
+        "Handle": 348,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434193520,
+        "Pid": 848,
+        "Handle": 352,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434192880,
+        "Pid": 848,
+        "Handle": 356,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432129040,
+        "Pid": 848,
+        "Handle": 376,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434162528,
+        "Pid": 848,
+        "Handle": 380,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434140432,
+        "Pid": 848,
+        "Handle": 384,
+        "Access": 2031619,
+        "Type": "Thread",
+        "Details": "TID 924 PID 824"
+      },
+      {
+        "Offset(V)": 18446738026434192736,
+        "Pid": 848,
+        "Handle": 388,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434199664,
+        "Pid": 848,
+        "Handle": 408,
+        "Access": 1,
+        "Type": "File",
+        "Details": "\\Device\\PcwDrv"
+      },
+      {
+        "Offset(V)": 18446738026434202960,
+        "Pid": 848,
+        "Handle": 420,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434203232,
+        "Pid": 848,
+        "Handle": 424,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434202512,
+        "Pid": 848,
+        "Handle": 428,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434202784,
+        "Pid": 848,
+        "Handle": 432,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434202256,
+        "Pid": 848,
+        "Handle": 436,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434202384,
+        "Pid": 848,
+        "Handle": 440,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434202080,
+        "Pid": 848,
+        "Handle": 444,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434201712,
+        "Pid": 848,
+        "Handle": 448,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434201584,
+        "Pid": 848,
+        "Handle": 452,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819500960,
+        "Pid": 848,
+        "Handle": 456,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\NETCACHE"
+      },
+      {
+        "Offset(V)": 18446738026434201456,
+        "Pid": 848,
+        "Handle": 460,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434203616,
+        "Pid": 848,
+        "Handle": 464,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434203488,
+        "Pid": 848,
+        "Handle": 468,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434200048,
+        "Pid": 848,
+        "Handle": 476,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434211440,
+        "Pid": 848,
+        "Handle": 492,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434191456,
+        "Pid": 848,
+        "Handle": 496,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 940 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434211312,
+        "Pid": 848,
+        "Handle": 500,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434211184,
+        "Pid": 848,
+        "Handle": 504,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434211008,
+        "Pid": 848,
+        "Handle": 508,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434210832,
+        "Pid": 848,
+        "Handle": 512,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434210704,
+        "Pid": 848,
+        "Handle": 516,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434210336,
+        "Pid": 848,
+        "Handle": 520,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434310448,
+        "Pid": 848,
+        "Handle": 524,
+        "Access": 1048579,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434210080,
+        "Pid": 848,
+        "Handle": 528,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434208800,
+        "Pid": 848,
+        "Handle": 532,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 944 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434197856,
+        "Pid": 848,
+        "Handle": 536,
+        "Access": 1048579,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434217584,
+        "Pid": 848,
+        "Handle": 544,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434327568,
+        "Pid": 848,
+        "Handle": 548,
+        "Access": 1179785,
+        "Type": "File",
+        "Details": "\\Device\\Mup\\.\\."
+      },
+      {
+        "Offset(V)": 18446738026434330720,
+        "Pid": 848,
+        "Handle": 572,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 964 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434334000,
+        "Pid": 848,
+        "Handle": 580,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434207840,
+        "Pid": 848,
+        "Handle": 584,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432908656,
+        "Pid": 848,
+        "Handle": 588,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434350208,
+        "Pid": 848,
+        "Handle": 596,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac"
+      },
+      {
+        "Offset(V)": 18446738026434347632,
+        "Pid": 848,
+        "Handle": 604,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434371728,
+        "Pid": 848,
+        "Handle": 616,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434347488,
+        "Pid": 848,
+        "Handle": 620,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434358064,
+        "Pid": 848,
+        "Handle": 624,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434375168,
+        "Pid": 848,
+        "Handle": 632,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434443888,
+        "Pid": 848,
+        "Handle": 640,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434445424,
+        "Pid": 848,
+        "Handle": 648,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409003376,
+        "Pid": 848,
+        "Handle": 652,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "m32\\rastls.dll"
+      },
+      {
+        "Offset(V)": 18446738026434448992,
+        "Pid": 848,
+        "Handle": 656,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434445280,
+        "Pid": 848,
+        "Handle": 668,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434208800,
+        "Pid": 848,
+        "Handle": 680,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 944 PID 848"
+      },
+      {
+        "Offset(V)": 18446738026434212288,
+        "Pid": 848,
+        "Handle": 684,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434442384,
+        "Pid": 848,
+        "Handle": 692,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434446224,
+        "Pid": 848,
+        "Handle": 696,
+        "Access": 983043,
+        "Type": "IoCompletionReserve",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434448848,
+        "Pid": 848,
+        "Handle": 700,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434439312,
+        "Pid": 848,
+        "Handle": 704,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434450304,
+        "Pid": 848,
+        "Handle": 708,
+        "Access": 2031619,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434210208,
+        "Pid": 848,
+        "Handle": 712,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434481760,
+        "Pid": 848,
+        "Handle": 728,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434482016,
+        "Pid": 848,
+        "Handle": 740,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819584768,
+        "Pid": 848,
+        "Handle": 748,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434481328,
+        "Pid": 848,
+        "Handle": 756,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434181072,
+        "Pid": 848,
+        "Handle": 768,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434505952,
+        "Pid": 848,
+        "Handle": 780,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964812217152,
+        "Pid": 888,
+        "Handle": 8,
+        "Access": 3,
+        "Type": "Directory",
+        "Details": "KnownDlls"
+      },
+      {
+        "Offset(V)": 18446738026434290992,
+        "Pid": 888,
+        "Handle": 12,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32"
+      },
+      {
+        "Offset(V)": 18446738026434301872,
+        "Pid": 888,
+        "Handle": 20,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434299376,
+        "Pid": 888,
+        "Handle": 24,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819711264,
+        "Pid": 888,
+        "Handle": 32,
+        "Access": 1,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434296064,
+        "Pid": 888,
+        "Handle": 36,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431591600,
+        "Pid": 888,
+        "Handle": 40,
+        "Access": 983406,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e7$"
+      },
+      {
+        "Offset(V)": 18446738026431590944,
+        "Pid": 888,
+        "Handle": 44,
+        "Access": 983247,
+        "Type": "Desktop",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431591600,
+        "Pid": 888,
+        "Handle": 48,
+        "Access": 983406,
+        "Type": "WindowStation",
+        "Details": "Service-0x0-3e7$"
+      },
+      {
+        "Offset(V)": 18446738026434305968,
+        "Pid": 888,
+        "Handle": 56,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434297824,
+        "Pid": 888,
+        "Handle": 84,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434291648,
+        "Pid": 888,
+        "Handle": 88,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434265792,
+        "Pid": 888,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026434301440,
+        "Pid": 888,
+        "Handle": 96,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434262608,
+        "Pid": 888,
+        "Handle": 100,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434257824,
+        "Pid": 888,
+        "Handle": 104,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434305008,
+        "Pid": 888,
+        "Handle": 108,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434296784,
+        "Pid": 888,
+        "Handle": 116,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434266896,
+        "Pid": 888,
+        "Handle": 120,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 892 PID 888"
+      },
+      {
+        "Offset(V)": 18446735964821546880,
+        "Pid": 888,
+        "Handle": 128,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434270160,
+        "Pid": 888,
+        "Handle": 132,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434269888,
+        "Pid": 888,
+        "Handle": 136,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434303328,
+        "Pid": 888,
+        "Handle": 140,
+        "Access": 1048578,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434299232,
+        "Pid": 888,
+        "Handle": 164,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434266288,
+        "Pid": 888,
+        "Handle": 168,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434266160,
+        "Pid": 888,
+        "Handle": 172,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819452000,
+        "Pid": 888,
+        "Handle": 176,
+        "Access": 72,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434316704,
+        "Pid": 888,
+        "Handle": 188,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434314336,
+        "Pid": 888,
+        "Handle": 192,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 908 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026434316208,
+        "Pid": 888,
+        "Handle": 196,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434296608,
+        "Pid": 888,
+        "Handle": 204,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434306592,
+        "Pid": 888,
+        "Handle": 212,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434257328,
+        "Pid": 888,
+        "Handle": 224,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434257024,
+        "Pid": 888,
+        "Handle": 232,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "MmcssStatusEvent"
+      },
+      {
+        "Offset(V)": 18446738026434257024,
+        "Pid": 888,
+        "Handle": 236,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "MmcssStatusEvent"
+      },
+      {
+        "Offset(V)": 18446738026434315712,
+        "Pid": 888,
+        "Handle": 240,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434325200,
+        "Pid": 888,
+        "Handle": 244,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 920 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026434208512,
+        "Pid": 888,
+        "Handle": 252,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434316992,
+        "Pid": 888,
+        "Handle": 256,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 912 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026434208128,
+        "Pid": 888,
+        "Handle": 264,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432907968,
+        "Pid": 888,
+        "Handle": 272,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434350528,
+        "Pid": 888,
+        "Handle": 276,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434347120,
+        "Pid": 888,
+        "Handle": 280,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434349088,
+        "Pid": 888,
+        "Handle": 284,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432908128,
+        "Pid": 888,
+        "Handle": 292,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434355296,
+        "Pid": 888,
+        "Handle": 300,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434347968,
+        "Pid": 888,
+        "Handle": 312,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434349872,
+        "Pid": 888,
+        "Handle": 316,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434350016,
+        "Pid": 888,
+        "Handle": 324,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434373232,
+        "Pid": 888,
+        "Handle": 328,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434375312,
+        "Pid": 888,
+        "Handle": 332,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434358944,
+        "Pid": 888,
+        "Handle": 336,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434372288,
+        "Pid": 888,
+        "Handle": 340,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434374784,
+        "Pid": 888,
+        "Handle": 344,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434374592,
+        "Pid": 888,
+        "Handle": 348,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434419008,
+        "Pid": 888,
+        "Handle": 356,
+        "Access": 2031619,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446738026434419632,
+        "Pid": 888,
+        "Handle": 368,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819951552,
+        "Pid": 888,
+        "Handle": 376,
+        "Access": 4,
+        "Type": "Section",
+        "Details": "__ComCatalogCache__"
+      },
+      {
+        "Offset(V)": 18446735964819510496,
+        "Pid": 888,
+        "Handle": 384,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\CLASSES"
+      },
+      {
+        "Offset(V)": 18446738026409080704,
+        "Pid": 888,
+        "Handle": 388,
+        "Access": 1048577,
+        "Type": "Event",
+        "Details": "MaximumCommitCondition"
+      },
+      {
+        "Offset(V)": 18446738026434356000,
+        "Pid": 888,
+        "Handle": 396,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409003376,
+        "Pid": 888,
+        "Handle": 440,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "m32\\rastls.dll"
+      },
+      {
+        "Offset(V)": 18446738026434431328,
+        "Pid": 888,
+        "Handle": 444,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434438656,
+        "Pid": 888,
+        "Handle": 452,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434447968,
+        "Pid": 888,
+        "Handle": 456,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434358800,
+        "Pid": 888,
+        "Handle": 468,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434424560,
+        "Pid": 888,
+        "Handle": 472,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434431184,
+        "Pid": 888,
+        "Handle": 476,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434423712,
+        "Pid": 888,
+        "Handle": 480,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\lsarpc"
+      },
+      {
+        "Offset(V)": 18446738026434438128,
+        "Pid": 888,
+        "Handle": 484,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434437232,
+        "Pid": 888,
+        "Handle": 492,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434486384,
+        "Pid": 888,
+        "Handle": 496,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434675984,
+        "Pid": 888,
+        "Handle": 504,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819694864,
+        "Pid": 888,
+        "Handle": 536,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819680992,
+        "Pid": 888,
+        "Handle": 544,
+        "Access": 983103,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434675552,
+        "Pid": 888,
+        "Handle": 548,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434675424,
+        "Pid": 888,
+        "Handle": 552,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434675296,
+        "Pid": 888,
+        "Handle": 556,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434675712,
+        "Pid": 888,
+        "Handle": 560,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "theme"
+      },
+      {
+        "Offset(V)": 18446738026434675712,
+        "Pid": 888,
+        "Handle": 568,
+        "Access": 1048576,
+        "Type": "Event",
+        "Details": "theme"
+      },
+      {
+        "Offset(V)": 18446738026434675168,
+        "Pid": 888,
+        "Handle": 572,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434626208,
+        "Pid": 888,
+        "Handle": 580,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434625648,
+        "Pid": 888,
+        "Handle": 584,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434144352,
+        "Pid": 888,
+        "Handle": 588,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434610016,
+        "Pid": 888,
+        "Handle": 592,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434316336,
+        "Pid": 888,
+        "Handle": 596,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434676624,
+        "Pid": 888,
+        "Handle": 600,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434838496,
+        "Pid": 888,
+        "Handle": 608,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434830016,
+        "Pid": 888,
+        "Handle": 648,
+        "Access": 2031619,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434826592,
+        "Pid": 888,
+        "Handle": 664,
+        "Access": 2052,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434833584,
+        "Pid": 888,
+        "Handle": 672,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432680848,
+        "Pid": 888,
+        "Handle": 696,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434823776,
+        "Pid": 888,
+        "Handle": 704,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434824448,
+        "Pid": 888,
+        "Handle": 708,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 320 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026424307200,
+        "Pid": 888,
+        "Handle": 712,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434693824,
+        "Pid": 888,
+        "Handle": 716,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432812352,
+        "Pid": 888,
+        "Handle": 724,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434823968,
+        "Pid": 888,
+        "Handle": 736,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026424307056,
+        "Pid": 888,
+        "Handle": 740,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434692864,
+        "Pid": 888,
+        "Handle": 752,
+        "Access": 1,
+        "Type": "WmiGuid",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434692544,
+        "Pid": 888,
+        "Handle": 756,
+        "Access": 1,
+        "Type": "File",
+        "Details": "\\Device\\PcwDrv"
+      },
+      {
+        "Offset(V)": 18446738026434692400,
+        "Pid": 888,
+        "Handle": 764,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434709328,
+        "Pid": 888,
+        "Handle": 768,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434709184,
+        "Pid": 888,
+        "Handle": 788,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434702448,
+        "Pid": 888,
+        "Handle": 804,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434710368,
+        "Pid": 888,
+        "Handle": 808,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 492 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026434701936,
+        "Pid": 888,
+        "Handle": 812,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434700640,
+        "Pid": 888,
+        "Handle": 816,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 624 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026431071792,
+        "Pid": 888,
+        "Handle": 820,
+        "Access": 5240,
+        "Type": "Process",
+        "Details": "winlogon.exe(436)"
+      },
+      {
+        "Offset(V)": 18446738026434699840,
+        "Pid": 888,
+        "Handle": 824,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431071792,
+        "Pid": 888,
+        "Handle": 828,
+        "Access": 5240,
+        "Type": "Process",
+        "Details": "winlogon.exe(436)"
+      },
+      {
+        "Offset(V)": 18446738026434706544,
+        "Pid": 888,
+        "Handle": 836,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431071792,
+        "Pid": 888,
+        "Handle": 840,
+        "Access": 1048576,
+        "Type": "Process",
+        "Details": "winlogon.exe(436)"
+      },
+      {
+        "Offset(V)": 18446735964819452000,
+        "Pid": 888,
+        "Handle": 848,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431071792,
+        "Pid": 888,
+        "Handle": 868,
+        "Access": 5242,
+        "Type": "Process",
+        "Details": "winlogon.exe(436)"
+      },
+      {
+        "Offset(V)": 18446738026434801248,
+        "Pid": 888,
+        "Handle": 880,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432817536,
+        "Pid": 888,
+        "Handle": 884,
+        "Access": 5240,
+        "Type": "Process",
+        "Details": "LogonUI.exe(788)"
+      },
+      {
+        "Offset(V)": 18446738026434703280,
+        "Pid": 888,
+        "Handle": 896,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434808672,
+        "Pid": 888,
+        "Handle": 904,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 896 PID 888"
+      },
+      {
+        "Offset(V)": 18446738026432975344,
+        "Pid": 888,
+        "Handle": 908,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964821375008,
+        "Pid": 888,
+        "Handle": 912,
+        "Access": 983071,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434714960,
+        "Pid": 888,
+        "Handle": 916,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432970864,
+        "Pid": 888,
+        "Handle": 920,
+        "Access": 2031617,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434713248,
+        "Pid": 888,
+        "Handle": 936,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434712656,
+        "Pid": 888,
+        "Handle": 944,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434813408,
+        "Pid": 888,
+        "Handle": 952,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434791872,
+        "Pid": 888,
+        "Handle": 956,
+        "Access": 2031619,
+        "Type": "Timer",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434804576,
+        "Pid": 888,
+        "Handle": 960,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\"
+      }
+    ],
+    "deleted": []
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

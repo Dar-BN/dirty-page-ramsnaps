@@ -1,0 +1,107 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8005eac200",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80082915c0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8004cf7b30",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa80027d3030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8005eac200",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000d0f030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      }
+    ],
+    "added_count": 4
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39508",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 724,
+        "handle_value": "1376",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\winevt\\Logs\\Microsoft-Windows-ReadyBoost%4Operational.evtx"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 812,
+        "handle_value": "1792",
+        "handle_type": "Thread",
+        "handle_name": "TID 1080 PID 812"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 1748,
+        "handle_value": "392",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\SHAREDACCESS\\EPOCH"
+      }
+    ],
+    "added_count": 3
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x3e283bb0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0x73556f4904030004",
+        "kernel_module_name": "",
+        "kernel_module_size": 45622768
+      },
+      {
+        "kernel_module_offset": "0x3e286640",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88002b2c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 98304
+      },
+      {
+        "kernel_module_offset": "0x3e286720",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88002b44000",
+        "kernel_module_name": "",
+        "kernel_module_size": 184320
+      },
+      {
+        "kernel_module_offset": "0x3e28ca80",
+        "kernel_module_file": "\u0106\u0003\u6553\u6341",
+        "kernel_module_base": "0xfffff88002bbe000",
+        "kernel_module_name": "",
+        "kernel_module_size": 147456
+      },
+      {
+        "kernel_module_offset": "0x3e28de20",
+        "kernel_module_file": "\ue1886\uf8a0\uffff\ue1886\uf8a0\uffff\u3000",
+        "kernel_module_base": "0xfffff88002b71000",
+        "kernel_module_name": "",
+        "kernel_module_size": 315392
+      },
+      {
+        "kernel_module_offset": "0x3e6ee360",
+        "kernel_module_file": "\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uec59\uf000=\u9fc0\uff53\uf000\u72a0\uc000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000",
+        "kernel_module_base": "0xfffff88003d28000",
+        "kernel_module_name": "",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3e8aa150",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003d73000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3e9c2850",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003d8d000",
+        "kernel_module_name": "",
+        "kernel_module_size": 143360
+      },
+      {
+        "kernel_module_offset": "0x3ea13f20",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003a2f000",
+        "kernel_module_name": "",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3ea20910",
+        "kernel_module_file": "\u0121\u1312",
+        "kernel_module_base": "0xfffff88003cc8000",
+        "kernel_module_name": "",
+        "kernel_module_size": 274432
+      },
+      {
+        "kernel_module_offset": "0x3eb54970",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003d60000",
+        "kernel_module_name": "",
+        "kernel_module_size": 77824
+      },
+      {
+        "kernel_module_offset": "0x3eb578d0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003d4b000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ebfa180",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003d7f000",
+        "kernel_module_name": "",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed14f30",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff880015e9000",
+        "kernel_module_name": "",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ed23ea0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003ba4000",
+        "kernel_module_name": "",
+        "kernel_module_size": 147456
+      },
+      {
+        "kernel_module_offset": "0x3ed24f30",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001690000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed3fbe0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001150000",
+        "kernel_module_name": "",
+        "kernel_module_size": 139264
+      },
+      {
+        "kernel_module_offset": "0x3ed6f8e0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003bc8000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ed91690",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003b8e000",
+        "kernel_module_name": "",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3edcf010",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff880037d3000",
+        "kernel_module_name": "",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3edd9d50",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003600000",
+        "kernel_module_name": "",
+        "kernel_module_size": 536576
+      },
+      {
+        "kernel_module_offset": "0x3f1d7810",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88002b76000",
+        "kernel_module_name": "",
+        "kernel_module_size": 438272
+      },
+      {
+        "kernel_module_offset": "0x3ff2f010",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000efe000",
+        "kernel_module_name": "",
+        "kernel_module_size": 786432
+      },
+      {
+        "kernel_module_offset": "0x3ff2f160",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000ddd000",
+        "kernel_module_name": "",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ff2f240",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000db3000",
+        "kernel_module_name": "",
+        "kernel_module_size": 172032
+      },
+      {
+        "kernel_module_offset": "0x3ff2f330",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000c86000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff2f410",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000c6c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 106496
+      },
+      {
+        "kernel_module_offset": "0x3ff2f500",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000c5c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3ff2f5f0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000ff5000",
+        "kernel_module_name": "",
+        "kernel_module_size": 32768
+      },
+      {
+        "kernel_module_offset": "0x3ff2f6e0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000c00000",
+        "kernel_module_name": "",
+        "kernel_module_size": 376832
+      },
+      {
+        "kernel_module_offset": "0x3ff2f7d0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000fe0000",
+        "kernel_module_name": "",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3ff2f8b0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000fcb000",
+        "kernel_module_name": "",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3ff2f9a0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000fbe000",
+        "kernel_module_name": "",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3ff2fa90",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000ec6000",
+        "kernel_module_name": "",
+        "kernel_module_size": 208896
+      },
+      {
+        "kernel_module_offset": "0x3ff2fb70",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000ebc000",
+        "kernel_module_name": "",
+        "kernel_module_size": 40960
+      },
+      {
+        "kernel_module_offset": "0x3ff2fc60",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000eb3000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff2fd40",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000d5c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 356352
+      },
+      {
+        "kernel_module_offset": "0x3ff2fe30",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000ea4000",
+        "kernel_module_name": "",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ff2ff10",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88000e00000",
+        "kernel_module_name": "",
+        "kernel_module_size": 671744
+      },
+      {
+        "kernel_module_offset": "0x3ff31010",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff880018ef000",
+        "kernel_module_name": "",
+        "kernel_module_size": 32768
+      },
+      {
+        "kernel_module_offset": "0x3ff31aa0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff8800199c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 196608
+      },
+      {
+        "kernel_module_offset": "0x3ff31b90",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001986000",
+        "kernel_module_name": "",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ff31c70",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff8800194c000",
+        "kernel_module_name": "",
+        "kernel_module_size": 237568
+      },
+      {
+        "kernel_module_offset": "0x3ff31d50",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001943000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff31e40",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001931000",
+        "kernel_module_name": "",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3ff31f20",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff880018f7000",
+        "kernel_module_name": "",
+        "kernel_module_size": 237568
+      },
+      {
+        "kernel_module_offset": "0x3ffbc420",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff96000820000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      }
+    ],
+    "added_count": 47
+  },
+  "handles": {
+    "added": [],
+    "added_count": 0
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,899 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1051104432,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430993920,
+        "Size": 45056,
+        "Service Key": "flpydisk",
+        "Name": "flpydisk",
+        "Driver Name": "\\Driver\\flpydisk"
+      },
+      {
+        "Offset(P)": 1051315824,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827390054400,
+        "Size": 86016,
+        "Service Key": "NDProxy",
+        "Name": "NDProxy",
+        "Driver Name": "\\Driver\\NDProxy"
+      }
+    ],
+    "deleted": []
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [
+      {
+        "Offset(P)": 1051381856,
+        "Name": "autochk.exe",
+        "PID": 284,
+        "pslist": "True",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "True",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ],
+    "deleted": []
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [
+      {
+        "Pid": 256,
+        "Base": 1210253312,
+        "Size": 131072,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "\\SystemRoot\\System32\\smss.exe"
+      },
+      {
+        "Pid": 256,
+        "Base": 2006188032,
+        "Size": 1740800,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+      },
+      {
+        "Pid": 284,
+        "Base": 4279631872,
+        "Size": 790528,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\system32\\autochk.exe"
+      },
+      {
+        "Pid": 284,
+        "Base": 2006188032,
+        "Size": 1740800,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+      }
+    ],
+    "deleted": [],
+    "both": [
+      {
+        "old": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "added": [
+      {
+        "Offset(P)": 1051590672,
+        "Proto": "UDPv4",
+        "LocalAddr": "192.168.30.21:138",
+        "ForeignAddr": "*:*",
+        "State": "",
+        "PID": 4,
+        "Owner": "System",
+        "Created": "2022-04-27 15:59:15 UTC+0000"
+      },
+      {
+        "Offset(P)": 1051591120,
+        "Proto": "UDPv4",
+        "LocalAddr": "192.168.30.21:137",
+        "ForeignAddr": "*:*",
+        "State": "",
+        "PID": 4,
+        "Owner": "System",
+        "Created": "2022-04-27 15:59:15 UTC+0000"
+      },
+      {
+        "Offset(P)": 1051098448,
+        "Proto": "TCPv4",
+        "LocalAddr": "192.168.30.21:139",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 4,
+        "Owner": "System",
+        "Created": ""
+      }
+    ],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [
+      {
+        "Offset(P)": 1051104848,
+        "Name": "flpydisk.sys",
+        "Base": 18446735827430993920,
+        "Size": 45056,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\flpydisk.sys"
+      },
+      {
+        "Offset(P)": 1051200640,
+        "Name": "NDProxy.SYS",
+        "Base": 18446735827390054400,
+        "Size": 86016,
+        "File": "\\SystemRoot\\System32\\Drivers\\NDProxy.SYS"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 46040545,
+        "Name": "",
+        "Base": 9893335582443634605,
+        "Size": 2218125312,
+        "File": ""
+      }
+    ]
+  },
+  "handles": {
+    "added": [
+      {
+        "Offset(V)": 18446738026429810144,
+        "Pid": 4,
+        "Handle": 72,
+        "Access": 1048576,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows\\bootstat.dat"
+      },
+      {
+        "Offset(V)": 18446735964814753552,
+        "Pid": 4,
+        "Handle": 84,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\BIOS"
+      },
+      {
+        "Offset(V)": 18446735964814722224,
+        "Pid": 4,
+        "Handle": 100,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\VIDEO\\{00596792-FBAE-42B3-98CD-38C44EAEAF39}\\0000\\VOLATILESETTINGS"
+      },
+      {
+        "Offset(V)": 18446735964814771152,
+        "Pid": 4,
+        "Handle": 104,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\CLASS\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\0001"
+      },
+      {
+        "Offset(V)": 18446735964811823712,
+        "Pid": 4,
+        "Handle": 112,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\HARDWARE\\DESCRIPTION\\SYSTEM\\BIOS"
+      },
+      {
+        "Offset(V)": 18446738026409048192,
+        "Pid": 4,
+        "Handle": 116,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "VolumesSafeForWriteAccess"
+      },
+      {
+        "Offset(V)": 18446738026429816896,
+        "Pid": 4,
+        "Handle": 120,
+        "Access": 0,
+        "Type": "Thread",
+        "Details": "TID 276 PID 4"
+      },
+      {
+        "Offset(V)": 18446735964815031776,
+        "Pid": 4,
+        "Handle": 124,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\CLASS\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\0000"
+      },
+      {
+        "Offset(V)": 18446738026409048192,
+        "Pid": 4,
+        "Handle": 128,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "VolumesSafeForWriteAccess"
+      },
+      {
+        "Offset(V)": 18446738026430095136,
+        "Pid": 4,
+        "Handle": 132,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026429921296,
+        "Pid": 4,
+        "Handle": 144,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026409048192,
+        "Pid": 4,
+        "Handle": 264,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "VolumesSafeForWriteAccess"
+      },
+      {
+        "Offset(V)": 18446735964813023776,
+        "Pid": 4,
+        "Handle": 276,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDPROXY"
+      },
+      {
+        "Offset(V)": 18446738026429823968,
+        "Pid": 4,
+        "Handle": 280,
+        "Access": 2,
+        "Type": "Event",
+        "Details": "EFSInitEvent"
+      },
+      {
+        "Offset(V)": 18446738026430071648,
+        "Pid": 4,
+        "Handle": 296,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Udp"
+      },
+      {
+        "Offset(V)": 18446738026429542912,
+        "Pid": 4,
+        "Handle": 300,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Udp"
+      },
+      {
+        "Offset(V)": 18446738026429799136,
+        "Pid": 4,
+        "Handle": 304,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026430091600,
+        "Pid": 4,
+        "Handle": 308,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430095440,
+        "Pid": 4,
+        "Handle": 312,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430095920,
+        "Pid": 4,
+        "Handle": 316,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430101840,
+        "Pid": 4,
+        "Handle": 320,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026429579344,
+        "Pid": 4,
+        "Handle": 324,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430103632,
+        "Pid": 4,
+        "Handle": 328,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430106048,
+        "Pid": 4,
+        "Handle": 332,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430104208,
+        "Pid": 4,
+        "Handle": 336,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430122928,
+        "Pid": 4,
+        "Handle": 340,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430120960,
+        "Pid": 4,
+        "Handle": 344,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430127024,
+        "Pid": 4,
+        "Handle": 348,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430125760,
+        "Pid": 4,
+        "Handle": 352,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430131584,
+        "Pid": 4,
+        "Handle": 356,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430129744,
+        "Pid": 4,
+        "Handle": 360,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430135888,
+        "Pid": 4,
+        "Handle": 364,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430133920,
+        "Pid": 4,
+        "Handle": 368,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430139984,
+        "Pid": 4,
+        "Handle": 372,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430138208,
+        "Pid": 4,
+        "Handle": 376,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430140496,
+        "Pid": 4,
+        "Handle": 380,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430142752,
+        "Pid": 4,
+        "Handle": 384,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430140912,
+        "Pid": 4,
+        "Handle": 388,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430147504,
+        "Pid": 4,
+        "Handle": 392,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430145664,
+        "Pid": 4,
+        "Handle": 396,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430151760,
+        "Pid": 4,
+        "Handle": 400,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430149920,
+        "Pid": 4,
+        "Handle": 404,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430156160,
+        "Pid": 4,
+        "Handle": 408,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430154320,
+        "Pid": 4,
+        "Handle": 412,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430160256,
+        "Pid": 4,
+        "Handle": 416,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430158416,
+        "Pid": 4,
+        "Handle": 420,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430164560,
+        "Pid": 4,
+        "Handle": 424,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430162720,
+        "Pid": 4,
+        "Handle": 428,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430165072,
+        "Pid": 4,
+        "Handle": 432,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430167328,
+        "Pid": 4,
+        "Handle": 436,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430165488,
+        "Pid": 4,
+        "Handle": 440,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430172080,
+        "Pid": 4,
+        "Handle": 444,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430170240,
+        "Pid": 4,
+        "Handle": 448,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430176480,
+        "Pid": 4,
+        "Handle": 452,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430174640,
+        "Pid": 4,
+        "Handle": 456,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430180576,
+        "Pid": 4,
+        "Handle": 460,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430178736,
+        "Pid": 4,
+        "Handle": 464,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430184832,
+        "Pid": 4,
+        "Handle": 468,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430182992,
+        "Pid": 4,
+        "Handle": 472,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430189344,
+        "Pid": 4,
+        "Handle": 476,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430187504,
+        "Pid": 4,
+        "Handle": 480,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430189648,
+        "Pid": 4,
+        "Handle": 484,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430192064,
+        "Pid": 4,
+        "Handle": 488,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430190224,
+        "Pid": 4,
+        "Handle": 492,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430196816,
+        "Pid": 4,
+        "Handle": 496,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430194976,
+        "Pid": 4,
+        "Handle": 500,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026430201216,
+        "Pid": 4,
+        "Handle": 504,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\Tcp"
+      },
+      {
+        "Offset(V)": 18446738026429564896,
+        "Pid": 256,
+        "Handle": 4,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows"
+      },
+      {
+        "Offset(V)": 18446738026429564528,
+        "Pid": 256,
+        "Handle": 8,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429568992,
+        "Pid": 256,
+        "Handle": 12,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\ProtectedPrefix"
+      },
+      {
+        "Offset(V)": 18446738026429568656,
+        "Pid": 256,
+        "Handle": 16,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\Mailslot\\ProtectedPrefix"
+      },
+      {
+        "Offset(V)": 18446738026429568320,
+        "Pid": 256,
+        "Handle": 20,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\ProtectedPrefix\\Administrators"
+      },
+      {
+        "Offset(V)": 18446738026429562992,
+        "Pid": 256,
+        "Handle": 24,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\Mailslot\\ProtectedPrefix\\Administrators"
+      },
+      {
+        "Offset(V)": 18446738026429563808,
+        "Pid": 256,
+        "Handle": 28,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\ProtectedPrefix\\LocalService"
+      },
+      {
+        "Offset(V)": 18446738026429563472,
+        "Pid": 256,
+        "Handle": 32,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\Mailslot\\ProtectedPrefix\\LocalService"
+      },
+      {
+        "Offset(V)": 18446738026429571184,
+        "Pid": 256,
+        "Handle": 36,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\ProtectedPrefix\\NetWorkService"
+      },
+      {
+        "Offset(V)": 18446738026429574944,
+        "Pid": 256,
+        "Handle": 40,
+        "Access": 2032127,
+        "Type": "File",
+        "Details": "\\Device\\Mailslot\\ProtectedPrefix\\NetWorkService"
+      },
+      {
+        "Offset(V)": 18446738026429574752,
+        "Pid": 256,
+        "Handle": 44,
+        "Access": 2031619,
+        "Type": "IoCompletion",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429574480,
+        "Pid": 256,
+        "Handle": 48,
+        "Access": 983295,
+        "Type": "TpWorkerFactory",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429572352,
+        "Pid": 256,
+        "Handle": 52,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "SmApiPort"
+      },
+      {
+        "Offset(V)": 18446738026409048192,
+        "Pid": 256,
+        "Handle": 56,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": "VolumesSafeForWriteAccess"
+      },
+      {
+        "Offset(V)": 18446735964813472544,
+        "Pid": 256,
+        "Handle": 60,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\\ENVIRONMENT"
+      },
+      {
+        "Offset(V)": 18446735964814708112,
+        "Pid": 256,
+        "Handle": 64,
+        "Access": 983055,
+        "Type": "Directory",
+        "Details": "Sessions"
+      },
+      {
+        "Offset(V)": 18446735964811322160,
+        "Pid": 256,
+        "Handle": 68,
+        "Access": 983055,
+        "Type": "Directory",
+        "Details": "GLOBAL??"
+      },
+      {
+        "Offset(V)": 18446738026430198720,
+        "Pid": 256,
+        "Handle": 72,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 288 PID 284"
+      },
+      {
+        "Offset(V)": 18446738026429861984,
+        "Pid": 256,
+        "Handle": 76,
+        "Access": 2097151,
+        "Type": "Process",
+        "Details": "autochk.exe(284)"
+      },
+      {
+        "Offset(V)": 18446738026424046368,
+        "Pid": 284,
+        "Handle": 4,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows\\System32"
+      },
+      {
+        "Offset(V)": 18446735964811322160,
+        "Pid": 284,
+        "Handle": 8,
+        "Access": 983055,
+        "Type": "Directory",
+        "Details": "GLOBAL??"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(V)": 18446738026428083040,
+        "Pid": 4,
+        "Handle": 108,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 260 PID 256"
+      }
+    ]
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

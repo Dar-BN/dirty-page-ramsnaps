@@ -1,0 +1,68 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39538",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1380",
+        "handle_type": "Thread",
+        "handle_name": "TID 1964 PID 1112"
+      },
+      {
+        "handle_granted_access": "4",
+        "process_id": 884,
+        "handle_value": "3184",
+        "handle_type": "WmiGuid",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "4",
+        "process_id": 884,
+        "handle_value": "3200",
+        "handle_type": "WmiGuid",
+        "handle_name": ""
+      }
+    ],
+    "added_count": 3
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

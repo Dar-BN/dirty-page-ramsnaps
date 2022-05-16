@@ -1,0 +1,1327 @@
+Processing file: diff-periodic-dump-1650825619494.dmp-vs-periodic-dump-1650825625508.dmp.json
+
+
+======================================================================
+Table: psxview (added)
+======================================================================
+  |Offset(P)               | Name              | PID     | pslist  | psscan  | thrdpro | pspcid  | csrss   | session | deskthr | Exi | 
+  -----------------------  -----------------  -------  -------  -------  -------  -------  -------  -------  -------  ---  
+0a0,4
+> | =0x000000003de2b060= | =scrcons.exe= | =2416= | =True= | =True= | =True= | =True= | =True= | =True= | =True= | == | 
+> | =0x000000003e19f060= | =WmiPrvSE.exe= | =2440= | =True= | =True= | =True= | =True= | =True= | =True= | =True= | == | 
+
+======================================================================
+Table: psxview (deleted)
+======================================================================
+  |Offset(P)               | Name            | PID     | pslist  | psscan  | thrdproc | pspcid  | csrss    | session | deskthrd | ExitTime                        | 
+  -----------------------  ---------------  -------  -------  -------  --------  -------  --------  -------  --------  -------------------------------  
+0,5d0
+< | =0x000000003e2a4630= | =wmighost.dll= | =2228= | =True= | =True= | =False= | =True= | =False= | =True= | =False= | =2022-04-24 17:38:29 UTC+0000= | 
+
+
+
+======================================================================
+Table: hidden_processes (deleted)
+======================================================================
+  |Offset(P)               | Name              | PID     | pslist  | psscan  | thrdproc | pspcid  | csrss    | session | deskthrd | ExitTime                        | 
+  -----------------------  -----------------  -------  -------  -------  --------  -------  --------  -------  --------  -------------------------------  
+0,9d0
+< | =0x000000003e2a4630= | =wmighost.dll= | =2228= | =True= | =True= | =False= | =True= | =False= | =True= | =False= | =2022-04-24 17:38:29 UTC+0000= | 
+
+
+
+======================================================================
+Table: dlllist (added)
+======================================================================
+  |Pid     | Base                    | Size        | LoadCoun | LoadTime                        | Path                                                                                                                            | 
+  -------  -----------------------  -----------  --------  -------------------------------  -------------------------------------------------------------------------------------------------------------------------------  
+0a0,249
+> | =2416= | =0x00000000ff9b0000= | =61440= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\system32\wbem\scrcons.exe= | 
+> | =2416= | =0x0000000076ed0000= | =1740800= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\SYSTEM32\ntdll.dll= | 
+> | =2416= | =0x0000000076cb0000= | =1175552= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\kernel32.dll= | 
+> | =2416= | =0x000007fefced0000= | =438272= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\KERNELBASE.dll= | 
+> | =2416= | =0x0000000076dd0000= | =1024000= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USER32.dll= | 
+> | =2416= | =0x000007fefdb20000= | =421888= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\GDI32.dll= | 
+> | =2416= | =0x000007fefde60000= | =57344= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LPK.dll= | 
+> | =2416= | =0x000007fefde70000= | =823296= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USP10.dll= | 
+> | =2416= | =0x000007fefecd0000= | =651264= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\msvcrt.dll= | 
+> | =2416= | =0x000007fef7e20000= | =454656= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\esscli.dll= | 
+> | =2416= | =0x000007fef8390000= | =548864= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbemcomn.dll= | 
+> | =2416= | =0x000007feff100000= | =880640= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\OLEAUT32.dll= | 
+> | =2416= | =0x000007fefd620000= | =2109440= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ole32.dll= | 
+> | =2416= | =0x000007fefefd0000= | =1232896= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RPCRT4.dll= | 
+> | =2416= | =0x000007fefdd10000= | =315392= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WS2_32.dll= | 
+> | =2416= | =0x000007fefd210000= | =32768= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NSI.dll= | 
+> | =2416= | =0x000007fef8120000= | =925696= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\FastProx.dll= | 
+> | =2416= | =0x000007fefd2a0000= | =897024= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ADVAPI32.dll= | 
+> | =2416= | =0x000007fefd3b0000= | =126976= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\SYSTEM32\sechost.dll= | 
+> | =2416= | =0x000007fef80f0000= | =159744= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NTDSAPI.dll= | 
+> | =2416= | =0x000007fefd380000= | =188416= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\IMM32.DLL= | 
+> | =2416= | =0x000007fefd830000= | =1085440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSCTF.dll= | 
+> | =2416= | =0x000007fefcd10000= | =61440= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTBASE.dll= | 
+> | =2416= | =0x000007fefd500000= | =626688= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CLBCatQ.DLL= | 
+> | =2416= | =0x000007fefc6b0000= | =94208= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTSP.dll= | 
+> | =2416= | =0x000007fefc3b0000= | =290816= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\rsaenh.dll= | 
+> | =2416= | =0x000007fefce00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RpcRtRemote.dll= | 
+> | =2416= | =0x000007fef80e0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemprox.dll= | 
+> | =2416= | =0x000007fef7e00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemsvc.dll= | 
+> | =2416= | =0x000007fef46f0000= | =929792= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\System32\jscript.dll= | 
+> | =2416= | =0x000007fefd5a0000= | =462848= | =18= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SHLWAPI.dll= | 
+> | =2416= | =0x000007fefbf80000= | =49152= | =3= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\System32\VERSION.dll= | 
+> | =2416= | =0x000007fefc8a0000= | =192512= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\authz.DLL= | 
+> | =2416= | =0x000007fefa870000= | =49152= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\dsrole.dll= | 
+> | =2416= | =0x000007fefb8a0000= | =118784= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SAMLIB.dll= | 
+> | =2416= | =0x000007fef7330000= | =282624= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemdisp.dll= | 
+> | =2416= | =0x000007fef7ce0000= | =155648= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wmiutils.dll= | 
+> | =2416= | =0x000007fef7300000= | =163840= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wshom.ocx= | 
+> | =2416= | =0x000007fefa310000= | =98304= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MPR.dll= | 
+> | =2416= | =0x000007fefdf40000= | =14188544= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SHELL32.dll= | 
+> | =2416= | =0x000007fef72c0000= | =212992= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ScrRun.dll= | 
+> | =2416= | =0x000007fef4580000= | =1503232= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Program Files\Common Files\System\ado\msado15.dll= | 
+> | =2416= | =0x000007fef6ba0000= | =163840= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSDART.DLL= | 
+> | =2416= | =0x000007fefcd20000= | =593920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SXS.DLL= | 
+> | =2416= | =0x000007fef4100000= | =1916928= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\msxml3.dll= | 
+> | =2416= | =0x000007fefdb90000= | =1540096= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\urlmon.dll= | 
+> | =2416= | =0x000007fefd3d0000= | =1220608= | =7= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WININET.dll= | 
+> | =2416= | =0x000007fefed70000= | =2461696= | =8= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\iertutil.dll= | 
+> | =2416= | =0x000007fefcf40000= | =1470464= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\CRYPT32.dll= | 
+> | =2416= | =0x000007fefcec0000= | =61440= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\MSASN1.dll= | 
+> | =2416= | =0x000007fefb8f0000= | =2048000= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll= | 
+> | =2416= | =0x000007fefcc80000= | =151552= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\SspiCli.dll= | 
+> | =2416= | =0x000007fefce20000= | =61440= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\profapi.dll= | 
+> | =2416= | =0x000007fefa740000= | =184320= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\ntmarta.dll= | 
+> | =2416= | =0x000007fefde00000= | =335872= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WLDAP32.dll= | 
+> | =2416= | =0x000007fefc4d0000= | =372736= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dnsapi.DLL= | 
+> | =2416= | =0x000007fefa7b0000= | =159744= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\iphlpapi.DLL= | 
+> | =2416= | =0x000007fefa7a0000= | =45056= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WINNSI.DLL= | 
+> | =2416= | =0x000007fef6050000= | =401408= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\RASAPI32.dll= | 
+> | =2416= | =0x000007fef6b80000= | =114688= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rasman.dll= | 
+> | =2416= | =0x000007fefae70000= | =69632= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rtutils.dll= | 
+> | =2416= | =0x000007fef40f0000= | =36864= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\sensapi.dll= | 
+> | =2416= | =0x000007fefc650000= | =348160= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\mswsock.dll= | 
+> | =2416= | =0x000007fefc050000= | =28672= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\wshtcpip.dll= | 
+> | =2416= | =0x0000000077090000= | =12288= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\Normaliz.dll= | 
+> | =2416= | =0x000007fefa930000= | =86016= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\NLAapi.dll= | 
+> | =2416= | =0x000007fef7bd0000= | =32768= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rasadhlp.dll= | 
+> | =2416= | =0x000007fefa330000= | =86016= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\napinsp.dll= | 
+> | =2416= | =0x000007fef8f80000= | =102400= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\pnrpnsp.dll= | 
+> | =2416= | =0x000007fefae90000= | =45056= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\winrnr.dll= | 
+> | =2416= | =0x000007fefc640000= | =28672= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\wship6.dll= | 
+> | =2416= | =0x000007fefa5e0000= | =339968= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\fwpuclnt.dll= | 
+> | =2416= | =0x000007fef7be0000= | =475136= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\netprofm.dll= | 
+> | =2416= | =0x000007fef7a80000= | =49152= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\npmproxy.dll= | 
+> | =2416= | =0x000007fefa4f0000= | =98304= | =1= | =2022-04-24 17:38:38 UTC+0000= | =C:\Windows\system32\DHCPCSVC.DLL= | 
+> | =2416= | =0x000007fefa510000= | =69632= | =1= | =2022-04-24 17:38:38 UTC+0000= | =C:\Windows\system32\dhcpcsvc6.DLL= | 
+> | =2440= | =0x00000000ff050000= | =389120= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\system32\wbem\wmiprvse.exe= | 
+> | =2440= | =0x0000000076ed0000= | =1740800= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\SYSTEM32\ntdll.dll= | 
+> | =2440= | =0x0000000076cb0000= | =1175552= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\kernel32.dll= | 
+> | =2440= | =0x000007fefced0000= | =438272= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\KERNELBASE.dll= | 
+> | =2440= | =0x000007fefd2a0000= | =897024= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ADVAPI32.dll= | 
+> | =2440= | =0x000007fefecd0000= | =651264= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\msvcrt.dll= | 
+> | =2440= | =0x000007fefd3b0000= | =126976= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\SYSTEM32\sechost.dll= | 
+> | =2440= | =0x000007fefefd0000= | =1232896= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RPCRT4.dll= | 
+> | =2440= | =0x0000000076dd0000= | =1024000= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USER32.dll= | 
+> | =2440= | =0x000007fefdb20000= | =421888= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\GDI32.dll= | 
+> | =2440= | =0x000007fefde60000= | =57344= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LPK.dll= | 
+> | =2440= | =0x000007fefde70000= | =823296= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USP10.dll= | 
+> | =2440= | =0x000007fef8390000= | =548864= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbemcomn.dll= | 
+> | =2440= | =0x000007feff100000= | =880640= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\OLEAUT32.dll= | 
+> | =2440= | =0x000007fefd620000= | =2109440= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ole32.dll= | 
+> | =2440= | =0x000007fefdd10000= | =315392= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WS2_32.dll= | 
+> | =2440= | =0x000007fefd210000= | =32768= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NSI.dll= | 
+> | =2440= | =0x000007fef8120000= | =925696= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\FastProx.dll= | 
+> | =2440= | =0x000007fef80f0000= | =159744= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NTDSAPI.dll= | 
+> | =2440= | =0x000007fefad10000= | =90112= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NCObjAPI.DLL= | 
+> | =2440= | =0x000007fefd380000= | =188416= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\IMM32.DLL= | 
+> | =2440= | =0x000007fefd830000= | =1085440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSCTF.dll= | 
+> | =2440= | =0x000007fefcd10000= | =61440= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTBASE.dll= | 
+> | =2440= | =0x000007fefa740000= | =184320= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ntmarta.dll= | 
+> | =2440= | =0x000007fefde00000= | =335872= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WLDAP32.dll= | 
+> | =2440= | =0x000007fefd500000= | =626688= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CLBCatQ.DLL= | 
+> | =2440= | =0x000007fef80e0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemprox.dll= | 
+> | =2440= | =0x000007fefc6b0000= | =94208= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTSP.dll= | 
+> | =2440= | =0x000007fefc3b0000= | =290816= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\rsaenh.dll= | 
+> | =2440= | =0x000007fefce00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RpcRtRemote.dll= | 
+> | =2440= | =0x000007fef7e00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemsvc.dll= | 
+> | =2440= | =0x000007fef7ce0000= | =155648= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wmiutils.dll= | 
+> | =2440= | =0x000007fef4380000= | =2072576= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\cimwin32.dll= | 
+> | =2440= | =0x000007fef4330000= | =311296= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\framedynos.dll= | 
+> | =2440= | =0x000007fefcc80000= | =151552= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SspiCli.dll= | 
+> | =2440= | =0x000007fefb140000= | =69632= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WTSAPI32.dll= | 
+> | =2440= | =0x000007fefb0c0000= | =32768= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WINBRAND.dll= | 
+> | =2440= | =0x00000000746c0000= | =12288= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SECURITY.DLL= | 
+> | =2440= | =0x000007fefcc50000= | =45056= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SECUR32.DLL= | 
+> | =2440= | =0x000007fefc2b0000= | =40960= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\credssp.dll= | 
+> | =2440= | =0x000007fefc440000= | =356352= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\schannel.DLL= | 
+> | =2440= | =0x000007fefcf40000= | =1470464= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPT32.dll= | 
+> | =2440= | =0x000007fefcec0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSASN1.dll= | 
+> | =2440= | =0x000007fefb010000= | =90112= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NETAPI32.DLL= | 
+> | =2440= | =0x000007fefb000000= | =49152= | =6= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\netutils.dll= | 
+> | =2440= | =0x000007fefcbb0000= | =143360= | =11= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\srvcli.dll= | 
+> | =2440= | =0x000007fefafe0000= | =86016= | =6= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wkscli.dll= | 
+> | =2440= | =0x000007fefafc0000= | =81920= | =14= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SAMCLI.DLL= | 
+> | =2440= | =0x000007fefc4a0000= | =196608= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LOGONCLI.DLL= | 
+> | =2440= | =0x000007fef6030000= | =73728= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\BROWCLI.DLL= | 
+> | =2440= | =0x000007fef42e0000= | =40960= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SCHEDCLI.DLL= | 
+> | =2440= | =0x000007fefa870000= | =49152= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\DSROLE.DLL= | 
+> | =2440= | =0x000007fef9cc0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\cscapi.dll= | 
+> | =2440= | =0x000007fefd150000= | =106496= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\DEVOBJ.dll= | 
+> | =2440= | =0x000007fefd170000= | =221184= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CFGMGR32.dll= | 
+> | =2440= | =0x000007fefa7b0000= | =159744= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\IPHLPAPI.DLL= | 
+> | =2440= | =0x000007fefa7a0000= | =45056= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WINNSI.DLL= | 
+> | =2440= | =0x000007fefa510000= | =69632= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dhcpcsvc6.DLL= | 
+> | =2440= | =0x000007fefa4f0000= | =98304= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dhcpcsvc.DLL= | 
+
+======================================================================
+Table: dlllist (deleted)
+======================================================================
+  |Pid     | Base                    | Size        | LoadCoun | LoadTime                        | Path                                                                                                                            | 
+  -------  -----------------------  -----------  --------  -------------------------------  -------------------------------------------------------------------------------------------------------------------------------  
+0,423d0
+< | =2228= | =0x0000000000000000= | =0= | =0= | == | =Error reading PEB for pid= | 
+
+
+
+======================================================================
+Table: connections (added)
+======================================================================
+  |Offset(P)               | Proto    | LocalAddr              | ForeignAddr          | State     | PID     | Owner          | Created                         | 
+  -----------------------  --------  ----------------------  --------------------  ---------  -------  --------------  -------------------------------  
+0a0,6
+> | =0x000000003de1f530= | =UDPv4= | =127.0.0.1:49152= | =*:*= | == | =2416= | =scrcons.exe= | =2022-04-24 17:38:35 UTC+0000= | 
+
+
+======================================================================
+Table: handles (added)
+======================================================================
+  |Offset(V)               | Pid     | Handle  | Access      | Type               | Details                                                                                                                                         | 
+  -----------------------  -------  -------  -----------  ------------------  -----------------------------------------------------------------------------------------------------------------------------------------------  
+0a0,1173
+> | =0xfffffa8002c2b060= | =4= | =1816= | =42= | =Process= | =scrcons.exe(2416)= | 
+> | =0xfffffa8002b9f060= | =4= | =1900= | =42= | =Process= | =WmiPrvSE.exe(2440)= | 
+> | =0xfffffa80020d7b60= | =336= | =1388= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+> | =0xfffffa8002c2b060= | =336= | =1408= | =2097151= | =Process= | =scrcons.exe(2416)= | 
+> | =0xfffffa8002bb4210= | =336= | =1496= | =2097151= | =Thread= | =TID 2428 PID 2416= | 
+> | =0xfffffa8002c1e860= | =336= | =1500= | =2097151= | =Thread= | =TID 2436 PID 2416= | 
+> | =0xfffffa8002bacb60= | =336= | =1508= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+> | =0xfffffa8002b9f060= | =336= | =1512= | =2097151= | =Process= | =WmiPrvSE.exe(2440)= | 
+> | =0xfffffa8002ba1440= | =336= | =1516= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+> | =0xfffffa8002c2a440= | =336= | =1524= | =2097151= | =Thread= | =TID 2452 PID 2440= | 
+> | =0xfffffa8002c298e0= | =336= | =1528= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+> | =0xfffffa8002bbeb60= | =336= | =1536= | =2097151= | =Thread= | =TID 2464 PID 2440= | 
+> | =0xfffffa8002c2ba90= | =336= | =1540= | =2097151= | =Thread= | =TID 2468 PID 2440= | 
+> | =0xfffffa8002c26510= | =336= | =1544= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+> | =0xfffffa80025da810= | =336= | =1548= | =2097151= | =Thread= | =TID 2472 PID 2440= | 
+> | =0xfffffa8002c2ab60= | =336= | =1552= | =2097151= | =Thread= | =TID 2476 PID 2440= | 
+> | =0xfffffa8002b9e060= | =336= | =1556= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+> | =0xfffffa8002b95060= | =336= | =1560= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+> | =0xfffffa8002c61b60= | =336= | =1568= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+> | =0xfffffa8002b9f060= | =488= | =2012= | =5240= | =Process= | =WmiPrvSE.exe(2440)= | 
+> | =0xfffffa8002c2b060= | =488= | =2308= | =5240= | =Process= | =scrcons.exe(2416)= | 
+> | =0xfffffa8002c2b060= | =672= | =800= | =2097151= | =Process= | =scrcons.exe(2416)= | 
+> | =0xfffffa8002b9f060= | =672= | =968= | =2097151= | =Process= | =WmiPrvSE.exe(2440)= | 
+> | =0xfffffa8002b9f060= | =876= | =3888= | =1054017= | =Process= | =WmiPrvSE.exe(2440)= | 
+> | =0xfffff8a0013ebed0= | =2416= | =4= | =9= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS= | 
+> | =0xfffff8a000d1fde0= | =2416= | =8= | =3= | =Directory= | =KnownDlls= | 
+> | =0xfffffa8001faf6f0= | =2416= | =12= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\System32= | 
+> | =0xfffff8a001716060= | =2416= | =16= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\VERSIONS= | 
+> | =0xfffff8a0017fefa0= | =2416= | =20= | =1= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\SESSION MANAGER= | 
+> | =0xfffffa8001dfa220= | =2416= | =24= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002492570= | =2416= | =28= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80025d5aa0= | =2416= | =32= | =35586051= | =Event= | == | 
+> | =0xfffffa8002266f60= | =2416= | =36= | =983406= | =WindowStation= | =Service-0x0-3e7$= | 
+> | =0xfffffa80022667d0= | =2416= | =40= | =983247= | =Desktop= | =Default= | 
+> | =0xfffffa8002266f60= | =2416= | =44= | =983406= | =WindowStation= | =Service-0x0-3e7$= | 
+> | =0xfffffa8002945070= | =2416= | =48= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\wbem\en-US\scrcons.exe.mui= | 
+> | =0xfffff8a001199ad0= | =2416= | =52= | =983103= | =Key= | =MACHINE= | 
+> | =0xfffffa800283eb50= | =2416= | =56= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002789a20= | =2416= | =60= | =2031619= | =Event= | == | 
+> | =0xfffffa80025c9690= | =2416= | =64= | =2031619= | =Event= | == | 
+> | =0xfffffa8002494e00= | =2416= | =68= | =2031619= | =Event= | == | 
+> | =0xfffffa80029598c0= | =2416= | =72= | =2031619= | =Event= | == | 
+> | =0xfffffa8002952590= | =2416= | =76= | =2031619= | =Event= | == | 
+> | =0xfffffa80020d7560= | =2416= | =80= | =2031619= | =Event= | == | 
+> | =0xfffff8a003253db0= | =2416= | =84= | =15= | =Directory= | =BaseNamedObjects= | 
+> | =0xfffffa8002b9efc0= | =2416= | =88= | =2031617= | =Mutant= | == | 
+> | =0xfffffa8002bb1fb0= | =2416= | =92= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002452680= | =2416= | =96= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bb7fc0= | =2416= | =100= | =2031617= | =Mutant= | == | 
+> | =0xfffffa80028aa860= | =2416= | =104= | =2031619= | =Event= | == | 
+> | =0xfffffa8002499490= | =2416= | =108= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002b9c220= | =2416= | =112= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c1f140= | =2416= | =116= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a5ab40= | =2416= | =120= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002721240= | =2416= | =124= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800262f6d0= | =2416= | =128= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002531a30= | =2416= | =132= | =2031619= | =Event= | == | 
+> | =0xfffffa80028d9390= | =2416= | =136= | =2031619= | =Event= | == | 
+> | =0xfffffa8002461e60= | =2416= | =140= | =2031619= | =Event= | == | 
+> | =0xfffffa800286e9d0= | =2416= | =144= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a38f20= | =2416= | =148= | =1048577= | =File= | =\Device\KsecDD= | 
+> | =0xfffff8a0059fa9a0= | =2416= | =152= | =4= | =Section= | =__ComCatalogCache__= | 
+> | =0xfffff8a0015bcfa0= | =2416= | =156= | =983103= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+> | =0xfffffa8000cea780= | =2416= | =160= | =1048577= | =Event= | =MaximumCommitCondition= | 
+> | =0xfffffa8002465980= | =2416= | =164= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a5dbf0= | =2416= | =168= | =2031619= | =Event= | == | 
+> | =0xfffffa800286c3f0= | =2416= | =172= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a49da0= | =2416= | =176= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a746f0= | =2416= | =180= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028d9fe0= | =2416= | =184= | =2031619= | =Event= | == | 
+> | =0xfffffa80020d7b60= | =2416= | =188= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+> | =0xfffffa8002a90980= | =2416= | =192= | =2031617= | =ALPC Port= | == | 
+> | =0xfffff8a0018f5060= | =2416= | =196= | =983043= | =KeyedEvent= | == | 
+> | =0xfffffa8002047a00= | =2416= | =200= | =2031619= | =IoCompletion= | == | 
+> | =0xfffffa8002a5e880= | =2416= | =204= | =983295= | =TpWorkerFactory= | == | 
+> | =0xfffffa8002840910= | =2416= | =208= | =1048578= | =Timer= | == | 
+> | =0xfffffa8002a487c0= | =2416= | =212= | =2031619= | =Timer= | == | 
+> | =0xfffffa8002b62b60= | =2416= | =216= | =2097151= | =Thread= | =TID 2424 PID 2416= | 
+> | =0xfffffa8002b62b60= | =2416= | =220= | =2097151= | =Thread= | =TID 2424 PID 2416= | 
+> | =0xfffffa8002a34d10= | =2416= | =224= | =1048578= | =Timer= | == | 
+> | =0xfffffa8002b6f280= | =2416= | =228= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa80028a54c0= | =2416= | =232= | =2031619= | =Event= | == | 
+> | =0xfffffa80029862e0= | =2416= | =236= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a5f090= | =2416= | =240= | =2031617= | =ALPC Port= | =OLEB8357D0BD6094251B3E5F8123A8A= | 
+> | =0xfffffa8002bb4210= | =2416= | =244= | =2097151= | =Thread= | =TID 2428 PID 2416= | 
+> | =0xfffffa80026102e0= | =2416= | =248= | =2031619= | =Event= | == | 
+> | =0xfffffa80026e7370= | =2416= | =252= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002a37a60= | =2416= | =256= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c198d0= | =2416= | =260= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a374b0= | =2416= | =264= | =2031619= | =Event= | == | 
+> | =0xfffffa80029af450= | =2416= | =268= | =35586051= | =Event= | == | 
+> | =0xfffffa8001b1dc80= | =2416= | =272= | =1048579= | =Event= | == | 
+> | =0xfffffa8002a59a40= | =2416= | =276= | =2031617= | =ALPC Port= | == | 
+> | =0xfffff8a0059fa9a0= | =2416= | =280= | =4= | =Section= | =__ComCatalogCache__= | 
+> | =0xfffffa8002a07bc0= | =2416= | =284= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028bf610= | =2416= | =288= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029ebc50= | =2416= | =292= | =2031619= | =Event= | == | 
+> | =0xfffffa80029813e0= | =2416= | =296= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bacb60= | =2416= | =300= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+> | =0xfffffa8002a335f0= | =2416= | =304= | =2031619= | =Event= | == | 
+> | =0xfffffa80029a4e60= | =2416= | =308= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa80020c8bf0= | =2416= | =312= | =35586051= | =Event= | == | 
+> | =0xfffffa8002019970= | =2416= | =316= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002731d10= | =2416= | =320= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002865280= | =2416= | =324= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80022abfb0= | =2416= | =328= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800243d350= | =2416= | =332= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002899c00= | =2416= | =336= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002921b40= | =2416= | =340= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002857bc0= | =2416= | =344= | =2031619= | =Event= | == | 
+> | =0xfffffa800374afe0= | =2416= | =348= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a0fa40= | =2416= | =352= | =1180063= | =File= | =\Device\NamedPipe\lsarpc= | 
+> | =0xfffffa800286ab50= | =2416= | =356= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a5fe90= | =2416= | =360= | =2031619= | =Event= | == | 
+> | =0xfffffa8002804b40= | =2416= | =364= | =1180063= | =File= | =\Device\NamedPipe\samr= | 
+> | =0xfffffa80028f1b30= | =2416= | =368= | =2031619= | =Event= | == | 
+> | =0xfffff8a00184c5e0= | =2416= | =372= | =131097= | =Key= | =USER\.DEFAULT\CONTROL PANEL\INTERNATIONAL= | 
+> | =0xfffff8a0013b6610= | =2416= | =376= | =983103= | =Key= | =USER\.DEFAULT= | 
+> | =0xfffffa80020983d0= | =2416= | =380= | =2031619= | =Event= | == | 
+> | =0xfffffa80020cd100= | =2416= | =384= | =2031619= | =Event= | == | 
+> | =0xfffff8a0018d9740= | =2416= | =388= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NETWORKPROVIDER\HWORDER= | 
+> | =0xfffffa8003208a70= | =2416= | =392= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8001ff04c0= | =2416= | =396= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80021de1d0= | =2416= | =400= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80022dc150= | =2416= | =404= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800284afb0= | =2416= | =408= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8001ac2590= | =2416= | =412= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002888240= | =2416= | =416= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8001f54de0= | =2416= | =420= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80020d7b60= | =2416= | =424= | =2122= | =Thread= | =TID 2420 PID 2416= | 
+> | =0xfffffa80020d7b60= | =2416= | =428= | =2122= | =Thread= | =TID 2420 PID 2416= | 
+> | =0xfffffa80029a3fe0= | =2416= | =432= | =2031619= | =Semaphore= | == | 
+> | =0xfffffa80029551f0= | =2416= | =436= | =2031619= | =Semaphore= | == | 
+> | =0xfffffa8002bc7840= | =2416= | =440= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\wbem\wbemdisp.tlb= | 
+> | =0xfffff8a0013f16c0= | =2416= | =444= | =983045= | =Section= | == | 
+> | =0xfffffa8002954d20= | =2416= | =448= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\stdole2.tlb= | 
+> | =0xfffff8a0014229d0= | =2416= | =452= | =983045= | =Section= | == | 
+> | =0xfffffa8002b97790= | =2416= | =456= | =2031619= | =Event= | == | 
+> | =0xfffffa80026d4070= | =2416= | =460= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\en-US\KernelBase.dll.mui= | 
+> | =0xfffffa8002046950= | =2416= | =464= | =2031619= | =Event= | == | 
+> | =0xfffffa80020469d0= | =2416= | =468= | =2031619= | =Semaphore= | == | 
+> | =0xfffffa8002a07f20= | =2416= | =472= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\msxml3.dll= | 
+> | =0xfffff8a001354b80= | =2416= | =476= | =983045= | =Section= | == | 
+> | =0xfffffa8002baa1e0= | =2416= | =480= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002baa070= | =2416= | =484= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a35390= | =2416= | =488= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bc4d60= | =2416= | =492= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac= | 
+> | =0xfffffa80029ae7c0= | =2416= | =496= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a494a0= | =2416= | =500= | =2052= | =EtwRegistration= | == | 
+> | =0xfffff8a0017598c0= | =2416= | =508= | =131103= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+> | =0xfffff8a001441650= | =2416= | =512= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+> | =0xfffff8a001642940= | =2416= | =520= | =131097= | =Key= | =MACHINE\SOFTWARE\POLICIES= | 
+> | =0xfffff8a0059c4ef0= | =2416= | =524= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\POLICIES= | 
+> | =0xfffff8a0018c5fa0= | =2416= | =528= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE= | 
+> | =0xfffffa8002a363c0= | =2416= | =536= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002bb60f0= | =2416= | =540= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002bb3070= | =2416= | =544= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002bc4cb0= | =2416= | =548= | =2031617= | =Mutant= | =_!MSFTHISTORY!_= | 
+> | =0xfffffa8002bc5370= | =2416= | =552= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!local!microsoft!windows!temporary internet files!content.ie5!= | 
+> | =0xfffffa8002a5df20= | =2416= | =556= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat= | 
+> | =0xfffff8a001136a60= | =2416= | =560= | =6= | =Section= | =windows_shell_global_counters= | 
+> | =0xfffff8a0014beaf0= | =2416= | =564= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Local_Microsoft_Windows_Temporary Internet Files_Content.IE5_index.dat_32768= | 
+> | =0xfffff8a0015b23a0= | =2416= | =568= | =1= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER= | 
+> | =0xfffffa80028d82f0= | =2416= | =572= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002b70440= | =2416= | =576= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!roaming!microsoft!windows!cookies!= | 
+> | =0xfffffa8002a35240= | =2416= | =580= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\index.dat= | 
+> | =0xfffff8a0018f5760= | =2416= | =584= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Roaming_Microsoft_Windows_Cookies_index.dat_16384= | 
+> | =0xfffffa8002a055c0= | =2416= | =588= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!local!microsoft!windows!history!history.ie5!= | 
+> | =0xfffffa80028d83b0= | =2416= | =592= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat= | 
+> | =0xfffff8a0018e7440= | =2416= | =596= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Local_Microsoft_Windows_History_History.IE5_index.dat_16384= | 
+> | =0xfffffa80029c68a0= | =2416= | =600= | =2031617= | =Mutant= | =WininetStartupMutex= | 
+> | =0xfffffa80020d7b60= | =2416= | =604= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+> | =0xfffffa800296fdb0= | =2416= | =608= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bc5410= | =2416= | =612= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c27130= | =2416= | =616= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80028a75f0= | =2416= | =620= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800296ffe0= | =2416= | =624= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800296ff60= | =2416= | =628= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800296fee0= | =2416= | =632= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80028ae280= | =2416= | =636= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80028ae200= | =2416= | =640= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80028ae180= | =2416= | =644= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002b9b790= | =2416= | =648= | =2031619= | =Event= | == | 
+> | =0xfffff8a00179d9d0= | =2416= | =652= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\PROTOCOL_CATALOG9= | 
+> | =0xfffffa80029c6ac0= | =2416= | =656= | =2031619= | =Event= | == | 
+> | =0xfffff8a0018f6380= | =2416= | =660= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\NAMESPACE_CATALOG5= | 
+> | =0xfffffa80024774f0= | =2416= | =664= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002477430= | =2416= | =668= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80020c86b0= | =2416= | =672= | =2031619= | =Event= | == | 
+> | =0xfffffa800295b2c0= | =2416= | =676= | =2031617= | =Mutant= | == | 
+> | =0xfffffa80029f1980= | =2416= | =680= | =2031617= | =Mutant= | =WininetProxyRegistryMutex= | 
+> | =0xfffffa8002b7b530= | =2416= | =684= | =2031619= | =Event= | == | 
+> | =0xfffffa80020c8450= | =2416= | =688= | =2031619= | =Semaphore= | == | 
+> | =0xfffffa800299f9a0= | =2416= | =692= | =2031619= | =Event= | == | 
+> | =0xfffff8a001905550= | =2416= | =696= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_MIME_HANDLING= | 
+> | =0xfffffa80020c8590= | =2416= | =704= | =1048577= | =Mutant= | =!IETld!Mutex= | 
+> | =0xfffff8a0018dcc20= | =2416= | =708= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\INTERNET EXPLORER\IETLD= | 
+> | =0xfffffa800280b070= | =2416= | =712= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\en-US\urlmon.dll.mui= | 
+> | =0xfffff8a001434ad0= | =2416= | =716= | =983103= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+> | =0xfffffa8002c29100= | =2416= | =720= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b9e060= | =2416= | =724= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+> | =0xfffff8a001845a20= | =2416= | =728= | =131097= | =Key= | =MACHINE\SOFTWARE\POLICIES= | 
+> | =0xfffff8a0018e34c0= | =2416= | =732= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\POLICIES= | 
+> | =0xfffff8a0018e0e50= | =2416= | =736= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE= | 
+> | =0xfffff8a0018f89b0= | =2416= | =740= | =131097= | =Key= | =MACHINE\SOFTWARE= | 
+> | =0xfffffa80028996c0= | =2416= | =744= | =1048576= | =Mutant= | =RasPbFile= | 
+> | =0xfffffa800296fe60= | =2416= | =748= | =2031619= | =Event= | == | 
+> | =0xfffffa80020c6950= | =2416= | =752= | =2031619= | =Event= | == | 
+> | =0xfffffa80026bbb30= | =2416= | =756= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bb3270= | =2416= | =760= | =2031619= | =Event= | == | 
+> | =0xfffffa80020c8630= | =2416= | =764= | =2031619= | =Event= | == | 
+> | =0xfffffa800295b1b0= | =2416= | =768= | =2031619= | =Event= | == | 
+> | =0xfffff8a0013f5730= | =2416= | =772= | =131099= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\TRACING\SCRCONS_RASAPI32= | 
+> | =0xfffffa8002a0af50= | =2416= | =776= | =2031619= | =Event= | == | 
+> | =0xfffff8a00133f660= | =2416= | =780= | =4= | =Section= | =ASqmManifestVersion= | 
+> | =0xfffff8a00163be00= | =2416= | =784= | =131075= | =Directory= | == | 
+> | =0xfffffa8002bb2e60= | =2416= | =788= | =2031617= | =ALPC Port= | == | 
+> | =0xfffff8a0018e55a0= | =2416= | =792= | =983103= | =Key= | =USER= | 
+> | =0xfffffa80029c6070= | =2416= | =796= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002bb2dd0= | =2416= | =800= | =2031619= | =Event= | == | 
+> | =0xfffff8a0014bce10= | =2416= | =804= | =131099= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\TRACING\SCRCONS_RASMANCS= | 
+> | =0xfffffa8002bb2d50= | =2416= | =808= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a5de10= | =2416= | =812= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b9e060= | =2416= | =816= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+> | =0xfffffa800295b8e0= | =2416= | =820= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b95060= | =2416= | =824= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+> | =0xfffffa800295b960= | =2416= | =828= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b9e060= | =2416= | =832= | =16= | =Thread= | =TID 2480 PID 2416= | 
+> | =0xfffffa8002b955b0= | =2416= | =836= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b95060= | =2416= | =840= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+> | =0xfffffa8002c26fe0= | =2416= | =844= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bfadd0= | =2416= | =848= | =1442207= | =File= | =\Device\Afd\Endpoint= | 
+> | =0xfffff8a0018afa40= | =2416= | =860= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+> | =0xfffff8a0018c0e30= | =2416= | =864= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+> | =0xfffff8a00182bd00= | =2416= | =868= | =983047= | =Section= | =UrlZonesSM_SYSTEM= | 
+> | =0xfffffa80028c1dc0= | =2416= | =884= | =2031617= | =Mutant= | =ZoneAttributeCacheCounterMutex= | 
+> | =0xfffffa8002bbfa60= | =2416= | =888= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c273b0= | =2416= | =892= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bbf9d0= | =2416= | =900= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bbf8d0= | =2416= | =904= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bbf950= | =2416= | =908= | =2031619= | =Event= | == | 
+> | =0xfffffa800295a5c0= | =2416= | =912= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002b9e570= | =2416= | =916= | =1048704= | =File= | =\Device\Nsi= | 
+> | =0xfffffa80020c81b0= | =2416= | =920= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b6f9b0= | =2416= | =924= | =2031617= | =ALPC Port= | == | 
+> | =0xfffff8a0015bca80= | =2416= | =928= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\NETWORK\LOCATION AWARENESS= | 
+> | =0xfffff8a001889b90= | =2416= | =932= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_DISABLE_LEGACY_COMPRESSION= | 
+> | =0xfffffa8002bacb60= | =2416= | =936= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+> | =0xfffffa8002c61b60= | =2416= | =940= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+> | =0xfffffa80020c82d0= | =2416= | =944= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c1e320= | =2416= | =948= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c1f4d0= | =2416= | =952= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80020c8240= | =2416= | =956= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c61b60= | =2416= | =960= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+> | =0xfffffa8002c275d0= | =2416= | =964= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c27550= | =2416= | =968= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c274d0= | =2416= | =972= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a232d0= | =2416= | =976= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a13fb0= | =2416= | =980= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a13ef0= | =2416= | =984= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a13e30= | =2416= | =988= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a13d70= | =2416= | =992= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800280aeb0= | =2416= | =996= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800280adf0= | =2416= | =1000= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800280ad30= | =2416= | =1004= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800280ac70= | =2416= | =1008= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029ea600= | =2416= | =1012= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029ea540= | =2416= | =1016= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029ea480= | =2416= | =1020= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029ea3c0= | =2416= | =1028= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028abfb0= | =2416= | =1032= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028abef0= | =2416= | =1036= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a13ce0= | =2416= | =1040= | =2031619= | =Event= | == | 
+> | =0xfffffa800280abe0= | =2416= | =1044= | =2031619= | =Event= | == | 
+> | =0xfffffa80029ea330= | =2416= | =1048= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b6f8f0= | =2416= | =1052= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800295a530= | =2416= | =1056= | =2031619= | =Semaphore= | == | 
+> | =0xfffffa8002a23420= | =2416= | =1060= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa800215bda0= | =2416= | =1064= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800215bce0= | =2416= | =1068= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028c1060= | =2416= | =1072= | =2031619= | =Event= | == | 
+> | =0xfffffa80028c11b0= | =2416= | =1076= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c61b60= | =2416= | =1080= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+> | =0xfffffa8002b99de0= | =2416= | =1084= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa800293d5e0= | =2416= | =1088= | =2031619= | =Event= | == | 
+> | =0xfffffa80023ad5a0= | =2416= | =1092= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002935070= | =2416= | =1096= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028d53f0= | =2416= | =1104= | =2031619= | =Event= | == | 
+> | =0xfffff8a0018d9f10= | =2440= | =4= | =9= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS= | 
+> | =0xfffff8a000d1fde0= | =2440= | =8= | =3= | =Directory= | =KnownDlls= | 
+> | =0xfffffa8001b1e750= | =2440= | =12= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\System32= | 
+> | =0xfffff8a0059f86d0= | =2440= | =16= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\VERSIONS= | 
+> | =0xfffffa80024f8be0= | =2440= | =20= | =2031617= | =Mutant= | == | 
+> | =0xfffffa80026fcd10= | =2440= | =24= | =2031617= | =ALPC Port= | == | 
+> | =0xfffff8a00176fb90= | =2440= | =28= | =131097= | =Key= | =MACHINE= | 
+> | =0xfffffa800280a7a0= | =2440= | =32= | =2031619= | =Event= | == | 
+> | =0xfffff8a00155bc70= | =2440= | =36= | =1= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\SESSION MANAGER= | 
+> | =0xfffffa8002b9f5c0= | =2440= | =40= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002836980= | =2440= | =44= | =35586051= | =Event= | == | 
+> | =0xfffffa80023fe5f0= | =2440= | =48= | =983150= | =WindowStation= | =Service-0x0-3e4$= | 
+> | =0xfffffa80023fe480= | =2440= | =52= | =983247= | =Desktop= | =Default= | 
+> | =0xfffffa80023fe5f0= | =2440= | =56= | =983150= | =WindowStation= | =Service-0x0-3e4$= | 
+> | =0xfffffa8002bb1bf0= | =2440= | =60= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002208ba0= | =2440= | =64= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c17600= | =2440= | =68= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c17ec0= | =2440= | =72= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c27830= | =2440= | =76= | =2031619= | =Event= | == | 
+> | =0xfffffa8002bb1b60= | =2440= | =80= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a4bc60= | =2440= | =84= | =2031619= | =Event= | == | 
+> | =0xfffff8a003253db0= | =2440= | =88= | =15= | =Directory= | =BaseNamedObjects= | 
+> | =0xfffffa8002a4bbc0= | =2440= | =92= | =2031617= | =Mutant= | == | 
+> | =0xfffffa800299a3b0= | =2440= | =96= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800299a2f0= | =2440= | =100= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002b569f0= | =2440= | =104= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002b56930= | =2440= | =108= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800295e6b0= | =2440= | =112= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa800295e5f0= | =2440= | =116= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80025e6600= | =2440= | =120= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80025e6540= | =2440= | =124= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80020d56c0= | =2440= | =128= | =2031619= | =Event= | == | 
+> | =0xfffffa80020d5640= | =2440= | =132= | =2031619= | =Event= | == | 
+> | =0xfffffa80020d55c0= | =2440= | =136= | =2031619= | =Event= | == | 
+> | =0xfffffa80020d5d00= | =2440= | =140= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80020d5c40= | =2440= | =144= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bb72e0= | =2440= | =148= | =2031619= | =Event= | == | 
+> | =0xfffffa8002ba1440= | =2440= | =152= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+> | =0xfffffa8002a3ea20= | =2440= | =156= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002944160= | =2440= | =160= | =2031619= | =Event= | == | 
+> | =0xfffffa80020c7e00= | =2440= | =164= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a62760= | =2440= | =168= | =1048577= | =File= | =\Device\KsecDD= | 
+> | =0xfffffa8002a3b070= | =2440= | =172= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002c1f8a0= | =2440= | =176= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bb71d0= | =2440= | =180= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c1f810= | =2440= | =184= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c25720= | =2440= | =188= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c256a0= | =2440= | =192= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c25620= | =2440= | =196= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c17b40= | =2440= | =200= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c17ac0= | =2440= | =204= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c17a40= | =2440= | =208= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002b5ffe0= | =2440= | =212= | =1048579= | =Semaphore= | == | 
+> | =0xfffff8a0018e4a00= | =2440= | =216= | =983043= | =KeyedEvent= | == | 
+> | =0xfffffa8002c1ade0= | =2440= | =220= | =2031619= | =IoCompletion= | == | 
+> | =0xfffffa8002c1a4f0= | =2440= | =224= | =983295= | =TpWorkerFactory= | == | 
+> | =0xfffffa8002bbb8b0= | =2440= | =228= | =1048578= | =Timer= | == | 
+> | =0xfffffa8002c1c980= | =2440= | =232= | =2031619= | =Timer= | == | 
+> | =0xfffffa8002c27b60= | =2440= | =236= | =2097151= | =Thread= | =TID 2448 PID 2440= | 
+> | =0xfffffa8002c27b60= | =2440= | =240= | =2097151= | =Thread= | =TID 2448 PID 2440= | 
+> | =0xfffffa8002c1def0= | =2440= | =244= | =1048578= | =Timer= | == | 
+> | =0xfffffa800295e870= | =2440= | =248= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002c27a60= | =2440= | =252= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c29650= | =2440= | =256= | =2031619= | =Event= | == | 
+> | =0xfffff8a0013d39b0= | =2440= | =260= | =6= | =Section= | =Wmi Provider Sub System Counters= | 
+> | =0xfffffa8002c295d0= | =2440= | =264= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c29550= | =2440= | =268= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c2b800= | =2440= | =272= | =2031619= | =Event= | == | 
+> | =0xfffffa8001df61d0= | =2440= | =276= | =1048576= | =Event= | =WBEM_ESS_OPEN_FOR_BUSINESS= | 
+> | =0xfffffa8002c2b780= | =2440= | =280= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c2a440= | =2440= | =284= | =2097151= | =Thread= | =TID 2452 PID 2440= | 
+> | =0xfffff8a0059fa9a0= | =2440= | =288= | =4= | =Section= | =__ComCatalogCache__= | 
+> | =0xfffff8a0014be490= | =2440= | =292= | =131097= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+> | =0xfffffa8000cea780= | =2440= | =296= | =1048577= | =Event= | =MaximumCommitCondition= | 
+> | =0xfffff8a0059fa9a0= | =2440= | =300= | =4= | =Section= | =__ComCatalogCache__= | 
+> | =0xfffffa8002b5ff30= | =2440= | =304= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c2a390= | =2440= | =308= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029a2090= | =2440= | =312= | =2031617= | =ALPC Port= | =OLE203719C8FFE545F8971CF02A2B02= | 
+> | =0xfffffa8002c261b0= | =2440= | =316= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a389a0= | =2440= | =320= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002c27ae0= | =2440= | =324= | =2031619= | =Event= | == | 
+> | =0xfffffa80029f0ab0= | =2440= | =328= | =1048576= | =Event= | =EVENT_READYROOT/CIMV2PROVIDERSUBSYSTEM= | 
+> | =0xfffffa8002c298e0= | =2440= | =332= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+> | =0xfffffa8002a3de60= | =2440= | =336= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002c254a0= | =2440= | =340= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c26490= | =2440= | =344= | =2031619= | =Event= | == | 
+> | =0xfffffa8002ba1440= | =2440= | =348= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+> | =0xfffffa80020c5e60= | =2440= | =352= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002892bc0= | =2440= | =356= | =2031619= | =Event= | == | 
+> | =0xfffffa8002892b40= | =2440= | =360= | =2031619= | =Event= | == | 
+> | =0xfffffa8002892ac0= | =2440= | =364= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c2ba90= | =2440= | =368= | =2097151= | =Thread= | =TID 2468 PID 2440= | 
+> | =0xfffffa8002c2b970= | =2440= | =372= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b5f060= | =2440= | =376= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b5f190= | =2440= | =380= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b5f110= | =2440= | =384= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c72fe0= | =2440= | =388= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c72f60= | =2440= | =392= | =2031619= | =Event= | == | 
+> | =0xfffffa8002baff60= | =2440= | =396= | =35586051= | =Event= | == | 
+> | =0xfffffa80025ea0f0= | =2440= | =400= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c26510= | =2440= | =404= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+> | =0xfffffa8002a395a0= | =2440= | =408= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002bb3fe0= | =2440= | =412= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c26510= | =2440= | =416= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+> | =0xfffff8a001458d60= | =2440= | =420= | =131097= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+> | =0xfffffa8002baffe0= | =2440= | =424= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80020cc390= | =2440= | =428= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002a4ae90= | =2440= | =432= | =2031619= | =Event= | == | 
+> | =0xfffffa80029a3880= | =2440= | =436= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c26060= | =2440= | =440= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a64590= | =2440= | =444= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c2a060= | =2440= | =448= | =2031619= | =Event= | == | 
+> | =0xfffffa8002b9b070= | =2440= | =452= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002c71f60= | =2440= | =456= | =2031619= | =Event= | == | 
+> | =0xfffffa800284c320= | =2440= | =460= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002c71fe0= | =2440= | =464= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029ebe60= | =2440= | =468= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002badd80= | =2440= | =472= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800212ddc0= | =2440= | =476= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002b95b70= | =2440= | =480= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800283e9f0= | =2440= | =484= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa800283e970= | =2440= | =488= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002bc6830= | =2440= | =492= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002bc67b0= | =2440= | =496= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002bc6730= | =2440= | =500= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80025e53b0= | =2440= | =504= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80025e5330= | =2440= | =508= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80025e52b0= | =2440= | =512= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80025e5230= | =2440= | =516= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c9060= | =2440= | =520= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c91f0= | =2440= | =524= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c9170= | =2440= | =528= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c90f0= | =2440= | =532= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029620f0= | =2440= | =536= | =2031619= | =Event= | == | 
+> | =0xfffffa80025da810= | =2440= | =540= | =2097151= | =Thread= | =TID 2472 PID 2440= | 
+> | =0xfffffa80025da790= | =2440= | =544= | =35586051= | =Event= | == | 
+> | =0xfffffa8001bc7ec0= | =2440= | =548= | =2031619= | =Event= | == | 
+> | =0xfffffa8002c298e0= | =2440= | =552= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+> | =0xfffffa8002c2aae0= | =2440= | =556= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029d4630= | =2440= | =560= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa80020c6d10= | =2440= | =564= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80028a5e60= | =2440= | =568= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002309cb0= | =2440= | =572= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8001bc7cb0= | =2440= | =576= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002809550= | =2440= | =580= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8001bc7b80= | =2440= | =584= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa8002098610= | =2440= | =588= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029036d0= | =2440= | =592= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80020d5880= | =2440= | =596= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c7d10= | =2440= | =600= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002486fb0= | =2440= | =604= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002bc1340= | =2440= | =608= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80024a5070= | =2440= | =612= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80029d3280= | =2440= | =616= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa80024a5130= | =2440= | =620= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002a0a170= | =2440= | =624= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029c7c80= | =2440= | =628= | =1048579= | =Semaphore= | == | 
+> | =0xfffffa80029521e0= | =2440= | =632= | =2052= | =EtwRegistration= | == | 
+> | =0xfffffa8002880720= | =2440= | =636= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002891b40= | =2440= | =640= | =2031617= | =ALPC Port= | == | 
+> | =0xfffffa8002955170= | =2440= | =644= | =2031619= | =Event= | == | 
+> | =0xfffffa8002a36530= | =2440= | =648= | =2031617= | =Mutant= | == | 
+> | =0xfffffa80020c6dd0= | =2440= | =652= | =1048704= | =File= | =\Device\Nsi= | 
+> | =0xfffffa80029550f0= | =2440= | =656= | =1048579= | =Event= | == | 
+> | =0xfffff8a00174afa0= | =2440= | =660= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\ENUM= | 
+> | =0xfffff8a0018bd790= | =2440= | =664= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\SERVICES= | 
+> | =0xfffff8a001380690= | =2440= | =668= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\CLASS= | 
+> | =0xfffff8a001447650= | =2440= | =672= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\DEVICECLASSES= | 
+> | =0xfffff8a0014ac060= | =2440= | =676= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\CODEVICEINSTALLERS= | 
+> | =0xfffff8a0012ec990= | =2440= | =680= | =983103= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\PERHWIDSTORAGE= | 
+
+
+Processing file: diff-periodic-dump-1650825625508.dmp-vs-periodic-dump-1650825632524.dmp.json
+
+
+======================================================================
+Table: dlllist (both)
+======================================================================
+  |Pid     | Base                    | Size        | LoadCoun | LoadTime                        | Path                                                                                                                            | 
+  -------  -----------------------  -----------  --------  -------------------------------  -------------------------------------------------------------------------------------------------------------------------------  
+11c11
+< | =2416= | =0x000007fefdb90000= | =1540096= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\urlmon.dll= | 
+---
+> | =2416= | =0x000007fefdb90000= | =1540096= | =6= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\urlmon.dll= | 
+795c795
+< | =2416= | =0x000007fefd3d0000= | =1220608= | =7= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WININET.dll= | 
+---
+> | =2416= | =0x000007fefd3d0000= | =1220608= | =6= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WININET.dll= | 
+
+
+======================================================================
+Table: handles (added)
+======================================================================
+  |Offset(V)               | Pid     | Handle  | Access      | Type               | Details                                                                                                                                 | 
+  -----------------------  -------  -------  -----------  ------------------  ---------------------------------------------------------------------------------------------------------------------------------------  
+0a0,290
+> | =0xfffffa8002a80b60= | =336= | =1572= | =2097151= | =Thread= | =TID 2836 PID 2416= | 
+> | =0xfffff8a0011c2700= | =2416= | =1100= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+> | =0xfffff8a0011d0e10= | =2416= | =1108= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+
+
+Processing file: diff-periodic-dump-1650825632524.dmp-vs-periodic-dump-1650825655558.dmp.json
+
+
+======================================================================
+Table: psxview (deleted)
+======================================================================
+  |Offset(P)               | Name              | PID     | pslist   | psscan  | thrdproc | pspcid   | csrss    | session  | deskthrd | ExitTime                        | 
+  -----------------------  -----------------  -------  --------  -------  --------  --------  --------  --------  --------  -------------------------------  
+0,35d0
+< | =0x000000003e19f060= | =WmiPrvSE.exe= | =2440= | =True= | =True= | =True= | =True= | =True= | =True= | =True= | == | 
+< | =0x000000003de2b060= | =scrcons.exe= | =2416= | =True= | =True= | =True= | =True= | =True= | =True= | =True= | == | 
+
+======================================================================
+Table: dlllist (deleted)
+======================================================================
+  |Pid     | Base                    | Size        | LoadCoun | LoadTime                        | Path                                                                                                                            | 
+  -------  -----------------------  -----------  --------  -------------------------------  -------------------------------------------------------------------------------------------------------------------------------  
+0,1030d0
+< | =2416= | =0x00000000ff9b0000= | =61440= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\system32\wbem\scrcons.exe= | 
+< | =2416= | =0x0000000076ed0000= | =1740800= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\SYSTEM32\ntdll.dll= | 
+< | =2416= | =0x0000000076cb0000= | =1175552= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\kernel32.dll= | 
+< | =2416= | =0x000007fefced0000= | =438272= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\KERNELBASE.dll= | 
+< | =2416= | =0x0000000076dd0000= | =1024000= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USER32.dll= | 
+< | =2416= | =0x000007fefdb20000= | =421888= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\GDI32.dll= | 
+< | =2416= | =0x000007fefde60000= | =57344= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LPK.dll= | 
+< | =2416= | =0x000007fefde70000= | =823296= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USP10.dll= | 
+< | =2416= | =0x000007fefecd0000= | =651264= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\msvcrt.dll= | 
+< | =2416= | =0x000007fef7e20000= | =454656= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\esscli.dll= | 
+< | =2416= | =0x000007fef8390000= | =548864= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbemcomn.dll= | 
+< | =2416= | =0x000007feff100000= | =880640= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\OLEAUT32.dll= | 
+< | =2416= | =0x000007fefd620000= | =2109440= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ole32.dll= | 
+< | =2416= | =0x000007fefefd0000= | =1232896= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RPCRT4.dll= | 
+< | =2416= | =0x000007fefdd10000= | =315392= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WS2_32.dll= | 
+< | =2416= | =0x000007fefd210000= | =32768= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NSI.dll= | 
+< | =2416= | =0x000007fef8120000= | =925696= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\FastProx.dll= | 
+< | =2416= | =0x000007fefd2a0000= | =897024= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ADVAPI32.dll= | 
+< | =2416= | =0x000007fefd3b0000= | =126976= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\SYSTEM32\sechost.dll= | 
+< | =2416= | =0x000007fef80f0000= | =159744= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NTDSAPI.dll= | 
+< | =2416= | =0x000007fefd380000= | =188416= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\IMM32.DLL= | 
+< | =2416= | =0x000007fefd830000= | =1085440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSCTF.dll= | 
+< | =2416= | =0x000007fefcd10000= | =61440= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTBASE.dll= | 
+< | =2416= | =0x000007fefd500000= | =626688= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CLBCatQ.DLL= | 
+< | =2416= | =0x000007fefc6b0000= | =94208= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTSP.dll= | 
+< | =2416= | =0x000007fefc3b0000= | =290816= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\rsaenh.dll= | 
+< | =2416= | =0x000007fefce00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RpcRtRemote.dll= | 
+< | =2416= | =0x000007fef80e0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemprox.dll= | 
+< | =2416= | =0x000007fef7e00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemsvc.dll= | 
+< | =2416= | =0x000007fef46f0000= | =929792= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\System32\jscript.dll= | 
+< | =2416= | =0x000007fefd5a0000= | =462848= | =18= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SHLWAPI.dll= | 
+< | =2416= | =0x000007fefbf80000= | =49152= | =3= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\System32\VERSION.dll= | 
+< | =2416= | =0x000007fefc8a0000= | =192512= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\authz.DLL= | 
+< | =2416= | =0x000007fefa870000= | =49152= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\dsrole.dll= | 
+< | =2416= | =0x000007fefb8a0000= | =118784= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SAMLIB.dll= | 
+< | =2416= | =0x000007fef7330000= | =282624= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemdisp.dll= | 
+< | =2416= | =0x000007fef7ce0000= | =155648= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wmiutils.dll= | 
+< | =2416= | =0x000007fef7300000= | =163840= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wshom.ocx= | 
+< | =2416= | =0x000007fefa310000= | =98304= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MPR.dll= | 
+< | =2416= | =0x000007fefdf40000= | =14188544= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SHELL32.dll= | 
+< | =2416= | =0x000007fef72c0000= | =212992= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ScrRun.dll= | 
+< | =2416= | =0x000007fef4580000= | =1503232= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Program Files\Common Files\System\ado\msado15.dll= | 
+< | =2416= | =0x000007fef6ba0000= | =163840= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSDART.DLL= | 
+< | =2416= | =0x000007fefcd20000= | =593920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SXS.DLL= | 
+< | =2416= | =0x000007fef4100000= | =1916928= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\msxml3.dll= | 
+< | =2416= | =0x000007fefdb90000= | =1540096= | =6= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\urlmon.dll= | 
+< | =2416= | =0x000007fefd3d0000= | =1220608= | =6= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WININET.dll= | 
+< | =2416= | =0x000007fefed70000= | =2461696= | =8= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\iertutil.dll= | 
+< | =2416= | =0x000007fefcf40000= | =1470464= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\CRYPT32.dll= | 
+< | =2416= | =0x000007fefcec0000= | =61440= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\MSASN1.dll= | 
+< | =2416= | =0x000007fefb8f0000= | =2048000= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll= | 
+< | =2416= | =0x000007fefcc80000= | =151552= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\SspiCli.dll= | 
+< | =2416= | =0x000007fefce20000= | =61440= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\profapi.dll= | 
+< | =2416= | =0x000007fefa740000= | =184320= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\ntmarta.dll= | 
+< | =2416= | =0x000007fefde00000= | =335872= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WLDAP32.dll= | 
+< | =2416= | =0x000007fefc4d0000= | =372736= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dnsapi.DLL= | 
+< | =2416= | =0x000007fefa7b0000= | =159744= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\iphlpapi.DLL= | 
+< | =2416= | =0x000007fefa7a0000= | =45056= | =5= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WINNSI.DLL= | 
+< | =2416= | =0x000007fef6050000= | =401408= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\RASAPI32.dll= | 
+< | =2416= | =0x000007fef6b80000= | =114688= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rasman.dll= | 
+< | =2416= | =0x000007fefae70000= | =69632= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rtutils.dll= | 
+< | =2416= | =0x000007fef40f0000= | =36864= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\sensapi.dll= | 
+< | =2416= | =0x000007fefc650000= | =348160= | =4= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\mswsock.dll= | 
+< | =2416= | =0x000007fefc050000= | =28672= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\wshtcpip.dll= | 
+< | =2416= | =0x0000000077090000= | =12288= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\Normaliz.dll= | 
+< | =2416= | =0x000007fefa930000= | =86016= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\NLAapi.dll= | 
+< | =2416= | =0x000007fef7bd0000= | =32768= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\rasadhlp.dll= | 
+< | =2416= | =0x000007fefa330000= | =86016= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\napinsp.dll= | 
+< | =2416= | =0x000007fef8f80000= | =102400= | =2= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\pnrpnsp.dll= | 
+< | =2416= | =0x000007fefae90000= | =45056= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\winrnr.dll= | 
+< | =2416= | =0x000007fefc640000= | =28672= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\wship6.dll= | 
+< | =2416= | =0x000007fefa5e0000= | =339968= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\fwpuclnt.dll= | 
+< | =2416= | =0x000007fef7be0000= | =475136= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\netprofm.dll= | 
+< | =2416= | =0x000007fef7a80000= | =49152= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\System32\npmproxy.dll= | 
+< | =2416= | =0x000007fefa4f0000= | =98304= | =1= | =2022-04-24 17:38:38 UTC+0000= | =C:\Windows\system32\DHCPCSVC.DLL= | 
+< | =2416= | =0x000007fefa510000= | =69632= | =1= | =2022-04-24 17:38:38 UTC+0000= | =C:\Windows\system32\dhcpcsvc6.DLL= | 
+< | =2440= | =0x00000000ff050000= | =389120= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\system32\wbem\wmiprvse.exe= | 
+< | =2440= | =0x0000000076ed0000= | =1740800= | =65535= | =1970-01-01 00:00:00 UTC+0000= | =C:\Windows\SYSTEM32\ntdll.dll= | 
+< | =2440= | =0x0000000076cb0000= | =1175552= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\kernel32.dll= | 
+< | =2440= | =0x000007fefced0000= | =438272= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\KERNELBASE.dll= | 
+< | =2440= | =0x000007fefd2a0000= | =897024= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ADVAPI32.dll= | 
+< | =2440= | =0x000007fefecd0000= | =651264= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\msvcrt.dll= | 
+< | =2440= | =0x000007fefd3b0000= | =126976= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\SYSTEM32\sechost.dll= | 
+< | =2440= | =0x000007fefefd0000= | =1232896= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RPCRT4.dll= | 
+< | =2440= | =0x0000000076dd0000= | =1024000= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USER32.dll= | 
+< | =2440= | =0x000007fefdb20000= | =421888= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\GDI32.dll= | 
+< | =2440= | =0x000007fefde60000= | =57344= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LPK.dll= | 
+< | =2440= | =0x000007fefde70000= | =823296= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\USP10.dll= | 
+< | =2440= | =0x000007fef8390000= | =548864= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbemcomn.dll= | 
+< | =2440= | =0x000007feff100000= | =880640= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\OLEAUT32.dll= | 
+< | =2440= | =0x000007fefd620000= | =2109440= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ole32.dll= | 
+< | =2440= | =0x000007fefdd10000= | =315392= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WS2_32.dll= | 
+< | =2440= | =0x000007fefd210000= | =32768= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NSI.dll= | 
+< | =2440= | =0x000007fef8120000= | =925696= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\FastProx.dll= | 
+< | =2440= | =0x000007fef80f0000= | =159744= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NTDSAPI.dll= | 
+< | =2440= | =0x000007fefad10000= | =90112= | =65535= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NCObjAPI.DLL= | 
+< | =2440= | =0x000007fefd380000= | =188416= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\IMM32.DLL= | 
+< | =2440= | =0x000007fefd830000= | =1085440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSCTF.dll= | 
+< | =2440= | =0x000007fefcd10000= | =61440= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTBASE.dll= | 
+< | =2440= | =0x000007fefa740000= | =184320= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\ntmarta.dll= | 
+< | =2440= | =0x000007fefde00000= | =335872= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WLDAP32.dll= | 
+< | =2440= | =0x000007fefd500000= | =626688= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CLBCatQ.DLL= | 
+< | =2440= | =0x000007fef80e0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemprox.dll= | 
+< | =2440= | =0x000007fefc6b0000= | =94208= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPTSP.dll= | 
+< | =2440= | =0x000007fefc3b0000= | =290816= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\rsaenh.dll= | 
+< | =2440= | =0x000007fefce00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\RpcRtRemote.dll= | 
+< | =2440= | =0x000007fef7e00000= | =81920= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wbemsvc.dll= | 
+< | =2440= | =0x000007fef7ce0000= | =155648= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\wmiutils.dll= | 
+< | =2440= | =0x000007fef4380000= | =2072576= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wbem\cimwin32.dll= | 
+< | =2440= | =0x000007fef4330000= | =311296= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\framedynos.dll= | 
+< | =2440= | =0x000007fefcc80000= | =151552= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SspiCli.dll= | 
+< | =2440= | =0x000007fefb140000= | =69632= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WTSAPI32.dll= | 
+< | =2440= | =0x000007fefb0c0000= | =32768= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\WINBRAND.dll= | 
+< | =2440= | =0x00000000746c0000= | =12288= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SECURITY.DLL= | 
+< | =2440= | =0x000007fefcc50000= | =45056= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SECUR32.DLL= | 
+< | =2440= | =0x000007fefc2b0000= | =40960= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\credssp.dll= | 
+< | =2440= | =0x000007fefc440000= | =356352= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\schannel.DLL= | 
+< | =2440= | =0x000007fefcf40000= | =1470464= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CRYPT32.dll= | 
+< | =2440= | =0x000007fefcec0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\MSASN1.dll= | 
+< | =2440= | =0x000007fefb010000= | =90112= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\NETAPI32.DLL= | 
+< | =2440= | =0x000007fefb000000= | =49152= | =6= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\netutils.dll= | 
+< | =2440= | =0x000007fefcbb0000= | =143360= | =11= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\srvcli.dll= | 
+< | =2440= | =0x000007fefafe0000= | =86016= | =6= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\wkscli.dll= | 
+< | =2440= | =0x000007fefafc0000= | =81920= | =14= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SAMCLI.DLL= | 
+< | =2440= | =0x000007fefc4a0000= | =196608= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\LOGONCLI.DLL= | 
+< | =2440= | =0x000007fef6030000= | =73728= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\BROWCLI.DLL= | 
+< | =2440= | =0x000007fef42e0000= | =40960= | =4= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\SCHEDCLI.DLL= | 
+< | =2440= | =0x000007fefa870000= | =49152= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\DSROLE.DLL= | 
+< | =2440= | =0x000007fef9cc0000= | =61440= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\cscapi.dll= | 
+< | =2440= | =0x000007fefd150000= | =106496= | =1= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\DEVOBJ.dll= | 
+< | =2440= | =0x000007fefd170000= | =221184= | =2= | =2022-04-24 17:38:34 UTC+0000= | =C:\Windows\system32\CFGMGR32.dll= | 
+< | =2440= | =0x000007fefa7b0000= | =159744= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\IPHLPAPI.DLL= | 
+< | =2440= | =0x000007fefa7a0000= | =45056= | =3= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\WINNSI.DLL= | 
+< | =2440= | =0x000007fefa510000= | =69632= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dhcpcsvc6.DLL= | 
+< | =2440= | =0x000007fefa4f0000= | =98304= | =1= | =2022-04-24 17:38:35 UTC+0000= | =C:\Windows\system32\dhcpcsvc.DLL= | 
+
+
+======================================================================
+Table: connections (deleted)
+======================================================================
+  |Offset(P)               | Proto    | LocalAddr              | ForeignAddr                                  | State        | PID     | Owner           | Created                         | 
+  -----------------------  --------  ----------------------  --------------------------------------------  ------------  -------  ---------------  -------------------------------  
+0,53d0
+< | =0x000000003de1f530= | =UDPv4= | =127.0.0.1:49152= | =*:*= | == | =2416= | =scrcons.exe= | =2022-04-24 17:38:35 UTC+0000= | 
+
+
+
+======================================================================
+Table: handles (deleted)
+======================================================================
+  |Offset(V)               | Pid     | Handle  | Access      | Type                   | Details                                                                                                                                                        | 
+  -----------------------  -------  -------  -----------  ----------------------  --------------------------------------------------------------------------------------------------------------------------------------------------------------  
+0,5488d0
+< | =0xfffffa8002c2b060= | =4= | =1816= | =42= | =Process= | =scrcons.exe(2416)= | 
+< | =0xfffffa8002b9f060= | =4= | =1900= | =42= | =Process= | =WmiPrvSE.exe(2440)= | 
+< | =0xfffffa80020d7b60= | =336= | =1388= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+< | =0xfffffa8002c2b060= | =336= | =1408= | =2097151= | =Process= | =scrcons.exe(2416)= | 
+< | =0xfffffa8002bb4210= | =336= | =1496= | =2097151= | =Thread= | =TID 2428 PID 2416= | 
+< | =0xfffffa8002c1e860= | =336= | =1500= | =2097151= | =Thread= | =TID 2436 PID 2416= | 
+< | =0xfffffa8002bacb60= | =336= | =1508= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+< | =0xfffffa8002b9f060= | =336= | =1512= | =2097151= | =Process= | =WmiPrvSE.exe(2440)= | 
+< | =0xfffffa8002ba1440= | =336= | =1516= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+< | =0xfffffa8002c2a440= | =336= | =1524= | =2097151= | =Thread= | =TID 2452 PID 2440= | 
+< | =0xfffffa8002c298e0= | =336= | =1528= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+< | =0xfffffa8002bbeb60= | =336= | =1536= | =2097151= | =Thread= | =TID 2464 PID 2440= | 
+< | =0xfffffa8002c2ba90= | =336= | =1540= | =2097151= | =Thread= | =TID 2468 PID 2440= | 
+< | =0xfffffa8002c26510= | =336= | =1544= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+< | =0xfffffa80025da810= | =336= | =1548= | =2097151= | =Thread= | =TID 2472 PID 2440= | 
+< | =0xfffffa8002c2ab60= | =336= | =1552= | =2097151= | =Thread= | =TID 2476 PID 2440= | 
+< | =0xfffffa8002b9e060= | =336= | =1556= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+< | =0xfffffa8002b95060= | =336= | =1560= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+< | =0xfffffa8002c61b60= | =336= | =1568= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+< | =0xfffffa8002a80b60= | =336= | =1572= | =2097151= | =Thread= | =TID 2836 PID 2416= | 
+< | =0xfffffa8002b9f060= | =488= | =2012= | =5240= | =Process= | =WmiPrvSE.exe(2440)= | 
+< | =0xfffffa8002c2b060= | =488= | =2308= | =5240= | =Process= | =scrcons.exe(2416)= | 
+< | =0xfffffa8002c2b060= | =672= | =800= | =2097151= | =Process= | =scrcons.exe(2416)= | 
+< | =0xfffffa8002b9f060= | =672= | =968= | =2097151= | =Process= | =WmiPrvSE.exe(2440)= | 
+< | =0xfffffa8002b9f060= | =876= | =3888= | =1054017= | =Process= | =WmiPrvSE.exe(2440)= | 
+< | =0xfffff8a0013ebed0= | =2416= | =4= | =9= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS= | 
+< | =0xfffff8a000d1fde0= | =2416= | =8= | =3= | =Directory= | =KnownDlls= | 
+< | =0xfffffa8001faf6f0= | =2416= | =12= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\System32= | 
+< | =0xfffff8a001716060= | =2416= | =16= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\VERSIONS= | 
+< | =0xfffff8a0017fefa0= | =2416= | =20= | =1= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\SESSION MANAGER= | 
+< | =0xfffffa8001dfa220= | =2416= | =24= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002492570= | =2416= | =28= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80025d5aa0= | =2416= | =32= | =35586051= | =Event= | == | 
+< | =0xfffffa8002266f60= | =2416= | =36= | =983406= | =WindowStation= | =Service-0x0-3e7$= | 
+< | =0xfffffa80022667d0= | =2416= | =40= | =983247= | =Desktop= | =Default= | 
+< | =0xfffffa8002266f60= | =2416= | =44= | =983406= | =WindowStation= | =Service-0x0-3e7$= | 
+< | =0xfffffa8002945070= | =2416= | =48= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\wbem\en-US\scrcons.exe.mui= | 
+< | =0xfffff8a001199ad0= | =2416= | =52= | =983103= | =Key= | =MACHINE= | 
+< | =0xfffffa800283eb50= | =2416= | =56= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002789a20= | =2416= | =60= | =2031619= | =Event= | == | 
+< | =0xfffffa80025c9690= | =2416= | =64= | =2031619= | =Event= | == | 
+< | =0xfffffa8002494e00= | =2416= | =68= | =2031619= | =Event= | == | 
+< | =0xfffffa80029598c0= | =2416= | =72= | =2031619= | =Event= | == | 
+< | =0xfffffa8002952590= | =2416= | =76= | =2031619= | =Event= | == | 
+< | =0xfffffa80020d7560= | =2416= | =80= | =2031619= | =Event= | == | 
+< | =0xfffff8a003253db0= | =2416= | =84= | =15= | =Directory= | =BaseNamedObjects= | 
+< | =0xfffffa8002b9efc0= | =2416= | =88= | =2031617= | =Mutant= | == | 
+< | =0xfffffa8002bb1fb0= | =2416= | =92= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002452680= | =2416= | =96= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bb7fc0= | =2416= | =100= | =2031617= | =Mutant= | == | 
+< | =0xfffffa80028aa860= | =2416= | =104= | =2031619= | =Event= | == | 
+< | =0xfffffa8002499490= | =2416= | =108= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002b9c220= | =2416= | =112= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c1f140= | =2416= | =116= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a5ab40= | =2416= | =120= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002721240= | =2416= | =124= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800262f6d0= | =2416= | =128= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002531a30= | =2416= | =132= | =2031619= | =Event= | == | 
+< | =0xfffffa80028d9390= | =2416= | =136= | =2031619= | =Event= | == | 
+< | =0xfffffa8002461e60= | =2416= | =140= | =2031619= | =Event= | == | 
+< | =0xfffffa800286e9d0= | =2416= | =144= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a38f20= | =2416= | =148= | =1048577= | =File= | =\Device\KsecDD= | 
+< | =0xfffff8a0059fa9a0= | =2416= | =152= | =4= | =Section= | =__ComCatalogCache__= | 
+< | =0xfffff8a0015bcfa0= | =2416= | =156= | =983103= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+< | =0xfffffa8000cea780= | =2416= | =160= | =1048577= | =Event= | =MaximumCommitCondition= | 
+< | =0xfffffa8002465980= | =2416= | =164= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a5dbf0= | =2416= | =168= | =2031619= | =Event= | == | 
+< | =0xfffffa800286c3f0= | =2416= | =172= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a49da0= | =2416= | =176= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a746f0= | =2416= | =180= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028d9fe0= | =2416= | =184= | =2031619= | =Event= | == | 
+< | =0xfffffa80020d7b60= | =2416= | =188= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+< | =0xfffffa8002a90980= | =2416= | =192= | =2031617= | =ALPC Port= | == | 
+< | =0xfffff8a0018f5060= | =2416= | =196= | =983043= | =KeyedEvent= | == | 
+< | =0xfffffa8002047a00= | =2416= | =200= | =2031619= | =IoCompletion= | == | 
+< | =0xfffffa8002a5e880= | =2416= | =204= | =983295= | =TpWorkerFactory= | == | 
+< | =0xfffffa8002840910= | =2416= | =208= | =1048578= | =Timer= | == | 
+< | =0xfffffa8002a487c0= | =2416= | =212= | =2031619= | =Timer= | == | 
+< | =0xfffffa8002b62b60= | =2416= | =216= | =2097151= | =Thread= | =TID 2424 PID 2416= | 
+< | =0xfffffa8002b62b60= | =2416= | =220= | =2097151= | =Thread= | =TID 2424 PID 2416= | 
+< | =0xfffffa8002a34d10= | =2416= | =224= | =1048578= | =Timer= | == | 
+< | =0xfffffa8002b6f280= | =2416= | =228= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa80028a54c0= | =2416= | =232= | =2031619= | =Event= | == | 
+< | =0xfffffa80029862e0= | =2416= | =236= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a5f090= | =2416= | =240= | =2031617= | =ALPC Port= | =OLEB8357D0BD6094251B3E5F8123A8A= | 
+< | =0xfffffa8002bb4210= | =2416= | =244= | =2097151= | =Thread= | =TID 2428 PID 2416= | 
+< | =0xfffffa80026102e0= | =2416= | =248= | =2031619= | =Event= | == | 
+< | =0xfffffa80026e7370= | =2416= | =252= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002a37a60= | =2416= | =256= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c198d0= | =2416= | =260= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a374b0= | =2416= | =264= | =2031619= | =Event= | == | 
+< | =0xfffffa80029af450= | =2416= | =268= | =35586051= | =Event= | == | 
+< | =0xfffffa8001b1dc80= | =2416= | =272= | =1048579= | =Event= | == | 
+< | =0xfffffa8002a59a40= | =2416= | =276= | =2031617= | =ALPC Port= | == | 
+< | =0xfffff8a0059fa9a0= | =2416= | =280= | =4= | =Section= | =__ComCatalogCache__= | 
+< | =0xfffffa8002a07bc0= | =2416= | =284= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028bf610= | =2416= | =288= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029ebc50= | =2416= | =292= | =2031619= | =Event= | == | 
+< | =0xfffffa80029813e0= | =2416= | =296= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bacb60= | =2416= | =300= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+< | =0xfffffa8002a335f0= | =2416= | =304= | =2031619= | =Event= | == | 
+< | =0xfffffa80029a4e60= | =2416= | =308= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa80020c8bf0= | =2416= | =312= | =35586051= | =Event= | == | 
+< | =0xfffffa8002019970= | =2416= | =316= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002731d10= | =2416= | =320= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002865280= | =2416= | =324= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80022abfb0= | =2416= | =328= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800243d350= | =2416= | =332= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002899c00= | =2416= | =336= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002921b40= | =2416= | =340= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002857bc0= | =2416= | =344= | =2031619= | =Event= | == | 
+< | =0xfffffa800374afe0= | =2416= | =348= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a0fa40= | =2416= | =352= | =1180063= | =File= | =\Device\NamedPipe\lsarpc= | 
+< | =0xfffffa800286ab50= | =2416= | =356= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a5fe90= | =2416= | =360= | =2031619= | =Event= | == | 
+< | =0xfffffa8002804b40= | =2416= | =364= | =1180063= | =File= | =\Device\NamedPipe\samr= | 
+< | =0xfffffa80028f1b30= | =2416= | =368= | =2031619= | =Event= | == | 
+< | =0xfffff8a00184c5e0= | =2416= | =372= | =131097= | =Key= | =USER\.DEFAULT\CONTROL PANEL\INTERNATIONAL= | 
+< | =0xfffff8a0013b6610= | =2416= | =376= | =983103= | =Key= | =USER\.DEFAULT= | 
+< | =0xfffffa80020983d0= | =2416= | =380= | =2031619= | =Event= | == | 
+< | =0xfffffa80020cd100= | =2416= | =384= | =2031619= | =Event= | == | 
+< | =0xfffff8a0018d9740= | =2416= | =388= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NETWORKPROVIDER\HWORDER= | 
+< | =0xfffffa8003208a70= | =2416= | =392= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8001ff04c0= | =2416= | =396= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80021de1d0= | =2416= | =400= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80022dc150= | =2416= | =404= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800284afb0= | =2416= | =408= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8001ac2590= | =2416= | =412= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002888240= | =2416= | =416= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8001f54de0= | =2416= | =420= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80020d7b60= | =2416= | =424= | =2122= | =Thread= | =TID 2420 PID 2416= | 
+< | =0xfffffa80020d7b60= | =2416= | =428= | =2122= | =Thread= | =TID 2420 PID 2416= | 
+< | =0xfffffa80029a3fe0= | =2416= | =432= | =2031619= | =Semaphore= | == | 
+< | =0xfffffa80029551f0= | =2416= | =436= | =2031619= | =Semaphore= | == | 
+< | =0xfffffa8002bc7840= | =2416= | =440= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\wbem\wbemdisp.tlb= | 
+< | =0xfffff8a0013f16c0= | =2416= | =444= | =983045= | =Section= | == | 
+< | =0xfffffa8002954d20= | =2416= | =448= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\stdole2.tlb= | 
+< | =0xfffff8a0014229d0= | =2416= | =452= | =983045= | =Section= | == | 
+< | =0xfffffa8002b97790= | =2416= | =456= | =2031619= | =Event= | == | 
+< | =0xfffffa80026d4070= | =2416= | =460= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\en-US\KernelBase.dll.mui= | 
+< | =0xfffffa8002046950= | =2416= | =464= | =2031619= | =Event= | == | 
+< | =0xfffffa80020469d0= | =2416= | =468= | =2031619= | =Semaphore= | == | 
+< | =0xfffffa8002a07f20= | =2416= | =472= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\msxml3.dll= | 
+< | =0xfffff8a001354b80= | =2416= | =476= | =983045= | =Section= | == | 
+< | =0xfffffa8002baa1e0= | =2416= | =480= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002baa070= | =2416= | =484= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a35390= | =2416= | =488= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bc4d60= | =2416= | =492= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac= | 
+< | =0xfffffa80029ae7c0= | =2416= | =496= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a494a0= | =2416= | =500= | =2052= | =EtwRegistration= | == | 
+< | =0xfffff8a0014d02c0= | =2416= | =504= | =131097= | =Key= | =MACHINE\SOFTWARE\POLICIES\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+< | =0xfffff8a0017598c0= | =2416= | =508= | =131103= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+< | =0xfffff8a001441650= | =2416= | =512= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+< | =0xfffff8a001757bc0= | =2416= | =516= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS= | 
+< | =0xfffff8a001642940= | =2416= | =520= | =131097= | =Key= | =MACHINE\SOFTWARE\POLICIES= | 
+< | =0xfffff8a0059c4ef0= | =2416= | =524= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\POLICIES= | 
+< | =0xfffff8a0018c5fa0= | =2416= | =528= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE= | 
+< | =0xfffff8a00153cbb0= | =2416= | =532= | =131097= | =Key= | =MACHINE\SOFTWARE= | 
+< | =0xfffffa8002a363c0= | =2416= | =536= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002bb60f0= | =2416= | =540= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002bb3070= | =2416= | =544= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002bc4cb0= | =2416= | =548= | =2031617= | =Mutant= | =_!MSFTHISTORY!_= | 
+< | =0xfffffa8002bc5370= | =2416= | =552= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!local!microsoft!windows!temporary internet files!content.ie5!= | 
+< | =0xfffffa8002a5df20= | =2416= | =556= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat= | 
+< | =0xfffff8a001136a60= | =2416= | =560= | =6= | =Section= | =windows_shell_global_counters= | 
+< | =0xfffff8a0014beaf0= | =2416= | =564= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Local_Microsoft_Windows_Temporary Internet Files_Content.IE5_index.dat_32768= | 
+< | =0xfffff8a0015b23a0= | =2416= | =568= | =1= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER= | 
+< | =0xfffffa80028d82f0= | =2416= | =572= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002b70440= | =2416= | =576= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!roaming!microsoft!windows!cookies!= | 
+< | =0xfffffa8002a35240= | =2416= | =580= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\index.dat= | 
+< | =0xfffff8a0018f5760= | =2416= | =584= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Roaming_Microsoft_Windows_Cookies_index.dat_16384= | 
+< | =0xfffffa8002a055c0= | =2416= | =588= | =2031617= | =Mutant= | =c:!windows!system32!config!systemprofile!appdata!local!microsoft!windows!history!history.ie5!= | 
+< | =0xfffffa80028d83b0= | =2416= | =592= | =1180063= | =File= | =\Device\HarddiskVolume2\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat= | 
+< | =0xfffff8a0018e7440= | =2416= | =596= | =983047= | =Section= | =C:_Windows_system32_config_systemprofile_AppData_Local_Microsoft_Windows_History_History.IE5_index.dat_16384= | 
+< | =0xfffffa80029c68a0= | =2416= | =600= | =2031617= | =Mutant= | =WininetStartupMutex= | 
+< | =0xfffffa80020d7b60= | =2416= | =604= | =2097151= | =Thread= | =TID 2420 PID 2416= | 
+< | =0xfffffa800296fdb0= | =2416= | =608= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bc5410= | =2416= | =612= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c27130= | =2416= | =616= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80028a75f0= | =2416= | =620= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800296ffe0= | =2416= | =624= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800296ff60= | =2416= | =628= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800296fee0= | =2416= | =632= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80028ae280= | =2416= | =636= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80028ae200= | =2416= | =640= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80028ae180= | =2416= | =644= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002b9b790= | =2416= | =648= | =2031619= | =Event= | == | 
+< | =0xfffff8a00179d9d0= | =2416= | =652= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\PROTOCOL_CATALOG9= | 
+< | =0xfffffa80029c6ac0= | =2416= | =656= | =2031619= | =Event= | == | 
+< | =0xfffff8a0018f6380= | =2416= | =660= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\NAMESPACE_CATALOG5= | 
+< | =0xfffffa80024774f0= | =2416= | =664= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002477430= | =2416= | =668= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80020c86b0= | =2416= | =672= | =2031619= | =Event= | == | 
+< | =0xfffffa800295b2c0= | =2416= | =676= | =2031617= | =Mutant= | == | 
+< | =0xfffffa80029f1980= | =2416= | =680= | =2031617= | =Mutant= | =WininetProxyRegistryMutex= | 
+< | =0xfffffa8002b7b530= | =2416= | =684= | =2031619= | =Event= | == | 
+< | =0xfffffa80020c8450= | =2416= | =688= | =2031619= | =Semaphore= | == | 
+< | =0xfffffa800299f9a0= | =2416= | =692= | =2031619= | =Event= | == | 
+< | =0xfffff8a001905550= | =2416= | =696= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_MIME_HANDLING= | 
+< | =0xfffff8a00021fad0= | =2416= | =700= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_HTTP_USERNAME_PASSWORD_DISABLE= | 
+< | =0xfffffa80020c8590= | =2416= | =704= | =1048577= | =Mutant= | =!IETld!Mutex= | 
+< | =0xfffff8a0018dcc20= | =2416= | =708= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\INTERNET EXPLORER\IETLD= | 
+< | =0xfffffa800280b070= | =2416= | =712= | =1179785= | =File= | =\Device\HarddiskVolume2\Windows\System32\en-US\urlmon.dll.mui= | 
+< | =0xfffff8a001434ad0= | =2416= | =716= | =983103= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+< | =0xfffffa8002c29100= | =2416= | =720= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b9e060= | =2416= | =724= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+< | =0xfffff8a001845a20= | =2416= | =728= | =131097= | =Key= | =MACHINE\SOFTWARE\POLICIES= | 
+< | =0xfffff8a0018e34c0= | =2416= | =732= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\POLICIES= | 
+< | =0xfffff8a0018e0e50= | =2416= | =736= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE= | 
+< | =0xfffff8a0018f89b0= | =2416= | =740= | =131097= | =Key= | =MACHINE\SOFTWARE= | 
+< | =0xfffffa80028996c0= | =2416= | =744= | =1048576= | =Mutant= | =RasPbFile= | 
+< | =0xfffffa800296fe60= | =2416= | =748= | =2031619= | =Event= | == | 
+< | =0xfffffa80020c6950= | =2416= | =752= | =2031619= | =Event= | == | 
+< | =0xfffffa80026bbb30= | =2416= | =756= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bb3270= | =2416= | =760= | =2031619= | =Event= | == | 
+< | =0xfffffa80020c8630= | =2416= | =764= | =2031619= | =Event= | == | 
+< | =0xfffffa800295b1b0= | =2416= | =768= | =2031619= | =Event= | == | 
+< | =0xfffff8a0013f5730= | =2416= | =772= | =131099= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\TRACING\SCRCONS_RASAPI32= | 
+< | =0xfffffa8002a0af50= | =2416= | =776= | =2031619= | =Event= | == | 
+< | =0xfffff8a00133f660= | =2416= | =780= | =4= | =Section= | =ASqmManifestVersion= | 
+< | =0xfffff8a00163be00= | =2416= | =784= | =131075= | =Directory= | == | 
+< | =0xfffffa8002bb2e60= | =2416= | =788= | =2031617= | =ALPC Port= | == | 
+< | =0xfffff8a0018e55a0= | =2416= | =792= | =983103= | =Key= | =USER= | 
+< | =0xfffffa80029c6070= | =2416= | =796= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002bb2dd0= | =2416= | =800= | =2031619= | =Event= | == | 
+< | =0xfffff8a0014bce10= | =2416= | =804= | =131099= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\TRACING\SCRCONS_RASMANCS= | 
+< | =0xfffffa8002bb2d50= | =2416= | =808= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a5de10= | =2416= | =812= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b9e060= | =2416= | =816= | =2097151= | =Thread= | =TID 2480 PID 2416= | 
+< | =0xfffffa800295b8e0= | =2416= | =820= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b95060= | =2416= | =824= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+< | =0xfffffa800295b960= | =2416= | =828= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b9e060= | =2416= | =832= | =16= | =Thread= | =TID 2480 PID 2416= | 
+< | =0xfffffa8002b955b0= | =2416= | =836= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b95060= | =2416= | =840= | =2097151= | =Thread= | =TID 2484 PID 2416= | 
+< | =0xfffffa8002c26fe0= | =2416= | =844= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bfadd0= | =2416= | =848= | =1442207= | =File= | =\Device\Afd\Endpoint= | 
+< | =0xfffff8a0015bcee0= | =2416= | =852= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_UNC_SAVEDFILECHECK= | 
+< | =0xfffffa8002477650= | =2416= | =856= | =2031617= | =Mutant= | =ZonesCounterMutex= | 
+< | =0xfffff8a0018afa40= | =2416= | =860= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+< | =0xfffff8a0018c0e30= | =2416= | =864= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+< | =0xfffff8a00182bd00= | =2416= | =868= | =983047= | =Section= | =UrlZonesSM_SYSTEM= | 
+< | =0xfffffa80028c1dc0= | =2416= | =872= | =2031617= | =Mutant= | =ZoneAttributeCacheCounterMutex= | 
+< | =0xfffff8a0018ea840= | =2416= | =876= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_LOCALMACHINE_LOCKDOWN= | 
+< | =0xfffffa80029f17a0= | =2416= | =880= | =2031617= | =Mutant= | =ZonesCacheCounterMutex= | 
+< | =0xfffffa80028c1dc0= | =2416= | =884= | =2031617= | =Mutant= | =ZoneAttributeCacheCounterMutex= | 
+< | =0xfffffa8002bbfa60= | =2416= | =888= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c273b0= | =2416= | =892= | =2031619= | =Event= | == | 
+< | =0xfffffa80028c1fc0= | =2416= | =896= | =2031617= | =Mutant= | =ZonesLockedCacheCounterMutex= | 
+< | =0xfffffa8002bbf9d0= | =2416= | =900= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bbf8d0= | =2416= | =904= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bbf950= | =2416= | =908= | =2031619= | =Event= | == | 
+< | =0xfffffa800295a5c0= | =2416= | =912= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002b9e570= | =2416= | =916= | =1048704= | =File= | =\Device\Nsi= | 
+< | =0xfffffa80020c81b0= | =2416= | =920= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b6f9b0= | =2416= | =924= | =2031617= | =ALPC Port= | == | 
+< | =0xfffff8a0015bca80= | =2416= | =928= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\NETWORK\LOCATION AWARENESS= | 
+< | =0xfffff8a001889b90= | =2416= | =932= | =131097= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\FEATURECONTROL\FEATURE_DISABLE_LEGACY_COMPRESSION= | 
+< | =0xfffffa8002bacb60= | =2416= | =936= | =2097151= | =Thread= | =TID 2432 PID 2416= | 
+< | =0xfffffa8002c61b60= | =2416= | =940= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+< | =0xfffffa80020c82d0= | =2416= | =944= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c1e320= | =2416= | =948= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c1f4d0= | =2416= | =952= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80020c8240= | =2416= | =956= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c61b60= | =2416= | =960= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+< | =0xfffffa8002c275d0= | =2416= | =964= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c27550= | =2416= | =968= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c274d0= | =2416= | =972= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a232d0= | =2416= | =976= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a13fb0= | =2416= | =980= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a13ef0= | =2416= | =984= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a13e30= | =2416= | =988= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a13d70= | =2416= | =992= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800280aeb0= | =2416= | =996= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800280adf0= | =2416= | =1000= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800280ad30= | =2416= | =1004= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800280ac70= | =2416= | =1008= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029ea600= | =2416= | =1012= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029ea540= | =2416= | =1016= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029ea480= | =2416= | =1020= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029ea3c0= | =2416= | =1028= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028abfb0= | =2416= | =1032= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028abef0= | =2416= | =1036= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a13ce0= | =2416= | =1040= | =2031619= | =Event= | == | 
+< | =0xfffffa800280abe0= | =2416= | =1044= | =2031619= | =Event= | == | 
+< | =0xfffffa80029ea330= | =2416= | =1048= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b6f8f0= | =2416= | =1052= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800295a530= | =2416= | =1056= | =2031619= | =Semaphore= | == | 
+< | =0xfffffa8002a23420= | =2416= | =1060= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa800215bda0= | =2416= | =1064= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800215bce0= | =2416= | =1068= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028c1060= | =2416= | =1072= | =2031619= | =Event= | == | 
+< | =0xfffffa80028c11b0= | =2416= | =1076= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c61b60= | =2416= | =1080= | =2097151= | =Thread= | =TID 2488 PID 2416= | 
+< | =0xfffffa8002b99de0= | =2416= | =1084= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa80023ad5a0= | =2416= | =1092= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002935070= | =2416= | =1096= | =2052= | =EtwRegistration= | == | 
+< | =0xfffff8a0011c2700= | =2416= | =1100= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+< | =0xfffffa80028d53f0= | =2416= | =1104= | =2031619= | =Event= | == | 
+< | =0xfffff8a0011d0e10= | =2416= | =1108= | =131097= | =Key= | =USER\.DEFAULT\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONEMAP= | 
+< | =0xfffff8a0018d9f10= | =2440= | =4= | =9= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS= | 
+< | =0xfffff8a000d1fde0= | =2440= | =8= | =3= | =Directory= | =KnownDlls= | 
+< | =0xfffffa8001b1e750= | =2440= | =12= | =1048608= | =File= | =\Device\HarddiskVolume2\Windows\System32= | 
+< | =0xfffff8a0059f86d0= | =2440= | =16= | =131097= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\VERSIONS= | 
+< | =0xfffffa80024f8be0= | =2440= | =20= | =2031617= | =Mutant= | == | 
+< | =0xfffffa80026fcd10= | =2440= | =24= | =2031617= | =ALPC Port= | == | 
+< | =0xfffff8a00176fb90= | =2440= | =28= | =131097= | =Key= | =MACHINE= | 
+< | =0xfffffa800280a7a0= | =2440= | =32= | =2031619= | =Event= | == | 
+< | =0xfffff8a00155bc70= | =2440= | =36= | =1= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\SESSION MANAGER= | 
+< | =0xfffffa8002b9f5c0= | =2440= | =40= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002836980= | =2440= | =44= | =35586051= | =Event= | == | 
+< | =0xfffffa80023fe5f0= | =2440= | =48= | =983150= | =WindowStation= | =Service-0x0-3e4$= | 
+< | =0xfffffa80023fe480= | =2440= | =52= | =983247= | =Desktop= | =Default= | 
+< | =0xfffffa80023fe5f0= | =2440= | =56= | =983150= | =WindowStation= | =Service-0x0-3e4$= | 
+< | =0xfffffa8002bb1bf0= | =2440= | =60= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002208ba0= | =2440= | =64= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c17600= | =2440= | =68= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c17ec0= | =2440= | =72= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c27830= | =2440= | =76= | =2031619= | =Event= | == | 
+< | =0xfffffa8002bb1b60= | =2440= | =80= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a4bc60= | =2440= | =84= | =2031619= | =Event= | == | 
+< | =0xfffff8a003253db0= | =2440= | =88= | =15= | =Directory= | =BaseNamedObjects= | 
+< | =0xfffffa8002a4bbc0= | =2440= | =92= | =2031617= | =Mutant= | == | 
+< | =0xfffffa800299a3b0= | =2440= | =96= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800299a2f0= | =2440= | =100= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002b569f0= | =2440= | =104= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002b56930= | =2440= | =108= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800295e6b0= | =2440= | =112= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa800295e5f0= | =2440= | =116= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80025e6600= | =2440= | =120= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80025e6540= | =2440= | =124= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80020d56c0= | =2440= | =128= | =2031619= | =Event= | == | 
+< | =0xfffffa80020d5640= | =2440= | =132= | =2031619= | =Event= | == | 
+< | =0xfffffa80020d55c0= | =2440= | =136= | =2031619= | =Event= | == | 
+< | =0xfffffa80020d5d00= | =2440= | =140= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80020d5c40= | =2440= | =144= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bb72e0= | =2440= | =148= | =2031619= | =Event= | == | 
+< | =0xfffffa8002ba1440= | =2440= | =152= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+< | =0xfffffa8002a3ea20= | =2440= | =156= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002944160= | =2440= | =160= | =2031619= | =Event= | == | 
+< | =0xfffffa80020c7e00= | =2440= | =164= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a62760= | =2440= | =168= | =1048577= | =File= | =\Device\KsecDD= | 
+< | =0xfffffa8002a3b070= | =2440= | =172= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002c1f8a0= | =2440= | =176= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bb71d0= | =2440= | =180= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c1f810= | =2440= | =184= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c25720= | =2440= | =188= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c256a0= | =2440= | =192= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c25620= | =2440= | =196= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c17b40= | =2440= | =200= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c17ac0= | =2440= | =204= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c17a40= | =2440= | =208= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002b5ffe0= | =2440= | =212= | =1048579= | =Semaphore= | == | 
+< | =0xfffff8a0018e4a00= | =2440= | =216= | =983043= | =KeyedEvent= | == | 
+< | =0xfffffa8002c1ade0= | =2440= | =220= | =2031619= | =IoCompletion= | == | 
+< | =0xfffffa8002c1a4f0= | =2440= | =224= | =983295= | =TpWorkerFactory= | == | 
+< | =0xfffffa8002bbb8b0= | =2440= | =228= | =1048578= | =Timer= | == | 
+< | =0xfffffa8002c1c980= | =2440= | =232= | =2031619= | =Timer= | == | 
+< | =0xfffffa8002c27b60= | =2440= | =236= | =2097151= | =Thread= | =TID 2448 PID 2440= | 
+< | =0xfffffa8002c27b60= | =2440= | =240= | =2097151= | =Thread= | =TID 2448 PID 2440= | 
+< | =0xfffffa8002c1def0= | =2440= | =244= | =1048578= | =Timer= | == | 
+< | =0xfffffa800295e870= | =2440= | =248= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002c27a60= | =2440= | =252= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c29650= | =2440= | =256= | =2031619= | =Event= | == | 
+< | =0xfffff8a0013d39b0= | =2440= | =260= | =6= | =Section= | =Wmi Provider Sub System Counters= | 
+< | =0xfffffa8002c295d0= | =2440= | =264= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c29550= | =2440= | =268= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c2b800= | =2440= | =272= | =2031619= | =Event= | == | 
+< | =0xfffffa8001df61d0= | =2440= | =276= | =1048576= | =Event= | =WBEM_ESS_OPEN_FOR_BUSINESS= | 
+< | =0xfffffa8002c2b780= | =2440= | =280= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c2a440= | =2440= | =284= | =2097151= | =Thread= | =TID 2452 PID 2440= | 
+< | =0xfffff8a0059fa9a0= | =2440= | =288= | =4= | =Section= | =__ComCatalogCache__= | 
+< | =0xfffff8a0014be490= | =2440= | =292= | =131097= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+< | =0xfffffa8000cea780= | =2440= | =296= | =1048577= | =Event= | =MaximumCommitCondition= | 
+< | =0xfffff8a0059fa9a0= | =2440= | =300= | =4= | =Section= | =__ComCatalogCache__= | 
+< | =0xfffffa8002b5ff30= | =2440= | =304= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c2a390= | =2440= | =308= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029a2090= | =2440= | =312= | =2031617= | =ALPC Port= | =OLE203719C8FFE545F8971CF02A2B02= | 
+< | =0xfffffa8002c261b0= | =2440= | =316= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a389a0= | =2440= | =320= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002c27ae0= | =2440= | =324= | =2031619= | =Event= | == | 
+< | =0xfffffa80029f0ab0= | =2440= | =328= | =1048576= | =Event= | =EVENT_READYROOT/CIMV2PROVIDERSUBSYSTEM= | 
+< | =0xfffffa8002c298e0= | =2440= | =332= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+< | =0xfffffa8002a3de60= | =2440= | =336= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002c254a0= | =2440= | =340= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c26490= | =2440= | =344= | =2031619= | =Event= | == | 
+< | =0xfffffa8002ba1440= | =2440= | =348= | =2097151= | =Thread= | =TID 2444 PID 2440= | 
+< | =0xfffffa80020c5e60= | =2440= | =352= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002892bc0= | =2440= | =356= | =2031619= | =Event= | == | 
+< | =0xfffffa8002892b40= | =2440= | =360= | =2031619= | =Event= | == | 
+< | =0xfffffa8002892ac0= | =2440= | =364= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c2ba90= | =2440= | =368= | =2097151= | =Thread= | =TID 2468 PID 2440= | 
+< | =0xfffffa8002c2b970= | =2440= | =372= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b5f060= | =2440= | =376= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b5f190= | =2440= | =380= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b5f110= | =2440= | =384= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c72fe0= | =2440= | =388= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c72f60= | =2440= | =392= | =2031619= | =Event= | == | 
+< | =0xfffffa8002baff60= | =2440= | =396= | =35586051= | =Event= | == | 
+< | =0xfffffa80025ea0f0= | =2440= | =400= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c26510= | =2440= | =404= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+< | =0xfffffa8002a395a0= | =2440= | =408= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002bb3fe0= | =2440= | =412= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c26510= | =2440= | =416= | =2097151= | =Thread= | =TID 2460 PID 2440= | 
+< | =0xfffff8a001458d60= | =2440= | =420= | =131097= | =Key= | =MACHINE\SOFTWARE\CLASSES= | 
+< | =0xfffffa8002baffe0= | =2440= | =424= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80020cc390= | =2440= | =428= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002a4ae90= | =2440= | =432= | =2031619= | =Event= | == | 
+< | =0xfffffa80029a3880= | =2440= | =436= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c26060= | =2440= | =440= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a64590= | =2440= | =444= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c2a060= | =2440= | =448= | =2031619= | =Event= | == | 
+< | =0xfffffa8002b9b070= | =2440= | =452= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002c71f60= | =2440= | =456= | =2031619= | =Event= | == | 
+< | =0xfffffa800284c320= | =2440= | =460= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002c71fe0= | =2440= | =464= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029ebe60= | =2440= | =468= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002badd80= | =2440= | =472= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800212ddc0= | =2440= | =476= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002b95b70= | =2440= | =480= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800283e9f0= | =2440= | =484= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa800283e970= | =2440= | =488= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002bc6830= | =2440= | =492= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002bc67b0= | =2440= | =496= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002bc6730= | =2440= | =500= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80025e53b0= | =2440= | =504= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80025e5330= | =2440= | =508= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80025e52b0= | =2440= | =512= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80025e5230= | =2440= | =516= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c9060= | =2440= | =520= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c91f0= | =2440= | =524= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c9170= | =2440= | =528= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c90f0= | =2440= | =532= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029620f0= | =2440= | =536= | =2031619= | =Event= | == | 
+< | =0xfffffa80025da810= | =2440= | =540= | =2097151= | =Thread= | =TID 2472 PID 2440= | 
+< | =0xfffffa80025da790= | =2440= | =544= | =35586051= | =Event= | == | 
+< | =0xfffffa8001bc7ec0= | =2440= | =548= | =2031619= | =Event= | == | 
+< | =0xfffffa8002c298e0= | =2440= | =552= | =2097151= | =Thread= | =TID 2456 PID 2440= | 
+< | =0xfffffa8002c2aae0= | =2440= | =556= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029d4630= | =2440= | =560= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa80020c6d10= | =2440= | =564= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80028a5e60= | =2440= | =568= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002309cb0= | =2440= | =572= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8001bc7cb0= | =2440= | =576= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002809550= | =2440= | =580= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8001bc7b80= | =2440= | =584= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa8002098610= | =2440= | =588= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029036d0= | =2440= | =592= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80020d5880= | =2440= | =596= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c7d10= | =2440= | =600= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002486fb0= | =2440= | =604= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002bc1340= | =2440= | =608= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80024a5070= | =2440= | =612= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80029d3280= | =2440= | =616= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa80024a5130= | =2440= | =620= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002a0a170= | =2440= | =624= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029c7c80= | =2440= | =628= | =1048579= | =Semaphore= | == | 
+< | =0xfffffa80029521e0= | =2440= | =632= | =2052= | =EtwRegistration= | == | 
+< | =0xfffffa8002880720= | =2440= | =636= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002891b40= | =2440= | =640= | =2031617= | =ALPC Port= | == | 
+< | =0xfffffa8002955170= | =2440= | =644= | =2031619= | =Event= | == | 
+< | =0xfffffa8002a36530= | =2440= | =648= | =2031617= | =Mutant= | == | 
+< | =0xfffffa80020c6dd0= | =2440= | =652= | =1048704= | =File= | =\Device\Nsi= | 
+< | =0xfffffa80029550f0= | =2440= | =656= | =1048579= | =Event= | == | 
+< | =0xfffff8a001447650= | =2440= | =672= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\DEVICECLASSES= | 
+< | =0xfffff8a0014ac060= | =2440= | =676= | =983103= | =Key= | =MACHINE\SYSTEM\CONTROLSET001\CONTROL\CODEVICEINSTALLERS= | 
+< | =0xfffff8a0012ec990= | =2440= | =680= | =983103= | =Key= | =MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\PERHWIDSTORAGE= | 
+

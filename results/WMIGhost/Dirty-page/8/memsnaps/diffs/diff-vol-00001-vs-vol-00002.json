@@ -1,0 +1,144 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1612,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "wmighost.dll",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2096,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "is32bit.exe",
+        "thrdproc": "False"
+      }
+    ],
+    "added_count": 2
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x3e3365c0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003c00000",
+        "kernel_module_name": "",
+        "kernel_module_size": 679936
+      },
+      {
+        "kernel_module_offset": "0x3e8aa150",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\Dxapi.sys",
+        "kernel_module_base": "0xfffff88003d73000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3e9c2850",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\luafv.sys",
+        "kernel_module_base": "0xfffff88003d8d000",
+        "kernel_module_name": "",
+        "kernel_module_size": 143360
+      },
+      {
+        "kernel_module_offset": "0x3ea13f20",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\raspppoe.sys",
+        "kernel_module_base": "0xfffff88003a2f000",
+        "kernel_module_name": "",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3eb578d0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys",
+        "kernel_module_base": "0xfffff88003d4b000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ebfa180",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\monitor.sys",
+        "kernel_module_base": "0xfffff88003d7f000",
+        "kernel_module_name": "",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed14f30",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS",
+        "kernel_module_base": "0xfffff880015e9000",
+        "kernel_module_name": "",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ed23ea0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys",
+        "kernel_module_base": "0xfffff88003ba4000",
+        "kernel_module_name": "",
+        "kernel_module_size": 147456
+      },
+      {
+        "kernel_module_offset": "0x3ed6f8e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ndistapi.sys",
+        "kernel_module_base": "0xfffff88003bc8000",
+        "kernel_module_name": "",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ed91690",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys",
+        "kernel_module_base": "0xfffff88003b8e000",
+        "kernel_module_name": "",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3edcf010",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\discache.sys",
+        "kernel_module_base": "0xfffff880037d3000",
+        "kernel_module_name": "",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3edd9d50",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\csc.sys",
+        "kernel_module_base": "0xfffff88003600000",
+        "kernel_module_name": "",
+        "kernel_module_size": 536576
+      }
+    ],
+    "added_count": 12
+  },
+  "handles": {
+    "added": [],
+    "added_count": 0
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

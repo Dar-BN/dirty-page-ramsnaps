@@ -1,0 +1,236 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39568",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "140",
+        "handle_type": "Thread",
+        "handle_name": "TID 1640 PID 636"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "608",
+        "handle_type": "Thread",
+        "handle_name": "TID 864 PID 920"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "640",
+        "handle_type": "Thread",
+        "handle_name": "TID 1980 PID 724"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "720",
+        "handle_type": "Thread",
+        "handle_name": "TID 1944 PID 1112"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "808",
+        "handle_type": "Thread",
+        "handle_name": "TID 840 PID 1748"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "848",
+        "handle_type": "Thread",
+        "handle_name": "TID 1940 PID 636"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "900",
+        "handle_type": "Thread",
+        "handle_name": "TID 832 PID 1036"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "932",
+        "handle_type": "Thread",
+        "handle_name": "TID 848 PID 348"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "956",
+        "handle_type": "Thread",
+        "handle_name": "TID 1952 PID 1448"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1056",
+        "handle_type": "Thread",
+        "handle_name": "TID 868 PID 812"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1104",
+        "handle_type": "Thread",
+        "handle_name": "TID 1936 PID 996"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1356",
+        "handle_type": "Thread",
+        "handle_name": "TID 1636 PID 1036"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "468",
+        "handle_type": "Thread",
+        "handle_name": "TID 1956 PID 1336"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "472",
+        "handle_type": "Thread",
+        "handle_name": "TID 824 PID 1192"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "556",
+        "handle_type": "Thread",
+        "handle_name": "TID 1976 PID 1320"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 724,
+        "handle_value": "124",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 724,
+        "handle_value": "488",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\winevt\\Logs\\Microsoft-Windows-Diagnostics-Performance%4Operational.evtx"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1036,
+        "handle_value": "1256",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1192,
+        "handle_value": "224",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1192,
+        "handle_value": "228",
+        "handle_type": "Thread",
+        "handle_name": "TID 1440 PID 1192"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1336,
+        "handle_value": "1140",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1336,
+        "handle_value": "1148",
+        "handle_type": "Thread",
+        "handle_name": "TID 1972 PID 1336"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1112,
+        "handle_value": "552",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1112,
+        "handle_value": "564",
+        "handle_type": "Thread",
+        "handle_name": "TID 1964 PID 1112"
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 1448,
+        "handle_value": "872",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 636,
+        "handle_value": "264",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 636,
+        "handle_value": "296",
+        "handle_type": "Event",
+        "handle_name": ""
+      }
+    ],
+    "added_count": 27
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

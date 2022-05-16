@@ -1,0 +1,132 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 63729680,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "True",
+      "psscan": "False",
+      "process_name": "pq?\u0003????pq?\u0003????",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 63729680,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "True",
+      "psscan": "False",
+      "process_name": "pq?\u0003????pq?\u0003????",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1624",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_1024.db"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1776",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_1024.db"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "1816",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "1820",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      }
+    ],
+    "added_count": 4
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,1204 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 608,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 480,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "services.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 876,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 724,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 848,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 672,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 384,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "wininit.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 792,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "LogonUI.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 436,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "winlogon.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 488,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "lsass.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 980,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 472,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 700,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "dllhost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 496,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "lsm.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "True",
+        "process_id": 256,
+        "session": "False",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "smss.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "True",
+        "process_id": 396,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "csrss.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "True",
+        "process_id": 336,
+        "session": "True",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "csrss.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 4,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "False",
+        "process_name": "System",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 18
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 4,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "System",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "UDPv4",
+        "local_port": "137",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "4",
+        "offset": "0x3e226800",
+        "local_address": "192.168.30.21"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "138",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "4",
+        "offset": "0x3e226d80",
+        "local_address": "192.168.30.21"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "55365",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3e7cdc60",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "5355",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3e7eb010",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "UDPv6",
+        "local_port": "5355",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3e7eb010",
+        "local_address": "::"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "5355",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3e7f32b0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "49152",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "384",
+        "offset": "0x3e62bad0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "49152",
+        "remote_port": "0",
+        "remote_address": "::",
+        "process_id": "384",
+        "offset": "0x3e62bad0",
+        "local_address": "::"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "49153",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "724",
+        "offset": "0x3e6d03b0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "49153",
+        "remote_port": "0",
+        "remote_address": "::",
+        "process_id": "724",
+        "offset": "0x3e6d03b0",
+        "local_address": "::"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "49153",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "724",
+        "offset": "0x3e6d0ce0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "0",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3ed5a4c0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "UDPv6",
+        "local_port": "0",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "472",
+        "offset": "0x3ed5a4c0",
+        "local_address": "::"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "49152",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "384",
+        "offset": "0x3e9e9610",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "135",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "672",
+        "offset": "0x3e9fd200",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "135",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "672",
+        "offset": "0x3e9fd5a0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "135",
+        "remote_port": "0",
+        "remote_address": "::",
+        "process_id": "672",
+        "offset": "0x3e9fd5a0",
+        "local_address": "::"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "139",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "4",
+        "offset": "0x3eb937a0",
+        "local_address": "192.168.30.21"
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "384b:2602:80fa:ffff:384b:2602:80fa:ffff",
+        "process_id": "1",
+        "offset": "0x3e9ea7f0",
+        "local_address": null
+      }
+    ],
+    "added_count": 19
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x2bef5e1",
+        "kernel_module_file": "",
+        "kernel_module_base": "0x894c304b8b48ffad",
+        "kernel_module_name": "",
+        "kernel_module_size": 2218125312
+      },
+      {
+        "kernel_module_offset": "0x3e184b80",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\CompositeBus.sys",
+        "kernel_module_base": "0xfffff88003aa9000",
+        "kernel_module_name": "CompositeBus.sys",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3e229c30",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\dxg.sys",
+        "kernel_module_base": "0xfffff960004a0000",
+        "kernel_module_name": "",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3e701b20",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\lltdio.sys",
+        "kernel_module_base": "0xfffff88003d58000",
+        "kernel_module_name": "lltdio.sys",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3e78cbd0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rspndr.sys",
+        "kernel_module_base": "0xfffff88003d6d000",
+        "kernel_module_name": "rspndr.sys",
+        "kernel_module_size": 98304
+      },
+      {
+        "kernel_module_offset": "0x3e8334a0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_atapi.sys",
+        "kernel_module_base": "0xfffff88003cff000",
+        "kernel_module_name": "dump_atapi.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3e9af590",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\luafv.sys",
+        "kernel_module_base": "0xfffff88003d35000",
+        "kernel_module_name": "luafv.sys",
+        "kernel_module_size": 143360
+      },
+      {
+        "kernel_module_offset": "0x3ea21ba0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\mssmbios.sys",
+        "kernel_module_base": "0xfffff880037f2000",
+        "kernel_module_name": "mssmbios.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ea29200",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\discache.sys",
+        "kernel_module_base": "0xfffff88003600000",
+        "kernel_module_name": "discache.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ea33810",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\blbdrive.sys",
+        "kernel_module_base": "0xfffff88001000000",
+        "kernel_module_name": "blbdrive.sys",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3ea352d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\csc.sys",
+        "kernel_module_base": "0xfffff8800117a000",
+        "kernel_module_name": "csc.sys",
+        "kernel_module_size": 536576
+      },
+      {
+        "kernel_module_offset": "0x3ea49c90",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003a93000",
+        "kernel_module_name": "intelppm.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ea515e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ndiswan.sys",
+        "kernel_module_base": "0xfffff88003aff000",
+        "kernel_module_name": "ndiswan.sys",
+        "kernel_module_size": 192512
+      },
+      {
+        "kernel_module_offset": "0x3ea52530",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ndistapi.sys",
+        "kernel_module_base": "0xfffff88003af3000",
+        "kernel_module_name": "ndistapi.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ea552f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\raspptp.sys",
+        "kernel_module_base": "0xfffff88003b49000",
+        "kernel_module_name": "raspptp.sys",
+        "kernel_module_size": 135168
+      },
+      {
+        "kernel_module_offset": "0x3ea55df0",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003b2e000",
+        "kernel_module_name": "raspppoe.sys",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3ea62400",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rassstp.sys",
+        "kernel_module_base": "0xfffff88003b6a000",
+        "kernel_module_name": "rassstp.sys",
+        "kernel_module_size": 106496
+      },
+      {
+        "kernel_module_offset": "0x3ea624e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ks.sys",
+        "kernel_module_base": "0xfffff88003b91000",
+        "kernel_module_name": "ks.sys",
+        "kernel_module_size": 274432
+      },
+      {
+        "kernel_module_offset": "0x3ea67ee0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rdpbus.sys",
+        "kernel_module_base": "0xfffff88003b84000",
+        "kernel_module_name": "rdpbus.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ea69b70",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\swenum.sys",
+        "kernel_module_base": "0xfffff88003b8f000",
+        "kernel_module_name": "swenum.sys",
+        "kernel_module_size": 8192
+      },
+      {
+        "kernel_module_offset": "0x3ea6e3e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\umbus.sys",
+        "kernel_module_base": "0xfffff88003bd4000",
+        "kernel_module_name": "umbus.sys",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3ea7e510",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\flpydisk.sys",
+        "kernel_module_base": "0xfffff88003be6000",
+        "kernel_module_name": "flpydisk.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3eaac730",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\NDProxy.SYS",
+        "kernel_module_base": "0xfffff88003cd0000",
+        "kernel_module_name": "NDProxy.SYS",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3ebb4160",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\crashdmp.sys",
+        "kernel_module_base": "0xfffff88003ce5000",
+        "kernel_module_name": "crashdmp.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ebf7010",
+        "kernel_module_file": "\\SystemRoot\\System32\\framebuf.dll",
+        "kernel_module_base": "0xfffff96000990000",
+        "kernel_module_name": "framebuf.dll",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed235f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\cdrom.sys",
+        "kernel_module_base": "0xfffff8800167c000",
+        "kernel_module_name": "cdrom.sys",
+        "kernel_module_size": 172032
+      },
+      {
+        "kernel_module_offset": "0x3ed23700",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\Rtnic64.sys",
+        "kernel_module_base": "0xfffff88003a81000",
+        "kernel_module_name": "Rtnic64.sys",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3ed23a40",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys",
+        "kernel_module_base": "0xfffff88003ab9000",
+        "kernel_module_name": "AgileVpn.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ed4d8f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\netbios.sys",
+        "kernel_module_base": "0xfffff8800373a000",
+        "kernel_module_name": "netbios.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ed53440",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Null.SYS",
+        "kernel_module_base": "0xfffff880019ec000",
+        "kernel_module_name": "",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed54f30",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\vgapnp.sys",
+        "kernel_module_base": "0xfffff88003a73000",
+        "kernel_module_name": "vgapnp.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed56100",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys",
+        "kernel_module_base": "0xfffff88003acf000",
+        "kernel_module_name": "rasl2tp.sys",
+        "kernel_module_size": 147456
+      },
+      {
+        "kernel_module_offset": "0x3ed5a220",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_dumpfve.sys",
+        "kernel_module_base": "0xfffff88003d08000",
+        "kernel_module_name": "dump_dumpfve.sys",
+        "kernel_module_size": 77824
+      },
+      {
+        "kernel_module_offset": "0x3ed5b220",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys",
+        "kernel_module_base": "0xfffff88003cf3000",
+        "kernel_module_name": "dump_ataport.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ed80c30",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\vga.sys",
+        "kernel_module_base": "0xfffff880015ec000",
+        "kernel_module_name": "vga.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed81640",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001447000",
+        "kernel_module_name": "rdprefmp.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed819c0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\serenum.sys",
+        "kernel_module_base": "0xfffff88003a67000",
+        "kernel_module_name": "serenum.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ed87a50",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\VIDEOPRT.SYS",
+        "kernel_module_base": "0xfffff88001400000",
+        "kernel_module_name": "VIDEOPRT.SYS",
+        "kernel_module_size": 151552
+      },
+      {
+        "kernel_module_offset": "0x3ed88740",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001435000",
+        "kernel_module_name": "RDPCDD.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed88a30",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\watchdog.sys",
+        "kernel_module_base": "0xfffff88001425000",
+        "kernel_module_name": "",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3ed97010",
+        "kernel_module_file": "\\SystemRoot\\System32\\win32k.sys",
+        "kernel_module_base": "0xfffff96000010000",
+        "kernel_module_name": "win32k.sys",
+        "kernel_module_size": 3211264
+      },
+      {
+        "kernel_module_offset": "0x3edac2c0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Npfs.SYS",
+        "kernel_module_base": "0xfffff8800145b000",
+        "kernel_module_name": "",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3edac6a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys",
+        "kernel_module_base": "0xfffff88001236000",
+        "kernel_module_name": "tdx.sys",
+        "kernel_module_size": 139264
+      },
+      {
+        "kernel_module_offset": "0x3edacb70",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\parport.sys",
+        "kernel_module_base": "0xfffff88003a4a000",
+        "kernel_module_name": "parport.sys",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3edadd60",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88001450000",
+        "kernel_module_name": "Msfs.SYS",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3edae630",
+        "kernel_module_file": "\\SystemRoot\\System32\\DRIVERS\\netbt.sys",
+        "kernel_module_base": "0xfffff880036c6000",
+        "kernel_module_name": "netbt.sys",
+        "kernel_module_size": 282624
+      },
+      {
+        "kernel_module_offset": "0x3edb3500",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\wfplwf.sys",
+        "kernel_module_base": "0xfffff8800370b000",
+        "kernel_module_name": "wfplwf.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3edb3f20",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff8800363d000",
+        "kernel_module_name": "afd.sys",
+        "kernel_module_size": 561152
+      },
+      {
+        "kernel_module_offset": "0x3edb5270",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\rdpencdd.sys",
+        "kernel_module_base": "0xfffff8800143e000",
+        "kernel_module_name": "rdpencdd.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3edb6ad0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\TDI.SYS",
+        "kernel_module_base": "0xfffff8800116d000",
+        "kernel_module_name": "TDI.SYS",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3edb83a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\i8042prt.sys",
+        "kernel_module_base": "0xfffff88003a01000",
+        "kernel_module_name": "i8042prt.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3edcc8a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\pacer.sys",
+        "kernel_module_base": "0xfffff88003714000",
+        "kernel_module_name": "",
+        "kernel_module_size": 155648
+      },
+      {
+        "kernel_module_offset": "0x3edd1c70",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003795000",
+        "kernel_module_name": "rdbss.sys",
+        "kernel_module_size": 331776
+      },
+      {
+        "kernel_module_offset": "0x3edec290",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88003766000",
+        "kernel_module_name": "",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3edec9a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\serial.sys",
+        "kernel_module_base": "0xfffff88003749000",
+        "kernel_module_name": "",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3eded480",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\kbdclass.sys",
+        "kernel_module_base": "0xfffff88003a1f000",
+        "kernel_module_name": "kbdclass.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3edf4d90",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\termdd.sys",
+        "kernel_module_base": "0xfffff88003781000",
+        "kernel_module_name": "termdd.sys",
+        "kernel_module_size": 81920
+      },
+      {
+        "kernel_module_offset": "0x3edfabc0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dfsc.sys",
+        "kernel_module_base": "0xfffff8800360f000",
+        "kernel_module_name": "dfsc.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3edfd8e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\fdc.sys",
+        "kernel_module_base": "0xfffff88003a3d000",
+        "kernel_module_name": "fdc.sys",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3edffae0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\nsiproxy.sys",
+        "kernel_module_base": "0xfffff880037e6000",
+        "kernel_module_name": "nsiproxy.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3edffcb0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\mouclass.sys",
+        "kernel_module_base": "0xfffff88003a2e000",
+        "kernel_module_name": "",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ee01ca0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Beep.SYS",
+        "kernel_module_base": "0xfffff880019f5000",
+        "kernel_module_name": "",
+        "kernel_module_size": 28672
+      },
+      {
+        "kernel_module_offset": "0x3eff85d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\tunnel.sys",
+        "kernel_module_base": "0xfffff88001011000",
+        "kernel_module_name": "tunnel.sys",
+        "kernel_module_size": 155648
+      },
+      {
+        "kernel_module_offset": "0x3f1806a0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\Dxapi.sys",
+        "kernel_module_base": "0xfffff88003d1b000",
+        "kernel_module_name": "Dxapi.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3fe01010",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\monitor.sys",
+        "kernel_module_base": "0xfffff88003d27000",
+        "kernel_module_name": "monitor.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3fefa400",
+        "kernel_module_file": "\\SystemRoot\\System32\\TSDDD.dll",
+        "kernel_module_base": "0xfffff96000650000",
+        "kernel_module_name": "TSDDD.dll",
+        "kernel_module_size": 40960
+      },
+      {
+        "kernel_module_offset": "0x3ff28070",
+        "kernel_module_file": "\\SystemRoot\\system32\\hal.dll",
+        "kernel_module_base": "0xfffff8000260d000",
+        "kernel_module_name": "hal.dll",
+        "kernel_module_size": 299008
+      },
+      {
+        "kernel_module_offset": "0x3ff28160",
+        "kernel_module_file": "\\SystemRoot\\system32\\ntkrnlmp.exe",
+        "kernel_module_base": "0xfffff80002656000",
+        "kernel_module_name": "ntoskrnl.exe",
+        "kernel_module_size": 6201344
+      },
+      {
+        "kernel_module_offset": "0x3ff2e690",
+        "kernel_module_file": "\\SystemRoot\\system32\\CLFS.SYS",
+        "kernel_module_base": "0xfffff88000cf9000",
+        "kernel_module_name": "CLFS.SYS",
+        "kernel_module_size": 385024
+      },
+      {
+        "kernel_module_offset": "0x3ff2e780",
+        "kernel_module_file": "\\SystemRoot\\system32\\PSHED.dll",
+        "kernel_module_base": "0xfffff88000ce5000",
+        "kernel_module_name": "PSHED.dll",
+        "kernel_module_size": 81920
+      },
+      {
+        "kernel_module_offset": "0x3ff2e860",
+        "kernel_module_file": "\\SystemRoot\\system32\\mcupdate_GenuineIntel.dll",
+        "kernel_module_base": "0xfffff88000c96000",
+        "kernel_module_name": "",
+        "kernel_module_size": 323584
+      },
+      {
+        "kernel_module_offset": "0x3ff2e950",
+        "kernel_module_file": "\\SystemRoot\\system32\\kdcom.dll",
+        "kernel_module_base": "0xfffff80000b92000",
+        "kernel_module_name": "",
+        "kernel_module_size": 40960
+      },
+      {
+        "kernel_module_offset": "0x3ff2f010",
+        "kernel_module_file": "\\SystemRoot\\system32\\CI.dll",
+        "kernel_module_base": "0xfffff88000e43000",
+        "kernel_module_name": "",
+        "kernel_module_size": 786432
+      },
+      {
+        "kernel_module_offset": "0x3ff2f160",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\msahci.sys",
+        "kernel_module_base": "0xfffff88000dd8000",
+        "kernel_module_name": "",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ff2f240",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\ataport.SYS",
+        "kernel_module_base": "0xfffff88000dae000",
+        "kernel_module_name": "ataport.SYS",
+        "kernel_module_size": 172032
+      },
+      {
+        "kernel_module_offset": "0x3ff2f330",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\atapi.sys",
+        "kernel_module_base": "0xfffff88000c86000",
+        "kernel_module_name": "atapi.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff2f410",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\mountmgr.sys",
+        "kernel_module_base": "0xfffff88000c6c000",
+        "kernel_module_name": "mountmgr.sys",
+        "kernel_module_size": 106496
+      },
+      {
+        "kernel_module_offset": "0x3ff2f500",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\PCIIDEX.SYS",
+        "kernel_module_base": "0xfffff88000c5c000",
+        "kernel_module_name": "PCIIDEX.SYS",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3ff2f5f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\intelide.sys",
+        "kernel_module_base": "0xfffff88000e37000",
+        "kernel_module_name": "",
+        "kernel_module_size": 32768
+      },
+      {
+        "kernel_module_offset": "0x3ff2f6e0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\volmgrx.sys",
+        "kernel_module_base": "0xfffff88000c00000",
+        "kernel_module_name": "",
+        "kernel_module_size": 376832
+      },
+      {
+        "kernel_module_offset": "0x3ff2f7d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\volmgr.sys",
+        "kernel_module_base": "0xfffff88000e22000",
+        "kernel_module_name": "volmgr.sys",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3ff2f8b0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\partmgr.sys",
+        "kernel_module_base": "0xfffff88000e0d000",
+        "kernel_module_name": "",
+        "kernel_module_size": 86016
+      },
+      {
+        "kernel_module_offset": "0x3ff2f9a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\vdrvroot.sys",
+        "kernel_module_base": "0xfffff88000e00000",
+        "kernel_module_name": "vdrvroot.sys",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3ff2fa90",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\pci.sys",
+        "kernel_module_base": "0xfffff88000fc9000",
+        "kernel_module_name": "pci.sys",
+        "kernel_module_size": 208896
+      },
+      {
+        "kernel_module_offset": "0x3ff2fb70",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\msisadrv.sys",
+        "kernel_module_base": "0xfffff88000fbf000",
+        "kernel_module_name": "msisadrv.sys",
+        "kernel_module_size": 40960
+      },
+      {
+        "kernel_module_offset": "0x3ff2fc60",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\WMILIB.SYS",
+        "kernel_module_base": "0xfffff88000fb6000",
+        "kernel_module_name": "WMILIB.SYS",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff2fd40",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\ACPI.sys",
+        "kernel_module_base": "0xfffff88000d57000",
+        "kernel_module_name": "ACPI.sys",
+        "kernel_module_size": 356352
+      },
+      {
+        "kernel_module_offset": "0x3ff2fe30",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\WDFLDR.SYS",
+        "kernel_module_base": "0xfffff88000fa7000",
+        "kernel_module_name": "WDFLDR.SYS",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ff2ff10",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\Wdf01000.sys",
+        "kernel_module_base": "0xfffff88000f03000",
+        "kernel_module_name": "Wdf01000.sys",
+        "kernel_module_size": 671744
+      },
+      {
+        "kernel_module_offset": "0x3ff30010",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\amdxata.sys",
+        "kernel_module_base": "0xfffff88000de3000",
+        "kernel_module_name": "amdxata.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ff301d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\volsnap.sys",
+        "kernel_module_base": "0xfffff88001909000",
+        "kernel_module_name": "volsnap.sys",
+        "kernel_module_size": 311296
+      },
+      {
+        "kernel_module_offset": "0x3ff302c0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\vmstorfl.sys",
+        "kernel_module_base": "0xfffff880018f9000",
+        "kernel_module_name": "vmstorfl.sys",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3ff303b0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\fwpkclnt.sys",
+        "kernel_module_base": "0xfffff880018af000",
+        "kernel_module_name": "fwpkclnt.sys",
+        "kernel_module_size": 303104
+      },
+      {
+        "kernel_module_offset": "0x3ff304a0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\tcpip.sys",
+        "kernel_module_base": "0xfffff880016ab000",
+        "kernel_module_name": "tcpip.sys",
+        "kernel_module_size": 2113536
+      },
+      {
+        "kernel_module_offset": "0x3ff305c0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\ksecpkg.sys",
+        "kernel_module_base": "0xfffff880015c1000",
+        "kernel_module_name": "ksecpkg.sys",
+        "kernel_module_size": 176128
+      },
+      {
+        "kernel_module_offset": "0x3ff306b0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\NETIO.SYS",
+        "kernel_module_base": "0xfffff88001561000",
+        "kernel_module_name": "NETIO.SYS",
+        "kernel_module_size": 393216
+      },
+      {
+        "kernel_module_offset": "0x3ff307a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\ndis.sys",
+        "kernel_module_base": "0xfffff8800146e000",
+        "kernel_module_name": "ndis.sys",
+        "kernel_module_size": 995328
+      },
+      {
+        "kernel_module_offset": "0x3ff308a0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Fs_Rec.sys",
+        "kernel_module_base": "0xfffff8800122c000",
+        "kernel_module_name": "Fs_Rec.sys",
+        "kernel_module_size": 40960
+      },
+      {
+        "kernel_module_offset": "0x3ff30980",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\pcw.sys",
+        "kernel_module_base": "0xfffff8800121b000",
+        "kernel_module_name": "pcw.sys",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3ff30a60",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\cng.sys",
+        "kernel_module_base": "0xfffff880010fb000",
+        "kernel_module_name": "cng.sys",
+        "kernel_module_size": 466944
+      },
+      {
+        "kernel_module_offset": "0x3ff30b50",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\ksecdd.sys",
+        "kernel_module_base": "0xfffff88001200000",
+        "kernel_module_name": "ksecdd.sys",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3ff30c30",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\msrpc.sys",
+        "kernel_module_base": "0xfffff8800109d000",
+        "kernel_module_name": "msrpc.sys",
+        "kernel_module_size": 385024
+      },
+      {
+        "kernel_module_offset": "0x3ff30d20",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Ntfs.sys",
+        "kernel_module_base": "0xfffff8800125a000",
+        "kernel_module_name": "Ntfs.sys",
+        "kernel_module_size": 1716224
+      },
+      {
+        "kernel_module_offset": "0x3ff30e30",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\fileinfo.sys",
+        "kernel_module_base": "0xfffff88001089000",
+        "kernel_module_name": "fileinfo.sys",
+        "kernel_module_size": 81920
+      },
+      {
+        "kernel_module_offset": "0x3ff30f20",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\fltmgr.sys",
+        "kernel_module_base": "0xfffff8800103d000",
+        "kernel_module_name": "fltmgr.sys",
+        "kernel_module_size": 311296
+      },
+      {
+        "kernel_module_offset": "0x3ff31010",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\spldr.sys",
+        "kernel_module_base": "0xfffff88001955000",
+        "kernel_module_name": "spldr.sys",
+        "kernel_module_size": 32768
+      },
+      {
+        "kernel_module_offset": "0x3ff31aa0",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\CLASSPNP.SYS",
+        "kernel_module_base": "0xfffff88001616000",
+        "kernel_module_name": "CLASSPNP.SYS",
+        "kernel_module_size": 196608
+      },
+      {
+        "kernel_module_offset": "0x3ff31b90",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\disk.sys",
+        "kernel_module_base": "0xfffff88001600000",
+        "kernel_module_name": "disk.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ff31c70",
+        "kernel_module_file": "\\SystemRoot\\System32\\DRIVERS\\fvevol.sys",
+        "kernel_module_base": "0xfffff880019b2000",
+        "kernel_module_name": "fvevol.sys",
+        "kernel_module_size": 237568
+      },
+      {
+        "kernel_module_offset": "0x3ff31d50",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\hwpolicy.sys",
+        "kernel_module_base": "0xfffff880019a9000",
+        "kernel_module_name": "hwpolicy.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ff31e40",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\mup.sys",
+        "kernel_module_base": "0xfffff88001997000",
+        "kernel_module_name": "mup.sys",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3ff31f20",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\rdyboost.sys",
+        "kernel_module_base": "0xfffff8800195d000",
+        "kernel_module_name": "rdyboost.sys",
+        "kernel_module_size": 237568
+      }
+    ],
+    "added_count": 112
+  },
+  "handles": {
+    "added": [],
+    "added_count": 0
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

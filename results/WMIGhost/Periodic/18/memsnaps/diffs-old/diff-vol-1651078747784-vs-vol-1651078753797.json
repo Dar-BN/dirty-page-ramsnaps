@@ -1,0 +1,1615 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002035050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP8"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002039050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP9"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800203c050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP10"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800203e8c0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "SstpDrv"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002041060",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "RdpBus"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800204f040",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f68060",
+        "device_type": "FILE_DEVICE_BEEP",
+        "device_name": "Beep"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001efa940",
+        "device_type": "FILE_DEVICE_CD_ROM",
+        "device_name": "CdRom0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800203b6e0",
+        "device_type": "FILE_DEVICE_MOUSE",
+        "device_name": "PointerClass1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f96910",
+        "device_type": "FILE_DEVICE_MOUSE",
+        "device_name": "PointerClass0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002041420",
+        "device_type": "FILE_DEVICE_KEYBOARD",
+        "device_name": "KeyboardClass1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f07060",
+        "device_type": "FILE_DEVICE_KEYBOARD",
+        "device_name": "KeyboardClass0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f63650",
+        "device_type": "FILE_DEVICE_NULL",
+        "device_name": "Null"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002028050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP4"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f6d4a0",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": "Video1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f729c0",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": "Video2"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fe4050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP2"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f6c060",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": "Video0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd7070",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": "Video3"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f76060",
+        "device_type": "FILE_DEVICE_MAILSLOT",
+        "device_name": "Mailslot"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fe76a0",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f78810",
+        "device_type": "FILE_DEVICE_NAMED_PIPE",
+        "device_name": "NamedPipe"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f7daf0",
+        "device_type": "FILE_DEVICE_NAMED_PIPE",
+        "device_name": "Afd"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fe8050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP3"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fff060",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "AgileVPN"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd0510",
+        "device_type": "FILE_DEVICE_PARALLEL_PORT",
+        "device_name": "ParallelPort0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f88cb0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Psched"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f77bb0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "RawIp6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f77de0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "RawIp"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f79510",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Udp6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f79740",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Udp"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f79e30",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Tcp6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f79060",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Tcp"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f86240",
+        "device_type": "FILE_DEVICE_TRANSPORT",
+        "device_name": "Tdx"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f84b10",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "NetBt_Wins_Export"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd1060",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "WANARPV6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001faac40",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "WANARP"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fd4d60",
+            "attached_device_type": "FILE_DEVICE_BUS_EXTENDER",
+            "attached_device_name": " - \\Driver\\Serenum",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001fd4070",
+        "device_type": "FILE_DEVICE_SERIAL_PORT",
+        "device_name": "Serial0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f9adb0",
+        "device_type": "FILE_DEVICE_TRANSPORT",
+        "device_name": "Netbios"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa47f0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Nsi"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa3060",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": "FsWrap"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f6f050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd4d60",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa800203b6e0",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass1 - \\Driver\\mouclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa800203bda0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8002041420",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": "KeyboardClass1 - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8002041b00",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f9dc00",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo15"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f9de30",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo14"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f9d060",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo13"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbf340",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo12"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbf570",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo11"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbf7a0",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo10"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbf9d0",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo9"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbfc00",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo8"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbfe30",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo7"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fbf060",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa72c0",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo5"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa74f0",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo4"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa7720",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo3"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa7950",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo2"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa7b80",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa7db0",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "RemoteVideo0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fa7060",
+        "device_type": "FILE_DEVICE_TERMSRV",
+        "device_name": "Termdd"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f96910",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass0 - \\Driver\\mouclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001eff9f0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f07060",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": "KeyboardClass0 - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001f709f0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ffccf0",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fc6060",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "DfsClient"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f98030",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd5910",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "BlbControl"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002032050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP7"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002030050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800202b050",
+        "device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+        "device_name": "NDMP5"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800202a4b0",
+        "device_type": "UNKNOWN",
+        "device_name": "NdisTapi"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001ac8400",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\rdyboost",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001b1a040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8001b15350",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b19040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b18b70",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b1a040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ac8400",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ad93d0",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "RdyBoost"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b62060",
+        "device_type": "FILE_DEVICE_VIRTUAL_DISK",
+        "device_name": "HarddiskVolumeShadowCopy3"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001bda720",
+        "device_type": "FILE_DEVICE_VIRTUAL_DISK",
+        "device_name": "HarddiskVolumeShadowCopy2"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ba48e0",
+        "device_type": "FILE_DEVICE_VIRTUAL_DISK",
+        "device_name": "HarddiskVolumeShadowCopy1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b1a040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b19040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001addb50",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "SPDevice"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b0f3f0",
+            "attached_device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b0fda0",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": "Mup"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b12b90",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\partmgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b12060",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": "DR0"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b228e0",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ddb030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001627a20",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001627060",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "Ntfs"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001625bb0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "clfs"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001627550",
+        "device_type": "FILE_DEVICE_KSEC",
+        "device_name": "KsecDD"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001628e40",
+        "device_type": "UNKNOWN",
+        "device_name": "CNG"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016793c0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "Ndis"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016797a0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "ExFatRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016799d0",
+        "device_type": "FILE_DEVICE_CD_ROM_FILE_SYSTEM",
+        "device_name": "FatCdRomRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001679c00",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "FatDiskRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001679e30",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "UdfsDiskRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001679060",
+        "device_type": "FILE_DEVICE_CD_ROM_FILE_SYSTEM",
+        "device_name": "UdfsCdRomRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016782f0",
+        "device_type": "FILE_DEVICE_CD_ROM_FILE_SYSTEM",
+        "device_name": "CdfsRecognizer"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001678910",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "PcwDrv"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800173d630",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "eQoS"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800173bc20",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "IPSECDOSP"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800173be40",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "WfpAle"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800173a230",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "WFP"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80017379d0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "NXTIPSEC"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800167fe40",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000c61410",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cefe30",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fd0aa0",
+            "attached_device_type": "FILE_DEVICE_CONTROLLER",
+            "attached_device_name": " - \\Driver\\fdc",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001717870",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "00000048"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fd7070",
+            "attached_device_type": "FILE_DEVICE_VIDEO",
+            "attached_device_name": "Video3 - \\Driver\\vga",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000ca3e40",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b15350",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\fvevol",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001ac8400",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\rdyboost",
+            "level": 1
+          },
+          {
+            "attached_device_offset": "0xfffffa8001b1a040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 2
+          }
+        ],
+        "device_offset": "0xfffffa8001ac8820",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": "HarddiskVolume2"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b18b70",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\fvevol",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001b19040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8001b15840",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": "HarddiskVolume1"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b15040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b182b0",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b12b90",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001efa940",
+            "attached_device_type": "FILE_DEVICE_CD_ROM",
+            "attached_device_name": "CdRom0 - \\Driver\\cdrom",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001639060",
+        "device_type": "FILE_DEVICE_CD_ROM",
+        "device_name": "IdeDeviceP1T0L0-2"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b12060",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": "DR0 - \\Driver\\Disk",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001b12b90",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\partmgr",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8001631060",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": "IdeDeviceP0T0L0-0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001717040",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8000ca3e40",
+            "attached_device_type": "FILE_DEVICE_ACPI",
+            "attached_device_name": " - \\Driver\\ACPI",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001fd7070",
+            "attached_device_type": "FILE_DEVICE_VIDEO",
+            "attached_device_name": "Video3 - \\Driver\\vga",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8000ca4060",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": "NTPNP_PCI0004"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b228e0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b0f3f0",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001627a20",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001634520",
+        "device_type": "FILE_DEVICE_CD_ROM_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016236a0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001623e40",
+        "device_type": "UNKNOWN",
+        "device_name": "FltMgrMsg"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001640e40",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": "FltMgr"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cebe40",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "FileInfo"
+      }
+    ],
+    "added_count": 124
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "False",
+        "pslist": "True",
+        "process_id": 256,
+        "session": "False",
+        "pspcid": "True",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "smss.exe",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 1
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x3ea2a760",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ndistapi.sys",
+        "kernel_module_base": "0xfffff88003a4a000",
+        "kernel_module_name": "ndistapi.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ea2d9d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\raspppoe.sys",
+        "kernel_module_base": "0xfffff88003a56000",
+        "kernel_module_name": "raspppoe.sys",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3ea375d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\raspptp.sys",
+        "kernel_module_base": "0xfffff880010c3000",
+        "kernel_module_name": "raspptp.sys",
+        "kernel_module_size": 135168
+      },
+      {
+        "kernel_module_offset": "0x3ea38ad0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rassstp.sys",
+        "kernel_module_base": "0xfffff88003677000",
+        "kernel_module_name": "rassstp.sys",
+        "kernel_module_size": 106496
+      },
+      {
+        "kernel_module_offset": "0x3ea417d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\swenum.sys",
+        "kernel_module_base": "0xfffff88003bfc000",
+        "kernel_module_name": "swenum.sys",
+        "kernel_module_size": 8192
+      },
+      {
+        "kernel_module_offset": "0x3ea41e10",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rdpbus.sys",
+        "kernel_module_base": "0xfffff88003a71000",
+        "kernel_module_name": "rdpbus.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ea43320",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\umbus.sys",
+        "kernel_module_base": "0xfffff88001228000",
+        "kernel_module_name": "umbus.sys",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3ea43cc0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ks.sys",
+        "kernel_module_base": "0xfffff880011b8000",
+        "kernel_module_name": "ks.sys",
+        "kernel_module_size": 274432
+      },
+      {
+        "kernel_module_offset": "0x3ed20580",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\crashdmp.sys",
+        "kernel_module_base": "0xfffff88001630000",
+        "kernel_module_name": "crashdmp.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed20780",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_dumpfve.sys",
+        "kernel_module_base": "0xfffff88001653000",
+        "kernel_module_name": "dump_dumpfve.sys",
+        "kernel_module_size": 77824
+      },
+      {
+        "kernel_module_offset": "0x3ed25a60",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\vga.sys",
+        "kernel_module_base": "0xfffff88001676000",
+        "kernel_module_name": "vga.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed273c0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Null.SYS",
+        "kernel_module_base": "0xfffff88001666000",
+        "kernel_module_name": "Null.SYS",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed27cd0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\vgapnp.sys",
+        "kernel_module_base": "0xfffff88003bc6000",
+        "kernel_module_name": "vgapnp.sys",
+        "kernel_module_size": 57344
+      },
+      {
+        "kernel_module_offset": "0x3ed30a30",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys",
+        "kernel_module_base": "0xfffff88003a26000",
+        "kernel_module_name": "rasl2tp.sys",
+        "kernel_module_size": 147456
+      },
+      {
+        "kernel_module_offset": "0x3ed30b10",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys",
+        "kernel_module_base": "0xfffff88003a10000",
+        "kernel_module_name": "AgileVpn.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ed319b0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\cdrom.sys",
+        "kernel_module_base": "0xfffff8800142b000",
+        "kernel_module_name": "cdrom.sys",
+        "kernel_module_size": 172032
+      },
+      {
+        "kernel_module_offset": "0x3ed385e0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_atapi.sys",
+        "kernel_module_base": "0xfffff8800164a000",
+        "kernel_module_name": "dump_atapi.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed55af0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys",
+        "kernel_module_base": "0xfffff8800163e000",
+        "kernel_module_name": "dump_ataport.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3ed63c30",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Beep.SYS",
+        "kernel_module_base": "0xfffff8800166f000",
+        "kernel_module_name": "Beep.SYS",
+        "kernel_module_size": 28672
+      },
+      {
+        "kernel_module_offset": "0x3ed63df0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\intelppm.sys",
+        "kernel_module_base": "0xfffff88003be6000",
+        "kernel_module_name": "intelppm.sys",
+        "kernel_module_size": 90112
+      },
+      {
+        "kernel_module_offset": "0x3ed676d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\i8042prt.sys",
+        "kernel_module_base": "0xfffff88003b54000",
+        "kernel_module_name": "i8042prt.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3ed6df20",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\rdpencdd.sys",
+        "kernel_module_base": "0xfffff8800147a000",
+        "kernel_module_name": "rdpencdd.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed6e390",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\afd.sys",
+        "kernel_module_base": "0xfffff88003697000",
+        "kernel_module_name": "afd.sys",
+        "kernel_module_size": 561152
+      },
+      {
+        "kernel_module_offset": "0x3ed73ad0",
+        "kernel_module_file": "\\SystemRoot\\System32\\DRIVERS\\RDPCDD.sys",
+        "kernel_module_base": "0xfffff880019f1000",
+        "kernel_module_name": "RDPCDD.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed74ae0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\watchdog.sys",
+        "kernel_module_base": "0xfffff880019e1000",
+        "kernel_module_name": "watchdog.sys",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3ed74bd0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\VIDEOPRT.SYS",
+        "kernel_module_base": "0xfffff88001455000",
+        "kernel_module_name": "VIDEOPRT.SYS",
+        "kernel_module_size": 151552
+      },
+      {
+        "kernel_module_offset": "0x3ed75600",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS",
+        "kernel_module_base": "0xfffff8800148c000",
+        "kernel_module_name": "Msfs.SYS",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3ed75f20",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\rdprefmp.sys",
+        "kernel_module_base": "0xfffff88001483000",
+        "kernel_module_name": "rdprefmp.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed762f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\parport.sys",
+        "kernel_module_base": "0xfffff88003b9d000",
+        "kernel_module_name": "parport.sys",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3ed76690",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\TDI.SYS",
+        "kernel_module_base": "0xfffff8800121b000",
+        "kernel_module_name": "TDI.SYS",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3ed769a0",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\Npfs.SYS",
+        "kernel_module_base": "0xfffff880015eb000",
+        "kernel_module_name": "Npfs.SYS",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3ed7c3d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\wfplwf.sys",
+        "kernel_module_base": "0xfffff88003765000",
+        "kernel_module_name": "wfplwf.sys",
+        "kernel_module_size": 36864
+      },
+      {
+        "kernel_module_offset": "0x3ed7d1b0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\pacer.sys",
+        "kernel_module_base": "0xfffff8800376e000",
+        "kernel_module_name": "pacer.sys",
+        "kernel_module_size": 155648
+      },
+      {
+        "kernel_module_offset": "0x3ed7d3d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\mouclass.sys",
+        "kernel_module_base": "0xfffff88003b81000",
+        "kernel_module_name": "mouclass.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ed7f8f0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\serial.sys",
+        "kernel_module_base": "0xfffff880037a3000",
+        "kernel_module_name": "serial.sys",
+        "kernel_module_size": 118784
+      },
+      {
+        "kernel_module_offset": "0x3ed83290",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\fdc.sys",
+        "kernel_module_base": "0xfffff88003b90000",
+        "kernel_module_name": "fdc.sys",
+        "kernel_module_size": 53248
+      },
+      {
+        "kernel_module_offset": "0x3ed83840",
+        "kernel_module_file": "\\SystemRoot\\System32\\DRIVERS\\netbt.sys",
+        "kernel_module_base": "0xfffff88003720000",
+        "kernel_module_name": "netbt.sys",
+        "kernel_module_size": 282624
+      },
+      {
+        "kernel_module_offset": "0x3ed867d0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys",
+        "kernel_module_base": "0xfffff88001072000",
+        "kernel_module_name": "tdx.sys",
+        "kernel_module_size": 139264
+      },
+      {
+        "kernel_module_offset": "0x3ed961a0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\netbios.sys",
+        "kernel_module_base": "0xfffff88003794000",
+        "kernel_module_name": "netbios.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3ed96c30",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\wanarp.sys",
+        "kernel_module_base": "0xfffff880037c0000",
+        "kernel_module_name": "wanarp.sys",
+        "kernel_module_size": 110592
+      },
+      {
+        "kernel_module_offset": "0x3ed99530",
+        "kernel_module_file": "\\SystemRoot\\System32\\Drivers\\dfsc.sys",
+        "kernel_module_base": "0xfffff88003aff000",
+        "kernel_module_name": "dfsc.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3ed9d830",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\rdbss.sys",
+        "kernel_module_base": "0xfffff88003600000",
+        "kernel_module_name": "rdbss.sys",
+        "kernel_module_size": 331776
+      },
+      {
+        "kernel_module_offset": "0x3edc1f20",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\mssmbios.sys",
+        "kernel_module_base": "0xfffff8800365d000",
+        "kernel_module_name": "mssmbios.sys",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3edc36e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\termdd.sys",
+        "kernel_module_base": "0xfffff880037db000",
+        "kernel_module_name": "termdd.sys",
+        "kernel_module_size": 81920
+      },
+      {
+        "kernel_module_offset": "0x3edc3890",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\nsiproxy.sys",
+        "kernel_module_base": "0xfffff88003651000",
+        "kernel_module_name": "nsiproxy.sys",
+        "kernel_module_size": 49152
+      },
+      {
+        "kernel_module_offset": "0x3edc56c0",
+        "kernel_module_file": "\\SystemRoot\\System32\\drivers\\discache.sys",
+        "kernel_module_base": "0xfffff88003668000",
+        "kernel_module_name": "discache.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3edcdb30",
+        "kernel_module_file": "\\SystemRoot\\system32\\drivers\\csc.sys",
+        "kernel_module_base": "0xfffff88003a7c000",
+        "kernel_module_name": "csc.sys",
+        "kernel_module_size": 536576
+      },
+      {
+        "kernel_module_offset": "0x3edd6150",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\kbdclass.sys",
+        "kernel_module_base": "0xfffff88003b72000",
+        "kernel_module_name": "kbdclass.sys",
+        "kernel_module_size": 61440
+      },
+      {
+        "kernel_module_offset": "0x3edd7ca0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\Rtnic64.sys",
+        "kernel_module_base": "0xfffff88003bd4000",
+        "kernel_module_name": "Rtnic64.sys",
+        "kernel_module_size": 73728
+      },
+      {
+        "kernel_module_offset": "0x3edd8f20",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\blbdrive.sys",
+        "kernel_module_base": "0xfffff88003b1d000",
+        "kernel_module_name": "blbdrive.sys",
+        "kernel_module_size": 69632
+      },
+      {
+        "kernel_module_offset": "0x3ede62c0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\CompositeBus.sys",
+        "kernel_module_base": "0xfffff88003a00000",
+        "kernel_module_name": "CompositeBus.sys",
+        "kernel_module_size": 65536
+      },
+      {
+        "kernel_module_offset": "0x3edfe980",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\ndiswan.sys",
+        "kernel_module_base": "0xfffff88001094000",
+        "kernel_module_name": "ndiswan.sys",
+        "kernel_module_size": 192512
+      },
+      {
+        "kernel_module_offset": "0x3efe51c0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\tunnel.sys",
+        "kernel_module_base": "0xfffff88003b2e000",
+        "kernel_module_name": "tunnel.sys",
+        "kernel_module_size": 155648
+      },
+      {
+        "kernel_module_offset": "0x3f1222e0",
+        "kernel_module_file": "\\SystemRoot\\system32\\DRIVERS\\serenum.sys",
+        "kernel_module_base": "0xfffff88003bba000",
+        "kernel_module_name": "serenum.sys",
+        "kernel_module_size": 49152
+      }
+    ],
+    "added_count": 54
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "1179926",
+        "process_id": 4,
+        "handle_value": "76",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Mup"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "80",
+        "handle_type": "ALPC Port",
+        "handle_name": "SeRmCommandPort"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "88",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\HIVELIST"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "92",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\System Volume Information\\{b4a25328-9680-11ec-8acd-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "96",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\LSA"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 4,
+        "handle_value": "108",
+        "handle_type": "Thread",
+        "handle_name": "TID 260 PID 256"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "136",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\System Volume Information\\{20173798-96c9-11ec-b30b-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "140",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\System Volume Information\\{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "1179775",
+        "process_id": 4,
+        "handle_value": "148",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "152",
+        "handle_type": "TmTm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031743",
+        "process_id": 4,
+        "handle_value": "156",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "160",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsKtmLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "164",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "168",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "172",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "176",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000002"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 4,
+        "handle_value": "180",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "184",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000001"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "188",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog.blf"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "192",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsTxfLog"
+      },
+      {
+        "handle_granted_access": "17",
+        "process_id": 4,
+        "handle_value": "200",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\LSA"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "208",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\1"
+      },
+      {
+        "handle_granted_access": "5184",
+        "process_id": 4,
+        "handle_value": "212",
+        "handle_type": "Process",
+        "handle_name": "System(4)"
+      },
+      {
+        "handle_granted_access": "131103",
+        "process_id": 4,
+        "handle_value": "216",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\PCW\\SECURITY"
+      },
+      {
+        "handle_granted_access": "2",
+        "process_id": 4,
+        "handle_value": "220",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\RNG"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "224",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\POLICIES"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "228",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\NETWORKPROVIDER\\ORDER"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "232",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\FILESYSTEM"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "236",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\131"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "240",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\23"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "244",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\24"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "248",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\6"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "252",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS\\IFTYPES\\71"
+      },
+      {
+        "handle_granted_access": "983551",
+        "process_id": 4,
+        "handle_value": "256",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "264",
+        "handle_type": "Key",
+        "handle_name": "MACHINE"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "272",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\System Volume Information\\{9be30c8c-967f-11ec-8077-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "284",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\FILESYSTEM"
+      },
+      {
+        "handle_granted_access": "983055",
+        "process_id": 4,
+        "handle_value": "288",
+        "handle_type": "Directory",
+        "handle_name": "Harddisk0"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 4,
+        "handle_value": "292",
+        "handle_type": "Process",
+        "handle_name": "smss.exe(256)"
+      }
+    ],
+    "added_count": 39
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

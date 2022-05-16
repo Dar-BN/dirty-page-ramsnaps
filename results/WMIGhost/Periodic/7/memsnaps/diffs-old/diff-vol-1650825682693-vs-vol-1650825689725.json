@@ -1,0 +1,86 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39432",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "57051",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "348",
+        "offset": "0x3ed36ec0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "72.198.103.2",
+        "process_id": "1724",
+        "offset": "0x3f11b010",
+        "local_address": null
+      }
+    ],
+    "added_count": 3
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "3400",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1442207",
+        "process_id": 348,
+        "handle_value": "1464",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Afd\\Endpoint"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1112,
+        "handle_value": "652",
+        "handle_type": "Thread",
+        "handle_name": "TID 1308 PID 1112"
+      }
+    ],
+    "added_count": 3
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

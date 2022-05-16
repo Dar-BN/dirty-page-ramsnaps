@@ -1,0 +1,219 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "1179787",
+        "process_id": 4,
+        "handle_value": "532",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\wfp\\wfpdiag.etl"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 608,
+        "handle_value": "764",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 608,
+        "handle_value": "984",
+        "handle_type": "Thread",
+        "handle_name": "TID 1480 PID 608"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 812,
+        "handle_value": "1428",
+        "handle_type": "Thread",
+        "handle_name": "TID 972 PID 812"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 884,
+        "handle_value": "444",
+        "handle_type": "Thread",
+        "handle_name": "TID 988 PID 884"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 996,
+        "handle_value": "124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 996,
+        "handle_value": "312",
+        "handle_type": "Thread",
+        "handle_name": "TID 236 PID 996"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 348,
+        "handle_value": "1172",
+        "handle_type": "Thread",
+        "handle_name": "TID 1208 PID 348"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 348,
+        "handle_value": "1192",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1036,
+        "handle_value": "124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1036,
+        "handle_value": "288",
+        "handle_type": "Thread",
+        "handle_name": "TID 1920 PID 1036"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1192,
+        "handle_value": "124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1192,
+        "handle_value": "420",
+        "handle_type": "Thread",
+        "handle_name": "TID 1912 PID 1192"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1320,
+        "handle_value": "236",
+        "handle_type": "Thread",
+        "handle_name": "TID 2008 PID 1320"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1320,
+        "handle_value": "320",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1336,
+        "handle_value": "908",
+        "handle_type": "Thread",
+        "handle_name": "TID 1396 PID 1336"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1792,
+        "handle_value": "240",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1792,
+        "handle_value": "244",
+        "handle_type": "Thread",
+        "handle_name": "TID 1088 PID 1792"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1112,
+        "handle_value": "228",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1112,
+        "handle_value": "1616",
+        "handle_type": "Thread",
+        "handle_name": "TID 796 PID 1112"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1448,
+        "handle_value": "652",
+        "handle_type": "Thread",
+        "handle_name": "TID 1684 PID 1448"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1448,
+        "handle_value": "684",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 636,
+        "handle_value": "360",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 636,
+        "handle_value": "364",
+        "handle_type": "Thread",
+        "handle_name": "TID 1648 PID 636"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1740,
+        "handle_value": "652",
+        "handle_type": "Thread",
+        "handle_name": "TID 1736 PID 1740"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1740,
+        "handle_value": "684",
+        "handle_type": "Event",
+        "handle_name": ""
+      }
+    ],
+    "added_count": 26
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

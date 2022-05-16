@@ -1,0 +1,172 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "600",
+        "handle_type": "Thread",
+        "handle_name": "TID 1680 PID 1300"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 672,
+        "handle_value": "228",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 724,
+        "handle_value": "1364",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 724,
+        "handle_value": "1368",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 724,
+        "handle_value": "1372",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\u3db3"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 1300,
+        "handle_value": "2488",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\1D1-9971-00C04FBBB345}\u0005\u0001\u0004\u0003NtFs\\AUDIO\\?\\SYSTEMINDEX\\SEARCHROOTS"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "2592",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1300,
+        "handle_value": "2600",
+        "handle_type": "Thread",
+        "handle_name": "TID 1680 PID 1300"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "2624",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "2664",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "2680",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "2736",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1344,
+        "handle_value": "2168",
+        "handle_type": "Event",
+        "handle_name": "UsGthrFltPipeMssGthrPipe1_1DAE"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1344,
+        "handle_value": "2172",
+        "handle_type": "Event",
+        "handle_name": "UsGthrFltPipeMssGthrPipe1_1DRE"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1172,
+        "handle_value": "828",
+        "handle_type": "Event",
+        "handle_name": "UsGthrFltPipeMssGthrPipe1_1DRE"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1172,
+        "handle_value": "832",
+        "handle_type": "Event",
+        "handle_name": "UsGthrFltPipeMssGthrPipe1_1DAE"
+      }
+    ],
+    "added_count": 16
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

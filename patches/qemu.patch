@@ -1,0 +1,2707 @@
+diff --git a/.cirrus.yml b/.disabled-yml-files/.cirrus.yml
+similarity index 100%
+rename from .cirrus.yml
+rename to .disabled-yml-files/.cirrus.yml
+diff --git a/.github/workflows/lockdown.yml b/.disabled-yml-files/.github/workflows/lockdown.yml
+similarity index 100%
+rename from .github/workflows/lockdown.yml
+rename to .disabled-yml-files/.github/workflows/lockdown.yml
+diff --git a/.gitlab-ci.d/buildtest-template.yml b/.disabled-yml-files/.gitlab-ci.d/buildtest-template.yml
+similarity index 100%
+rename from .gitlab-ci.d/buildtest-template.yml
+rename to .disabled-yml-files/.gitlab-ci.d/buildtest-template.yml
+diff --git a/.gitlab-ci.d/buildtest.yml b/.disabled-yml-files/.gitlab-ci.d/buildtest.yml
+similarity index 100%
+rename from .gitlab-ci.d/buildtest.yml
+rename to .disabled-yml-files/.gitlab-ci.d/buildtest.yml
+diff --git a/.gitlab-ci.d/check-dco.py b/.disabled-yml-files/.gitlab-ci.d/check-dco.py
+similarity index 100%
+rename from .gitlab-ci.d/check-dco.py
+rename to .disabled-yml-files/.gitlab-ci.d/check-dco.py
+diff --git a/.gitlab-ci.d/check-patch.py b/.disabled-yml-files/.gitlab-ci.d/check-patch.py
+similarity index 100%
+rename from .gitlab-ci.d/check-patch.py
+rename to .disabled-yml-files/.gitlab-ci.d/check-patch.py
+diff --git a/.gitlab-ci.d/cirrus.yml b/.disabled-yml-files/.gitlab-ci.d/cirrus.yml
+similarity index 100%
+rename from .gitlab-ci.d/cirrus.yml
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus.yml
+diff --git a/.gitlab-ci.d/cirrus/README.rst b/.disabled-yml-files/.gitlab-ci.d/cirrus/README.rst
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/README.rst
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/README.rst
+diff --git a/.gitlab-ci.d/cirrus/build.yml b/.disabled-yml-files/.gitlab-ci.d/cirrus/build.yml
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/build.yml
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/build.yml
+diff --git a/.gitlab-ci.d/cirrus/freebsd-12.vars b/.disabled-yml-files/.gitlab-ci.d/cirrus/freebsd-12.vars
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/freebsd-12.vars
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/freebsd-12.vars
+diff --git a/.gitlab-ci.d/cirrus/freebsd-13.vars b/.disabled-yml-files/.gitlab-ci.d/cirrus/freebsd-13.vars
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/freebsd-13.vars
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/freebsd-13.vars
+diff --git a/.gitlab-ci.d/cirrus/kvm-build.yml b/.disabled-yml-files/.gitlab-ci.d/cirrus/kvm-build.yml
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/kvm-build.yml
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/kvm-build.yml
+diff --git a/.gitlab-ci.d/cirrus/macos-11.vars b/.disabled-yml-files/.gitlab-ci.d/cirrus/macos-11.vars
+similarity index 100%
+rename from .gitlab-ci.d/cirrus/macos-11.vars
+rename to .disabled-yml-files/.gitlab-ci.d/cirrus/macos-11.vars
+diff --git a/.gitlab-ci.d/container-core.yml b/.disabled-yml-files/.gitlab-ci.d/container-core.yml
+similarity index 100%
+rename from .gitlab-ci.d/container-core.yml
+rename to .disabled-yml-files/.gitlab-ci.d/container-core.yml
+diff --git a/.gitlab-ci.d/container-cross.yml b/.disabled-yml-files/.gitlab-ci.d/container-cross.yml
+similarity index 100%
+rename from .gitlab-ci.d/container-cross.yml
+rename to .disabled-yml-files/.gitlab-ci.d/container-cross.yml
+diff --git a/.gitlab-ci.d/container-template.yml b/.disabled-yml-files/.gitlab-ci.d/container-template.yml
+similarity index 100%
+rename from .gitlab-ci.d/container-template.yml
+rename to .disabled-yml-files/.gitlab-ci.d/container-template.yml
+diff --git a/.gitlab-ci.d/containers.yml b/.disabled-yml-files/.gitlab-ci.d/containers.yml
+similarity index 100%
+rename from .gitlab-ci.d/containers.yml
+rename to .disabled-yml-files/.gitlab-ci.d/containers.yml
+diff --git a/.gitlab-ci.d/crossbuild-template.yml b/.disabled-yml-files/.gitlab-ci.d/crossbuild-template.yml
+similarity index 100%
+rename from .gitlab-ci.d/crossbuild-template.yml
+rename to .disabled-yml-files/.gitlab-ci.d/crossbuild-template.yml
+diff --git a/.gitlab-ci.d/crossbuilds.yml b/.disabled-yml-files/.gitlab-ci.d/crossbuilds.yml
+similarity index 100%
+rename from .gitlab-ci.d/crossbuilds.yml
+rename to .disabled-yml-files/.gitlab-ci.d/crossbuilds.yml
+diff --git a/.gitlab-ci.d/custom-runners.yml b/.disabled-yml-files/.gitlab-ci.d/custom-runners.yml
+similarity index 100%
+rename from .gitlab-ci.d/custom-runners.yml
+rename to .disabled-yml-files/.gitlab-ci.d/custom-runners.yml
+diff --git a/.gitlab-ci.d/custom-runners/centos-stream-8-x86_64.yml b/.disabled-yml-files/.gitlab-ci.d/custom-runners/centos-stream-8-x86_64.yml
+similarity index 100%
+rename from .gitlab-ci.d/custom-runners/centos-stream-8-x86_64.yml
+rename to .disabled-yml-files/.gitlab-ci.d/custom-runners/centos-stream-8-x86_64.yml
+diff --git a/.gitlab-ci.d/custom-runners/ubuntu-18.04-s390x.yml b/.disabled-yml-files/.gitlab-ci.d/custom-runners/ubuntu-18.04-s390x.yml
+similarity index 100%
+rename from .gitlab-ci.d/custom-runners/ubuntu-18.04-s390x.yml
+rename to .disabled-yml-files/.gitlab-ci.d/custom-runners/ubuntu-18.04-s390x.yml
+diff --git a/.gitlab-ci.d/custom-runners/ubuntu-20.04-aarch64.yml b/.disabled-yml-files/.gitlab-ci.d/custom-runners/ubuntu-20.04-aarch64.yml
+similarity index 100%
+rename from .gitlab-ci.d/custom-runners/ubuntu-20.04-aarch64.yml
+rename to .disabled-yml-files/.gitlab-ci.d/custom-runners/ubuntu-20.04-aarch64.yml
+diff --git a/.gitlab-ci.d/edk2.yml b/.disabled-yml-files/.gitlab-ci.d/edk2.yml
+similarity index 100%
+rename from .gitlab-ci.d/edk2.yml
+rename to .disabled-yml-files/.gitlab-ci.d/edk2.yml
+diff --git a/.gitlab-ci.d/edk2/Dockerfile b/.disabled-yml-files/.gitlab-ci.d/edk2/Dockerfile
+similarity index 100%
+rename from .gitlab-ci.d/edk2/Dockerfile
+rename to .disabled-yml-files/.gitlab-ci.d/edk2/Dockerfile
+diff --git a/.gitlab-ci.d/opensbi.yml b/.disabled-yml-files/.gitlab-ci.d/opensbi.yml
+similarity index 100%
+rename from .gitlab-ci.d/opensbi.yml
+rename to .disabled-yml-files/.gitlab-ci.d/opensbi.yml
+diff --git a/.gitlab-ci.d/opensbi/Dockerfile b/.disabled-yml-files/.gitlab-ci.d/opensbi/Dockerfile
+similarity index 100%
+rename from .gitlab-ci.d/opensbi/Dockerfile
+rename to .disabled-yml-files/.gitlab-ci.d/opensbi/Dockerfile
+diff --git a/.gitlab-ci.d/qemu-project.yml b/.disabled-yml-files/.gitlab-ci.d/qemu-project.yml
+similarity index 100%
+rename from .gitlab-ci.d/qemu-project.yml
+rename to .disabled-yml-files/.gitlab-ci.d/qemu-project.yml
+diff --git a/.gitlab-ci.d/stages.yml b/.disabled-yml-files/.gitlab-ci.d/stages.yml
+similarity index 100%
+rename from .gitlab-ci.d/stages.yml
+rename to .disabled-yml-files/.gitlab-ci.d/stages.yml
+diff --git a/.gitlab-ci.d/static_checks.yml b/.disabled-yml-files/.gitlab-ci.d/static_checks.yml
+similarity index 100%
+rename from .gitlab-ci.d/static_checks.yml
+rename to .disabled-yml-files/.gitlab-ci.d/static_checks.yml
+diff --git a/.gitlab-ci.d/windows.yml b/.disabled-yml-files/.gitlab-ci.d/windows.yml
+similarity index 100%
+rename from .gitlab-ci.d/windows.yml
+rename to .disabled-yml-files/.gitlab-ci.d/windows.yml
+diff --git a/.gitlab-ci.yml b/.disabled-yml-files/.gitlab-ci.yml
+similarity index 100%
+rename from .gitlab-ci.yml
+rename to .disabled-yml-files/.gitlab-ci.yml
+diff --git a/.gitlab/issue_templates/bug.md b/.disabled-yml-files/.gitlab/issue_templates/bug.md
+similarity index 100%
+rename from .gitlab/issue_templates/bug.md
+rename to .disabled-yml-files/.gitlab/issue_templates/bug.md
+diff --git a/.gitlab/issue_templates/feature_request.md b/.disabled-yml-files/.gitlab/issue_templates/feature_request.md
+similarity index 100%
+rename from .gitlab/issue_templates/feature_request.md
+rename to .disabled-yml-files/.gitlab/issue_templates/feature_request.md
+diff --git a/.gitpublish b/.disabled-yml-files/.gitpublish
+similarity index 100%
+rename from .gitpublish
+rename to .disabled-yml-files/.gitpublish
+diff --git a/.patchew.yml b/.disabled-yml-files/.patchew.yml
+similarity index 100%
+rename from .patchew.yml
+rename to .disabled-yml-files/.patchew.yml
+diff --git a/.readthedocs.yml b/.disabled-yml-files/.readthedocs.yml
+similarity index 100%
+rename from .readthedocs.yml
+rename to .disabled-yml-files/.readthedocs.yml
+diff --git a/.travis.yml b/.disabled-yml-files/.travis.yml
+similarity index 100%
+rename from .travis.yml
+rename to .disabled-yml-files/.travis.yml
+diff --git a/.gitignore b/.gitignore
+index eb2553026c5e..545a01090f54 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,5 +1,6 @@
+ /GNUmakefile
+ /build/
++/build-old/
+ *.pyc
+ .sdk
+ .stgit-*
+diff --git a/Kconfig.host b/Kconfig.host
+index 60b9c07b5eef..26f0008cd922 100644
+--- a/Kconfig.host
++++ b/Kconfig.host
+@@ -44,4 +44,7 @@ config MULTIPROCESS_ALLOWED
+ 
+ config FUZZ
+     bool
++
++config RAMSNAP
++    bool
+     select SPARSE_MEM
+diff --git a/do_config.sh b/do_config.sh
+new file mode 100755
+index 000000000000..5eb7c8957da5
+--- /dev/null
++++ b/do_config.sh
+@@ -0,0 +1,23 @@
++#!/bin/sh
++exec /bin/sh -x ./configure \
++  --prefix=/usr \
++  --sysconfdir=/etc \
++  --enable-kvm \
++  --localstatedir=/var/run \
++  --interp-prefix=/usr/qemu-%M \
++  --enable-libiscsi \
++  --enable-vnc-sasl \
++  --enable-vnc-png \
++  --enable-gnutls \
++  --enable-linux-aio \
++  --enable-vhost-net \
++  --enable-seccomp \
++  --enable-numa \
++  --enable-debug \
++  --enable-ramsnap \
++  --enable-debug-info \
++  --enable-trace-backends=log \
++  --target-list=x86_64-softmmu \
++  --enable-tools "$@"
++
++#  --enable-opengl \
+diff --git a/hmp-commands.hx b/hmp-commands.hx
+index 70a9136ac293..487d745e111c 100644
+--- a/hmp-commands.hx
++++ b/hmp-commands.hx
+@@ -890,6 +890,46 @@ SRST
+   start a separate announce timer and to change the parameters of it later.
+ ERST
+ 
++    {
++        .name       = "memsnap",
++        .args_type  = "uri:s,timespan:i?",
++        .params     = "uri [<timespan>]",
++        .help       = "memsnap to URI, optionally with given timespan between",
++        .cmd        = hmp_memsnap,
++    },
++
++
++SRST
++``memsnap`` *uri* *timespan*
++  Memsnap to *uri*, optionally waiting *timespan* between sends
++
++ERST
++
++    {
++        .name       = "memsnap_cancel",
++        .args_type  = "",
++        .params     = "",
++        .help       = "cancel the current VM memsnaps",
++        .cmd        = hmp_memsnap_cancel,
++    },
++
++SRST
++``memsnap_cancel``
++  Cancel the current VM memory snapshots.
++ERST
++
++    {
++        .name       = "memsnap_send_update",
++        .args_type  = "",
++        .params     = "",
++        .help       = "Manually send an update",
++        .cmd        = hmp_memsnap_send_update,
++    },
++SRST
++``memsnap_continue`` *state*
++  Continue migration from the paused state *state*
++ERST
++
+     {
+         .name       = "migrate",
+         .args_type  = "detach:-d,blk:-b,inc:-i,resume:-r,uri:s",
+diff --git a/include/monitor/hmp.h b/include/monitor/hmp.h
+index 96d014826ada..14e97f97edfa 100644
+--- a/include/monitor/hmp.h
++++ b/include/monitor/hmp.h
+@@ -26,6 +26,9 @@ void hmp_info_status(Monitor *mon, const QDict *qdict);
+ void hmp_info_uuid(Monitor *mon, const QDict *qdict);
+ void hmp_info_chardev(Monitor *mon, const QDict *qdict);
+ void hmp_info_mice(Monitor *mon, const QDict *qdict);
++void hmp_memsnap(Monitor *mon, const QDict *qdict);
++void hmp_memsnap_send_update(Monitor *mon, const QDict *qdict);
++void hmp_memsnap_cancel(Monitor *mon, const QDict *qdict);
+ void hmp_info_migrate(Monitor *mon, const QDict *qdict);
+ void hmp_info_migrate_capabilities(Monitor *mon, const QDict *qdict);
+ void hmp_info_migrate_parameters(Monitor *mon, const QDict *qdict);
+diff --git a/memsnap/memsnap.c b/memsnap/memsnap.c
+new file mode 100644
+index 000000000000..50b3036c1ade
+--- /dev/null
++++ b/memsnap/memsnap.c
+@@ -0,0 +1,46 @@
++/*
++ * QEMU Memory Snapshots
++ *
++ * Authors:
++ *  Darren Kenny <b00139261@mytudublin.ie>
++ *
++ * This work is licensed under the terms of the GNU GPL, version 2.  See
++ * the COPYING file in the top-level directory.
++ */
++
++#include "qemu/osdep.h"
++#include "qemu/cutils.h"
++#include "qemu/error-report.h"
++#include "qemu/main-loop.h"
++#include "migration/blocker.h"
++#include "sysemu/runstate.h"
++#include "sysemu/sysemu.h"
++#include "sysemu/cpu-throttle.h"
++#include "migration/global_state.h"
++#include "migration/misc.h"
++#include "migration/vmstate.h"
++#include "block/block.h"
++#include "qapi/error.h"
++#include "qapi/clone-visitor.h"
++#include "qapi/qapi-visit-migration.h"
++#include "qapi/qapi-visit-sockets.h"
++#include "qapi/qapi-commands-memsnap.h"
++#include "qapi/qmp/qerror.h"
++#include "qapi/qmp/qnull.h"
++#include "qemu/rcu.h"
++
++
++void qmp_memsnap(const char *uri, _Bool has_timespan, int64_t timespan, Error **errp)
++{
++    error_setg(errp,  "NYI: memsnap %s %s %ld", uri, has_timespan?"True":"False", timespan);
++}
++
++void qmp_memsnap_send_update(Error **errp)
++{
++    error_setg(errp,  "NYI");
++}
++
++void qmp_memsnap_cancel(Error **errp)
++{
++    error_setg(errp,  "NYI");
++}
+diff --git a/memsnap/meson.build b/memsnap/meson.build
+new file mode 100644
+index 000000000000..b77c337d9db4
+--- /dev/null
++++ b/memsnap/meson.build
+@@ -0,0 +1,5 @@
++# Files needed by unit tests
++memsnap_files = files(
++  'memsnap.c',
++)
++softmmu_ss.add(memsnap_files)
+diff --git a/memsnap/trace-events b/memsnap/trace-events
+new file mode 100644
+index 000000000000..e69de29bb2d1
+diff --git a/meson.build b/meson.build
+index 333c61deba76..461bcaa0ef10 100644
+--- a/meson.build
++++ b/meson.build
+@@ -1462,6 +1462,7 @@ config_host_data.set('CONFIG_ATTR', libattr.found())
+ config_host_data.set('CONFIG_BRLAPI', brlapi.found())
+ config_host_data.set('CONFIG_COCOA', cocoa.found())
+ config_host_data.set('CONFIG_FUZZ', get_option('fuzzing'))
++config_host_data.set('CONFIG_RAMSNAP', get_option('ramsnap'))
+ config_host_data.set('CONFIG_GCOV', get_option('b_coverage'))
+ config_host_data.set('CONFIG_LIBUDEV', libudev.found())
+ config_host_data.set('CONFIG_LZO', lzo.found())
+@@ -1866,6 +1867,7 @@ endif
+ have_ivshmem = config_host_data.get('CONFIG_EVENTFD')
+ host_kconfig = \
+   (get_option('fuzzing') ? ['CONFIG_FUZZ=y'] : []) + \
++  (get_option('ramsnap') ? ['CONFIG_RAMSNAP=y'] : []) + \
+   ('CONFIG_TPM' in config_host ? ['CONFIG_TPM=y'] : []) + \
+   (spice.found() ? ['CONFIG_SPICE=y'] : []) + \
+   (have_ivshmem ? ['CONFIG_IVSHMEM=y'] : []) + \
+@@ -2524,6 +2526,7 @@ if have_system
+     'hw/watchdog',
+     'hw/xen',
+     'hw/gpio',
++    'memsnap',
+     'migration',
+     'net',
+     'softmmu',
+@@ -2650,6 +2653,7 @@ specific_ss.add(files('page-vary.c'))
+ 
+ subdir('backends')
+ subdir('disas')
++subdir('memsnap')
+ subdir('migration')
+ subdir('monitor')
+ subdir('net')
+@@ -2821,6 +2825,13 @@ migration = declare_dependency(link_with: libmigration,
+                                dependencies: [zlib, qom, io])
+ softmmu_ss.add(migration)
+ 
++libmemsnap = static_library('memsnap', sources: memsnap_files + genh,
++                              name_suffix: 'fa',
++                              build_by_default: false)
++memsnap = declare_dependency(link_with: libmemsnap,
++                               dependencies: [zlib, qom, io])
++softmmu_ss.add(memsnap)
++
+ block_ss = block_ss.apply(config_host, strict: false)
+ libblock = static_library('block', block_ss.sources() + genh,
+                           dependencies: block_ss.dependencies(),
+@@ -3246,6 +3257,7 @@ if config_host.has_key('CONFIG_MODULES')
+   summary_info += {'alternative module path': config_host.has_key('CONFIG_MODULE_UPGRADES')}
+ endif
+ summary_info += {'fuzzing support':   get_option('fuzzing')}
++summary_info += {'ramsnap support':   get_option('ramsnap')}
+ if have_system
+   summary_info += {'Audio drivers':     ' '.join(audio_drivers_selected)}
+ endif
+@@ -3381,7 +3393,7 @@ if have_block
+   summary_info += {'Use block whitelist in tools': config_host.has_key('CONFIG_BDRV_WHITELIST_TOOLS')}
+   summary_info += {'VirtFS support':    have_virtfs}
+   summary_info += {'build virtiofs daemon': have_virtiofsd}
+-  summary_info += {'Live block migration': config_host.has_key('CONFIG_LIVE_BLOCK_MIGRATION')}
++summary_info += {'Live block migration': config_host.has_key('CONFIG_LIVE_BLOCK_MIGRATION')}
+   summary_info += {'replication support': config_host.has_key('CONFIG_REPLICATION')}
+   summary_info += {'bochs support':     config_host.has_key('CONFIG_BOCHS')}
+   summary_info += {'cloop support':     config_host.has_key('CONFIG_CLOOP')}
+diff --git a/meson_options.txt b/meson_options.txt
+index 921967eddbb9..35cc72bf43fd 100644
+--- a/meson_options.txt
++++ b/meson_options.txt
+@@ -28,6 +28,8 @@ option('docs', type : 'feature', value : 'auto',
+        description: 'Documentations build support')
+ option('fuzzing', type : 'boolean', value: false,
+        description: 'build fuzzing targets')
++option('ramsnap', type : 'boolean', value: false,
++       description: 'build ramsnap targets')
+ option('gettext', type : 'feature', value : 'auto',
+        description: 'Localization of the GTK+ user interface')
+ option('install_blobs', type : 'boolean', value : true,
+diff --git a/migration/migration.c b/migration/migration.c
+index 065216561063..cc04e1395eba 100644
+--- a/migration/migration.c
++++ b/migration/migration.c
+@@ -116,6 +116,20 @@
+ #define DEFAULT_MIGRATE_ANNOUNCE_ROUNDS    5
+ #define DEFAULT_MIGRATE_ANNOUNCE_STEP    100
+ 
++#ifdef CONFIG_RAMSNAP
++/*
++ * ramsnap properties
++ */
++#define DEFAULT_RAMSNAP_PERIOD_MS        0
++
++/*
++ * Used to demark the completion of an iteration
++ */
++#define MIG_RAMSNAP_ITER_MARKER          "RaMsNaP"
++
++#endif /* CONFIG_RAMSNAP */
++
++
+ static NotifierList migration_state_notifiers =
+     NOTIFIER_LIST_INITIALIZER(migration_state_notifiers);
+ 
+@@ -914,6 +928,12 @@ MigrationParameters *qmp_query_migrate_parameters(Error **errp)
+             QAPI_CLONE(BitmapMigrationNodeAliasList,
+                        s->parameters.block_bitmap_mapping);
+     }
++#ifdef CONFIG_RAMSNAP
++    params->has_ramsnap_mode = true;
++    params->ramsnap_mode = s->parameters.ramsnap_mode;
++    params->has_ramsnap_period_ms = true;
++    params->ramsnap_period_ms = s->parameters.ramsnap_period_ms;
++#endif /* CONFIG_RAMSNAP */
+ 
+     return params;
+ }
+@@ -1454,7 +1474,7 @@ static bool migrate_params_check(MigrationParameters *params, Error **errp)
+     if (params->has_announce_rounds &&
+         params->announce_rounds > 1000) {
+         error_setg(errp, QERR_INVALID_PARAMETER_VALUE,
+-                   "announce_rounds",
++                "announce_rounds",
+                    "a value between 0 and 1000");
+        return false;
+     }
+@@ -1473,6 +1493,16 @@ static bool migrate_params_check(MigrationParameters *params, Error **errp)
+         return false;
+     }
+ 
++#ifdef CONFIG_RAMSNAP
++    if (params->has_ramsnap_period_ms &&
++        params->ramsnap_period_ms > 10000) {
++        error_setg(errp, QERR_INVALID_PARAMETER_VALUE,
++                   "ramsnap-period-ms",
++                   "a value between 0 and 10000");
++       return false;
++    }
++#endif /* CONFIG_RAMSNAP */
++
+     return true;
+ }
+ 
+@@ -1572,6 +1602,17 @@ static void migrate_params_test_apply(MigrateSetParameters *params,
+         dest->has_block_bitmap_mapping = true;
+         dest->block_bitmap_mapping = params->block_bitmap_mapping;
+     }
++
++#ifdef CONFIG_RAMSNAP
++    if (params->has_ramsnap_mode) {
++        dest->has_ramsnap_mode = true;
++        dest->ramsnap_mode = params->ramsnap_mode;
++    }
++    if (params->has_ramsnap_period_ms) {
++        dest->has_ramsnap_period_ms = true;
++        dest->ramsnap_period_ms = params->ramsnap_period_ms;
++    }
++#endif  /* CONFIG_RAMSNAP */
+ }
+ 
+ static void migrate_params_apply(MigrateSetParameters *params, Error **errp)
+@@ -1694,6 +1735,16 @@ static void migrate_params_apply(MigrateSetParameters *params, Error **errp)
+             QAPI_CLONE(BitmapMigrationNodeAliasList,
+                        params->block_bitmap_mapping);
+     }
++#ifdef CONFIG_RAMSNAP
++    if (params->has_ramsnap_mode) {
++        s->parameters.has_ramsnap_mode = true;
++        s->parameters.ramsnap_mode = params->ramsnap_mode;
++    }
++    if (params->has_ramsnap_period_ms) {
++        s->parameters.has_ramsnap_period_ms = true;
++        s->parameters.ramsnap_period_ms = params->ramsnap_period_ms;
++    }
++#endif  /* CONFIG_RAMSNAP */
+ }
+ 
+ void qmp_migrate_set_parameters(MigrateSetParameters *params, Error **errp)
+@@ -2385,6 +2436,27 @@ bool migrate_postcopy(void)
+     return migrate_postcopy_ram() || migrate_dirty_bitmaps();
+ }
+ 
++#ifdef CONFIG_RAMSNAP
++bool     migrate_ramsnap_mode(void)
++{
++    MigrationState *s;
++
++    s = migrate_get_current();
++
++    return s->parameters.ramsnap_mode;
++}
++
++uint64_t migrate_ramsnap_period_ms(void)
++{
++    MigrationState *s;
++
++    s = migrate_get_current();
++
++    return s->parameters.ramsnap_period_ms;
++}
++
++#endif /* CONFIG_RAMSNAP */
++
+ bool migrate_auto_converge(void)
+ {
+     MigrationState *s;
+@@ -3584,7 +3656,10 @@ static MigIterateState migration_iteration_run(MigrationState *s)
+     trace_migrate_pending(pending_size, s->threshold_size,
+                           pend_pre, pend_compat, pend_post);
+ 
+-    if (pending_size && pending_size >= s->threshold_size) {
++
++    if (migrate_ramsnap_mode() ||
++        (pending_size && pending_size >= s->threshold_size)) {
++
+         /* Still a significant amount to transfer */
+         if (!in_postcopy && pend_pre <= s->threshold_size &&
+             qatomic_read(&s->start_postcopy)) {
+@@ -3595,6 +3670,11 @@ static MigIterateState migration_iteration_run(MigrationState *s)
+         }
+         /* Just another iteration step */
+         qemu_savevm_state_iterate(s->to_dst_file, in_postcopy);
++#ifdef CONFIG_RAMSNAP0
++        if (migrate_ramsnap_mode()) {
++            qemu_put_counted_string(s->to_dst_file, MIG_RAMSNAP_ITER_MARKER);
++        }
++#endif /* CONFIG_RAMSNAP */
+     } else {
+         trace_migration_thread_low_pending(pending_size);
+         migration_completion(s);
+@@ -3711,11 +3791,18 @@ void migration_consume_urgent_request(void)
+ bool migration_rate_limit(void)
+ {
+     int64_t now = qemu_clock_get_ms(QEMU_CLOCK_REALTIME);
++    int64_t ramsnap_period_ms = 0;
+     MigrationState *s = migrate_get_current();
+ 
+     bool urgent = false;
+     migration_update_counters(s, now);
+-    if (qemu_file_rate_limit(s->to_dst_file)) {
++
++#ifdef CONFIG_RAMSNAP
++    if (migrate_ramsnap_mode()) {
++        ramsnap_period_ms = migrate_ramsnap_period_ms();
++    }
++#endif /* CONFIG_RAMSNAP */
++    if (ramsnap_period_ms > 0 || qemu_file_rate_limit(s->to_dst_file)) {
+ 
+         if (qemu_file_get_error(s->to_dst_file)) {
+             return false;
+@@ -3725,6 +3812,11 @@ bool migration_rate_limit(void)
+          * something urgent to post the semaphore.
+          */
+         int ms = s->iteration_start_time + BUFFER_DELAY - now;
++#ifdef CONFIG_RAMSNAP
++        if (ramsnap_period_ms > 0) {
++            ms = s->iteration_start_time + ramsnap_period_ms - now;
++        }
++#endif /* CONFIG_RAMSNAP */
+         trace_migration_rate_limit_pre(ms);
+         if (qemu_sem_timedwait(&s->rate_limit_sem, ms) == 0) {
+             /*
+@@ -3969,12 +4061,19 @@ static void *bg_migration_thread(void *opaque)
+     if (qemu_savevm_state_complete_precopy_non_iterable(fb, false, false)) {
+         goto fail;
+     }
++
+     /*
+      * Since we are going to get non-iterable state data directly
+      * from s->bioc->data, explicit flush is needed here.
+      */
+     qemu_fflush(fb);
+ 
++#ifdef CONFIG_RAMSNAP
++    if (migrate_ramsnap_mode()) {
++        qemu_put_counted_string(s->to_dst_file, MIG_RAMSNAP_ITER_MARKER);
++    }
++#endif /* CONFIG_RAMSNAP */
++
+     /* Now initialize UFFD context and start tracking RAM writes */
+     if (ram_write_tracking_start()) {
+         goto fail;
+@@ -4157,13 +4256,25 @@ static Property migration_properties[] = {
+     DEFINE_PROP_UINT8("x-clear-bitmap-shift", MigrationState,
+                       clear_bitmap_shift, CLEAR_BITMAP_SHIFT_DEFAULT),
+ 
++#ifdef CONFIG_RAMSNAP
++    /*
++     * ramsnap
++     */
++    DEFINE_PROP_BOOL("ramsnap-mode", MigrationState,
++                     parameters.ramsnap_mode, false),
++
++    DEFINE_PROP_UINT64("ramsnap-period-ms", MigrationState,
++                      parameters.ramsnap_period_ms,
++                      DEFAULT_RAMSNAP_PERIOD_MS),
++#endif /* CONFIG_RAMSNAP */
++
+     /* Migration parameters */
+     DEFINE_PROP_UINT8("x-compress-level", MigrationState,
+                       parameters.compress_level,
+                       DEFAULT_MIGRATE_COMPRESS_LEVEL),
+     DEFINE_PROP_UINT8("x-compress-threads", MigrationState,
+-                      parameters.compress_threads,
+-                      DEFAULT_MIGRATE_COMPRESS_THREAD_COUNT),
++                    parameters.compress_threads,
++                    DEFAULT_MIGRATE_COMPRESS_THREAD_COUNT),
+     DEFINE_PROP_BOOL("x-compress-wait-thread", MigrationState,
+                       parameters.compress_wait_thread, true),
+     DEFINE_PROP_UINT8("x-decompress-threads", MigrationState,
+diff --git a/migration/migration.h b/migration/migration.h
+index 8130b703eb95..4b85ed363993 100644
+--- a/migration/migration.h
++++ b/migration/migration.h
+@@ -296,6 +296,11 @@ struct MigrationState {
+      * This save hostname when out-going migration starts
+      */
+     char *hostname;
++
++#ifdef CONFIG_RAMSNAP
++    /* ramsnap */
++    bool ramsnap_mode;
++#endif /* CONFIG_RAMSNAP */
+ };
+ 
+ void migrate_set_state(int *state, int old_state, int new_state);
+@@ -324,6 +329,11 @@ MigrationState *migrate_get_current(void);
+ 
+ bool migrate_postcopy(void);
+ 
++#ifdef CONFIG_RAMSNAP
++bool     migrate_ramsnap_mode(void);
++uint64_t migrate_ramsnap_period_ms(void);
++#endif /* CONFIG_RAMSNAP */
++
+ bool migrate_release_ram(void);
+ bool migrate_postcopy_ram(void);
+ bool migrate_zero_blocks(void);
+diff --git a/monitor/hmp-cmds.c b/monitor/hmp-cmds.c
+index 2669156b2848..4de4da36c588 100644
+--- a/monitor/hmp-cmds.c
++++ b/monitor/hmp-cmds.c
+@@ -34,6 +34,7 @@
+ #include "qapi/qapi-commands-char.h"
+ #include "qapi/qapi-commands-control.h"
+ #include "qapi/qapi-commands-machine.h"
++#include "qapi/qapi-commands-memsnap.h"
+ #include "qapi/qapi-commands-migration.h"
+ #include "qapi/qapi-commands-misc.h"
+ #include "qapi/qapi-commands-net.h"
+@@ -487,6 +488,14 @@ void hmp_info_migrate_parameters(Monitor *mon, const QDict *qdict)
+         monitor_printf(mon, "%s: '%s'\n",
+             MigrationParameter_str(MIGRATION_PARAMETER_TLS_AUTHZ),
+             params->tls_authz);
++#ifdef CONFIG_RAMSNAP
++        monitor_printf(mon, "%s: %s\n",
++            MigrationParameter_str(MIGRATION_PARAMETER_RAMSNAP_MODE),
++            params->ramsnap_mode ? "on" : "off");
++        monitor_printf(mon, "%s: %" PRIu64 " ms\n",
++            MigrationParameter_str(MIGRATION_PARAMETER_RAMSNAP_PERIOD_MS),
++            params->ramsnap_period_ms);
++#endif /* CONFIG_RAMSNAP */
+ 
+         if (params->has_block_bitmap_mapping) {
+             const BitmapMigrationNodeAliasList *bmnal;
+@@ -1110,6 +1119,40 @@ void hmp_announce_self(Monitor *mon, const QDict *qdict)
+     qapi_free_AnnounceParameters(params);
+ }
+ 
++void hmp_memsnap(Monitor *mon, const QDict *qdict)
++{
++    Error *err = NULL;
++    const char *uri = qdict_get_str(qdict, "uri");
++    bool has_timespan = qdict_haskey(qdict, "timespan");
++    int64_t timespan = -1;
++
++    if (has_timespan) {
++        timespan = qdict_get_int(qdict, "timespan");
++    }
++
++    qmp_memsnap(uri, has_timespan, timespan, &err);
++
++    hmp_handle_error(mon, err);
++}
++
++void hmp_memsnap_send_update(Monitor *mon, const QDict *qdict)
++{
++    Error *err = NULL;
++
++    qmp_memsnap_send_update(&err);
++
++    hmp_handle_error(mon, err);
++}
++
++void hmp_memsnap_cancel(Monitor *mon, const QDict *qdict)
++{
++    Error *err = NULL;
++
++    qmp_memsnap_cancel(&err);
++
++    hmp_handle_error(mon, err);
++}
++
+ void hmp_migrate_cancel(Monitor *mon, const QDict *qdict)
+ {
+     qmp_migrate_cancel(NULL);
+@@ -1328,6 +1371,16 @@ void hmp_migrate_set_parameter(Monitor *mon, const QDict *qdict)
+         p->has_announce_step = true;
+         visit_type_size(v, param, &p->announce_step, &err);
+         break;
++#ifdef CONFIG_RAMSNAP
++    case MIGRATION_PARAMETER_RAMSNAP_MODE:
++        p->has_ramsnap_mode = true;
++        visit_type_bool(v, param, &p->ramsnap_mode, &err);
++        break;
++    case MIGRATION_PARAMETER_RAMSNAP_PERIOD_MS:
++        p->has_ramsnap_period_ms = true;
++        visit_type_size(v, param, &p->ramsnap_period_ms, &err);
++        break;
++#endif /* RAMSNAP */
+     case MIGRATION_PARAMETER_BLOCK_BITMAP_MAPPING:
+         error_setg(&err, "The block-bitmap-mapping parameter can only be set "
+                    "through QMP");
+diff --git a/qapi/memsnap.json b/qapi/memsnap.json
+new file mode 100644
+index 000000000000..16cdb87b5976
+--- /dev/null
++++ b/qapi/memsnap.json
+@@ -0,0 +1,68 @@
++# -*- Mode: Python -*-
++# vim: filetype=python
++#
++
++##
++# = Memory Snapshots
++##
++
++{ 'include': 'common.json' }
++{ 'include': 'sockets.json' }
++
++##
++# @memsnap:
++#
++# Initiate the memory snapshot mechanism, marking pages for dirty page tracking
++#
++# @uri: the Uniform Resource Identifier of the destination
++#
++# Returns: nothing on success
++#
++# Since: 6.1
++#
++# Notes:
++#
++# -> { "execute": "memsnap", "arguments": { "uri": "unix:/tmp/memsnap.sock" } }
++# <- { "return": {} }
++#
++##
++{ 'command': 'memsnap',
++  'data': {'uri': 'str', '*timespan': 'int' } }
++
++
++##
++# @memsnap-send-update:
++#
++# Send updates since the last data was sent
++#
++# Returns: nothing on success
++#
++# Since: 6.1
++#
++# Notes:
++#
++# -> { "execute": "memsnap-send-update" }
++# <- { "return": {} }
++#
++##
++{ 'command': 'memsnap-send-update' }
++
++
++##
++# @memsnap-cancel:
++#
++# Cancel memsnap monitoring
++#
++# Returns: nothing on success
++#
++# Since: 6.1
++#
++# Notes:
++#
++# -> { "execute": "memsnap-cancel" }
++# <- { "return": {} }
++#
++##
++{ 'command': 'memsnap-cancel' }
++
++
+diff --git a/qapi/meson.build b/qapi/meson.build
+index c0c49c15e4e6..b51db36b6726 100644
+--- a/qapi/meson.build
++++ b/qapi/meson.build
+@@ -37,6 +37,7 @@ qapi_all_modules = [
+   'job',
+   'machine',
+   'machine-target',
++  'memsnap',
+   'migration',
+   'misc',
+   'misc-target',
+diff --git a/qapi/migration.json b/qapi/migration.json
+index bbfd48cf0b17..3ae16b314c26 100644
+--- a/qapi/migration.json
++++ b/qapi/migration.json
+@@ -766,6 +766,7 @@
+            { 'name': 'x-checkpoint-delay', 'features': [ 'unstable' ] },
+            'block-incremental',
+            'multifd-channels',
++           'ramsnap-mode', 'ramsnap-period-ms',
+            'xbzrle-cache-size', 'max-postcopy-bandwidth',
+            'max-cpu-throttle', 'multifd-compression',
+            'multifd-zlib-level' ,'multifd-zstd-level',
+@@ -939,6 +940,8 @@
+             '*tls-authz': 'StrOrNull',
+             '*max-bandwidth': 'size',
+             '*downtime-limit': 'uint64',
++            '*ramsnap-mode': 'bool',
++            '*ramsnap-period-ms': 'uint64',
+             '*x-checkpoint-delay': { 'type': 'uint32',
+                                      'features': [ 'unstable' ] },
+             '*block-incremental': 'bool',
+@@ -1137,6 +1140,8 @@
+             '*tls-authz': 'str',
+             '*max-bandwidth': 'size',
+             '*downtime-limit': 'uint64',
++            '*ramsnap-mode': 'bool',
++            '*ramsnap-period-ms': 'uint64',
+             '*x-checkpoint-delay': { 'type': 'uint32',
+                                      'features': [ 'unstable' ] },
+             '*block-incremental': 'bool',
+diff --git a/qapi/qapi-schema.json b/qapi/qapi-schema.json
+index 4912b9744e69..6e4a80e239e8 100644
+--- a/qapi/qapi-schema.json
++++ b/qapi/qapi-schema.json
+@@ -93,3 +93,4 @@
+ { 'include': 'audio.json' }
+ { 'include': 'acpi.json' }
+ { 'include': 'pci.json' }
++{ 'include': 'memsnap.json' }
+diff --git a/scripts/analyze-migration.py b/scripts/analyze-migration.py
+index b82a1b0c58c4..8ba912aaf9b3 100755
+--- a/scripts/analyze-migration.py
++++ b/scripts/analyze-migration.py
+@@ -17,12 +17,25 @@
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, see <http://www.gnu.org/licenses/>.
+ 
+-import json
+-import os
++import abc
+ import argparse
++import binascii
+ import collections
++import enum
++import json
++import logging
++import os
++import select
++import socket
++import stat
+ import struct
+ import sys
++import time
++
++
++logging.basicConfig()
++log = logging.getLogger(os.path.basename(sys.argv[0]))
++log.setLevel(logging.INFO)
+ 
+ 
+ def mkdir_p(path):
+@@ -32,38 +45,269 @@ def mkdir_p(path):
+         pass
+ 
+ 
+-class MigrationFile(object):
++class MigrationWriterInterface(metaclass=abc.ABCMeta):
++
++    @abc.abstractmethod
++    def write64(self, value):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def write32(self, value):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def write16(self, value):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def write8(self, value):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def writestr(self, value, len=None):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def writevar(self, value, size=None):
++        raise NotImplementedError
++
++
++class MigrationSocketWriter(MigrationWriterInterface):
++
++    def __init__(self, reader):
++        self._socket = reader.get_socket()
++
++    def write64(self, value):
++        return self._socket.send(value.to_bytes(8, 'big'))
++
++    def write32(self, value):
++        return self._socket.send(value.to_bytes(4, 'big'))
++
++    def write16(self, value):
++        return self._socket.send(value.to_bytes(2, 'big'))
++
++    def write8(self, value):
++        return self._socket.send(value.to_bytes(1, 'big'))
++
++    def writestr(self, value, len=None):
++        return self.writevar(value.encode('utf-8'), len)
++
++    def writevar(self, value, size=None):
++        if size is None:
++            size = len(value)
++        if size == 0:
++            return
++        written = self.write8(size)
++        if written != 1:
++            raise Exception("Failed to write 1 byte")
++
++        written = self._socket.send(value)
++        if written != size:
++            raise Exception("Failed to write %d bytes, wrote" %
++                            (size, written))
++
++
++class MigrationReaderInterface(metaclass=abc.ABCMeta):
++
++    @abc.abstractmethod
++    def is_file(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def get_file(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def undo(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def skip_bytes(self, number):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def read64(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def read32(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def read16(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def read8(self):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def readstr(self, len=None):
++        raise NotImplementedError
++
++    @abc.abstractmethod
++    def readvar(self, size=None):
++        raise NotImplementedError
++
++
++class MigrationSocketReader(MigrationReaderInterface):
++    def __init__(self, sock):
++        self._socket = sock
++        self._last_read = bytearray()
++        self._undo_buffer = bytearray()
++
++    def get_socket(self):
++        return self._socket
++
++    def is_file(self):
++        return False
++
++    def get_file(self):
++        return None
++
++    def undo(self):
++        # self._dump_as_hex(self._last_read, 'undo')
++        self._undo_buffer.extend(self._last_read)
++
++    def skip_bytes(self, num):
++        log.debug("skipping %d bytes", num)
++        num_read = 0
++        to_read = num
++
++        while num_read < num:
++            read_bytes = self._recv(to_read)
++            num_read += len(read_bytes)
++            to_read = num - num_read
++
++    def _dump_as_hex(self, data, prefix="data"):
++        if not data:
++            print("\n%s: <empty>" % prefix)
++
++        for i in range(len(data)):
++            if i % 16 == 0:
++                print("\n%s(%06d of %06d): " % (prefix, i, len(data)), end="")
++            print("%02x " % data[i], end="")
++
++        print("")
++
++    def _recv(self, num_bytes):
++        to_read = num_bytes
++        to_return = bytearray()
++
++        if self._undo_buffer:
++            if len(self._undo_buffer) <= num_bytes:
++                to_read -= len(self._undo_buffer)
++                to_return = self._undo_buffer
++                self._undo_buffer = bytearray()
++            elif len(self._undo_buffer) > num_bytes:
++                to_return = self._undo_buffer[:num_bytes]
++                self._undo_buffer = self._undo_buffer[num_bytes:]
++            else:
++                raise Exception("Failed to handle %d bytes (%d)" %
++                                (num_bytes, len(self._last_read)))
++
++        while to_read > 0:
++            read_bytes = self._socket.recv(to_read)
++            to_return.extend(read_bytes)
++            to_read -= len(read_bytes)
++            if len(read_bytes) == 0:
++                raise Exception(
++                    "Failed to read enough bytes (connection broken?)")
++
++        self._last_read = to_return[:]
++
++        # self._dump_as_hex(to_return)
++        return to_return
++
++    def read64(self):
++        return int.from_bytes(self._recv(8), byteorder='big',
++                              signed=True)
++
++    def read32(self):
++        return int.from_bytes(self._recv(4), byteorder='big',
++                              signed=True)
++
++    def read16(self):
++        return int.from_bytes(self._recv(2), byteorder='big',
++                              signed=True)
++
++    def read8(self):
++        return int.from_bytes(self._recv(1), byteorder='big',
++                              signed=True)
++
++    def readstr(self, len=None):
++        try:
++            return self.readvar(len).decode('utf-8')
++        except Exception as ex:
++            # import pdb; pdb.set_trace()
++            raise ex
++
++    def readvar(self, size=None):
++        if size is None:
++            size = self.read8()
++        if size == 0:
++            return b""
++        value = self._recv(size)
++        if len(value) != size:
++            raise Exception("Unexpected end of socket")
++
++        return value
++
++
++class MigrationFileReader(MigrationReaderInterface):
+     def __init__(self, filename):
+         self.filename = filename
+-        self.file = open(self.filename, "rb")
++        self._file = open(self.filename, "rb")
++        self._last_read_size = 0
++
++    def is_file(self):
++        return True
++
++    def get_file(self):
++        return self._file
++
++    def undo(self):
++        if self._last_read_size:
++            self._file.seek(-self._last_read_size, 1)
++
++    def skip_bytes(self, number):
++        self._file.seek(number, 1)
+ 
+     def read64(self):
+-        return int.from_bytes(self.file.read(8), byteorder='big', signed=True)
++        self._last_read_size = 8
++        return int.from_bytes(self._file.read(8), byteorder='big', signed=True)
+ 
+     def read32(self):
+-        return int.from_bytes(self.file.read(4), byteorder='big', signed=True)
++        self._last_read_size = 4
++        return int.from_bytes(self._file.read(4), byteorder='big', signed=True)
+ 
+     def read16(self):
+-        return int.from_bytes(self.file.read(2), byteorder='big', signed=True)
++        self._last_read_size = 2
++        return int.from_bytes(self._file.read(2), byteorder='big', signed=True)
+ 
+     def read8(self):
+-        return int.from_bytes(self.file.read(1), byteorder='big', signed=True)
++        self._last_read_size = 1
++        return int.from_bytes(self._file.read(1), byteorder='big', signed=True)
+ 
+-    def readstr(self, len = None):
++    def readstr(self, len=None):
+         return self.readvar(len).decode('utf-8')
+ 
+-    def readvar(self, size = None):
++    def readvar(self, size=None):
++        self._read_size = 0
+         if size is None:
++            self._read_size += 1
+             size = self.read8()
+         if size == 0:
+-            return ""
+-        value = self.file.read(size)
++            return b""
++        value = self._file.read(size)
++        self._read_size += size
+         if len(value) != size:
+-            raise Exception("Unexpected end of %s at 0x%x" % (self.filename, self.file.tell()))
++            raise Exception("Unexpected end of %s at 0x%x" %
++                            (self.filename, self._file.tell()))
+         return value
+ 
+     def tell(self):
+-        return self.file.tell()
++        return self._file.tell()
+ 
+     # The VMSD description is at the end of the file, after EOF. Look for
+     # the last NULL byte, then for the beginning brace of JSON.
+@@ -71,16 +315,16 @@ def read_migration_debug_json(self):
+         QEMU_VM_VMDESCRIPTION = 0x06
+ 
+         # Remember the offset in the file when we started
+-        entrypos = self.file.tell()
++        entrypos = self._file.tell()
+ 
+         # Read the last 10MB
+-        self.file.seek(0, os.SEEK_END)
+-        endpos = self.file.tell()
+-        self.file.seek(max(-endpos, -10 * 1024 * 1024), os.SEEK_END)
+-        datapos = self.file.tell()
+-        data = self.file.read()
++        self._file.seek(0, os.SEEK_END)
++        endpos = self._file.tell()
++        self._file.seek(max(-endpos, -10 * 1024 * 1024), os.SEEK_END)
++        datapos = self._file.tell()
++        data = self._file.read()
+         # The full file read closed the file as well, reopen it
+-        self.file = open(self.filename, "rb")
++        self._file = open(self.filename, "rb")
+ 
+         # Find the last NULL byte, then the first brace after that. This should
+         # be the beginning of our JSON data.
+@@ -88,45 +332,48 @@ def read_migration_debug_json(self):
+         jsonpos = data.find(b'{', nulpos)
+ 
+         # Check backwards from there and see whether we guessed right
+-        self.file.seek(datapos + jsonpos - 5, 0)
++        self._file.seek(datapos + jsonpos - 5, 0)
+         if self.read8() != QEMU_VM_VMDESCRIPTION:
+             raise Exception("No Debug Migration device found")
+ 
+         jsonlen = self.read32()
+ 
+         # Seek back to where we were at the beginning
+-        self.file.seek(entrypos, 0)
++        self._file.seek(entrypos, 0)
+ 
+         # explicit decode() needed for Python 3.5 compatibility
+         return data[jsonpos:jsonpos + jsonlen].decode("utf-8")
+ 
+     def close(self):
+-        self.file.close()
++        self._file.close()
++
+ 
+ class RamSection(object):
+-    RAM_SAVE_FLAG_COMPRESS = 0x02
++    RAM_SAVE_FLAG_ZERO = 0x02
+     RAM_SAVE_FLAG_MEM_SIZE = 0x04
+-    RAM_SAVE_FLAG_PAGE     = 0x08
+-    RAM_SAVE_FLAG_EOS      = 0x10
++    RAM_SAVE_FLAG_PAGE = 0x08
++    RAM_SAVE_FLAG_EOS = 0x10
+     RAM_SAVE_FLAG_CONTINUE = 0x20
+-    RAM_SAVE_FLAG_XBZRLE   = 0x40
+-    RAM_SAVE_FLAG_HOOK     = 0x80
++    RAM_SAVE_FLAG_XBZRLE = 0x40
++    RAM_SAVE_FLAG_HOOK = 0x80
++    RAM_SAVE_FLAG_COMPRESS_PAGE = 0x100
+ 
+-    def __init__(self, file, version_id, ramargs, section_key):
++    def __init__(self, reader, version_id, ramargs, section_key):
+         if version_id != 4:
+             raise Exception("Unknown RAM version %d" % version_id)
+ 
+-        self.file = file
++        self.reader = reader
+         self.section_key = section_key
+         self.TARGET_PAGE_SIZE = ramargs['page_size']
+         self.dump_memory = ramargs['dump_memory']
+         self.write_memory = ramargs['write_memory']
++        self.pcram_prefix = ramargs['pcram_prefix']
++        self.pcram_prefix_idx = "%s.idx" % self.pcram_prefix
+         self.sizeinfo = collections.OrderedDict()
+         self.data = collections.OrderedDict()
+         self.data['section sizes'] = self.sizeinfo
+-        self.name = ''
+-        if self.write_memory:
+-            self.files = { }
++        self._name = ''
++        self.files = {}
+         if self.dump_memory:
+             self.memory = collections.OrderedDict()
+             self.data['memory'] = self.memory
+@@ -140,26 +387,87 @@ def __str__(self):
+     def getDict(self):
+         return self.data
+ 
++    def _print_flags(self, flag):
++        flag_str = ""
++        flag_str += "ZERO," \
++            if flag & self.RAM_SAVE_FLAG_ZERO else ""
++        flag_str += "MEM_SIZE," \
++            if flag & self.RAM_SAVE_FLAG_MEM_SIZE else ""
++        flag_str += "PAGE," \
++            if flag & self.RAM_SAVE_FLAG_PAGE else ""
++        flag_str += "EOS," \
++            if flag & self.RAM_SAVE_FLAG_EOS else ""
++        flag_str += "CONTINUE," \
++            if flag & self.RAM_SAVE_FLAG_CONTINUE else ""
++        flag_str += "XBZRLE," \
++            if flag & self.RAM_SAVE_FLAG_XBZRLE else ""
++        flag_str += "HOOK," \
++            if flag & self.RAM_SAVE_FLAG_HOOK else ""
++        flag_str += "COMPRESS_PAGE," \
++            if flag & self.RAM_SAVE_FLAG_COMPRESS_PAGE else ""
++        log.debug("Flags = %s", flag_str)
++
++    def index_append_file(self, fname):
++        with open(self.pcram_prefix_idx, "a+") as fp:
++            fp.write(fname)
++            fp.write("\n")
++
++    @property
++    def name(self):
++        return self._name
++
++    @name.setter
++    def name(self, value):
++        if value == "pc.ram":
++            if self.pcram_prefix is not None:
++                self._pcram_prefix_str = "%s-%d" % (
++                    self.pcram_prefix, time.time_ns())
++                log.error("pcram prefix: %s",
++                              self._pcram_prefix_str)
++                # Open file to match
++                f = open(self._pcram_prefix_str, "wb")
++                f.truncate(0)
++                self.files[self._pcram_prefix_str] = f
++                self.index_append_file(self._pcram_prefix_str)
++        else:
++            if self._pcram_prefix_str in self.files:
++                self.files[self._pcram_prefix_str].close()
++                del self.files[self._pcram_prefix_str]
++
++            self._pcram_prefix_str = None
++
++        self._name = value
++
+     def read(self):
++
+         # Read all RAM sections
+         while True:
+-            addr = self.file.read64()
++            addr = self.reader.read64()
++            log.debug('addr = 0x%016x', addr)
+             flags = addr & (self.TARGET_PAGE_SIZE - 1)
++            log.debug('flags = 0x%016x', flags)
+             addr &= ~(self.TARGET_PAGE_SIZE - 1)
++            log.debug('new_addr = 0x%016x', addr)
+ 
++            # self._print_flags(flags)
+             if flags & self.RAM_SAVE_FLAG_MEM_SIZE:
+                 while True:
+-                    namelen = self.file.read8()
++                    namelen = self.reader.read8()
+                     # We assume that no RAM chunk is big enough to ever
+                     # hit the first byte of the address, so when we see
+                     # a zero here we know it has to be an address, not the
+                     # length of the next block.
+                     if namelen == 0:
+-                        self.file.file.seek(-1, 1)
++                        self.reader.undo()
+                         break
+-                    self.name = self.file.readstr(len = namelen)
+-                    len = self.file.read64()
++                    self.name = self.reader.readstr(len=namelen)
++                    log.error("memsize: %s", self.name)
++                    len = self.reader.read64()
+                     self.sizeinfo[self.name] = '0x%016x' % len
++                    if len == 0:
++                        print("Got 0 len!")
++                        self.reader.undo()
++                        break
+                     if self.write_memory:
+                         print(self.name)
+                         mkdir_p('./' + os.path.dirname(self.name))
+@@ -169,38 +477,71 @@ def read(self):
+                         self.files[self.name] = f
+                 flags &= ~self.RAM_SAVE_FLAG_MEM_SIZE
+ 
+-            if flags & self.RAM_SAVE_FLAG_COMPRESS:
++            if flags & self.RAM_SAVE_FLAG_COMPRESS_PAGE:
+                 if flags & self.RAM_SAVE_FLAG_CONTINUE:
+                     flags &= ~self.RAM_SAVE_FLAG_CONTINUE
+                 else:
+-                    self.name = self.file.readstr()
+-                fill_char = self.file.read8()
++                    self.name = self.reader.readstr()
++                    log.error("compress-page: %s", self.name)
++                fill_char = self.reader.read8()
+                 # The page in question is filled with fill_char now
+                 if self.write_memory and fill_char != 0:
+                     self.files[self.name].seek(addr, os.SEEK_SET)
+-                    self.files[self.name].write(chr(fill_char) * self.TARGET_PAGE_SIZE)
++                    self.files[self.name].write(
++                        chr(fill_char) * self.TARGET_PAGE_SIZE)
+                 if self.dump_memory:
+-                    self.memory['%s (0x%016x)' % (self.name, addr)] = 'Filled with 0x%02x' % fill_char
+-                flags &= ~self.RAM_SAVE_FLAG_COMPRESS
++                    self.memory['%s (0x%016x)' % (self.name, addr)
++                                ] = 'Filled with 0x%02x' % fill_char
++                flags &= ~self.RAM_SAVE_FLAG_COMPRESS_PAGE
+             elif flags & self.RAM_SAVE_FLAG_PAGE:
+                 if flags & self.RAM_SAVE_FLAG_CONTINUE:
+                     flags &= ~self.RAM_SAVE_FLAG_CONTINUE
+                 else:
+-                    self.name = self.file.readstr()
++                    self.name = self.reader.readstr()
++                    log.error("page: %s", self.name)
+ 
+-                if self.write_memory or self.dump_memory:
+-                    data = self.file.readvar(size = self.TARGET_PAGE_SIZE)
+-                else: # Just skip RAM data
+-                    self.file.file.seek(self.TARGET_PAGE_SIZE, 1)
++                if self.write_memory or self.dump_memory or self.pcram_prefix:
++                    data = self.reader.readvar(size=self.TARGET_PAGE_SIZE)
++                else:
++                    self.reader.skip_bytes(self.TARGET_PAGE_SIZE)
++
++                if self._pcram_prefix_str is not None:
++                    # hexdata = "".join("{0:02x}".format(c) for c in data)
++                    hexdata = binascii.hexlify(data)
++                    self.files[self._pcram_prefix_str].write(
++                        b"0x%016x: %s\n" % (addr, hexdata))
+ 
+                 if self.write_memory:
+                     self.files[self.name].seek(addr, os.SEEK_SET)
+                     self.files[self.name].write(data)
+                 if self.dump_memory:
+-                    hexdata = " ".join("{0:02x}".format(ord(c)) for c in data)
++                    hexdata = " ".join("{0:02x}".format(c) for c in data)
+                     self.memory['%s (0x%016x)' % (self.name, addr)] = hexdata
+ 
+                 flags &= ~self.RAM_SAVE_FLAG_PAGE
++            elif flags & self.RAM_SAVE_FLAG_ZERO:
++                if flags & self.RAM_SAVE_FLAG_CONTINUE:
++                    flags &= ~self.RAM_SAVE_FLAG_CONTINUE
++                else:
++                    self.name = self.reader.readstr()
++                    log.error("zero: %s", self.name)
++                fill_char = self.reader.read8()
++                # The page in question is filled with fill_char now
++                if self.write_memory and fill_char != 0:
++                    self.files[self.name].seek(addr, os.SEEK_SET)
++                    self.files[self.name].write(
++                        chr(fill_char) * self.TARGET_PAGE_SIZE)
++                if self.dump_memory:
++                    self.memory['%s (0x%016x)' % (self.name, addr)
++                                ] = 'Filled with 0x%02x' % fill_char
++
++                if self._pcram_prefix_str is not None:
++                    hexdata = b"%02x" % (fill_char)
++                    hexdata = hexdata * self.TARGET_PAGE_SIZE
++                    self.files[self._pcram_prefix_str].write(
++                        b"0x%016x: %s\n" % (addr, hexdata))
++
++                flags &= ~self.RAM_SAVE_FLAG_ZERO
+             elif flags & self.RAM_SAVE_FLAG_XBZRLE:
+                 raise Exception("XBZRLE RAM compression is not supported yet")
+             elif flags & self.RAM_SAVE_FLAG_HOOK:
+@@ -220,7 +561,7 @@ def __del__(self):
+ 
+ 
+ class HTABSection(object):
+-    HASH_PTE_SIZE_64       = 16
++    HASH_PTE_SIZE_64 = 16
+ 
+     def __init__(self, file, version_id, device, section_key):
+         if version_id != 1:
+@@ -262,7 +603,120 @@ def __init__(self, file):
+ 
+     def read(self):
+         name_len = self.file.read32()
+-        name = self.file.readstr(len = name_len)
++        name = self.file.readstr(len=name_len)
++
++
++class MigCmd(enum.Enum):
++    # Possible Commands
++    MIG_CMD_INVALID = 0
++    MIG_CMD_OPEN_RETURN_PATH = 1
++    MIG_CMD_PING = 2
++    MIG_CMD_POSTCOPY_ADVISE = 3
++    MIG_CMD_POSTCOPY_LISTEN = 4
++    MIG_CMD_POSTCOPY_RUN = 5
++    MIG_CMD_POSTCOPY_RAM_DISCARD = 6
++    MIG_CMD_POSTCOPY_RESUME = 7
++    MIG_CMD_PACKAGED = 8
++    MIG_CMD_RECV_BITMAP = 9
++    MIG_CMD_MAX = 10
++
++
++class MigRpMsg(enum.Enum):
++    # Responses to Commands
++    MIG_RP_MSG_INVALID = 0        # must be 0
++    MIG_RP_MSG_SHUT = 1           # sibling will not send any more rp messages
++    MIG_RP_MSG_PONG = 2           # response to a ping; data (seq: be32 )
++    MIG_RP_MSG_REQ_PAGES_ID = 3   # data (start: be64, len: be32, id: string)
++    MIG_RP_MSG_REQ_PAGES = 4      # data (start: be64, len: be32)
++    MIG_RP_MSG_RECV_BITMAP = 5    # send recved_bitmap back to source
++    MIG_RP_MSG_RESUME_ACK = 6     # tell source that we are ready to resume
++    MIG_RP_MSG_MAX = 7
++
++
++class CommandSection(object):
++    # Possible Commands
++    MIG_CMD_INFO = [
++        (-1, "INVALID"),
++        (0, "OPEN_RETURN_PATH"),
++        (4, "PING"),
++        (-1, "POSTCOPY_ADVISE"),
++        (0, "POSTCOPY_LISTEN"),
++        (0, "POSTCOPY_RUN"),
++        (-1, "POSTCOPY_RAM_DISCARD"),
++        (-1, "PoSTCOPY_RESUME"),
++        (-1, "PACKAGED"),
++        (-1, "RECV_BITMAP"),
++        (0, "MAX")
++    ]
++
++    def __init__(self, reader):
++        self._reader = reader
++        self._writer = None
++
++    def handle_command(self):
++        cmd = self._reader.read16()
++        cmd_len = self._reader.read16()
++
++        if cmd >= MigCmd.MIG_CMD_MAX.value:
++            raise Exception("Invalid command; %x" % cmd)
++
++        if self.MIG_CMD_INFO[cmd][0] != -1 and \
++                cmd_len != self.MIG_CMD_INFO[cmd][0]:
++            raise Exception("Invalid command; %x" % cmd)
++
++        print("Got Command: %s (%s)" % (self.MIG_CMD_INFO[cmd][1], cmd))
++
++        if cmd == MigCmd.MIG_CMD_OPEN_RETURN_PATH.value:
++            self.handle_cmd_open_return_path()
++        elif cmd == MigCmd.MIG_CMD_PING.value:
++            self.handle_cmd_ping()
++        elif cmd == MigCmd.MIG_CMD_POSTCOPY_ADVISE.value:
++            self.handle_cmd_postcopy_advise()
++        elif cmd == MigCmd.MIG_CMD_POSTCOPY_LISTEN.value:
++            self.handle_cmd_postcopy_listen()
++        elif cmd == MigCmd.MIG_CMD_POSTCOPY_RUN.value:
++            self.handle_cmd_postcopy_run()
++        elif cmd == MigCmd.MIG_CMD_POSTCOPY_RAM_DISCARD.value:
++            self.handle_cmd_postcopy_ram_discard()
++        elif cmd == MigCmd.MIG_CMD_POSTCOPY_RESUME.value:
++            self.handle_cmd_postcopy_resume()
++        elif cmd == MigCmd.MIG_CMD_PACKAGED.value:
++            self.handle_cmd_packaged()
++        elif cmd == MigCmd.MIG_CMD_RECV_BITMAP.value:
++            self.handle_cmd_recv_bitmap()
++
++    def handle_cmd_open_return_path(self):
++        print("Opening Return Path")
++        self._writer = MigrationSocketWriter(self._reader)
++
++    def handle_cmd_ping(self):
++        print("Sending PONG")
++        sess_id = self._reader.read32()
++        self._writer.write16(MigRpMsg.MIG_RP_MSG_PONG.value)
++        self._writer.write16(4)  # Size of 32-bit number
++        self._writer.write32(sess_id)
++
++    def handle_cmd_postcopy_advise(self):
++        pass
++
++    def handle_cmd_postcopy_listen(self):
++        pass
++
++    def handle_cmd_postcopy_run(self):
++        pass
++
++    def handle_cmd_postcopy_ram_discard(self):
++        pass
++
++    def handle_cmd_postcopy_resume(self):
++        pass
++
++    def handle_cmd_packaged(self):
++        pass
++
++    def handle_cmd_recv_bitmap(self):
++        pass
++
+ 
+ class VMSDFieldGeneric(object):
+     def __init__(self, desc, file):
+@@ -284,6 +738,7 @@ def read(self):
+         self.data = self.file.readvar(size)
+         return self.data
+ 
++
+ class VMSDFieldInt(VMSDFieldGeneric):
+     def __init__(self, desc, file):
+         super(VMSDFieldInt, self).__init__(desc, file)
+@@ -311,6 +766,7 @@ def read(self):
+         self.data = self.sdata
+         return self.data
+ 
++
+ class VMSDFieldUInt(VMSDFieldInt):
+     def __init__(self, desc, file):
+         super(VMSDFieldUInt, self).__init__(desc, file)
+@@ -320,11 +776,13 @@ def read(self):
+         self.data = self.udata
+         return self.data
+ 
++
+ class VMSDFieldIntLE(VMSDFieldInt):
+     def __init__(self, desc, file):
+         super(VMSDFieldIntLE, self).__init__(desc, file)
+         self.dtype = '<i%d' % self.size
+ 
++
+ class VMSDFieldBool(VMSDFieldGeneric):
+     def __init__(self, desc, file):
+         super(VMSDFieldBool, self).__init__(desc, file)
+@@ -346,8 +804,9 @@ def read(self):
+             self.data = True
+         return self.data
+ 
++
+ class VMSDFieldStruct(VMSDFieldGeneric):
+-    QEMU_VM_SUBSECTION    = 0x05
++    QEMU_VM_SUBSECTION = 0x05
+ 
+     def __init__(self, desc, file):
+         super(VMSDFieldStruct, self).__init__(desc, file)
+@@ -390,7 +849,9 @@ def read(self):
+                     self.data[field['name']] = []
+                 a = self.data[field['name']]
+                 if len(a) != int(field['index']):
+-                    raise Exception("internal index of data field unmatched (%d/%d)" % (len(a), int(field['index'])))
++                    raise Exception(
++                        "internal index of data field unmatched (%d/%d)" %
++                        (len(a), int(field['index'])))
+                 a.append(field['data'])
+             else:
+                 self.data[field['name']] = field['data']
+@@ -398,33 +859,35 @@ def read(self):
+         if 'subsections' in self.desc['struct']:
+             for subsection in self.desc['struct']['subsections']:
+                 if self.file.read8() != self.QEMU_VM_SUBSECTION:
+-                    raise Exception("Subsection %s not found at offset %x" % ( subsection['vmsd_name'], self.file.tell()))
++                    raise Exception("Subsection %s not found at offset %x" % (
++                        subsection['vmsd_name'], self.file.tell()))
+                 name = self.file.readstr()
+                 version_id = self.file.read32()
+-                self.data[name] = VMSDSection(self.file, version_id, subsection, (name, 0))
++                self.data[name] = VMSDSection(
++                    self.file, version_id, subsection, (name, 0))
+                 self.data[name].read()
+ 
+     def getDictItem(self, value):
+-       # Strings would fall into the array category, treat
+-       # them specially
+-       if value.__class__ is ''.__class__:
+-           return value
+-
+-       try:
+-           return self.getDictOrderedDict(value)
+-       except:
+-           try:
+-               return self.getDictArray(value)
+-           except:
+-               try:
+-                   return value.getDict()
+-               except:
+-                   return value
++        # Strings would fall into the array category, treat
++        # them specially
++        if value.__class__ is ''.__class__:
++            return value
++
++        try:
++            return self.getDictOrderedDict(value)
++        except:
++            try:
++                return self.getDictArray(value)
++            except:
++                try:
++                    return value.getDict()
++                except:
++                    return value
+ 
+     def getDictArray(self, array):
+         r = []
+         for value in array:
+-           r.append(self.getDictItem(value))
++            r.append(self.getDictItem(value))
+         return r
+ 
+     def getDictOrderedDict(self, dict):
+@@ -436,31 +899,33 @@ def getDictOrderedDict(self, dict):
+     def getDict(self):
+         return self.getDictOrderedDict(self.data)
+ 
++
+ vmsd_field_readers = {
+-    "bool" : VMSDFieldBool,
+-    "int8" : VMSDFieldInt,
+-    "int16" : VMSDFieldInt,
+-    "int32" : VMSDFieldInt,
+-    "int32 equal" : VMSDFieldInt,
+-    "int32 le" : VMSDFieldIntLE,
+-    "int64" : VMSDFieldInt,
+-    "uint8" : VMSDFieldUInt,
+-    "uint16" : VMSDFieldUInt,
+-    "uint32" : VMSDFieldUInt,
+-    "uint32 equal" : VMSDFieldUInt,
+-    "uint64" : VMSDFieldUInt,
+-    "int64 equal" : VMSDFieldInt,
+-    "uint8 equal" : VMSDFieldInt,
+-    "uint16 equal" : VMSDFieldInt,
+-    "float64" : VMSDFieldGeneric,
+-    "timer" : VMSDFieldGeneric,
+-    "buffer" : VMSDFieldGeneric,
+-    "unused_buffer" : VMSDFieldGeneric,
+-    "bitmap" : VMSDFieldGeneric,
+-    "struct" : VMSDFieldStruct,
+-    "unknown" : VMSDFieldGeneric,
++    "bool": VMSDFieldBool,
++    "int8": VMSDFieldInt,
++    "int16": VMSDFieldInt,
++    "int32": VMSDFieldInt,
++    "int32 equal": VMSDFieldInt,
++    "int32 le": VMSDFieldIntLE,
++    "int64": VMSDFieldInt,
++    "uint8": VMSDFieldUInt,
++    "uint16": VMSDFieldUInt,
++    "uint32": VMSDFieldUInt,
++    "uint32 equal": VMSDFieldUInt,
++    "uint64": VMSDFieldUInt,
++    "int64 equal": VMSDFieldInt,
++    "uint8 equal": VMSDFieldInt,
++    "uint16 equal": VMSDFieldInt,
++    "float64": VMSDFieldGeneric,
++    "timer": VMSDFieldGeneric,
++    "buffer": VMSDFieldGeneric,
++    "unused_buffer": VMSDFieldGeneric,
++    "bitmap": VMSDFieldGeneric,
++    "struct": VMSDFieldStruct,
++    "unknown": VMSDFieldGeneric,
+ }
+ 
++
+ class VMSDSection(VMSDFieldStruct):
+     def __init__(self, file, version_id, device, section_key):
+         self.file = file
+@@ -472,44 +937,117 @@ def __init__(self, file, version_id, device, section_key):
+             self.vmsd_name = device['vmsd_name']
+ 
+         # A section really is nothing but a FieldStruct :)
+-        super(VMSDSection, self).__init__({ 'struct' : desc }, file)
++        super(VMSDSection, self).__init__({'struct': desc}, file)
+ 
+ ###############################################################################
+ 
++
+ class MigrationDump(object):
+-    QEMU_VM_FILE_MAGIC    = 0x5145564d
+-    QEMU_VM_FILE_VERSION  = 0x00000003
+-    QEMU_VM_EOF           = 0x00
++    QEMU_VM_FILE_MAGIC = 0x5145564d
++    QEMU_VM_FILE_VERSION = 0x00000003
++    QEMU_VM_EOF = 0x00
+     QEMU_VM_SECTION_START = 0x01
+-    QEMU_VM_SECTION_PART  = 0x02
+-    QEMU_VM_SECTION_END   = 0x03
+-    QEMU_VM_SECTION_FULL  = 0x04
+-    QEMU_VM_SUBSECTION    = 0x05
++    QEMU_VM_SECTION_PART = 0x02
++    QEMU_VM_SECTION_END = 0x03
++    QEMU_VM_SECTION_FULL = 0x04
++    QEMU_VM_SUBSECTION = 0x05
+     QEMU_VM_VMDESCRIPTION = 0x06
+     QEMU_VM_CONFIGURATION = 0x07
+-    QEMU_VM_SECTION_FOOTER= 0x7e
++    QEMU_VM_RP_COMMAND = 0x08
++    QEMU_VM_SECTION_FOOTER = 0x7e
++
++    def __init__(self, filename=None, sock=None):
++        self.section_classes = {('ram', 0): [RamSection, None],
++                                ('spapr/htab', 0): (HTABSection, None)}
+ 
+-    def __init__(self, filename):
+-        self.section_classes = { ( 'ram', 0 ) : [ RamSection, None ],
+-                                 ( 'spapr/htab', 0) : ( HTABSection, None ) }
+-        self.filename = filename
+         self.vmsd_desc = None
++        self.reader = None
++
++        self.filename = filename
++        if filename is not None:
++            self.reader = MigrationFileReader(filename)
++
++        self.socket = sock
++        if sock is not None:
++            self.reader = MigrationSocketReader(sock)
+ 
+-    def read(self, desc_only = False, dump_memory = False, write_memory = False):
+-        # Read in the whole file
+-        file = MigrationFile(self.filename)
++        if self.reader is None:
++            raise Exception("Failed to determine reader")
++
++        self._command_handler = None
++
++        self._section_id = None
++
++    def read_header(self):
++        # Read in the header
+ 
+         # File magic
+-        data = file.read32()
++        data = self.reader.read32()
+         if data != self.QEMU_VM_FILE_MAGIC:
+-            raise Exception("Invalid file magic %x" % data)
++            if self.filename is not None:
++                raise Exception("Invalid magic %x (offset: %d)" %
++                                (data, self.reader.tell()))
++            else:
++                raise Exception("Invalid magic %x" % data)
+ 
+         # Version (has to be v3)
+-        data = file.read32()
++        data = self.reader.read32()
+         if data != self.QEMU_VM_FILE_VERSION:
+-            raise Exception("Invalid version number %d" % data)
++            if self.filename is not None:
++                raise Exception("Invalid version number %d (offset: %d)" %
++                                (data, self.reader.tell()))
++            else:
++                raise Exception("Invalid version number %d" % data)
++
++    def read_section(self):
++        section_type = self.reader.read8()
++
++        if section_type == self.QEMU_VM_EOF:
++            return False
++        elif section_type == self.QEMU_VM_RP_COMMAND:
++            if self._command_handler is None:
++                self._command_handler = CommandSection(self.reader)
++            self._command_handler.handle_command()
++        elif section_type == self.QEMU_VM_CONFIGURATION:
++            section = ConfigurationSection(self.reader)
++            section.read()
++        elif section_type == self.QEMU_VM_SECTION_START or \
++                section_type == self.QEMU_VM_SECTION_FULL:
++
++            self._section_id = self.reader.read32()
++            name = self.reader.readstr()
++            log.info("Reading section: %s", name)
++            instance_id = self.reader.read32()
++            version_id = self.reader.read32()
++            section_key = (name, instance_id)
++            classdesc = self.section_classes[section_key]
++            section = classdesc[0](
++                self.reader, version_id, classdesc[1], section_key)
++            self.sections[self._section_id] = section
++            section.read()
++        elif section_type == self.QEMU_VM_SECTION_PART or \
++                section_type == self.QEMU_VM_SECTION_END:
++            self._section_id = self.reader.read32()
++            self.sections[self._section_id].read()
++        elif section_type == self.QEMU_VM_SECTION_FOOTER:
++            read_section_id = self.reader.read32()
++            if read_section_id != self._section_id:
++                raise Exception("Mismatched section footer: %x vs %x" % (
++                    read_section_id, section_id))
++        else:
++            raise Exception("Unknown section type: %d" % section_type)
++
++        return True
++
++    def read(self, desc_only=False, dump_memory=False, write_memory=False,
++             header=True, pcram_prefix=None):
+ 
+-        self.load_vmsd_json(file)
++        if header:
++            self.read_header()
++
++        if self.filename:
++            # Read in the whole file
++            self.load_vmsd_json(self.reader)
+ 
+         # Read sections
+         self.sections = collections.OrderedDict()
+@@ -518,96 +1056,250 @@ def read(self, desc_only = False, dump_memory = False, write_memory = False):
+             return
+ 
+         ramargs = {}
+-        ramargs['page_size'] = self.vmsd_desc['page_size']
++        ramargs['page_size'] = self.vmsd_desc['page_size'] \
++            if self.vmsd_desc else 4096
+         ramargs['dump_memory'] = dump_memory
+         ramargs['write_memory'] = write_memory
+-        self.section_classes[('ram',0)][1] = ramargs
++        ramargs['pcram_prefix'] = pcram_prefix
++        self.section_classes[('ram', 0)][1] = ramargs
+ 
+         while True:
+-            section_type = file.read8()
+-            if section_type == self.QEMU_VM_EOF:
++            if not self.read_section():
+                 break
+-            elif section_type == self.QEMU_VM_CONFIGURATION:
+-                section = ConfigurationSection(file)
+-                section.read()
+-            elif section_type == self.QEMU_VM_SECTION_START or section_type == self.QEMU_VM_SECTION_FULL:
+-                section_id = file.read32()
+-                name = file.readstr()
+-                instance_id = file.read32()
+-                version_id = file.read32()
+-                section_key = (name, instance_id)
+-                classdesc = self.section_classes[section_key]
+-                section = classdesc[0](file, version_id, classdesc[1], section_key)
+-                self.sections[section_id] = section
+-                section.read()
+-            elif section_type == self.QEMU_VM_SECTION_PART or section_type == self.QEMU_VM_SECTION_END:
+-                section_id = file.read32()
+-                self.sections[section_id].read()
+-            elif section_type == self.QEMU_VM_SECTION_FOOTER:
+-                read_section_id = file.read32()
+-                if read_section_id != section_id:
+-                    raise Exception("Mismatched section footer: %x vs %x" % (read_section_id, section_id))
+-            else:
+-                raise Exception("Unknown section type: %d" % section_type)
+-        file.close()
++
++        self.reader.close()
+ 
+     def load_vmsd_json(self, file):
+         vmsd_json = file.read_migration_debug_json()
+-        self.vmsd_desc = json.loads(vmsd_json, object_pairs_hook=collections.OrderedDict)
++        self.vmsd_desc = json.loads(
++            vmsd_json, object_pairs_hook=collections.OrderedDict)
+         for device in self.vmsd_desc['devices']:
+             key = (device['name'], device['instance_id'])
+-            value = ( VMSDSection, device )
++            value = (VMSDSection, device)
+             self.section_classes[key] = value
+ 
+     def getDict(self):
+         r = collections.OrderedDict()
+         for (key, value) in self.sections.items():
+-           key = "%s (%d)" % ( value.section_key[0], key )
+-           r[key] = value.getDict()
++            key = "%s (%d)" % (value.section_key[0], key)
++            r[key] = value.getDict()
+         return r
+ 
++
++class MigrationSocketHandler(object):
++    def __init__(self, socket_path, save_pcram=None, outdir=None):
++        if os.path.exists(socket_path):
++            raise Exception("'%s' already exists!" % socket_path)
++
++        self._socket_path = socket_path
++
++        self._outdir = outdir
++
++        self._client_socket = None
++
++        self._server_socket = socket.socket(socket.AF_UNIX,
++                                            socket.SOCK_NONBLOCK +
++                                            socket.SOCK_STREAM)
++        self._server_socket.bind(self._socket_path)
++        self._server_socket.listen(1)
++
++        self._header_read = False
++        self._dump_parser = None
++
++        self._save_pcram = save_pcram
++
++    def wait_for_client(self):
++        while self.wait_for_input(True):
++            try:
++                (client_sock, _dummy) = self._server_socket.accept()
++                self._client_socket = client_sock
++                self._dump_parser = MigrationDump(sock=self._client_socket)
++                return True
++            except BlockingIOError:
++                pass
++
++        return False
++
++    def handle_client_connection(self):
++
++        if self.wait_for_input():
++            if not self._header_read:
++                self._dump_parser.read_header()
++
++        pcram_prefix = None
++        while True:
++            if self._save_pcram:
++                pcram_prefix = os.path.join(self._outdir, "pc-ram")
++            self._dump_parser.read(header=False,
++                                   pcram_prefix=pcram_prefix)
++            time.sleep(200)
++
++    def wait_for_input(self, server=False, timeout=60.0) -> bool:
++        remaining_timeout = timeout
++        while True:
++            # Do this everytime, may become None if client has disconnected
++            r_socks = []
++            if server and self._server_socket is not None:
++                r_socks.append(self._server_socket)
++            elif self._client_socket is not None:
++                r_socks.append(self._client_socket)
++            else:
++                return False
++
++            (r_fds, w_fds, ex_fds) = select.select(r_socks, [], [], 5.0)
++            if not r_fds:
++                remaining_timeout -= 5.0
++                print("remaining_timeout: %2.1f" % remaining_timeout)
++                if remaining_timeout < 0:
++                    return False
++
++                # timeout
++                continue
++
++            if r_socks[0] in r_fds:
++                return True
++            else:
++                return False
++
++    def client_close(self):
++        if self._client_socket is not None:
++            self._client_socket.close()
++            self._client_socket = None
++
++    def close_all(self):
++        self.client_close()
++
++        if self._server_socket is not None:
++            self._server_socket.close()
++            self._server_socket = None
++
++        if self._socket_path is not None and \
++                os.path.exists(self._socket_path):
++            os.unlink(self._socket_path)
++
+ ###############################################################################
+ 
++
+ class JSONEncoder(json.JSONEncoder):
+     def default(self, o):
+         if isinstance(o, VMSDFieldGeneric):
+             return str(o)
+         return json.JSONEncoder.default(self, o)
+ 
+-parser = argparse.ArgumentParser()
+-parser.add_argument("-f", "--file", help='migration dump to read from', required=True)
+-parser.add_argument("-m", "--memory", help='dump RAM contents as well', action='store_true')
+-parser.add_argument("-d", "--dump", help='what to dump ("state" or "desc")', default='state')
+-parser.add_argument("-x", "--extract", help='extract contents into individual files', action='store_true')
+-args = parser.parse_args()
+-
+-jsonenc = JSONEncoder(indent=4, separators=(',', ': '))
+-
+-if args.extract:
+-    dump = MigrationDump(args.file)
+-
+-    dump.read(desc_only = True)
+-    print("desc.json")
+-    f = open("desc.json", "w")
+-    f.truncate()
+-    f.write(jsonenc.encode(dump.vmsd_desc))
+-    f.close()
+-
+-    dump.read(write_memory = True)
+-    dict = dump.getDict()
+-    print("state.json")
+-    f = open("state.json", "w")
+-    f.truncate()
+-    f.write(jsonenc.encode(dict))
+-    f.close()
+-elif args.dump == "state":
+-    dump = MigrationDump(args.file)
+-    dump.read(dump_memory = args.memory)
+-    dict = dump.getDict()
+-    print(jsonenc.encode(dict))
+-elif args.dump == "desc":
+-    dump = MigrationDump(args.file)
+-    dump.read(desc_only = True)
+-    print(jsonenc.encode(dump.vmsd_desc))
+-else:
+-    raise Exception("Please specify either -x, -d state or -d desc")
++
++def handle_file_args(args):
++    jsonenc = JSONEncoder(indent=4, separators=(',', ': '))
++
++    if args.extract:
++        dump = MigrationDump(args.file)
++
++        dump.read(desc_only=True)
++        print("desc.json")
++        f = open("desc.json", "w")
++        f.truncate()
++        f.write(jsonenc.encode(dump.vmsd_desc))
++        f.close()
++
++        dump.read(header=False, write_memory=True)
++        dict = dump.getDict()
++        print("state.json")
++        f = open("state.json", "w")
++        f.truncate()
++        f.write(jsonenc.encode(dict))
++        f.close()
++    elif args.dump == "state":
++        dump = MigrationDump(args.file)
++        dump.read(dump_memory=args.memory)
++        dict = dump.getDict()
++        print(jsonenc.encode(dict))
++    elif args.dump == "desc":
++        dump = MigrationDump(args.file)
++        dump.read(desc_only=True)
++        print(jsonenc.encode(dump.vmsd_desc))
++    else:
++        raise Exception("Please specify either -x, -d state or -d desc")
++
++
++def handle_socket_args(args):
++
++    if not os.path.exists(args.outdir) or not os.path.isdir(args.outdir):
++        print("Output directory doesn't exist, or is not a directory: %s" %
++              args.outdir)
++        sys.exit(1)
++
++    sock = None
++
++    try:
++        sock = MigrationSocketHandler(args.socket, save_pcram=True,
++                                    outdir=args.outdir)
++        while sock.wait_for_client():
++            log.info("A client connected")
++            sock.handle_client_connection()
++
++    except Exception as ex:
++        print("Error: %s" % ex)
++    finally:
++        if sock is not None:
++            sock.close_all()
++
++        if os.path.exists(args.socket):
++            os.unlink(args.socket)
++
++
++if __name__ == '__main__':
++    rc = 0
++    try:
++        parser = argparse.ArgumentParser()
++
++        parser.add_argument(
++            "-D", "--debug", help='Enable debug logging', action='store_true')
++
++        sockgroup = parser.add_argument_group('sockets')
++        sockgroup.add_argument(
++            "-s", "--socket", help='migration dump socket to read from')
++        sockgroup.add_argument(
++            "-o", "--outdir",
++            help='directory to write migration dumps to (default = $PWD)',
++            default=os.getcwd())
++
++        filegroup = parser.add_argument_group('files')
++        filegroup.add_argument(
++            "-f", "--file", help='migration dump to read from')
++        filegroup.add_argument(
++            "-m", "--memory", help='dump RAM contents as well',
++            action='store_true')
++        filegroup.add_argument(
++            "-d", "--dump", help='what to dump ("state" or "desc")',
++            default='state')
++        filegroup.add_argument(
++            "-x", "--extract", help='extract contents into individual files',
++            action='store_true')
++
++        args = parser.parse_args()
++
++        if args.debug:
++            log.getLogger().setLevel(log.DEBUG)
++
++        if args.socket is None and args.file is None:
++            print("Please specify file or socket to read from")
++            sys.exit(1)
++
++        if args.socket:
++            try:
++                handle_socket_args(args)
++            except Exception as ex:
++                log.exception(ex)
++                raise ex
++
++        elif args.file:
++            try:
++                handle_file_args(args)
++            except Exception as ex:
++                log.exception(ex)
++                raise ex
++    except Exception as ex:
++        print("Exception: %s" % ex, file=sys.stderr)
++        rc = 1
++    finally:
++        print("Exiting with status: %d" % rc, file=sys.stderr)
++        sys.exit(rc)
+diff --git a/scripts/meson-buildoptions.sh b/scripts/meson-buildoptions.sh
+index a4af02c5273a..ef2180a8cf52 100644
+--- a/scripts/meson-buildoptions.sh
++++ b/scripts/meson-buildoptions.sh
+@@ -8,6 +8,7 @@ meson_options_help() {
+   printf "%s\n" '  --enable-fdt[=CHOICE]    Whether and how to find the libfdt library'
+   printf "%s\n" '                           (choices: auto/disabled/enabled/internal/system)'
+   printf "%s\n" '  --enable-fuzzing         build fuzzing targets'
++  printf "%s\n" '  --enable-ramsnap         build ramsnap targets'
+   printf "%s\n" '  --disable-install-blobs  install provided firmware blobs'
+   printf "%s\n" '  --enable-malloc=CHOICE   choose memory allocator to use [system] (choices:'
+   printf "%s\n" '                           jemalloc/system/tcmalloc)'
+@@ -148,6 +149,8 @@ _meson_option_parse() {
+     --disable-fuse-lseek) printf "%s" -Dfuse_lseek=disabled ;;
+     --enable-fuzzing) printf "%s" -Dfuzzing=true ;;
+     --disable-fuzzing) printf "%s" -Dfuzzing=false ;;
++    --enable-ramsnap) printf "%s" -Dramsnap=true ;;
++    --disable-ramsnap) printf "%s" -Dramsnap=false ;;
+     --enable-gcrypt) printf "%s" -Dgcrypt=enabled ;;
+     --disable-gcrypt) printf "%s" -Dgcrypt=disabled ;;
+     --enable-gettext) printf "%s" -Dgettext=enabled ;;
+diff --git a/scripts/ramsnap2raw.py b/scripts/ramsnap2raw.py
+new file mode 100755
+index 000000000000..d521aa7d96dd
+--- /dev/null
++++ b/scripts/ramsnap2raw.py
+@@ -0,0 +1,468 @@
++#!/usr/bin/env python3
++
++import argparse
++import binascii
++import logging
++import os
++import shutil
++import sys
++from pprint import pformat
++
++
++logging.basicConfig()
++log = logging.getLogger(os.path.basename(sys.argv[0]))
++log.setLevel(logging.INFO)
++
++
++
++def copy_file(src, dst):
++    try:
++        log.info("Copying from '%s' to %s'", src, dst)
++        shutil.copy(src, dst)
++
++        return True
++    except Exception as ex:
++        log.error("Failed to copy %s to %s: %s",
++                        src, dst, str(ex))
++        return False
++
++
++class Ramsnap(object):
++    def __init__(self,
++                 files: list = None,
++                 output: str = None,
++                 prefix: str = None,
++                 groups: list = None,
++                 search: bool = False):
++
++        if groups and files:
++            raise Exception("Only one of groups or files should be provided")
++
++        if not groups and not files:
++            raise Exception("Neither one of groups or files was provided")
++
++        if files and not output and not search:
++            raise Exception("No output provided when processing files")
++
++        if groups and not prefix:
++            raise Exception("No prefix provided when creating groups")
++
++        if groups and type(groups) == list and type(groups[0]) != list:
++            raise Exception("Expected a list of lists in groups")
++
++        self._output = output
++
++        self._prefix = prefix
++
++        self._files = files if files is not None else None
++
++        self._groups = groups if groups is not None else None
++
++        # Map from address to file containing most recent entry
++        self._addresses = dict()
++
++        # Length of an address field
++        self._address_len = 0
++        # Distance to next line
++        self._next_line_offset = 0
++
++        self._progress = 0
++
++    def _hex2bin(self, hexbytes):
++        hexbytes = hexbytes.strip()
++        if len(hexbytes) % 2 != 0:
++            return binascii.unhexlify(hexbytes[:-1])
++        else:
++            return binascii.unhexlify(hexbytes)
++
++    def _hex2printable(self, hexbytes, indent=''):
++
++        raw = self._hex2bin(hexbytes)
++
++        try:
++            import hexdump
++            return f"\n{indent}".join(hexdump.dumpgen(raw))
++        except ImportError:
++            return raw.decode('utf-8', errors='replace')
++
++    def _write_entry(self, fp, entry):
++
++        address = entry[0:self._address_len]
++        data = entry[self._address_len+1:]
++
++        log.debug("Address; %s (%X)", address, int(address, base=16))
++
++        raw = self._hex2bin(data)
++
++        fp.seek(int(address, base=16), os.SEEK_SET)
++        fp.write(raw)
++
++    def _print_progress(self, fpath, pos, length):
++        if pos == length:
++            if sys.stdout.isatty():
++                print("\r%s: Progress: 100%% DONE" % fpath)
++            else:
++                log.info("%s: Progress: 100%% DONE", fpath)
++        else:
++            new_progress = int((pos * 100) / length)
++            if new_progress != self._progress and new_progress < 100:
++                self._progress = new_progress
++                if sys.stdout.isatty():
++                    print("\r%s: Progress: %3d%%" % (fpath, self._progress),
++                          end='')
++                elif self._progress % 10 == 0:
++                    log.info("%s: Progress: %3d%%", fpath, self._progress)
++                else:
++                    log.debug("%s: Progress: %3d%%", fpath, self._progress)
++
++    def _determine_lengths(self, fpath, chunk):
++
++        if self._address_len == 0:
++            # If not done already determine address and line len
++            # Should be consistent in all files!
++            self._address_len = chunk.find(b':')
++            if self._address_len < 0:
++                log.error("Unable to determine address len in '%s'",
++                          fpath)
++                return False
++
++            self._next_line_offset = chunk.find(b'\n')
++            if self._next_line_offset < 0:
++                log.error("Unable to determine data line len in '%s'".
++                          fpath)
++                return False
++
++            self._next_line_offset += 1     # include '\n'
++
++    def _update_output(self, outputfp, fpath):
++        try:
++            with open(fpath, "rb") as fp:
++                first_chunk = fp.read(10240)
++                # Get file suze
++                file_size = fp.seek(0, os.SEEK_END)
++                fp.seek(0, os.SEEK_SET)         # Reset to start
++
++                self._determine_lengths(fpath, first_chunk)
++
++                self._write_entry(outputfp,
++                                  first_chunk[0:self._next_line_offset-1])
++
++                new_offset = fp.seek(self._next_line_offset, os.SEEK_CUR)
++                if new_offset < 0:
++                    log.debug('Failed to seek forward; %d', errno)
++                    return False
++
++                self._print_progress(fpath, new_offset, file_size)
++
++                while new_offset >= 0:
++                    line = fp.read(self._next_line_offset)
++                    if line == b"":
++                        # EOF
++                        break
++
++                    self._write_entry(outputfp, line)
++
++                    new_offset = fp.seek(self._next_line_offset, os.SEEK_CUR)
++
++                    self._print_progress(fpath, new_offset, file_size)
++                    if new_offset < 0:
++                        log.debug('Failed to seek forward; %d', errno)
++                        break
++
++        except Exception as ex:
++            log.exception(ex)
++            log.error("Failed to open file '%s': %s", fpath, str(ex))
++
++        finally:
++            self._print_progress(fpath, file_size, file_size)
++
++        return True
++
++    def _search_entry(self, fpath, hexstr, entry):
++
++        address = entry[0:self._address_len]
++        data = entry[self._address_len+1:]
++
++        if hexstr in data:
++            print("\nFound in %s at address %s" % (fpath, address))
++
++            i = data.find(hexstr)
++
++            left = max(0, i - 20)
++            right = min(len(hexstr) + i + 20, len(data) - len(hexstr))
++
++            print("    %s" % self._hex2printable(data[left:right],
++                                                 indent='    '))
++
++    def _search_file(self, fpath, hexstr):
++        try:
++            with open(fpath, "rb") as fp:
++                first_chunk = fp.read(10240)
++                # Get file suze
++                file_size = fp.seek(0, os.SEEK_END)
++                fp.seek(0, os.SEEK_SET)         # Reset to start
++
++                self._determine_lengths(fpath, first_chunk)
++
++                self._search_entry(fpath, hexstr,
++                                   first_chunk[0:self._next_line_offset-1])
++
++                new_offset = fp.seek(self._next_line_offset, os.SEEK_CUR)
++                if new_offset < 0:
++                    log.debug('Failed to seek forward; %d', errno)
++                    return False
++
++                self._print_progress(fpath, new_offset, file_size)
++
++                while new_offset >= 0:
++                    line = fp.read(self._next_line_offset)
++                    if line == b"":
++                        # EOF
++                        break
++
++                    self._search_entry(fpath, hexstr, line)
++
++                    new_offset = fp.seek(self._next_line_offset, os.SEEK_CUR)
++
++                    self._print_progress(fpath, new_offset, file_size)
++                    if new_offset < 0:
++                        log.debug('Failed to seek forward; %d', errno)
++                        break
++
++        except Exception as ex:
++            log.exception(ex)
++            log.error("Failed to open file '%s': %s", fpath, str(ex))
++
++        finally:
++            self._print_progress(fpath, file_size, file_size)
++
++        return True
++
++    def _create_single_dump(self, path: str, files: list, keep_existing: bool):
++        try:
++            open_str = "wb"
++            if keep_existing:
++                # w+b truncates, so use r+b
++                open_str = 'r+b'
++
++            with open(path, open_str) as fp:
++                fp.seek(0, os.SEEK_SET)         # Reset to start
++                if not keep_existing:
++                    fp.truncate()
++
++                for f in files:
++                    self._update_output(fp, f)
++
++        except Exception as ex:
++            log.error("Failed to open output file '%s': %s",
++                          path, str(ex))
++
++    def create_dump(self, keep_existing=False):
++        self._create_single_dump(self._output, self._files,
++                                 keep_existing=keep_existing)
++
++    def generate_group_dumps(self):
++
++        new_files = ["%s-%05d.dmp" % (self._prefix, i)
++                     for i in range(len(groups))]
++        log.debug("%s", pformat(new_files, indent=2))
++
++        if '/' in self._prefix:
++            # It's contains a directory, so create it
++            _dir = os.path.dirname(self._prefix)
++            if not os.path.exists(_dir):
++                try:
++                    log.debug("os.mkdir(%s)", _dir)
++                    os.mkdir(_dir)
++                except Exception as ex:
++                    raise Exception("Failed to create output dir: %s" % _dir)
++
++        for i in range(len(groups)):
++            if i == 0:
++                # First file
++                log.debug("self._create_single_dump(%s, %s, %s)",
++                          new_files[i],
++                          groups[i],
++                          False)
++                self._create_single_dump(new_files[i],
++                                         groups[i],
++                                         keep_existing=False)
++                continue
++
++            # Subsequent files require copying from previous
++            log.debug("copy_file(%s, %s)", new_files[i-1], new_files[i])
++            if not copy_file(new_files[i-1], new_files[i]):
++                raise Exception("Error creating file %s", new_files[i])
++
++            log.debug("self._create_single_dump(%s, %s, %s)",
++                      new_files[i],
++                      groups[i],
++                      True)
++            self._create_single_dump(new_files[i],
++                                     groups[i],
++                                     keep_existing=True)
++
++
++    def search(self, string):
++
++        # hexstr = "".join("{0:02x}".format(c) for c in string.encode())
++        # hexstr = hexstr.encode()
++        hexstr = binascii.hexlify(string.encode())
++
++        for f in self._files:
++            self._search_file(f, hexstr)
++
++
++if __name__ == '__main__':
++
++    parser = argparse.ArgumentParser()
++
++    group = parser.add_mutually_exclusive_group(required=True)
++    group.add_argument(
++        "-o", "--output", help="File to write to")
++    group.add_argument(
++        "-s", "--search", help="Search for a string")
++    group.add_argument(
++        "-p", "--prefix", help="Prefix for combined files from index")
++
++    parser.add_argument(
++        "-i", "--index", help="Read image files from given index")
++
++    parser.add_argument(
++        "-g", "--grouping", help="Combine in groups of N", type=int,
++        default=1)
++
++    parser.add_argument(
++        "-m", "--maxdumps", help="Maximum number of dumps", type=int)
++
++    parser.add_argument(
++        "-a", "--append", help="Existing image to append to")
++
++    parser.add_argument(
++        "-d", "--debug", help='Enable debug log',
++        action='store_true')
++
++    parser.add_argument('files', metavar='file', type=str,
++                        nargs='*', help="Files to process")
++
++    args = parser.parse_args()
++
++    if args.debug:
++        log.setLevel(logging.DEBUG)
++
++    if args.output:
++        if not args.files:
++            log.error("No files specified")
++            sys.exit(1)
++
++        ramsnap = Ramsnap(files=args.files, output=args.output)
++
++        keep_existing = False
++        if args.append:
++            # copy to new output
++            if not copy_file(args.append, args.output):
++                log.error("Failed to copy %s to %s: %s",
++                              args.append, args.output, str(ex))
++                sys.exit(1)
++
++            keep_existing = True
++
++        ramsnap.create_dump(keep_existing=keep_existing)
++    elif args.prefix:
++        if not args.index:
++            log.error("No index file specified")
++            sys.exit(1)
++
++        if not os.path.exists(args.index):
++            log.error("Index file doesn't exist: %s", args.index)
++            sys.exit(1)
++
++        log.info("Reading index file %s", args.index)
++        with open(args.index, "r") as fp:
++            entries = fp.readlines()
++        log.info("Found %d entries", len(entries))
++
++        files = list()
++        for entry in entries:
++            entry = entry.strip()
++
++            if not entry:
++                continue
++
++            if not os.path.exists(entry):
++                log.warning("Entry %s doesn't exist, skipping...", entry)
++                continue
++
++            stat = os.stat(entry)
++            if stat.st_size == 0:
++                log.warning("Entry %s is empty, skipping...", entry)
++                continue
++
++            files.append(entry)
++
++        log.info("Found %d existing files", len(files))
++
++        if len(files) < 1:
++            log.error("Nothing to do, no valid snaphots found")
++            sys.exit(1)
++
++        grouping = args.grouping
++        num_snaps = len(files)
++        max_snaps = max(1, (num_snaps - 2) // 2)
++
++        log.debug("Num snaps = %d", num_snaps)
++        log.debug("Max snaps = %d", max_snaps)
++
++        if args.maxdumps:
++            # Takes priority over groupings if specified
++            if args.maxdumps < 4:
++                log.error("Max dumps has a minumum value of 4")
++                sys.exit(1)
++
++            if num_snaps < args.maxdumps:
++                log.info("Num snaps (%d) less than max dumps (%d), will do no grouping",
++                         num_snaps, args.maxdumps)
++                grouping = 1
++
++            elif args.maxdumps > (num_snaps - 2) / 2:
++                log.info("Num snaps (%d) cannot combine in groups larger than 2 for max %d dumps",
++                         num_snaps, args.maxdumps)
++                grouping = 2
++
++            else:
++                # Calculate based on 1 start and 1 final dump
++                grouping = num_snaps // (args.maxdumps - 2)
++                if grouping > max_snaps:
++                    grouping = max_snaps
++
++                log.info("Max dumps of %d requires groups of %d",
++                         args.maxdumps, grouping)
++
++        if grouping:
++            if grouping < 1 or grouping > max_snaps:
++                log.error("Group number should be in range 1 to %d",
++                              max_snaps)
++                sys.exit(1)
++
++            log.info("Will combine in groups of %d", grouping)
++
++            groups = list()
++            groups.append([files[0]])
++
++            for i in range(1, num_snaps, grouping):
++                if i + grouping > num_snaps:
++                    end = len(files)
++                else:
++                    end = i + grouping
++                groups.append(files[i:end])
++
++            log.debug("%s", pformat(groups, indent=2))
++            log.info("Will result in %d dumps", len(groups))
++
++        ramsnap = Ramsnap(prefix=args.prefix, groups=groups)
++
++        ramsnap.generate_group_dumps()
++    else:
++        ramsnap = Ramsnap(files=args.files, search=True)
++
++        ramsnap.search(args.search)

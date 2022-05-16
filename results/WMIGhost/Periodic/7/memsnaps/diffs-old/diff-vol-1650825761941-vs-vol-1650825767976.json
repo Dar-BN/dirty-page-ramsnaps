@@ -1,0 +1,124 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39566",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "688",
+        "handle_type": "Thread",
+        "handle_name": "TID 1960 PID 496"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1020",
+        "handle_type": "Thread",
+        "handle_name": "TID 1760 PID 724"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 724,
+        "handle_value": "444",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 724,
+        "handle_value": "476",
+        "handle_type": "Thread",
+        "handle_name": "TID 1760 PID 724"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "932",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 884,
+        "handle_value": "2232",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2252",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 884,
+        "handle_value": "2256",
+        "handle_type": "Thread",
+        "handle_name": "TID 1996 PID 884"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2396",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2400",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 884,
+        "handle_value": "2684",
+        "handle_type": "File",
+        "handle_name": "\\Device\\NamedPipe\\srvsvc"
+      }
+    ],
+    "added_count": 11
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

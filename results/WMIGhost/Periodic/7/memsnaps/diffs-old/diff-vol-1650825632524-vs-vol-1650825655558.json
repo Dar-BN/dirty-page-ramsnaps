@@ -1,0 +1,432 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b17040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b168b0",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\rdyboost",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001b18040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8001ac56a0",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b17040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ac5b70",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b18040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b168b0",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b063f0",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "\u0101\u0304\u4d43\ue24e\u02c0\u00c3\ufa80\uffff"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b10040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\partmgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b0f790",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": "DR0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001697aa0",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": "00000049"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001692e40",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa80016967b0",
+            "attached_device_type": "FILE_DEVICE_UNKNOWN",
+            "attached_device_name": " - \\Driver\\msisadrv",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa80016928a0",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001692e40",
+            "attached_device_type": "FILE_DEVICE_ACPI",
+            "attached_device_name": " - \\Driver\\ACPI",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001693060",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": "NTPNP_PCI0004"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b16230",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b16530",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b10040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa800167c680",
+        "device_type": "FILE_DEVICE_MASS_STORAGE",
+        "device_name": "IdeDeviceP1T0L0-2"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016797f0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000ceebb0",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "00000007"
+      }
+    ],
+    "added_count": 16
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "True",
+      "process_id": 1020,
+      "session": "True",
+      "pspcid": "True",
+      "deskthrd": "False",
+      "psscan": "True",
+      "process_name": "pythonw.exe",
+      "thrdproc": "False"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [],
+    "added_count": 0
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "72",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\ACPI"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "76",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\VDRVROOT"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "80",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\WDF01000"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "84",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\PARTMGR"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "88",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\MSISADRV"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "92",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\PCI"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "96",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\VOLMGR"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "100",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\VOLMGRX"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "104",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\INTELIDE"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "108",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\MOUNTMGR"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "112",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\ATAPI"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "116",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\MSAHCI"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "120",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\AMDXATA"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "124",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\FLTMGR"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "128",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\FILEINFO"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "132",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\CLFS"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "136",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NTFS"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "140",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\KSECDD"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "144",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\CNG"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "148",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\PCW"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "152",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\FS_REC"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "156",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\NDIS"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "160",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\KSECPKG"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "164",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "168",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\STORFLT"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "172",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\VOLSNAP"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "176",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\SPLDR"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "180",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\RDYBOOST"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "188",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\HWPOLICY"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "192",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\FVEVOL"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "196",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\DISK"
+      },
+      {
+        "handle_granted_access": "5184",
+        "process_id": 4,
+        "handle_value": "212",
+        "handle_type": "Process",
+        "handle_name": "System(4)"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "228",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\NETWORKPROVIDER\\ORDER"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "260",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\MUP"
+      }
+    ],
+    "added_count": 34
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,1193 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1061330048,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827390152704,
+        "Size": 466944,
+        "Service Key": "CNG",
+        "Name": "",
+        "Driver Name": "\\Driver\\CNG"
+      }
+    ],
+    "deleted": []
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [],
+    "deleted": []
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [],
+    "deleted": [
+      {
+        "Pid": 336,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "",
+        "Path": "Error reading PEB for pid"
+      },
+      {
+        "Pid": 724,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "",
+        "Path": "Error reading PEB for pid"
+      }
+    ],
+    "both": [
+      {
+        "old": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 384,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 384,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 396,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 396,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 436,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 436,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 488,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 488,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 608,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 608,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 672,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 672,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 788,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 788,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 848,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 848,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 4288151552,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 4288151552,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2004353024,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2004353024,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2002124800,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2002124800,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791758143488,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791758143488,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791777542144,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791777542144,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791758864384,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791758864384,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791760044032,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791760044032,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791784095744,
+          "Size": 2109440,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791784095744,
+          "Size": 2109440,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791776559104,
+          "Size": 421888,
+          "LoadCount": 101,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791776559104,
+          "Size": 421888,
+          "LoadCount": 101,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 2003304448,
+          "Size": 1024000,
+          "LoadCount": 111,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 2003304448,
+          "Size": 1024000,
+          "LoadCount": 111,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791787175936,
+          "Size": 57344,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "\ucf2a\u9e4e\u010f\u0001\uff01\u58ff"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791787175936,
+          "Size": 57344,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "\ucf2a\u9e4e\u010f\u0001\uff01\u58ff"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791781474304,
+          "Size": 823296,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791781474304,
+          "Size": 823296,
+          "LoadCount": 24,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791783899136,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791783899136,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791791239168,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791791239168,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 888,
+          "Base": 8791753752576,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 888,
+          "Base": 8791753752576,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-27 12:26:40 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 4096,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4096,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "added": [],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [],
+    "deleted": []
+  },
+  "handles": {
+    "added": [
+      {
+        "Offset(V)": 18446735964817661488,
+        "Pid": 336,
+        "Handle": 100,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "\\e"
+      },
+      {
+        "Offset(V)": 18446738026431484896,
+        "Pid": 336,
+        "Handle": 208,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026434469328,
+        "Pid": 336,
+        "Handle": 628,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434482896,
+        "Pid": 336,
+        "Handle": 632,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1012 PID 992"
+      },
+      {
+        "Offset(V)": 18446738026434459056,
+        "Pid": 336,
+        "Handle": 676,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 348 PID 284"
+      },
+      {
+        "Offset(V)": 18446738026434654304,
+        "Pid": 336,
+        "Handle": 696,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 376 PID 284"
+      },
+      {
+        "Offset(V)": 18446738026434657120,
+        "Pid": 336,
+        "Handle": 708,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 300 PID 284"
+      },
+      {
+        "Offset(V)": 18446738026434655840,
+        "Pid": 336,
+        "Handle": 712,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 472 PID 284"
+      },
+      {
+        "Offset(V)": 18446738026434812128,
+        "Pid": 336,
+        "Handle": 744,
+        "Access": 2097151,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964818678816,
+        "Pid": 480,
+        "Handle": 76,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "USER\\.DEFAULT\\CONTROL PANEL\\INTERNATIONAL"
+      },
+      {
+        "Offset(V)": 18446735964818795936,
+        "Pid": 480,
+        "Handle": 80,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\B\\LOCALE"
+      },
+      {
+        "Offset(V)": 18446735964818794048,
+        "Pid": 480,
+        "Handle": 88,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\B\\LANGUAGE GROUPS"
+      },
+      {
+        "Offset(V)": 18446738026432208672,
+        "Pid": 480,
+        "Handle": 248,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964819367472,
+        "Pid": 480,
+        "Handle": 416,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "USER"
+      },
+      {
+        "Offset(V)": 18446738026434485072,
+        "Pid": 480,
+        "Handle": 548,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431663088,
+        "Pid": 488,
+        "Handle": 164,
+        "Access": 1048579,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964818897408,
+        "Pid": 488,
+        "Handle": 200,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431522656,
+        "Pid": 488,
+        "Handle": 420,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964817830976,
+        "Pid": 488,
+        "Handle": 432,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\LSA\\KERBEROS\\PARAMETERS"
+      },
+      {
+        "Offset(V)": 18446735964818929024,
+        "Pid": 488,
+        "Handle": 448,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\LSA\\KERBEROS\\PARAMETERS"
+      },
+      {
+        "Offset(V)": 18446735964819166720,
+        "Pid": 488,
+        "Handle": 552,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "USER\\.DEFAULT\\CONTROL PANEL\\INTERNATIONAL"
+      },
+      {
+        "Offset(V)": 18446735964819174912,
+        "Pid": 488,
+        "Handle": 568,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446738026432107088,
+        "Pid": 488,
+        "Handle": 860,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026432106272,
+        "Pid": 488,
+        "Handle": 920,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026432846688,
+        "Pid": 488,
+        "Handle": 1464,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 948 PID 488"
+      },
+      {
+        "Offset(V)": 18446738026434790208,
+        "Pid": 488,
+        "Handle": 1484,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026434313648,
+        "Pid": 488,
+        "Handle": 1492,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432255344,
+        "Pid": 496,
+        "Handle": 136,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026432552160,
+        "Pid": 724,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964820725856,
+        "Pid": 724,
+        "Handle": 128,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026427232368,
+        "Pid": 724,
+        "Handle": 204,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\"
+      },
+      {
+        "Offset(V)": 18446735964821000880,
+        "Pid": 724,
+        "Handle": 224,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\EVENTLOG"
+      },
+      {
+        "Offset(V)": 18446735964821546496,
+        "Pid": 724,
+        "Handle": 396,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446738026434175088,
+        "Pid": 724,
+        "Handle": 492,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\Windows\\System32\\winevt\\Logs\\Media Center.evtx"
+      },
+      {
+        "Offset(V)": 18446735964821023392,
+        "Pid": 724,
+        "Handle": 868,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\DHCP\\PARAMETERS\\OPTIONS"
+      },
+      {
+        "Offset(V)": 18446735964821279472,
+        "Pid": 724,
+        "Handle": 932,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS"
+      },
+      {
+        "Offset(V)": 18446738026432984752,
+        "Pid": 788,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964821114976,
+        "Pid": 788,
+        "Handle": 268,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "USER\\.DEFAULT\\CONTROL PANEL\\INTERNATIONAL"
+      },
+      {
+        "Offset(V)": 18446735964821528480,
+        "Pid": 788,
+        "Handle": 724,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\B\\LOCALE"
+      },
+      {
+        "Offset(V)": 18446738026432974624,
+        "Pid": 788,
+        "Handle": 788,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026434086592,
+        "Pid": 848,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446735964819687888,
+        "Pid": 848,
+        "Handle": 200,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "USER\\.DEFAULT\\CONTROL PANEL\\INTERNATIONAL"
+      },
+      {
+        "Offset(V)": 18446735964819366400,
+        "Pid": 848,
+        "Handle": 276,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\CLASSES"
+      },
+      {
+        "Offset(V)": 18446738026434371728,
+        "Pid": 848,
+        "Handle": 616,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "OLEC0CAF57BF75541038D659FDBFCB8"
+      },
+      {
+        "Offset(V)": 18446738026434474240,
+        "Pid": 848,
+        "Handle": 732,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819584768,
+        "Pid": 848,
+        "Handle": 748,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "CURRENTVERSION\\PEERDIST"
+      },
+      {
+        "Offset(V)": 18446738026434505952,
+        "Pid": 848,
+        "Handle": 780,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "UxSmsApiPort"
+      },
+      {
+        "Offset(V)": 18446738026434265792,
+        "Pid": 888,
+        "Handle": 92,
+        "Access": 1048577,
+        "Type": "File",
+        "Details": "\\Device\\KsecDD"
+      },
+      {
+        "Offset(V)": 18446738026434647360,
+        "Pid": 888,
+        "Handle": 508,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964819684256,
+        "Pid": 888,
+        "Handle": 516,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": "SENS Information Cache"
+      },
+      {
+        "Offset(V)": 18446735964819681376,
+        "Pid": 888,
+        "Handle": 524,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434861440,
+        "Pid": 888,
+        "Handle": 604,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434838496,
+        "Pid": 888,
+        "Handle": 608,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434861312,
+        "Pid": 888,
+        "Handle": 616,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434861056,
+        "Pid": 888,
+        "Handle": 620,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434861184,
+        "Pid": 888,
+        "Handle": 652,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434860928,
+        "Pid": 888,
+        "Handle": 656,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434860800,
+        "Pid": 888,
+        "Handle": 660,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434860624,
+        "Pid": 888,
+        "Handle": 668,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434835232,
+        "Pid": 888,
+        "Handle": 732,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 608,
+        "Access": 38854760,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434453904,
+        "Pid": 4096,
+        "Handle": 644,
+        "Access": 38890240,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 676,
+        "Access": 38960496,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 688,
+        "Access": 39007632,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 700,
+        "Access": 39007376,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 712,
+        "Access": 0,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 768,
+        "Access": 38854832,
+        "Type": "TpWorkerFactory",
+        "Details": "\uc94c\u0004"
+      },
+      {
+        "Offset(V)": 18446738026434812928,
+        "Pid": 4096,
+        "Handle": 796,
+        "Access": 38956376,
+        "Type": "",
+        "Details": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(V)": 18446735964817661488,
+        "Pid": 336,
+        "Handle": 100,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "{846EE342-7039-11DE-9D20-806E6F6E6963}\\e"
+      },
+      {
+        "Offset(V)": 18446735964819174912,
+        "Pid": 488,
+        "Handle": 568,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446735964821546496,
+        "Pid": 724,
+        "Handle": 396,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446735964821023392,
+        "Pid": 724,
+        "Handle": 868,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "OPTIONS"
+      },
+      {
+        "Offset(V)": 18446735964821279472,
+        "Pid": 724,
+        "Handle": 932,
+        "Access": 15,
+        "Type": "Key",
+        "Details": "MACHINE\\SECURITY\\POLICY\\?\u0018"
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 608,
+        "Access": 38854760,
+        "Type": "SymbolicLink",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 676,
+        "Access": 38960496,
+        "Type": "SymbolicLink",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 688,
+        "Access": 39007632,
+        "Type": "SymbolicLink",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 700,
+        "Access": 39007376,
+        "Type": "SymbolicLink",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 712,
+        "Access": 0,
+        "Type": "SymbolicLink",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434453648,
+        "Pid": 4096,
+        "Handle": 768,
+        "Access": 38854832,
+        "Type": "SymbolicLink",
+        "Details": ""
+      }
+    ]
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39490",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "188",
+        "handle_type": "Thread",
+        "handle_name": "TID 1092 PID 884"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1096",
+        "handle_type": "Thread",
+        "handle_name": "TID 1084 PID 812"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 812,
+        "handle_value": "1516",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\EMDMGMT"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1556",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 812,
+        "handle_value": "1560",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1608",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1612",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1616",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1620",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1624",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1628",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "14",
+        "process_id": 812,
+        "handle_value": "1632",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 812,
+        "handle_value": "1636",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\PREFETCHER"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1640",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1644",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1652",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1179649",
+        "process_id": 812,
+        "handle_value": "1656",
+        "handle_type": "Event",
+        "handle_name": "SuperfetchTracesReady"
+      },
+      {
+        "handle_granted_access": "1179649",
+        "process_id": 812,
+        "handle_value": "1660",
+        "handle_type": "Event",
+        "handle_name": "SuperfetchParametersChanged"
+      },
+      {
+        "handle_granted_access": "1179649",
+        "process_id": 812,
+        "handle_value": "1664",
+        "handle_type": "Event",
+        "handle_name": "SuperfetchParametersChanged"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 812,
+        "handle_value": "1668",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\en-US\\sysmain.dll.mui"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 812,
+        "handle_value": "1672",
+        "handle_type": "File",
+        "handle_name": "\\Device\\FileInfo"
+      },
+      {
+        "handle_granted_access": "14",
+        "process_id": 812,
+        "handle_value": "1676",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1680",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1684",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1692",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1696",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 812,
+        "handle_value": "1700",
+        "handle_type": "Thread",
+        "handle_name": "TID 1084 PID 812"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1704",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1708",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1179649",
+        "process_id": 812,
+        "handle_value": "1712",
+        "handle_type": "Event",
+        "handle_name": "PrefetchTracesReady"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1716",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1720",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 812,
+        "handle_value": "1724",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "14",
+        "process_id": 812,
+        "handle_value": "1728",
+        "handle_type": "Token",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "1600",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 884,
+        "handle_value": "2864",
+        "handle_type": "Thread",
+        "handle_name": "TID 1092 PID 884"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2868",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2908",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2912",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "2916",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "3116",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 884,
+        "handle_value": "3400",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 884,
+        "handle_value": "3416",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 996,
+        "handle_value": "1164",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1336,
+        "handle_value": "1964",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\en-US\\prnfldr.dll.mui"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 1336,
+        "handle_value": "2704",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\en-US\\netshell.dll.mui"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 1748,
+        "handle_value": "420",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\SHAREDACCESS\\EPOCH"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1112,
+        "handle_value": "2440",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1112,
+        "handle_value": "2444",
+        "handle_type": "Thread",
+        "handle_name": "TID 1204 PID 1112"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1740,
+        "handle_value": "1036",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1740,
+        "handle_value": "1040",
+        "handle_type": "Thread",
+        "handle_name": "TID 1780 PID 1740"
+      }
+    ],
+    "added_count": 51
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

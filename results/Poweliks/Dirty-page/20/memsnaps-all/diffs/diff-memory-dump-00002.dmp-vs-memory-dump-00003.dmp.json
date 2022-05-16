@@ -1,0 +1,1695 @@
+{
+  "devicetree": {
+    "added": [],
+    "deleted": [
+      {
+        "Offset(P)": 1044921136,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827439005696,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1045038048,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827416551424,
+        "Size": 315392,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1045038800,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827416866816,
+        "Size": 147456,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1046023792,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827418013696,
+        "Size": 438272,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1046032640,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827423563776,
+        "Size": 626688,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1046939936,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827437998080,
+        "Size": 86016,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1046951776,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827438084096,
+        "Size": 98304,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1048381840,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827438182400,
+        "Size": 823296,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1049461168,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827437854720,
+        "Size": 143360,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050682144,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433832448,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050684800,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434303488,
+        "Size": 61440,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050762160,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434704896,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050788928,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434934272,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050801552,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433160704,
+        "Size": 110592,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050810784,
+        "Pointers": 6,
+        "Handles": 0,
+        "Start": 18446735827435171840,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050863216,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429646336,
+        "Size": 135168,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050869360,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827389120512,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050891760,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429781504,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050912272,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433271296,
+        "Size": 5248,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050918512,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827391127552,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1051013216,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395362816,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1051392784,
+        "Pointers": 12,
+        "Handles": 0,
+        "Start": 18446736789445672960,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053966432,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395895296,
+        "Size": 57344,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053989360,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434479616,
+        "Size": 118784,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054009456,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395829760,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054140064,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395866624,
+        "Size": 28672,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054181968,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395317760,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054183520,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393675264,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054194736,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393638400,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054223456,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827399548928,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054234016,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429834752,
+        "Size": 561152,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054245392,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434426368,
+        "Size": 53248,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054308752,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827417739264,
+        "Size": 200704,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054339168,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827430678528,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054340848,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827430395904,
+        "Size": 282624,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054704272,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430715392,
+        "Size": 155648,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054735520,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430871040,
+        "Size": 61440,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054737440,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430932480,
+        "Size": 118784,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054774960,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429158912,
+        "Size": 331776,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054799312,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433295872,
+        "Size": 536576,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054823504,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434598400,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054824000,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827429584896,
+        "Size": 61440,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054849440,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434778624,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054866592,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433955328,
+        "Size": 69632,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1056851264,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827434180608,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1057791600,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398807552,
+        "Size": 237568,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1057865328,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398463488,
+        "Size": 311296,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1058038624,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827399118848,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1058039712,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827398774784,
+        "Size": 32768,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1058074720,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827399045120,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1058081296,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827399393280,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061312800,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391524864,
+        "Size": 1716224,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061320576,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827391217664,
+        "Size": 110592,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061322848,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827390328832,
+        "Size": 466944,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061406032,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385241600,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061651744,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827391397888,
+        "Size": 40960,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061653456,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827391328256,
+        "Size": 69632,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062309984,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827424190464,
+        "Size": 172032,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062538416,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827399155712,
+        "Size": 237568,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1071957568,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827437797376,
+        "Size": 57344,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072595408,
+        "Pointers": 69,
+        "Handles": 0,
+        "Start": 18446735277656702976,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072681616,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277656403968,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072894288,
+        "Pointers": 26,
+        "Handles": 0,
+        "Start": 18446735827388751872,
+        "Size": 356352,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072935008,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 0,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073075680,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827384926208,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073077104,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827387535360,
+        "Size": 376832,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073165568,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827387060224,
+        "Size": 40960,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073167984,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827387101184,
+        "Size": 208896,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073214800,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385286656,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      }
+    ]
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [],
+    "deleted": [
+      {
+        "Offset(P)": 1048885376,
+        "Name": "lsass.exe",
+        "PID": 488,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1049318144,
+        "Name": "services.exe",
+        "PID": 480,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1041251120,
+        "Name": "is32bit.exe",
+        "PID": 1952,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:29 UTC+0000"
+      },
+      {
+        "Offset(P)": 1046782352,
+        "Name": "svchost.exe",
+        "PID": 992,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1050638752,
+        "Name": "svchost.exe",
+        "PID": 848,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1044417328,
+        "Name": "svchost.exe",
+        "PID": 1084,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1049516320,
+        "Name": "svchost.exe",
+        "PID": 668,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1049209648,
+        "Name": "inject-x64.exe",
+        "PID": 1028,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:29 UTC+0000"
+      },
+      {
+        "Offset(P)": 1073494832,
+        "Name": "System",
+        "PID": 4,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1041013552,
+        "Name": "SearchFilterHo",
+        "PID": 1944,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:45 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049815856,
+        "Name": "svchost.exe",
+        "PID": 720,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1043862064,
+        "Name": "svchost.exe",
+        "PID": 1748,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:45 UTC+0000"
+      },
+      {
+        "Offset(P)": 1073518336,
+        "Name": "wininit.exe",
+        "PID": 384,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1045264320,
+        "Name": "LogonUI.exe",
+        "PID": 2248,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1048268896,
+        "Name": "is32bit.exe",
+        "PID": 832,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:29 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049354336,
+        "Name": "svchost.exe",
+        "PID": 600,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1054161232,
+        "Name": "smss.exe",
+        "PID": 256,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1044994864,
+        "Name": "taskhost.exe",
+        "PID": 1140,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      },
+      {
+        "Offset(P)": 1073508448,
+        "Name": "csrss.exe",
+        "PID": 396,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1048660672,
+        "Name": "winlogon.exe",
+        "PID": 436,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1043869792,
+        "Name": "pythonw.exe",
+        "PID": 1848,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      },
+      {
+        "Offset(P)": 1048418576,
+        "Name": "spoolsv.exe",
+        "PID": 1048,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1042962480,
+        "Name": "reader_sl.exe",
+        "PID": 1612,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      },
+      {
+        "Offset(P)": 1048819888,
+        "Name": "lsm.exe",
+        "PID": 496,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1043256816,
+        "Name": "SearchProtocol",
+        "PID": 1432,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      },
+      {
+        "Offset(P)": 1053827168,
+        "Name": "csrss.exe",
+        "PID": 336,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1046976224,
+        "Name": "svchost.exe",
+        "PID": 352,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1045433136,
+        "Name": "pythonw.exe",
+        "PID": 1540,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      },
+      {
+        "Offset(P)": 1038277424,
+        "Name": "6b74dc043f9a12",
+        "PID": 2004,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      }
+    ]
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "connections": {
+    "added": [],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [],
+    "deleted": [
+      {
+        "Offset(P)": 1044921552,
+        "Name": "",
+        "Base": 18446735827439005696,
+        "Size": 122880,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1044927440,
+        "Name": "",
+        "Base": 18446735827439226880,
+        "Size": 184320,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1046008448,
+        "Name": "",
+        "Base": 18446735827418013696,
+        "Size": 438272,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1046042560,
+        "Name": "",
+        "Base": 18446735827423563776,
+        "Size": 626688,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1046871248,
+        "Name": "",
+        "Base": 18446735827437998080,
+        "Size": 86016,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1046951472,
+        "Name": "",
+        "Base": 18446735827438084096,
+        "Size": 98304,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1049015184,
+        "Name": "",
+        "Base": 18446735827439128576,
+        "Size": 98304,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1049463120,
+        "Name": "",
+        "Base": 18446735827437854720,
+        "Size": 143360,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1049509120,
+        "Name": "",
+        "Base": 18446735827438182400,
+        "Size": 823296,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050084384,
+        "Name": "",
+        "Base": 18446735827390935040,
+        "Size": 192512,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050245280,
+        "Name": "",
+        "Base": 18446735827417739264,
+        "Size": 200704,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050676576,
+        "Name": "",
+        "Base": 18446735827433832448,
+        "Size": 122880,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050679600,
+        "Name": "",
+        "Base": 18446735827433955328,
+        "Size": 69632,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050685216,
+        "Name": "",
+        "Base": 18446735827433295872,
+        "Size": 536576,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050824880,
+        "Name": "",
+        "Base": 18446735827433160704,
+        "Size": 110592,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050859888,
+        "Name": "",
+        "Base": 18446735827429646336,
+        "Size": 135168,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050867632,
+        "Name": "",
+        "Base": 18446735827389120512,
+        "Size": 106496,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050879824,
+        "Name": "",
+        "Base": 18446735827433271296,
+        "Size": 8192,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050881840,
+        "Name": "",
+        "Base": 18446735827429781504,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050905200,
+        "Name": "",
+        "Base": 18446735827389227008,
+        "Size": 274432,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050913696,
+        "Name": "",
+        "Base": 18446735827391127552,
+        "Size": 73728,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050974048,
+        "Name": "",
+        "Base": 18446735827395362816,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1051966112,
+        "Name": "",
+        "Base": 18446735827437584384,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1052086288,
+        "Name": "",
+        "Base": 18446735827417939968,
+        "Size": 73728,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1052916592,
+        "Name": "",
+        "Base": 18446736789449670656,
+        "Size": 122880,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1053951440,
+        "Name": "",
+        "Base": 18446736789445672960,
+        "Size": 3211264,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1053970224,
+        "Name": "",
+        "Base": 18446735827399548928,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054010416,
+        "Name": "",
+        "Base": 18446735827395829760,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054134784,
+        "Name": "",
+        "Base": 18446735827399483392,
+        "Size": 65536,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054142256,
+        "Name": "",
+        "Base": 18446735827395866624,
+        "Size": 28672,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054144000,
+        "Name": "",
+        "Base": 18446735827434868736,
+        "Size": 65536,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054144512,
+        "Name": "",
+        "Base": 18446735827395895296,
+        "Size": 57344,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054145264,
+        "Name": "",
+        "Base": 18446735827393486848,
+        "Size": 151552,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054184064,
+        "Name": "",
+        "Base": 18446735827395317760,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054190624,
+        "Name": "",
+        "Base": 18446735827393638400,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054222688,
+        "Name": "",
+        "Base": 18446735827393675264,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054228496,
+        "Name": "",
+        "Base": 18446735827434647552,
+        "Size": 57344,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054230752,
+        "Name": "",
+        "Base": 18446735827391438848,
+        "Size": 69632,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054231216,
+        "Name": "",
+        "Base": 18446735827435171840,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054232880,
+        "Name": "",
+        "Base": 18446735827429834752,
+        "Size": 561152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054247488,
+        "Name": "",
+        "Base": 18446735827434934272,
+        "Size": 90112,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054298752,
+        "Name": "",
+        "Base": 18446735827434024960,
+        "Size": 155648,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054332640,
+        "Name": "",
+        "Base": 18446735827429158912,
+        "Size": 331776,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054332880,
+        "Name": "",
+        "Base": 18446735827429076992,
+        "Size": 81920,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054340256,
+        "Name": "",
+        "Base": 18446735827434704896,
+        "Size": 73728,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054647696,
+        "Name": "",
+        "Base": 18446735827430678528,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054648944,
+        "Name": "",
+        "Base": 18446735827434364928,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054650144,
+        "Name": "",
+        "Base": 18446735827430395904,
+        "Size": 282624,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054703776,
+        "Name": "",
+        "Base": 18446735827434426368,
+        "Size": 53248,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054726640,
+        "Name": "",
+        "Base": 18446735827434479616,
+        "Size": 118784,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054733536,
+        "Name": "",
+        "Base": 18446735827430871040,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054774656,
+        "Name": "",
+        "Base": 18446735827434598400,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054816928,
+        "Name": "",
+        "Base": 18446735827434180608,
+        "Size": 122880,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054822416,
+        "Name": "",
+        "Base": 18446735827435024384,
+        "Size": 147456,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054825744,
+        "Name": "",
+        "Base": 18446735827429584896,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054867104,
+        "Name": "",
+        "Base": 18446735827434303488,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1058155856,
+        "Name": "",
+        "Base": 18446735827437527040,
+        "Size": 57344,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1071763472,
+        "Name": "",
+        "Base": 18446735827437797376,
+        "Size": 57344,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072885776,
+        "Name": "",
+        "Base": 18446735827386167296,
+        "Size": 786432,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886112,
+        "Name": "",
+        "Base": 18446735827385241600,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886336,
+        "Name": "",
+        "Base": 18446735827385069568,
+        "Size": 172032,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886576,
+        "Name": "",
+        "Base": 18446735827385032704,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886800,
+        "Name": "",
+        "Base": 18446735827384926208,
+        "Size": 106496,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887040,
+        "Name": "",
+        "Base": 18446735827387944960,
+        "Size": 65536,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887280,
+        "Name": "",
+        "Base": 18446735827387912192,
+        "Size": 32768,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887520,
+        "Name": "",
+        "Base": 18446735827387535360,
+        "Size": 376832,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887760,
+        "Name": "",
+        "Base": 18446735827387449344,
+        "Size": 86016,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887984,
+        "Name": "",
+        "Base": 18446735827387363328,
+        "Size": 86016,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888224,
+        "Name": "",
+        "Base": 18446735827387310080,
+        "Size": 53248,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888464,
+        "Name": "",
+        "Base": 18446735827387101184,
+        "Size": 208896,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888688,
+        "Name": "",
+        "Base": 18446735827387060224,
+        "Size": 40960,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888928,
+        "Name": "",
+        "Base": 18446735827387023360,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889152,
+        "Name": "",
+        "Base": 18446735827388751872,
+        "Size": 356352,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889392,
+        "Name": "",
+        "Base": 18446735827388690432,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889616,
+        "Name": "",
+        "Base": 18446735827388018688,
+        "Size": 671744,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072893968,
+        "Name": "",
+        "Base": 18446735827398774784,
+        "Size": 32768,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072896672,
+        "Name": "",
+        "Base": 18446735827395411968,
+        "Size": 196608,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072896912,
+        "Name": "",
+        "Base": 18446735827399393280,
+        "Size": 90112,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897136,
+        "Name": "",
+        "Base": 18446735827399155712,
+        "Size": 237568,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897360,
+        "Name": "",
+        "Base": 18446735827399118848,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897600,
+        "Name": "",
+        "Base": 18446735827399045120,
+        "Size": 73728,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897824,
+        "Name": "",
+        "Base": 18446735827398807552,
+        "Size": 237568,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1073551888,
+        "Name": "",
+        "Base": 18446736789451898880,
+        "Size": 40960,
+        "File": ""
+      }
+    ]
+  },
+  "handles": {
+    "added": [],
+    "deleted": []
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

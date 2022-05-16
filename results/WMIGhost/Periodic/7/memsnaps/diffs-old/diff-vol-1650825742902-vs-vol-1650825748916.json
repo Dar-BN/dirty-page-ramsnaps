@@ -1,0 +1,75 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [],
+    "added_count": 0
+  },
+  "hidden_processes": [],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv4",
+        "local_port": "8000",
+        "remote_port": "39526",
+        "remote_address": "192.168.30.1",
+        "process_id": "1724",
+        "offset": "0x3e5e6010",
+        "local_address": "192.168.30.21"
+      }
+    ],
+    "added_count": 1
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "664",
+        "handle_type": "Thread",
+        "handle_name": "TID 1440 PID 1192"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 812,
+        "handle_value": "720",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 996,
+        "handle_value": "860",
+        "handle_type": "Thread",
+        "handle_name": "TID 1248 PID 996"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1336,
+        "handle_value": "2224",
+        "handle_type": "Thread",
+        "handle_name": "TID 1972 PID 1336"
+      }
+    ],
+    "added_count": 4
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

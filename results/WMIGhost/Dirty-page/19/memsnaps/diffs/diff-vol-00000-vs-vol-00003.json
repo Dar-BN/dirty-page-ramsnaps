@@ -1,0 +1,2018 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80024ff530",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "\u017a\u0d43\u624f\u6d4e\u9060\u01f0"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80025cd490",
+        "device_type": "FILE_DEVICE_NETWORK_BROWSER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80025cf5d0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e0e2c0",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": "\uffff\u8b48\uba0f\u0300"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8002029480",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e0e530",
+        "device_type": "FILE_DEVICE_VIDEO",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f39960",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": "KeyboardClass1 - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001f382e0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001e17060",
+        "device_type": "FILE_DEVICE_KEYBOARD",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001eff060",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass0 - \\Driver\\mouclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ec7510",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001e17060",
+            "attached_device_type": "FILE_DEVICE_KEYBOARD",
+            "attached_device_name": " - \\Driver\\kbdclass",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ed89f0",
+        "device_type": "FILE_DEVICE_8042_PORT",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ec4e20",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f16ac0",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f41040",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f43e20",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001748b70",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001748770",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b5f670",
+        "device_type": "FILE_DEVICE_VIRTUAL_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001ba58e0",
+        "device_type": "FILE_DEVICE_VIRTUAL_DISK",
+        "device_name": "\u2a00\u03e6"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b13040",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa80017458b0",
+            "attached_device_type": "UNKNOWN",
+            "attached_device_name": " - ",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b19090",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001b15040",
+            "attached_device_type": "FILE_DEVICE_DISK",
+            "attached_device_name": " - \\Driver\\volsnap",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001b19560",
+        "device_type": "FILE_DEVICE_DISK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001629060",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001fd6040",
+            "attached_device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+            "attached_device_name": " - \\FileSystem\\FltMgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001dd7030",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000c61c70",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016cfc50",
+        "device_type": "FILE_DEVICE_NETWORK",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffff880033bea50",
+            "attached_device_type": "UNKNOWN",
+            "attached_device_name": " - ",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001ba3060",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffff880033b9000",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80017458b0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000d0d440",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffff80002716120",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8000c5ec00",
+            "attached_device_type": "FILE_DEVICE_ACPI",
+            "attached_device_name": " - \\Driver\\ACPI",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000cf26e0",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": "0000003d"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf2040",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf24c0",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016ccb90",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": "0000004c"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f04050",
+            "attached_device_type": "FILE_DEVICE_CONTROLLER",
+            "attached_device_name": " - \\Driver\\fdc",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa80016b72d0",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "00000049"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001ec7510",
+            "attached_device_type": "FILE_DEVICE_8042_PORT",
+            "attached_device_name": " - \\Driver\\i8042prt",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001eff060",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass0 - \\Driver\\mouclass",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa80016b74f0",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": "00000048"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001ee8050",
+            "attached_device_type": "FILE_DEVICE_PHYSICAL_NETCARD",
+            "attached_device_name": "NDMP2 - \\Driver\\RTL8023x64",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001692a40",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f0b070",
+            "attached_device_type": "FILE_DEVICE_VIDEO",
+            "attached_device_name": "Video3 - \\Driver\\vga",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8001692c40",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001692e40",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa80016b7e20",
+            "attached_device_type": "FILE_DEVICE_UNKNOWN",
+            "attached_device_name": " - \\Driver\\msisadrv",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000c906b0",
+        "device_type": "FILE_DEVICE_ACPI",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016937f0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffff800029972f0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001745230",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001745cd0",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8000c7e050",
+            "attached_device_type": "FILE_DEVICE_CONTROLLER",
+            "attached_device_name": "\u00f8 - \\Driver\\atapi",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000c6ca20",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8000c7b050",
+            "attached_device_type": "FILE_DEVICE_CONTROLLER",
+            "attached_device_name": "IdePort0 - \\Driver\\atapi",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000c6cd40",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "\u32dd\u5c18\u9011\u0010"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f05e20",
+            "attached_device_type": "FILE_DEVICE_CD_ROM",
+            "attached_device_name": "CdRom0 - \\Driver\\cdrom",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa800163b680",
+        "device_type": "FILE_DEVICE_CD_ROM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000c7e050",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "\u00f8"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001693a10",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa80016b7e20",
+        "device_type": "FILE_DEVICE_UNKNOWN",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f2b8a0",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001fd6040",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001b0d040",
+        "device_type": "FILE_DEVICE_NETWORK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001627610",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000c8a650",
+        "device_type": "FILE_DEVICE_DISK_FILE_SYSTEM",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8000c62710",
+            "attached_device_type": "FILE_DEVICE_NETWORK",
+            "attached_device_name": "VolMgrControl - \\Driver\\volmgr",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000cfd060",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": "0000003c"
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f396a0",
+            "attached_device_type": "FILE_DEVICE_8042_PORT",
+            "attached_device_name": " - \\Driver\\TermDD",
+            "level": 0
+          },
+          {
+            "attached_device_offset": "0xfffffa8001f3a4c0",
+            "attached_device_type": "FILE_DEVICE_MOUSE",
+            "attached_device_name": "PointerClass1 - \\Driver\\mouclass",
+            "level": 1
+          }
+        ],
+        "device_offset": "0xfffffa8000cfb700",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8001f16100",
+            "attached_device_type": "FILE_DEVICE_UNKNOWN",
+            "attached_device_name": " - \\Driver\\mssmbios",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8000cf7060",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf6700",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf6060",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf5700",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf5bb0",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf5060",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf4700",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cf4bb0",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000cd36d0",
+        "device_type": "FILE_DEVICE_CONTROLLER",
+        "device_name": ""
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8000d1b450",
+        "device_type": "UNKNOWN",
+        "device_name": ""
+      }
+    ],
+    "added_count": 67
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2360,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "WmiPrvSE.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2108,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "inject-x86.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1052,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1744,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "SearchIndexer.",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 992,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1064,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "SearchProtocol",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 956,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "rundll32.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1912,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "is32bit.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 672,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 724,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 608,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1232,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "explorer.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 876,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "inject-x64.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 496,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "lsm.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2084,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "wmighost.dll",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2268,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "LogonUI.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 284,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 724,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 340,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 672,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 1720,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "svchost.exe",
+        "thrdproc": "False"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2280,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "scrcons.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 2428,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "LogonUI.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 316,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "spoolsv.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 4096,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "False",
+        "process_name": "",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 25
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 820,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "svchost.exe",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 4096,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "UDPv4",
+        "local_port": "5355",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "284",
+        "offset": "0x3e7449c0",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "49153",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "724",
+        "offset": "0x3e6b4b80",
+        "local_address": "0.0.0.0"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "138",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "4",
+        "offset": "0x3eaaf260",
+        "local_address": "192.168.30.22"
+      },
+      {
+        "protocol": "UDPv4",
+        "local_port": "137",
+        "remote_port": "*",
+        "remote_address": "*",
+        "process_id": "4",
+        "offset": "0x3eaf2ec0",
+        "local_address": "192.168.30.22"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "139",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "4",
+        "offset": "0x3ea665d0",
+        "local_address": "192.168.30.22"
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "135",
+        "remote_port": "0",
+        "remote_address": "0.0.0.0",
+        "process_id": "672",
+        "offset": "0x3ebff400",
+        "local_address": "0.0.0.0"
+      }
+    ],
+    "added_count": 6
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [
+      {
+        "kernel_module_offset": "0x3e4898b0",
+        "kernel_module_file": "\u0004\u8000\u0001",
+        "kernel_module_base": "0xfffff880030b6000",
+        "kernel_module_name": "secdrv.SYS",
+        "kernel_module_size": 45056
+      },
+      {
+        "kernel_module_offset": "0x3e4c58c0",
+        "kernel_module_file": "\u0001",
+        "kernel_module_base": "0xfffff88003010000",
+        "kernel_module_name": "peauth.sys",
+        "kernel_module_size": 679936
+      },
+      {
+        "kernel_module_offset": "0x3e4d5480",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff880030c1000",
+        "kernel_module_name": "srvnet.sys",
+        "kernel_module_size": 200704
+      },
+      {
+        "kernel_module_offset": "0x3e765e00",
+        "kernel_module_file": "\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff0f\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cc1\uff10\u6cc1\uff10\u6dc2",
+        "kernel_module_base": "0xfffff88002a42000",
+        "kernel_module_name": "HTTP.sys",
+        "kernel_module_size": 823296
+      },
+      {
+        "kernel_module_offset": "0x3e7cb990",
+        "kernel_module_file": "",
+        "kernel_module_base": "0xfffff88002b29000",
+        "kernel_module_name": "mpsdrv.sys",
+        "kernel_module_size": 98304
+      },
+      {
+        "kernel_module_offset": "0x3e9d5290",
+        "kernel_module_file": "VolumeShadowCopy3",
+        "kernel_module_base": "0xfffff88003d65000",
+        "kernel_module_name": "luafv.sys",
+        "kernel_module_size": 143360
+      },
+      {
+        "kernel_module_offset": "0x3ecda570",
+        "kernel_module_file": "\uc890 \uf8a0\uffffver\\rdpbus",
+        "kernel_module_base": "0xfffff96000400000",
+        "kernel_module_name": "dxg.sys",
+        "kernel_module_size": 122880
+      },
+      {
+        "kernel_module_offset": "0x3feeb460",
+        "kernel_module_file": "\u3450\u0010\uf8a0\uffffver\\WfpLwf",
+        "kernel_module_base": "0xfffff96000770000",
+        "kernel_module_name": "TSDDD.dll",
+        "kernel_module_size": 40960
+      }
+    ],
+    "added_count": 8
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "131103",
+        "process_id": 4,
+        "handle_value": "20",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "24",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "131103",
+        "process_id": 4,
+        "handle_value": "32",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "52",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "56",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "60",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "72",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\uffcd\ua115\uffc1\u48ff\u4489\u6024"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "76",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\en-US\\win32k.sys.mui"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "84",
+        "handle_type": "Key",
+        "handle_name": "MICROSOFT\\WINDOWS"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "104",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume1\u458d\u8901\u2886\u0010\u3d00\u00ff"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "116",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "1179775",
+        "process_id": 4,
+        "handle_value": "124",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "65539",
+        "process_id": 4,
+        "handle_value": "128",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\RegBack\\DEFAULT"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "136",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\System Volume Information\\{20173798-96c9-11ec-b30b-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "140",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\System Volume Information\\{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "144",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\uc35c\ucccc\ucccc\ucccc\u8948\u245c\u5708\u8348\u50ec\u8b48\u48d9\ufa8b\u8d48\u244c\u4530\uc033\ud233\u15ff\uc738\uffff\u8b4c\ub89f"
+      },
+      {
+        "handle_granted_access": "1179775",
+        "process_id": 4,
+        "handle_value": "148",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "160",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfsKtmLog"
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "172",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "176",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000002"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 4,
+        "handle_value": "180",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "184",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000001"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "188",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog.blf"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "196",
+        "handle_type": "Key",
+        "handle_name": "0001"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "200",
+        "handle_type": "Key",
+        "handle_name": "IFTYPES\\23"
+      },
+      {
+        "handle_granted_access": "16",
+        "process_id": 4,
+        "handle_value": "216",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "236",
+        "handle_type": "Key",
+        "handle_name": "IFTYPES\\_G????????????/??????s>gj???????z?U??G??\\??????k???????\u0007x"
+      },
+      {
+        "handle_granted_access": "1179785",
+        "process_id": 4,
+        "handle_value": "240",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\System Volume Information\\{9be30c8c-967f-11ec-8077-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "244",
+        "handle_type": "Key",
+        "handle_name": "IFTYPES\\24"
+      },
+      {
+        "handle_granted_access": "131097",
+        "process_id": 4,
+        "handle_value": "260",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "264",
+        "handle_type": "TmTm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1245599",
+        "process_id": 4,
+        "handle_value": "276",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog"
+      },
+      {
+        "handle_granted_access": "1048577",
+        "process_id": 4,
+        "handle_value": "296",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "65539",
+        "process_id": 4,
+        "handle_value": "312",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\RegBack\\SYSTEM"
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 4,
+        "handle_value": "316",
+        "handle_type": "Thread",
+        "handle_name": "TID 288 PID 4"
+      },
+      {
+        "handle_granted_access": "11",
+        "process_id": 4,
+        "handle_value": "320",
+        "handle_type": "Key",
+        "handle_name": "NDPROXY"
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "324",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "332",
+        "handle_type": "File",
+        "handle_name": "\\Device\\-11CE-BFC1-08002BE10318}"
+      },
+      {
+        "handle_granted_access": "1048576",
+        "process_id": 4,
+        "handle_value": "336",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\u048d\u4840\u048b\u48c2\u4489\u6024\u838b\u00c4"
+      },
+      {
+        "handle_granted_access": "3",
+        "process_id": 4,
+        "handle_value": "344",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SYSTEM.LOG1"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "348",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SOFTWARE"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "352",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SOFTWARE.LOG1"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "356",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SOFTWARE.LOG2"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "360",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Udp"
+      },
+      {
+        "handle_granted_access": "1048579",
+        "process_id": 4,
+        "handle_value": "364",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\hiberfil.sys"
+      },
+      {
+        "handle_granted_access": "131075",
+        "process_id": 4,
+        "handle_value": "368",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SYSTEM"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "376",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume1"
+      },
+      {
+        "handle_granted_access": "3",
+        "process_id": 4,
+        "handle_value": "380",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SYSTEM.LOG2"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "508",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "512",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "516",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "520",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "524",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "528",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "532",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "536",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "540",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "544",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "548",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "552",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "556",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "560",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "564",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "568",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "572",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "576",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "580",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "584",
+        "handle_type": "File",
+        "handle_name": "\\Device\\Tcp"
+      },
+      {
+        "handle_granted_access": "65539",
+        "process_id": 4,
+        "handle_value": "588",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\RegBack\\SOFTWARE"
+      },
+      {
+        "handle_granted_access": "1310723",
+        "process_id": 4,
+        "handle_value": "592",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\pagefile.sys"
+      },
+      {
+        "handle_granted_access": "1245323",
+        "process_id": 4,
+        "handle_value": "596",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTDiagLog.etl"
+      },
+      {
+        "handle_granted_access": "1245323",
+        "process_id": 4,
+        "handle_value": "600",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTUBPM.etl"
+      },
+      {
+        "handle_granted_access": "1245323",
+        "process_id": 4,
+        "handle_value": "604",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTEventLog-System.etl"
+      },
+      {
+        "handle_granted_access": "1245323",
+        "process_id": 4,
+        "handle_value": "608",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTEventlog-Security.etl"
+      },
+      {
+        "handle_granted_access": "1245323",
+        "process_id": 4,
+        "handle_value": "612",
+        "handle_type": "File",
+        "handle_name": "\\Device\\file=Private|Profile=Public|RPort=5358|RA4=LocalSubnet|RA6=LocalSubne"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "616",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\TxR\\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "620",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\TxR\\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms"
+      },
+      {
+        "handle_granted_access": "2031743",
+        "process_id": 4,
+        "handle_value": "624",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "628",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs\u357b\u6136\u3635\u3335\u2d64\u3564\u6535\u312d\u6431\u2d63\u3238\u3136\u302d\u3130\u3233\u6631\u3431\u6431\u7d64(\uffc0\uffff\u6b76&\u0004\u8000"
+      },
+      {
+        "handle_granted_access": "2031743",
+        "process_id": 4,
+        "handle_value": "636",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "640",
+        "handle_type": "TmTm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "9",
+        "process_id": 4,
+        "handle_value": "648",
+        "handle_type": "Key",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "656",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\DEFAULT"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "660",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\DEFAULT.LOG1"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "664",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\DEFAULT.LOG2"
+      },
+      {
+        "handle_granted_access": "1179787",
+        "process_id": 4,
+        "handle_value": "668",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\Prefetch\\ReadyBoot\\ReadyBoot.etl"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 4,
+        "handle_value": "672",
+        "handle_type": "Event",
+        "handle_name": "303-90D4-4A97-AB71-E9B671EE2729"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "684",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1179787",
+        "process_id": 4,
+        "handle_value": "692",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\wdi\\LogFiles\\BootCKCL.etl"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 4,
+        "handle_value": "696",
+        "handle_type": "Thread",
+        "handle_name": "TID 432 PID 4"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "712",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 4,
+        "handle_value": "724",
+        "handle_type": "Session",
+        "handle_name": "Session1"
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 4,
+        "handle_value": "736",
+        "handle_type": "Session",
+        "handle_name": "Session1"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "760",
+        "handle_type": "Process",
+        "handle_name": "lsass.exe(488)"
+      },
+      {
+        "handle_granted_access": "0",
+        "process_id": 4,
+        "handle_value": "764",
+        "handle_type": "Session",
+        "handle_name": "Session1"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "768",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983043",
+        "process_id": 4,
+        "handle_value": "772",
+        "handle_type": "Desktop",
+        "handle_name": "Disconnect"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "776",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "40",
+        "process_id": 4,
+        "handle_value": "780",
+        "handle_type": "Process",
+        "handle_name": "lsass.exe(488)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "784",
+        "handle_type": "Process",
+        "handle_name": "lsass.exe(488)"
+      },
+      {
+        "handle_granted_access": "65539",
+        "process_id": 4,
+        "handle_value": "788",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\RegBack\\SECURITY"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "792",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SECURITY"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "796",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SECURITY.LOG1"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "800",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "5176",
+        "process_id": 4,
+        "handle_value": "804",
+        "handle_type": "Process",
+        "handle_name": "lsass.exe(488)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "812",
+        "handle_type": "Process",
+        "handle_name": "services.exe(480)"
+      },
+      {
+        "handle_granted_access": "65539",
+        "process_id": 4,
+        "handle_value": "816",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\RegBack\\SAM"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "820",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SAM"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "824",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SAM.LOG1"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "828",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\System32\\config\\SAM.LOG2"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "832",
+        "handle_type": "Process",
+        "handle_name": "services.exe(480)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "836",
+        "handle_type": "Process",
+        "handle_name": "lsm.exe(496)"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 4,
+        "handle_value": "840",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "844",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(608)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "848",
+        "handle_type": "Process",
+        "handle_name": "services.exe(480)"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "852",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "856",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(608)"
+      },
+      {
+        "handle_granted_access": "3",
+        "process_id": 4,
+        "handle_value": "860",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "864",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "868",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "872",
+        "handle_type": "File",
+        "handle_name": "\\Device\\\\Windows\\ServiceProfiles\\NetworkService\\NTUSER.DAT.LOG2"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "876",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "880",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "888",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "892",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "908",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(608)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "912",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(672)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "920",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(672)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "928",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(724)"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "932",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33685507",
+        "process_id": 4,
+        "handle_value": "936",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "940",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "33554435",
+        "process_id": 4,
+        "handle_value": "944",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "948",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "952",
+        "handle_type": "File",
+        "handle_name": "\\Device\\"
+      },
+      {
+        "handle_granted_access": "2031743",
+        "process_id": 4,
+        "handle_value": "956",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "960",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 4,
+        "handle_value": "964",
+        "handle_type": "File",
+        "handle_name": "\\Device\\clfs"
+      },
+      {
+        "handle_granted_access": "2031743",
+        "process_id": 4,
+        "handle_value": "968",
+        "handle_type": "TmRm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 4,
+        "handle_value": "972",
+        "handle_type": "TmTm",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "40",
+        "process_id": 4,
+        "handle_value": "988",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(724)"
+      },
+      {
+        "handle_granted_access": "40",
+        "process_id": 4,
+        "handle_value": "1000",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(724)"
+      },
+      {
+        "handle_granted_access": "40",
+        "process_id": 4,
+        "handle_value": "1008",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(724)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "1012",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(848)"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "1016",
+        "handle_type": "Thread",
+        "handle_name": "TID 1008 PID 824"
+      },
+      {
+        "handle_granted_access": "42",
+        "process_id": 4,
+        "handle_value": "1020",
+        "handle_type": "Process",
+        "handle_name": "svchost.exe(848)"
+      }
+    ],
+    "added_count": 146
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 1848,
+        "session": "True",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "runonce.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 1840,
+        "session": "True",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "pythonw.exe",
+        "thrdproc": "True"
+      }
+    ],
+    "added_count": 2
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "389b:cc00:80fa:ffff:389b:cc00:80fa:ffff",
+        "process_id": "17",
+        "offset": "0x3e76b810",
+        "local_address": null
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "387b:3d02:80fa:ffff:387b:3d02:80fa:ffff",
+        "process_id": "17",
+        "offset": "0x3e9fd770",
+        "local_address": null
+      }
+    ],
+    "added_count": 2
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 820,
+        "handle_value": "124",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 820,
+        "handle_value": "656",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 820,
+        "handle_value": "1264",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "983103",
+        "process_id": 820,
+        "handle_value": "1268",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\EMDMGMT"
+      },
+      {
+        "handle_granted_access": "1",
+        "process_id": 820,
+        "handle_value": "1272",
+        "handle_type": "Key",
+        "handle_name": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\SUPERFETCH\\DISKASSESSMENT"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1904,
+        "handle_value": "264",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1904,
+        "handle_value": "268",
+        "handle_type": "Thread",
+        "handle_name": "TID 1920 PID 1904"
+      }
+    ],
+    "added_count": 7
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

@@ -1,0 +1,1881 @@
+diff --git a/cuckoo/auxiliary/memorysnaps.py b/cuckoo/auxiliary/memorysnaps.py
+new file mode 100644
+index 000000000000..a2a81e5d3f8b
+--- /dev/null
++++ b/cuckoo/auxiliary/memorysnaps.py
+@@ -0,0 +1,318 @@
++import logging
++import os
++import subprocess
++import threading
++import time
++import tempfile
++
++from pprint import pformat
++
++from cuckoo.common.abstracts import Auxiliary
++from cuckoo.common.constants import CUCKOO_GUEST_PORT, faq
++from cuckoo.common.exceptions import CuckooOperationalError, \
++    CuckooGuestError, CuckooGuestCriticalTimeout
++from cuckoo.misc import cwd, getuser, Popen
++from cuckoo.core.scheduler import get_machinery
++
++log = logging.getLogger(__name__)
++
++
++def my_dir(obj):
++    if obj is not None:
++        return pformat(dir(obj))
++    else:
++        return "<None>"
++
++
++class BackgroundPopen(subprocess.Popen):
++    @staticmethod
++    def prefix_handler(log_fn, prefix):
++        return lambda line: log_fn("%s%s", prefix, line)
++
++    @staticmethod
++    def _proxy_lines(pipe, handler):
++        with pipe:
++            for line in pipe:
++                handler(line)
++
++    def __init__(self, out_handler, err_handler, *args, **kwargs):
++        kwargs['stdout'] = subprocess.PIPE
++        kwargs['stderr'] = subprocess.PIPE
++        super(self.__class__, self).__init__(*args, **kwargs)
++        threading.Thread(target=self._proxy_lines,
++                         args=[self.stdout, out_handler]).start()
++        threading.Thread(target=self._proxy_lines,
++                         args=[self.stderr, err_handler]).start()
++
++
++class SnapTrigger(threading.Thread):
++
++    def __init__(self, name, memsnaps):
++        threading.Thread.__init__(self)
++        self.memsnaps = memsnaps
++        self.name = name
++        self.done = False
++        self.store_dir = cwd("storage", "analyses",
++                             str(self.memsnaps.task.id),
++                             "memsnaps")
++        self.freq = memsnaps.frequency
++
++    @property
++    def storage_dir(self):
++        if not os.path.exists(self.store_dir):
++            os.mkdir(self.store_dir)
++
++        return self.store_dir
++
++    @property
++    def snap_name(self):
++        return os.path.join(
++            self.storage_dir,
++            "%s-%d.dmp" % (self.name, int(time.time() * 1000))
++        )
++
++    def run(self):
++        while not self.done:
++            try:
++                log.info("SnapTrigger: %s (state=%s; dir=%s)", self.name,
++                         self.memsnaps.machine_running(),
++                         cwd("storage", "analyses",
++                             str(self.memsnaps.task.id)))
++                log.info("task = %s", my_dir(self.memsnaps.task))
++                log.info("machine = %s",
++                         my_dir(self.memsnaps.machine))
++                log.info("guest_manager = %s",
++                         my_dir(self.memsnaps.guest_manager))
++                log.info("options = %s",
++                         my_dir(self.memsnaps.options))
++                if get_machinery():
++                    log.info("machinery = %s", my_dir(get_machinery()))
++                    get_machinery().dump_memory(self.memsnaps.machine.label,
++                                                self.snap_name)
++            except Exception as ex:
++                log.error("Exception: %s", ex)
++                log.exception(ex)
++            time.sleep(self.freq)
++
++
++class RamSnapTrigger(threading.Thread):
++
++    def __init__(self, memsnaps):
++        threading.Thread.__init__(self)
++        self.memsnaps = memsnaps
++        self.done = False
++        self.capture_proc = None
++        self.socket_path = tempfile.mktemp(prefix='.mig', suffix='.sock')
++        self.store_dir = cwd("storage", "analyses",
++                             str(self.memsnaps.task.id),
++                             "ramsnaps")
++
++    @property
++    def storage_dir(self):
++        if not os.path.exists(self.store_dir):
++            os.mkdir(self.store_dir)
++
++        return self.store_dir
++
++    def run(self):
++
++        started_migration = False
++
++        while not self.done:
++            try:
++                time.sleep(3)
++
++                log.info("RamSnapTrigger: state=%s; dir=%s",
++                         self.memsnaps.machine_running(),
++                         self.storage_dir)
++
++                if not self.memsnaps.machine_running():
++                    log.debug("RamSnapTrigger: machine not running...")
++                    continue
++
++                # Start migration capture process
++                if self.capture_proc is None:
++                    cmd = ["/usr/bin/qemu-capture-migration"]
++                    # if logging.getLogger().level <= logging.DEBUG:
++                    #     cmd.append("-D")
++                    cmd.extend(["-s", self.socket_path])
++                    cmd.extend(["-o", self.store_dir])
++
++                    log.info("Running: %s", " ".join(cmd))
++                    self.capture_proc = BackgroundPopen(
++                        BackgroundPopen.prefix_handler(log.debug,
++                                                       "(stdout) capture: "),
++                        BackgroundPopen.prefix_handler(log.debug,
++                                                       "(stderr) capture: "),
++                        cmd, close_fds=True)
++
++                # Ask Qemu to start sending data
++                if not started_migration and self.memsnaps.machinery:
++                    if os.path.exists(self.socket_path):
++                        # log.info("machinery = %s",
++                        #          my_dir(self.memsnaps.machinery))
++                        log.info("Starting migraiton for %s, on socket %s",
++                                 self.memsnaps.machine.label, self.socket_path)
++
++                        self.memsnaps.machinery.start_migration(
++                            self.memsnaps.machine.label,
++                            "unix:" + self.socket_path)
++                        started_migration = True
++                    else:
++                        log.info("Migration socket doesn't exist yet: %s",
++                                 self.socket_path)
++            except Exception as ex:
++                log.error("Exception: %s", ex)
++                log.exception(ex)
++
++        if self.capture_proc is not None:
++            self.capture_proc.kill()
++            self.capture_proc.wait()
++            self.capture_proc = None
++
++
++class MemorySnaps(Auxiliary):
++    def __init__(self):
++        Auxiliary.__init__(self)
++        self.thread = None
++        self._machinery = get_machinery()
++        self._output_dir = None
++
++    @property
++    def machinery(self):
++        if self._machinery is None:
++            self._machinery = get_machinery()
++
++        return self._machinery
++
++    def machine_running(self):
++        try:
++            status = self.machinery._status(self.machine.label)
++            log.info("Machine %s QMP status: %s", self.machine.label, status)
++            if status != self.machinery.RUNNING:
++                return False
++        except Exception as e:
++            log.error("Virtual machine QMP status failed. %s", e)
++            return False
++
++        try:
++            status = self.guest_manager.get("/status", timeout=5).json()
++            # status = self.guest_manager._status(self.machine.label)
++            log.info("Got status: %s", pformat(status))
++        except CuckooGuestError:
++            # this might fail due to timeouts or just temporary network
++            # issues thus we don't want to abort the analysis just yet and
++            # wait for things to recover
++            log.warning(
++                "Virtual Machine /status failed. This can indicate the "
++                "guest losing network connectivity"
++            )
++            return False
++        except Exception as e:
++            log.error("Virtual machine /status failed. %s", e)
++            return False
++
++        if status["status"] == "complete":
++            log.info("%s: analysis completed successfully", self.vmid)
++            return False
++        elif status["status"] == "exception":
++            log.warning(
++                "%s: analysis #%s caught an exception\n%s",
++                self.vmid, self.task_id, status["description"]
++            )
++            return False
++
++        log.info("Got status: %s", pformat(status))
++        return True
++
++    @property
++    def is_ramsnap(self):
++        _rv = self.task and self.task.options and \
++            self.task.options.get("ramsnap", 'no') == 'yes'
++        log.debug("is_ramsnap: %s", _rv)
++
++        return _rv
++
++    @property
++    def frequency(self):
++        _rv = 20
++
++        try:
++            val = "<not specified>"
++            if self.task and self.task.options:
++                val = self.task.options.get("frequency", 20)
++                _rv = int(val)
++                _rv = max(1, min(60, _rv))
++        except ValueError as ex:
++            log.error("Error processing frequency value: %s (%s)",
++                      val, ex)
++
++        log.debug("frequency: %d", _rv)
++        return _rv
++
++    def start(self):
++
++        try:
++            log.debug("DPK: %s",
++                      str(self.task.options) if self.task else 'None')
++            if self.is_ramsnap:
++                self.thread = RamSnapTrigger(self)
++            else:
++                self.thread = SnapTrigger("periodic-dump", self)
++
++            self._output_dir = self.thread.store_dir
++            self.thread.start()
++
++        except (OSError, ValueError):
++            log.exception(
++                "Failed to start MemorySnaps (task=%s)",
++                self.task.id
++            )
++            return False
++
++        log.info(
++            "Starting MemorySnaps"
++        )
++        return True
++
++    def stop(self):
++        """Stop capturing memory snaps
++        @return: operation status.
++        """
++
++        log.info("Stopping MemorySnap")
++
++        # The tcpdump process was never started in the first place.
++        if not self.thread:
++            return
++
++        try:
++            self.thread.done = True
++            self.thread.join()
++        except Exception as e:
++            log.exception("Unable to stop the RamSnapTrigger thread: %s", e)
++
++        if self.is_ramsnap:
++            memsnaps_dir = cwd("storage", "analyses",
++                            str(self.task.id),
++                            "memsnaps")
++            # Now need to generate dump that volatility can read
++            cmd = ["/usr/bin/qemu-process-ramsnaps"]
++            # if logging.getLogger().level <= logging.DEBUG:
++            #     cmd.append("-D")
++
++            cmd.extend(["-i", os.path.join(self._output_dir, "pc-ram.idx")])
++            cmd.extend(["-p", os.path.join(memsnaps_dir, "memory-dump")])
++            # cmd.extend(["-g", "3"])
++            cmd.extend(["-m", "30"])
++
++            log.info("Running: %s", " ".join(cmd))
++
++            dump_gen_proc = BackgroundPopen(
++                BackgroundPopen.prefix_handler(log.debug,
++                                                "(stdout) dump-gen: "),
++                BackgroundPopen.prefix_handler(log.debug,
++                                                "(stderr) dump-gen: "),
++                cmd, close_fds=True)
++
++            dump_gen_proc.wait()
+diff --git a/cuckoo/common/abstracts.py b/cuckoo/common/abstracts.py
+index 1b163b888557..dcca1d663ae8 100644
+--- a/cuckoo/common/abstracts.py
++++ b/cuckoo/common/abstracts.py
+@@ -805,6 +805,7 @@ class Processing(object):
+         self.pcap_path = os.path.join(self.analysis_path, "dump.pcap")
+         self.pmemory_path = os.path.join(self.analysis_path, "memory")
+         self.memory_path = os.path.join(self.analysis_path, "memory.dmp")
++        self.memsnaps_path = os.path.join(self.analysis_path, "memsnaps")
+         self.mitmout_path = os.path.join(self.analysis_path, "mitm.log")
+         self.mitmerr_path = os.path.join(self.analysis_path, "mitm.err")
+         self.tlsmaster_path = os.path.join(self.analysis_path, "tlsmaster.txt")
+diff --git a/cuckoo/common/config.py b/cuckoo/common/config.py
+index 7728d513d6bd..d0e922c3722a 100644
+--- a/cuckoo/common/config.py
++++ b/cuckoo/common/config.py
+@@ -294,6 +294,9 @@ class Config(object):
+             "__star__": ("virtualbox", "machines"),
+         },
+         "auxiliary": {
++            "memorysnaps": {
++                "enabled": Boolean(True),
++            },
+             "sniffer": {
+                 "enabled": Boolean(True),
+                 "tcpdump": Path(
+@@ -570,6 +573,8 @@ class Config(object):
+             },
+             "memory": {
+                 "enabled": Boolean(False),
++                "ramsnap": Boolean(False),
++                "frequency": Int(20),
+             },
+             "misp": {
+                 "enabled": Boolean(False),
+diff --git a/cuckoo/common/ipc.py b/cuckoo/common/ipc.py
+new file mode 100644
+index 000000000000..d0332e190009
+--- /dev/null
++++ b/cuckoo/common/ipc.py
+@@ -0,0 +1,481 @@
++# Copyright (C) 2019-2021 Estonian Information System Authority.
++# See the file 'LICENSE' for copying permission.
++
++import errno
++import grp
++import json
++import logging
++import os
++import select
++import socket
++import stat
++import time
++
++
++log = logging.getLogger(__name__)
++
++
++class IPCError(Exception):
++    pass
++
++
++class NotConnectedError(IPCError):
++    pass
++
++
++class ConnectionTimeoutError(IPCError):
++    pass
++
++
++class ResponseTimeoutError(IPCError):
++    pass
++
++
++class ReaderWriter(object):
++    # 5 MB JSON blob
++    MAX_INFO_BUF = 5 * 1024 * 1024
++
++    def __init__(self, sock):
++        self.sock = sock
++        self.rcvbuf = b""
++
++    def readline(self):
++        while True:
++            offset = self.rcvbuf.find(b"\n")
++            if offset >= 0:
++                l, self.rcvbuf = self.rcvbuf[:offset], self.rcvbuf[offset + 1:]
++                return l.decode()
++
++            if len(self.rcvbuf) >= self.MAX_INFO_BUF:
++                raise ValueError(
++                    "Received message exceeds {0} bytes".format(
++                        self.MAX_INFO_BUF)
++                )
++
++            try:
++                buf = self._read()
++            except BlockingIOError as e:
++                if e.errno == errno.EWOULDBLOCK:
++                    return
++                raise
++
++            # Socket was disconnected
++            if not buf:
++                if self.has_buffered():
++                    raise EOFError(
++                        "Last byte must be '\\n'. "
++                        "Actual last byte is: {0}".format
++                        (repr(self.rcvbuf[:1]))
++                    )
++
++                raise NotConnectedError(
++                    "Socket disconnected. Cannot receive message."
++                )
++
++            self.rcvbuf += buf
++
++    def _read(self, amount=4096):
++        return self.sock.recv(amount)
++
++    def clear_buf(self):
++        self.rcvbuf = b""
++
++    def has_buffered(self):
++        return len(self.rcvbuf) > 0
++
++    def get_json_message(self):
++        try:
++            message = self.readline()
++        except (ValueError, EOFError, NotConnectedError):
++            self.clear_buf()
++            raise
++
++        if not message:
++            return None
++
++        return json.loads(message)
++
++    def send_json_message(self, mes_dict):
++        self.sock.sendall("{0}\n".format(json.dumps(mes_dict)).encode())
++
++    def close(self):
++        try:
++            self.sock.shutdown(socket.SHUT_RDWR)
++            self.sock.close()
++        except socket.error:
++            pass
++
++
++_POLL_READREADY = select.POLLIN | select.POLLPRI
++_POLL_CLOSABLE = select.POLLHUP | select.POLLERR | \
++                 select.POLLNVAL
++_POLL_READ = _POLL_READREADY | _POLL_CLOSABLE
++
++
++class UnixSocketServer:
++
++    def __init__(self, sock_path):
++        self.sock_path = str(sock_path)
++        self.sock = None
++        self.do_run = True
++        self.socks_readers = {}
++        self._fd_socks = {}
++        self._poll = None
++
++    def create_socket(self, backlog=0, owner_group=None):
++        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
++        try:
++            # TODO either here or at usage, check if the path already exists
++            # and if we can delete it. EG: pidfile is no longer locked.
++            sock.bind(self.sock_path)
++        except socket.error as e:
++            raise IPCError(
++                "Failed to bind to unix socket path {sp}. "
++                "Error: {e}".format(sp=self.sock_path, e=e)
++            )
++
++        self.sock = sock
++        if not owner_group:
++            # For now, only allow the user running Cuckoo to read from, write
++            # to, and execute the created sockets
++            os.chmod(
++                self.sock_path, stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR
++            )
++        else:
++            try:
++                group = grp.getgrnam(owner_group)
++            except KeyError:
++                raise IPCError(
++                    "Cannot change group of socket {sp}."
++                    " Group {owner_group} does not exist.".format(
++                        sp=self.sock_path,
++                        owner_group=owner_group)
++                )
++            try:
++                os.chown(self.sock_path, 0, group.gr_gid)
++                os.chmod(
++                    self.sock_path, stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR |
++                                    stat.S_IWGRP | stat.S_IRGRP
++                )
++            except OSError as e:
++                raise IPCError(
++                    "Failed to change group to {owner_group} "
++                    "of socket {self.sock_path}. {e}".format(
++                        sp=self.sock_path,
++                        owner_group=owner_group)
++
++                )
++
++        sock.listen(backlog)
++        self._poll = select.poll()
++        self._fd_socks[sock.fileno()] = sock
++        self._poll.register(sock, _POLL_READ)
++
++    def stop(self):
++        self.do_run = False
++
++    def track(self, sock, reader):
++        """Track when the socket is ready for reading and store the
++        passed readerwriter in a socket:rw map"""
++        self._fd_socks[sock.fileno()] = sock
++        self.socks_readers[sock] = reader
++        self._poll.register(sock, _POLL_READ)
++
++    def untrack(self, sock, fd=None):
++        if not fd:
++            fd = sock.fileno()
++
++        if fd > 0:
++            self._poll.unregister(fd)
++        try:
++            sock.close()
++        except socket.error:
++            pass
++
++        self.socks_readers.pop(sock, None)
++        self._fd_socks.pop(fd, None)
++        self.post_disconnect_cleanup(sock)
++
++    def untrack_all(self):
++        for sock in list(self.socks_readers):
++            self.untrack(sock)
++
++    def timeout_action(self):
++        """Called after the select timeout expires"""
++        pass
++
++    def _read_incoming(self, sock):
++        reader = self.socks_readers.get(sock)
++        if not reader:
++            log.warning(
++                "No reader for existing socket connection.",
++                sock=sock
++            )
++            return
++
++        while True:
++            try:
++                msg = reader.get_json_message()
++            except (socket.error, EOFError, ValueError) as e:
++
++                # Do not log the error if the connection was (uncleanly)
++                # closed. This can happen if we close it after a bad message
++                # or the client only sends a command and disconnects.
++                if hasattr(e, 'errno') and e.errno not in (errno.EBADF,
++                                                           errno.ECONNRESET):
++                    log.exception(
++                        "Failed to read message. Disconnecting "
++                        "client.", error=e, sock=sock
++                    )
++                # Untrack this socket. Clients must follow the
++                # communication rules.
++                self.untrack(sock)
++                break
++
++            except NotConnectedError:
++                self.untrack(sock)
++                break
++
++            if not msg:
++                break
++
++            self.handle_message(sock, msg)
++
++    def start_accepting(self, timeout=2):
++        serv_sock = self.sock
++        while self.do_run:
++            incoming = self._poll.poll(timeout * 1000)
++
++            self.timeout_action()
++
++            if not incoming:
++                continue
++
++            for fd, bitmask in incoming:
++                sock = self._fd_socks.get(fd)
++                if not sock:
++                    continue
++
++                if bitmask & _POLL_READREADY:
++                    if sock is serv_sock:
++                        # Handle new connection
++                        try:
++                            clientsock, addr = sock.accept()
++                        except OSError as e:
++                            if e.errno == errno.EBADF:
++                                continue
++
++                            raise
++
++                        clientsock.setblocking(False)
++                        self.handle_connection(clientsock, addr)
++                    else:
++                        self._read_incoming(sock)
++
++                elif bitmask & _POLL_CLOSABLE:
++                    # Untrack and close the socket if anything about the
++                    # connection is reset or closed.
++                    self.untrack(sock, fd=fd)
++                else:
++                    raise IPCError("Unhandled poll bitmask: {0}".format(
++                        bitmask))
++
++    def cleanup(self):
++        if self.do_run:
++            return
++
++        if not self.sock:
++            return
++
++        try:
++            self.sock.close()
++        except socket.error:
++            pass
++
++        finally:
++            try:
++                os.unlink(self.sock_path)
++            except FileNotFoundError:
++                pass
++
++    def handle_connection(self, sock, addr):
++        """Called when a new client connects. Call the track method here
++        if the client should be tracked."""
++        pass
++
++    def handle_message(self, sock, msg):
++        """Called when a new JSON message for a tracked socket arrives."""
++        pass
++
++    def post_disconnect_cleanup(self, sock):
++        """Called after a client disconnects and untrack is successfully called
++        """
++        pass
++
++
++class UnixSockClient:
++
++    def __init__(self, sockpath, blockingreads=True):
++        self.blockingreads = blockingreads
++        self.sockpath = str(sockpath)
++        self.sock = None
++        self.reader = None
++
++    def reconnect(self, maxtries=5):
++        self.cleanup()
++        self.sock = None
++        self.reader = None
++        self.connect(maxtries)
++
++    def connect(self, maxtries=5, timeout=60):
++        if self.sock:
++            return
++
++        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
++        tries = 0
++        waited = 0
++        while True:
++            if not os.path.exists(self.sockpath):
++                if waited >= timeout:
++                    raise ConnectionTimeoutError(
++                        "Timeout reached while waiting for socket path "
++                        "{sp} to be created. "
++                        "Waited {waited} seconds.".format(
++                            sp=self.sockpath,
++                            waited=waited))
++
++                time.sleep(1)
++                waited += 1
++                continue
++
++            tries += 1
++            try:
++                sock.connect(self.sockpath)
++                break
++            except socket.error as e:
++                if maxtries and tries >= tries:
++                    raise IPCError(
++                        "Failed to connect to unix socket: {sp}. "
++                        "Error: {e}".format(
++                            sp=self.sockpath,
++                            e=e))
++
++                time.sleep(3)
++
++        if not self.blockingreads:
++            sock.setblocking(False)
++
++        self.sock = sock
++        self.reader = ReaderWriter(sock)
++
++    def send_json_message(self, mes_dict):
++        if not self.sock:
++            raise NotConnectedError(
++                "Not connected to socket. Cannot send message"
++            )
++
++        try:
++            self.reader.send_json_message(mes_dict)
++        except socket.error as e:
++            raise IPCError(
++                "Failed to send message to {sp}. Error: {e}".format(
++                        sp=self.sockpath,
++                        e=e))
++
++    def recv_json_message(self):
++        if not self.sock:
++            raise NotConnectedError(
++                "Not connected to socket. Cannot receive message"
++            )
++
++        try:
++            return self.reader.get_json_message()
++        except socket.error as e:
++            raise IPCError("Failed to read from socket: {e}".format(
++                        e=e))
++        except ValueError as e:
++            raise ValueError("Received invalid JSON message: {e}".format(
++                        e=e))
++
++    def cleanup(self):
++        if not self.sock:
++            return
++
++        # socket.SHUT_RDWR. We set the value ourself because when __del__
++        # is called, imports may no longer exist. We want to ensure the
++        # connection is always closed properly.
++        SHUT_RDWR = 2
++        try:
++            self.sock.shutdown(SHUT_RDWR)
++            self.sock.close()
++        except OSError:
++            pass
++
++    def __del__(self):
++        self.cleanup()
++
++
++def message_unix_socket(sock_path, message_dict):
++    """Send the given message dict to the provided unix socket and
++     disconnect"""
++    if not os.path.exists(sock_path):
++        raise IPCError("Unix socket {sp} does not exist".format(
++                        sp=sock_path))
++
++
++    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
++
++    try:
++        sock.connect(str(sock_path))
++    except socket.error as e:
++        raise IPCError("Could not connect to socket: {sp}. Error: {e}".format(
++            sp=sock_path,
++            e=e))
++
++
++    sock.sendall("{0}\n".format(json.dumps(message_dict)).encode())
++    sock.shutdown(socket.SHUT_RDWR)
++    sock.close()
++
++
++def timeout_read_response(client, timeout):
++    waited = 0
++    while True:
++        resp = client.recv_json_message()
++        if resp is not None:
++            return resp
++
++        if waited >= timeout:
++            raise ResponseTimeoutError(
++                "No response within timeout of {timeout} seconds.".format(
++                    timeout=timeout
++                ))
++
++        waited += 1
++        time.sleep(1)
++
++
++def request_unix_socket(sock_path, message_dict, timeout=0):
++    """Send the given message dict to the provided unix socket, wait for a
++    response, disconnect, and return the response. If the timeout is a higher
++    integer than 0, this will be used a maximum amount of seconds
++    to wait for the response. If it is reached, a ResponseTimeoutError
++    is raised."""
++    if not os.path.exists(sock_path):
++        raise IPCError("Unix socket {sp} does not exist".format(sp=sock_path))
++
++    if timeout > 0:
++        client = UnixSockClient(sock_path, blockingreads=False)
++    else:
++        client = UnixSockClient(sock_path)
++
++    client.connect(maxtries=1)
++    client.send_json_message(message_dict)
++    try:
++        if timeout > 0:
++            return timeout_read_response(client, timeout)
++        else:
++            return client.recv_json_message()
++    finally:
++        client.cleanup()
++
+diff --git a/cuckoo/core/scheduler.py b/cuckoo/core/scheduler.py
+index edd6214e4167..461b2ce9ee34 100644
+--- a/cuckoo/core/scheduler.py
++++ b/cuckoo/core/scheduler.py
+@@ -38,6 +38,10 @@ latest_symlink_lock = threading.Lock()
+ active_analysis_count = 0
+ 
+ 
++def get_machinery():
++    return machinery
++
++
+ class AnalysisManager(threading.Thread):
+     """Analysis Manager.
+ 
+diff --git a/cuckoo/machinery/qemu.py b/cuckoo/machinery/qemu.py
+index 712f37b725b6..ab403d69736f 100644
+--- a/cuckoo/machinery/qemu.py
++++ b/cuckoo/machinery/qemu.py
+@@ -2,13 +2,17 @@
+ # This file is part of Cuckoo Sandbox - http://www.cuckoosandbox.org
+ # See the file 'docs/LICENSE' for copying permission.
+ 
++import json
+ import os
+ import time
+ import logging
+ import subprocess
+ import os.path
+ 
++from threading import RLock
++
+ from cuckoo.common.abstracts import Machinery
++from cuckoo.common.ipc import IPCError, UnixSockClient, timeout_read_response
+ from cuckoo.common.config import config
+ from cuckoo.common.exceptions import CuckooCriticalError
+ from cuckoo.common.exceptions import CuckooMachineError
+@@ -85,7 +89,10 @@ QEMU_ARGS = {
+         "cmdline": [
+             "qemu-system-x86_64", "-display", "none", "-m", "{memory}",
+             "-hda", "{snapshot_path}",
+-            "-net", "tap,ifname=tap_{vmname},script=no,downscript=no", "-net", "nic,macaddr={mac}",  # this by default needs /etc/qemu-ifup to add the tap to the bridge, slightly awkward
++            # "-net", "tap,ifname=tap_{vmname},script=no,downscript=no", "-net", "nic,macaddr={mac}",  # this by default needs /etc/qemu-ifup to add the tap to the bridge, slightly awkward
++            "-qmp", "unix:{qmp_socket_path},server,nowait",
++            "-monitor", "none",
++            "-netdev", "tap,id=net0,ifname=tap_{vmname},script=no,downscript=no", "-device", "rtl8139,netdev=net0,mac={mac}",  # this by default needs /etc/qemu-ifup to add the tap to the bridge, slightly awkward
+         ],
+         "params": {
+             "memory": "1024M",
+@@ -103,6 +110,144 @@ QEMU_ARGS = {
+     },
+ }
+ 
++
++class QMPError(Exception):
++    pass
++
++
++# A QMP Client class, copied from cuckoo3
++class QMPClient(object):
++    """A simple QEMU Machine Protocol client to send commands and request
++    states."""
++
++    def __init__(self, qmp_sockpath):
++        self._sockpath = qmp_sockpath
++
++        self._client_obj = None
++        # Lock should be kept when writing and reading. This prevents
++        # another thread (y) from sending a command while another (x) is
++        # reading. This would cause the message for thread y to be ignored/lost
++        # when x is reading.
++        self._lock = RLock()
++
++    @property
++    def _client(self):
++        with self._lock:
++            if not self._client_obj:
++                self.connect()
++
++            return self._client_obj
++
++    def execute(self, command, args_dict=None):
++        with self._lock:
++            try:
++                msg = {"execute": command}
++                if args_dict:
++                    msg["arguments"] = args_dict
++
++                log.debug("QMP Executing: %r", msg)
++                self._client.send_json_message(msg)
++                res = timeout_read_response(self._client, timeout=5)
++                log.debug("QMP Execution Response: %r", res)
++                return res
++            except IPCError as e:
++                raise QMPError(
++                    "Failed to send command to QMP socket. "
++                    "Command: {command}, args: {args_dict}. {e}".format(
++                        command=command,
++                        args_dict=args_dict,
++                        e=e
++                    )
++                )
++
++    def read(self, timeout=5):
++        with self._lock:
++            try:
++                return timeout_read_response(self._client, timeout=timeout)
++            except IPCError as e:
++                raise QMPError(
++                    "Failed to read response from QMP socket. {e}".format(e=e)
++                )
++
++    def wait_read_return(self, timeout=5):
++        with self._lock:
++            start = time.time()
++            while True:
++                msg = self.read(timeout=timeout)
++                # Skip all messages that do not have the return key.
++                log.error("DPK: Got msg = %s", msg)
++                ret = msg.get("return", None)
++                log.error("DPK: ret (return) = %s", ret)
++                if ret is not None:
++                    return ret
++
++                err = msg.get("error", None)
++                log.error("DPK: ret (error) = %s", ret)
++                if err is not None:
++                    raise QMPError("Error: %s - %s",
++                                   err.get("class", "UNKNOWN"),
++                                   err.get("desc", "?????"))
++
++                if time.time() - start >= timeout:
++                    raise QMPError("Timeout waiting for return")
++
++    def query_status(self):
++        with self._lock:
++            status = None
++            ret = self.execute("query-status").get("return", None)
++            if ret is not None:
++                status = ret.get("status")
++            log.debug("Got QMP status: %r", status)
++            return status
++
++    def connect(self):
++        # Connect and perform 'capabilities handshake'. Must be performed
++        # before any commands can be sent.
++        with self._lock:
++            if self._client_obj is None:
++                self._client_obj = UnixSockClient(self._sockpath)
++                count = 0
++                connected = False
++                while count < 10:
++                    try:
++                        self._client_obj.connect(maxtries=1, timeout=20)
++                        connected = True
++                        break
++                    except IPCError as e:
++                        log.warning("Failure to connect to QMP socket."
++                                    " (try {c}) {e}".format(c=count+1, e=e))
++                        time.sleep(1)
++                    finally:
++                        count += 1
++
++                if not connected:
++                    raise QMPError(
++                        "Failure to connect to QMP socket."
++                        " (try {c})".format(c=count))
++
++                try:
++                    res = timeout_read_response(self._client_obj, timeout=5)
++                    log.debug("Got QMP response: %r", res)
++                except IPCError as e:
++                    raise QMPError(
++                        "Failure while waiting for QMP "
++                        "connection header. {e}".format(e=e)
++                    )
++
++                if not res.get("QMP"):
++                    raise QMPError(
++                        "Unexpected QMP connection "
++                        "header. Header: {res}".format(res=res)
++                    )
++
++                self.execute("qmp_capabilities")
++
++        return True
++
++    def close(self):
++        self._client.cleanup()
++
++
+ class QEMU(Machinery):
+     """Virtualization layer for QEMU (non-KVM)."""
+ 
+@@ -114,6 +259,8 @@ class QEMU(Machinery):
+     def __init__(self):
+         super(QEMU, self).__init__()
+         self.state = {}
++        self.qmp_socket_paths = {}
++        self.qmp = {}
+ 
+     def _initialize_check(self):
+         """Run all checks when a machine manager is initialized.
+@@ -156,7 +303,7 @@ class QEMU(Machinery):
+             # qcow2 with backing file
+             try:
+                 proc = subprocess.Popen([
+-                    self.qemu_img, "create", "-f", "qcow2",
++                    self.qemu_img, "create", "-f", "qcow2", "-F", "qcow2",
+                     "-b", vm_options.image, snapshot_path
+                 ], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                 output, err = proc.communicate()
+@@ -167,9 +314,71 @@ class QEMU(Machinery):
+                     "QEMU failed starting the machine: %s" % e
+                 )
+ 
++        qmp_socket_path = "/tmp/qmp-sock-%s-%s.sock" % \
++            (label, vm_info.name)
++
++        mi = os.path.join(os.path.dirname(vm_options.image),
++                          "machineinfo.json")
++        cmdline = []
++        if os.path.exists(mi):
++            try:
++                mi_dict = dict()
++                with open(mi, 'r') as fp:
++                    mi_dict = json.load(fp)
++                machine = mi_dict.get("machine", None)
++                if machine is not None:
++                    start_args = machine.get("start_args", None)
++                    if start_args is not None:
++                        new_start_args = []
++                        skip_one = False
++                        for arg in start_args:
++                            if skip_one:
++                                skip_one = False
++                                continue
++
++                            # Replace %DISPOSABLE_DISK_PATH% with
++                            # {snapshot_path}
++                            arg = arg.replace("%DISPOSABLE_DISK_PATH%",
++                                              "{snapshot_path}")
++
++                            # Replace netdev with tap config
++                            if arg == "-netdev":
++                                new_start_args.extend([
++                                    "-netdev",
++                                     "tap,id=net_{vmname},ifname=tap_{vmname},script=no,downscript=no"])
++                                skip_one = True
++                                continue
++
++                            # Skip audio (seems to hang VM)
++                            if arg == "-soundhw":
++                                skip_one = True
++                                continue
++
++                            # Change device netdev to "netdev=net_{vmname},mac={mac}"
++                            if "netdev=" in arg:
++                                fields = arg.split(',')
++                                new_arg = []
++                                for field in fields:
++                                    if field.startswith("netdev="):
++                                        new_arg.append("netdev=net_{vmname}")
++                                    elif field.startswith("mac="):
++                                        new_arg.append("mac={mac}")
++                                    else:
++                                        new_arg.append(field)
++                                arg = ",".join(new_arg)
++
++                            new_start_args.append(arg)
++                        cmdline = ["qemu-system-x86_64"]
++                        cmdline.extend(new_start_args)
++            except Exception as ex:
++                raise CuckooMachineError(
++                    "Failed to parse machineinfo file: %s (%s)" % (mi, ex))
++
+         vm_arch = getattr(vm_options, "arch", "default")
+         arch_config = dict(QEMU_ARGS[vm_arch])
+-        cmdline = arch_config["cmdline"]
++        if not cmdline:
++            # Didn't managed to parse from machineinfo.json, so fall-back
++            cmdline = arch_config["cmdline"]
+         params = dict(QEMU_ARGS["default"]["params"])
+         params.update(QEMU_ARGS[vm_arch]["params"])
+ 
+@@ -177,6 +386,7 @@ class QEMU(Machinery):
+             "imagepath": os.path.dirname(vm_options.image),
+             "snapshot_path": snapshot_path,
+             "vmname": vm_info.name,
++            "qmp_socket_path": qmp_socket_path,
+         })
+ 
+         # allow some overrides from the vm specific options
+@@ -197,10 +407,38 @@ class QEMU(Machinery):
+             final_cmdline.append("-enable-kvm")
+ 
+         log.debug("Executing QEMU %r", final_cmdline)
++        with open("/tmp/a.sh", "w") as fp:
++            fp.write(" ".join(final_cmdline))
+ 
+         try:
+-            proc = subprocess.Popen(final_cmdline, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
++            proc = subprocess.Popen(final_cmdline, stdout=subprocess.PIPE,
++                                    stderr=subprocess.PIPE)
++
++            qmp = QMPClient(qmp_socket_path)
++
++            # Wait for socket to exist
++            ntries = 5
++            while ntries > 0:
++                if os.path.exists(qmp_socket_path):
++                    try:
++                        qmp.connect()
++                    except QMPError as err:
++                        proc.kill()
++                        raise CuckooMachineError(
++                            "QEMU failed to connect to QMP socket: %s" % err)
++
++                time.sleep(3)
++                ntries -= 1
++
++            if not os.path.exists(qmp_socket_path):
++                proc.kill()
++                raise CuckooMachineError(
++                    "QEMU failed to connect to QMP socket: %s" %
++                    qmp_socket_path)
++
+             self.state[vm_info.name] = proc
++            self.qmp_socket_paths[vm_info.name] = qmp_socket_path
++            self.qmp[vm_info.name] = qmp
+         except OSError as e:
+             raise CuckooMachineError("QEMU failed starting the machine: %s" % e)
+ 
+@@ -234,12 +472,92 @@ class QEMU(Machinery):
+ 
+         self.state[vm_info.name] = None
+ 
++        qmp = self.qmp.get(vm_info.name, None)
++        if qmp is not None:
++            qmp.close()
++            self.qmp[vm_info.name] = None
++
++        qmp_socket_path = self.qmp_socket_paths[vm_info.name]
++        self.qmp_socket_paths[vm_info.name] = None
++        os.unlink(qmp_socket_path)
++
+     def _status(self, name):
+         """Get current status of a vm.
+         @param name: virtual machine name.
+         @return: status string.
+         """
++
++        vm_status = None
++        try:
++            qmp = self.qmp.get(name, None)
++            if qmp is not None:
++                vm_status = qmp.query_status()
++        except QMPError as err:
++            log.error("Exception: %s", err)
++
+         p = self.state.get(name, None)
+-        if p is not None:
++        if p is not None or vm_status is not None:
+             return self.RUNNING
++
+         return self.STOPPED
++
++    def dump_memory(self, name, path):
++        """Take a memory dump of a machine.
++        @param path: path to where to store the memory dump.
++        """
++        log.debug("Dumping memory for machine: %s to %s", name, path)
++
++        dump_size = 2 ** 30  # 1Gb
++
++        try:
++            if name in self.qmp:
++                qmp = self.qmp[name]
++                res = qmp.execute('pmemsave',
++                                  {'val': 0,
++                                   'size': dump_size,
++                                   'filename': path})
++                log.debug("pmemsave returned: %s", res)
++            else:
++                log.debug("Machine %s doesn't have QMP socket,"
++                          " no memory dump done", name)
++
++            tries = 0
++            while not os.path.exists(path) and tries < 10:
++                time.sleep(1)
++                tries += 1
++            if tries >= 10:
++                raise CuckooMachineError("Failed to start memory dump")
++
++            tries = 0
++            stat = os.stat(path)
++            while stat.st_size < dump_size and tries < 20:
++                time.sleep(1)
++                stat = os.stat(path)
++                tries += 1
++            if tries >= 20:
++                raise CuckooMachineError("Incomplete memory dump")
++        except QMPError as e:
++            raise CuckooMachineError("Error dumping memory virtual machine "
++                                     "{0}: {1}".format(name, e))
++
++    def start_migration(self, name, socket_path):
++        log.debug("Starting memory migration for machine: %s on socket %s",
++                  name, socket_path)
++
++        try:
++            if name in self.qmp:
++                qmp = self.qmp[name]
++                qmp.execute('query-migrate-parameters')
++                qmp.execute('migrate-set-parameters',
++                            {'ramsnap-mode': True,
++                             'ramsnap-period-ms': 50})
++                qmp.execute('migrate-set-parameters',
++                            {'max-bandwidth': 5 * 2 ** 30})  # 5Gb
++                qmp.execute('query-migrate-parameters')
++                qmp.execute('migrate', {'uri': socket_path})
++            else:
++                log.debug("Machine %s doesn't have QMP socket,"
++                          " no memory dump done", name)
++        except QMPError as e:
++            raise CuckooMachineError("Error dumping memory virtual machine "
++                                     "{0}: {1}".format(name, e))
+diff --git a/cuckoo/private/cwd/hashes.txt b/cuckoo/private/cwd/hashes.txt
+index cfce710cb97e..59065ee21425 100644
+--- a/cuckoo/private/cwd/hashes.txt
++++ b/cuckoo/private/cwd/hashes.txt
+@@ -329,3 +329,24 @@ cc78a9c7ecdd5a3862b39ad7e6676723e72eb2ba safelist/mispdomain.txt
+ 8f6442b91064e46ab3454d6bc15a4cf1f3949a0f safelist/misphash.txt
+ 1f0ec663731206a9bf9363293421c68855aed772 safelist/mispip.txt
+ e57ba6930af466d1a56aa22f791048020fadef88 safelist/mispurl.txt
++
++1190f463362faaf506bf9837ed51a19043343713 analyzer/linux/lib/api/process.py
++867fb2759539bef4b9122716e4c67b86f5c3b1aa analyzer/linux/lib/common/abstracts.py
++c9f78ec1692e3e63f94c23b1c8d01c8be6b34c71 analyzer/linux/lib/core/config.py
++0000000000000000000000000000000000000000 monitor/2bd01ede5c5258d5fce2e38bc58348a62c11ce33/inject-x64.exe
++0000000000000000000000000000000000000000 monitor/2bd01ede5c5258d5fce2e38bc58348a62c11ce33/inject-x86.exe
++0000000000000000000000000000000000000000 monitor/2bd01ede5c5258d5fce2e38bc58348a62c11ce33/is32bit.exe
++0000000000000000000000000000000000000000 monitor/2bd01ede5c5258d5fce2e38bc58348a62c11ce33/monitor-x64.dll
++0000000000000000000000000000000000000000 monitor/2bd01ede5c5258d5fce2e38bc58348a62c11ce33/monitor-x86.dll
++0000000000000000000000000000000000000000 monitor/e071e63a66e831163a40abc45109fdf71fee829e/inject-x64.exe
++0000000000000000000000000000000000000000 monitor/e071e63a66e831163a40abc45109fdf71fee829e/inject-x86.exe
++0000000000000000000000000000000000000000 monitor/e071e63a66e831163a40abc45109fdf71fee829e/is32bit.exe
++0000000000000000000000000000000000000000 monitor/e071e63a66e831163a40abc45109fdf71fee829e/monitor-x64.dll
++0000000000000000000000000000000000000000 monitor/e071e63a66e831163a40abc45109fdf71fee829e/monitor-x86.dll
++0000000000000000000000000000000000000000 monitor/e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b/inject-x64.exe
++0000000000000000000000000000000000000000 monitor/e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b/inject-x86.exe
++0000000000000000000000000000000000000000 monitor/e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b/is32bit.exe
++0000000000000000000000000000000000000000 monitor/e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b/monitor-x64.dll
++0000000000000000000000000000000000000000 monitor/e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b/monitor-x86.dll
++03647bcbd385a7e631b76ad41eb9bfc981b83cf1 safelist/ip.txt
++24853a355e380a0a0ade5b4ee436d13c4b405482 stuff/ttp_descriptions.json
+diff --git a/cuckoo/processing/memory.py b/cuckoo/processing/memory.py
+index d67bfaa30251..082c1b571b90 100644
+--- a/cuckoo/processing/memory.py
++++ b/cuckoo/processing/memory.py
+@@ -5,6 +5,7 @@
+ 
+ import logging
+ import os
++import re
+ import time
+ 
+ from cuckoo.common.abstracts import Processing
+@@ -58,11 +59,13 @@ except NameError as e:
+         )
+     raise
+ 
++
+ def s(o):
+     if isinstance(o, obj.NoneObject):
+         return None
+     return str(o)
+ 
++
+ class VolatilityAPI(object):
+     """ Volatility API interface."""
+ 
+@@ -960,6 +963,7 @@ class VolatilityAPI(object):
+ 
+         return dict(config={}, data=results)
+ 
++
+ class VolatilityManager(object):
+     """Handle several volatility results."""
+     PLUGINS = [
+@@ -1015,7 +1019,8 @@ class VolatilityManager(object):
+                 return False
+ 
+         if not config("memory:%s:enabled" % plugin_name):
+-            log.debug("Skipping '%s' volatility module", plugin_name)
++            log.debug("Skipping '%s' volatility module (%s)", plugin_name,
++                      self.memfile)
+             return False
+ 
+         if plugin_name not in self.vol.plugins:
+@@ -1035,8 +1040,16 @@ class VolatilityManager(object):
+             if not self.enabled(plugin_name, profiles):
+                 continue
+ 
+-            log.debug("Executing volatility '%s' module.", plugin_name)
+-            results[plugin_name] = getattr(self.vol, plugin_name)()
++            log.debug("Executing volatility '%s' module (%s)",
++                      plugin_name, self.memfile)
++            try:
++                results[plugin_name] = getattr(self.vol, plugin_name)()
++            except Exception as ex:
++                log.error("Volatlity plugin '%s' on "
++                          "file %s caused exception: %s",
++                          plugin_name, self.memfile, ex
++                          )
++                log.exception(ex)
+ 
+         self.find_taint(results)
+         self.cleanup()
+@@ -1078,14 +1091,33 @@ class VolatilityManager(object):
+                     self.memfile
+                 )
+ 
++
+ class Memory(Processing):
+     """Volatility Analyzer."""
+ 
+-    def run(self):
++    def run_volatility(self, dump_path):
+         """Run analysis.
+         @return: volatility results dict.
+         """
++        osprofile = (
++            self.machine.get("osprofile") or
++            config("memory:basic:guest_profile")
++        )
++
++        try:
++            return VolatilityManager(dump_path, osprofile).run()
++        except CuckooOperationalError as e:
++            log.error(
++                "Error running Volatility on machine '%s': %s",
++                (self.machine.get("name") or "unknown VM name"), e
++            )
++
++    def run(self):
++        """Run analysis.
++        @return: structured results.
++        """
+         self.key = "memory"
++        results = []
+ 
+         if not HAVE_VOLATILITY:
+             log.error(
+@@ -1095,29 +1127,80 @@ class Memory(Processing):
+             )
+             return
+ 
+-        if not self.memory_path or not os.path.exists(self.memory_path):
+-            log.error(
+-                "VM memory dump not found: to create VM memory dumps you "
+-                "have to enable memory_dump in cuckoo.conf!"
+-            )
+-            return
++        # Run on any memsnaps found
++        if os.path.exists(self.memsnaps_path):
++            for dmp in os.listdir(self.memsnaps_path):
++                if not dmp.endswith(".dmp"):
++                    continue
+ 
+-        if not os.path.getsize(self.memory_path):
+-            log.error(
+-                "VM memory dump empty: to properly create VM memory dumps "
+-                "you have to enable memory_dump in cuckoo.conf!"
+-            )
+-            return
++                dump_path = os.path.join(self.memsnaps_path, dmp)
+ 
+-        osprofile = (
+-            self.machine.get("osprofile") or
+-            config("memory:basic:guest_profile")
+-        )
++                if not os.path.getsize(dump_path):
++                    log.error(
++                        "VM memory dump empty: %s", dump_path)
+ 
+-        try:
+-            return VolatilityManager(self.memory_path, osprofile).run()
+-        except CuckooOperationalError as e:
++                try:
++                    ts_result = self.run_volatility(dump_path)
++                    results.append(ts_result)
++
++                    tstamp, = map(int, re.findall("(\\d+)", dmp))
++                    with open(os.path.join(self.memsnaps_path,
++                                           "vol-%05d.json" % tstamp),
++                              "w+") as fp:
++                        import json
++                        json.dump(ts_result, fp)
++                except exc.AddrSpaceError as ex:
++                    log.error(
++                        "VM memory dump has invalid address space: %s (%s)",
++                        dump_path, ex)
++                except CuckooOperationalError as ex:
++                    log.error(
++                        "VM memory dump caused and exception: %s (%s)",
++                        dump_path, ex)
++
++        # Run also on final dump
++        if not self.memory_path or not os.path.exists(self.memory_path):
+             log.error(
+-                "Error running Volatility on machine '%s': %s",
+-                (self.machine.get("name") or "unknown VM name"), e
++                "Final VM memory dump not found: to create VM memory dumps you"
++                " have to enable memory_dump in cuckoo.conf!"
++            )
++        elif not os.path.getsize(self.memory_path):
++            log.error(
++                "Final VM memory dump empty: to properly create VM memory "
++                "dumps you have to enable memory_dump in cuckoo.conf!"
+             )
++        else:
++            try:
++                final_result = self.run_volatility(self.memory_path)
++                results.append(final_result)
++
++                with open(os.path.join(os.path.dirname(self.memory_path),
++                                       "vol-final.json"),
++                          "w+") as fp:
++                    import json
++                    json.dump(final_result, fp)
++            except CuckooOperationalError as e:
++                pass
++
++        merged_result = dict()
++        for entry in results:
++            for modname in entry or []:
++                for key in entry.get(modname, []):
++                    if merged_result.get(modname, None) is None:
++                        merged_result[modname] = dict()
++                    if type(entry.get(modname).get(key)) == list:
++                        if merged_result[modname].get(key, None) is None:
++                            merged_result[modname][key] = \
++                                entry.get(modname).get(key)[:]
++                        else:
++                            merged_result[modname][key].extend(
++                                entry.get(modname).get(key))
++                    elif type(entry.get(modname).get(key)) == dict:
++                        if merged_result[modname].get(key, None) is None:
++                            merged_result[modname][key] = \
++                                entry.get(modname).get(key).copy()
++                        else:
++                            merged_result[modname][key].update(
++                                entry.get(modname).get(key))
++
++        return merged_result
+diff --git a/cuckoo/processing/static.py b/cuckoo/processing/static.py
+index e5ac96d2bbc0..7ca39aad77db 100644
+--- a/cuckoo/processing/static.py
++++ b/cuckoo/processing/static.py
+@@ -271,24 +271,28 @@ class PortableExecutable(object):
+         ret = []
+         p7 = M2Crypto.SMIME.PKCS7(pkcs7_obj)
+         for cert in p7.get0_signers(M2Crypto.X509.X509_Stack()) or []:
+-            subject = cert.get_subject()
+-            ret.append({
+-                "serial_number": "%032x" % cert.get_serial_number(),
+-                "common_name": subject.CN,
+-                "country": subject.C,
+-                "locality": subject.L,
+-                "organization": subject.O,
+-                "email": subject.Email,
+-                "sha1": "%040x" % int(cert.get_fingerprint("sha1"), 16),
+-                "md5": "%032x" % int(cert.get_fingerprint("md5"), 16),
+-            })
++            try:
++                subject = cert.get_subject()
++                ret.append({
++                    "serial_number": "%032x" % cert.get_serial_number(),
++                    "common_name": subject.CN,
++                    "country": subject.C,
++                    "locality": subject.L,
++                    "organization": subject.O,
++                    "email": subject.Email,
++                    "sha1": "%040x" % int(cert.get_fingerprint("sha1"), 16),
++                    "md5": "%032x" % int(cert.get_fingerprint("md5"), 16),
++                })
+ 
+-            if subject.GN and subject.SN:
+-                ret[-1]["full_name"] = "%s %s" % (subject.GN, subject.SN)
+-            elif subject.GN:
+-                ret[-1]["full_name"] = subject.GN
+-            elif subject.SN:
+-                ret[-1]["full_name"] = subject.SN
++                if subject.GN and subject.SN:
++                    ret[-1]["full_name"] = "%s %s" % (subject.GN, subject.SN)
++                elif subject.GN:
++                    ret[-1]["full_name"] = subject.GN
++                elif subject.SN:
++                    ret[-1]["full_name"] = subject.SN
++            except Exception as ex:
++                log.error("Exception processing X.509 cert")
++                log.exception(ex)
+ 
+         return ret
+ 
+diff --git a/stuff/compare_vol.py b/stuff/compare_vol.py
+new file mode 100755
+index 000000000000..51c45fcb0a26
+--- /dev/null
++++ b/stuff/compare_vol.py
+@@ -0,0 +1,323 @@
++#!env python3
++
++import argparse
++import json
++import logging
++import os
++import sys
++import itertools
++
++from deepdiff import DeepDiff
++from deepdiff.helper import CannotCompare
++from pprint import pprint
++
++
++logging.basicConfig()
++log = logging.getLogger(os.path.basename(sys.argv[0]))
++# log.setLevel(logging.INFO)
++log.setLevel(logging.DEBUG)
++
++
++VOL_KEYS = ['psxview', 'getsids', 'timers', 'callbacks',
++            'netscan', 'yarascan', 'handles', 'devicetree',
++            'privs', 'pslist', 'ssdt', 'malfind', 'modscan',
++            'svcscan', 'dlllist', 'mutantscan', 'ldrmodules']
++
++
++def try_load_json(file_path):
++
++    json_data = None
++
++    try:
++        with open(file_path, 'r') as fp:
++            json_data = json.load(fp)
++    except IOError as ex:
++        log.debug("Failed to open file %s: %s",
++                  file_path, str(ex))
++        raise ex
++    except Exception as ex:
++        log.debug("Error loading JSON from %s: %s",
++                  file_path, str(ex))
++
++    if json_data is None:
++        raise ValueError("Invalid data in JSON file %s" % file_path)
++
++    if not isinstance(json_data, dict):
++        raise ValueError("Error JSON from %s is not a dictionary" % file_path)
++
++    return json_data
++
++
++def dict_hash(d):
++    return hash(tuple(sorted(
++        [(a, tuple(b) if isinstance(b, (list, dict)) else b)
++         for a, b in d.items()])))
++
++
++def compare_json_list(a, b, key_chain=list()):
++    assert isinstance(a, list)
++    assert isinstance(b, list)
++
++    if len(a) != len(b):
++        log.debug("%s - Lengths differ %d != %d",
++                  ":".join(key_chain), len(a), len(b))
++
++    if len(a) == 0:
++        print("A is empty")
++        return
++
++    if len(b) == 0:
++        print("B is empty")
++        return
++
++    if isinstance(a[0], dict):
++        for a_index in range(len(a)):
++            for b_index in range(len(b)):
++                assert isinstance(a[a_index], dict)
++                assert isinstance(b[b_index], dict)
++
++                if dict_hash(a[a_index]) != dict_hash(b[b_index]):
++                    print("A[%d] != B[%d]" % (a_index, b_index))
++
++
++
++
++
++def compare_json_dict(a, b, key_chain=list()):
++    assert isinstance(a, dict)
++    assert isinstance(b, dict)
++
++    log.debug("Key chain: %s", key_chain)
++    a_keys = set(a.keys())
++    b_keys = set(b.keys())
++
++    print(a_keys)
++    return
++
++    only_a = a_keys - b_keys
++    only_b = b_keys - a_keys
++
++    if only_a:
++        print("Only in a: %s" % str(only_a))
++
++    if only_b:
++        print("Only in b: %s" % str(only_b))
++
++    for key in a.keys():
++        if key not in b:
++            log.debug("Key %s is not in b", key)
++            continue
++
++        if not isinstance(a[key], type(b[key])):
++            log.error("Types for key %s differs", key)
++            continue
++
++        if isinstance(a[key], dict):
++            compare_json_dict(a[key], b[key], key_chain + [key])
++        elif isinstance(a[key], list):
++            compare_json_list(a[key], b[key], key_chain + [key])
++        else:
++            # Directly compare values
++            if a[key] != b[key]:
++                print("%s differs: %s != %s" %
++                      (",".join(key_chain), a[key], b[key]))
++
++
++def compare_by_field(field):
++
++    def compare_func(x, y, level=None):
++        try:
++            return x[field] == y[field]
++        except Exception:
++            raise CannotCompare() from None
++
++    return compare_func
++
++
++def compare_by_fields(fields):
++
++    def compare_func(x, y, level=None):
++        try:
++            matched = True
++            for field in fields:
++                print("x[%s] (%s) != y[%s] (%s) => %s " % (
++                    field, x[field],
++                    field, y[field],
++                    x[field] != y[field]))
++                if x[field] != y[field]:
++                    matched = False
++                    break
++            return matched
++        except Exception as ex:
++            raise CannotCompare() from None
++
++    return compare_func
++
++
++def compare_list(a, b, compare_func):
++
++    added = b[:]
++    deleted = list()
++    both = list()
++
++    for _a in a:
++        seen = None
++        for _b in b:
++            if compare_func(_a, _b):
++                seen = _b
++                break
++
++        if seen is None:
++            deleted.append(_a)
++        else:
++            both.append(_a)
++            try:
++                added.remove(seen)
++            except ValueError:
++                # Sometimes seems to need to remove original, not seen value??
++                try:
++                    added.remove(_a)
++                except ValueError:
++                    pass
++
++    return {'added': added, 'deleted': deleted, 'both': both}
++
++
++def proc_is_hidden(pinfo):
++
++    CONDS = [
++        {"pslist": "True",
++         "psscan": "True",
++         "thrdproc": "False"},
++        {"pslist": "False",
++         "psscan": "False"}
++        ]
++
++    is_hidden = True
++    for cond in CONDS:
++        is_hidden = True
++        for k, v in cond.items():
++            if pinfo.get(k, None) is None or pinfo.get(k) != v:
++                is_hidden = False
++                break
++        if is_hidden:
++            break
++
++    return is_hidden
++
++
++def psxview_hidden_procs(info):
++
++    hidden = list()
++    psxview = info.get('psxview', {})
++    for proc in psxview.get('data', []):
++        if proc_is_hidden(proc):
++            hidden.append(proc)
++
++    return hidden
++
++
++def compare_psxview(a,b):
++    '''
++    Looks something like:
++        {
++        "config": {
++            "filter": false
++        },
++        "data": [
++            {
++            "csrss": "False",
++            "deskthrd": "False",
++            "process_id": 1792,
++            "process_name": "svchost.exe",
++            "pslist": "False",
++            "pspcid": "False",
++            "psscan": "True",
++            "session": "False",
++            "thrdproc": "False"
++            },
++            {
++            ...
++    '''
++
++    diffs = compare_list(a["data"], b["data"],
++                         compare_by_field("process_id"))
++
++    return diffs
++
++
++def compare_devicetree(a, b):
++    '''
++    Looks something like:
++        {
++        "config": {
++            "filter": true
++        },
++        "data": [
++            {
++            "devices": [
++                {
++                "device_name": "LanmanServer",
++                "device_offset": "0xfffffa800297e260",
++                "device_type": "FILE_DEVICE_NETWORK",
++                "devices_attached": []
++                }
++            ],
++            "driver_name": "\\FileSystem\\srv",
++            "driver_offset": "0x3e24c060"
++            },
++            ...
++    '''
++
++    a_devices = list(sum([x["devices"] for x in a['data']], []))
++    b_devices = list(sum([x["devices"] for x in a['data']], []))
++    diffs = compare_list(a_devices, b_devices,
++                         compare_by_fields(["device_name", "device_type"]))
++
++    return diffs
++
++
++def compare_volatility_json(a, b):
++    assert isinstance(a, dict)
++    assert isinstance(b, dict)
++
++    return {
++        'devicetree': compare_devicetree(a["devicetree"], b["devicetree"]),
++        'psxview': compare_psxview(a["psxview"], b["psxview"]),
++        'hidden_processes': psxview_hidden_procs(a) + psxview_hidden_procs(b),
++    }
++
++
++def main():
++
++    parser = argparse.ArgumentParser()
++
++    parser.add_argument(
++        "-d", "--debug", help='Enable debug log',
++        action='store_true')
++
++    parser.add_argument(
++        "files", metavar='files', type=str,
++        nargs='+', help="Files to compare")
++
++    args = parser.parse_args()
++
++    if args.debug:
++        log.setLevel(logging.DEBUG)
++
++    if len(args.files) != 2:
++        log.error("Nothing to do, no files specified")
++        sys.exit(1)
++
++    try:
++        json_data_1 = try_load_json(args.files[0])
++        json_data_2 = try_load_json(args.files[1])
++    except (ValueError, IOError) as ex:
++        log.error("Error: %s", ex)
++        sys.exit(1)
++
++    pprint(compare_volatility_json(json_data_1, json_data_2))
++    # pprint(DeepDiff(json_data_1, json_data_2, ignore_order=True))
++
++if __name__ == '__main__':
++    main()

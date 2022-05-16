@@ -1,0 +1,5803 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1046775120,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827422810112,
+        "Size": 679936,
+        "Service Key": "PEAUTH",
+        "Name": "PEAUTH",
+        "Driver Name": "\\Driver\\PEAUTH"
+      },
+      {
+        "Offset(P)": 1049909232,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827411214336,
+        "Size": 98304,
+        "Service Key": "rspndr",
+        "Name": "rspndr",
+        "Driver Name": "\\Driver\\rspndr"
+      },
+      {
+        "Offset(P)": 1050601360,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827410214912,
+        "Size": 98304,
+        "Service Key": "mpsdrv",
+        "Name": "mpsdrv",
+        "Driver Name": "\\Driver\\mpsdrv"
+      },
+      {
+        "Offset(P)": 1052612736,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827399397376,
+        "Size": 172032,
+        "Service Key": "cdrom",
+        "Name": "cdrom",
+        "Driver Name": "\\Driver\\cdrom"
+      },
+      {
+        "Offset(P)": 1057791600,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398807552,
+        "Size": 237568,
+        "Service Key": "rdyboost",
+        "Name": "\u0103\u0303\u624f\u6944\u5f41\u4957\u4854\u415f",
+        "Driver Name": "\u0001"
+      },
+      {
+        "Offset(P)": 1057848944,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398705152,
+        "Size": 311296,
+        "Service Key": "volsnap",
+        "Name": "volsnap",
+        "Driver Name": "\\Driver\\volsnap"
+      },
+      {
+        "Offset(P)": 1061316688,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391389696,
+        "Size": 1716224,
+        "Service Key": "Ntfs",
+        "Name": "Ntfs",
+        "Driver Name": "\\FileSystem\\Ntfs"
+      },
+      {
+        "Offset(P)": 1061400672,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385352192,
+        "Size": 45056,
+        "Service Key": "amdxata",
+        "Name": "amdxata",
+        "Driver Name": "\\Driver\\amdxata"
+      },
+      {
+        "Offset(P)": 1072624272,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277656711168,
+        "Size": 0,
+        "Service Key": "\\Driver\\WMIxWDM",
+        "Name": "WMIxWDM",
+        "Driver Name": "\\Driver\\WMIxWDM"
+      },
+      {
+        "Offset(P)": 1073053008,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827388444672,
+        "Size": 671744,
+        "Service Key": "Wdf01000",
+        "Name": "Wdf01000",
+        "Driver Name": "\uff01\uffff\uffff\uffff\uffff\uffff\uffff\uffff\t\u0202\u6f49\u6343\uffff\uffff\uffff\uffff"
+      },
+      {
+        "Offset(P)": 1073066928,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827387572224,
+        "Size": 86016,
+        "Service Key": "partmgr",
+        "Name": "partmgr",
+        "Driver Name": "\\Driver\\partmgr"
+      },
+      {
+        "Offset(P)": 1073074848,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827384991744,
+        "Size": 106496,
+        "Service Key": "mountmgr",
+        "Name": "mountmgr",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073076416,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827386982400,
+        "Size": 32768,
+        "Service Key": "intelide",
+        "Name": "intelide",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073582544,
+        "Pointers": 70,
+        "Handles": 0,
+        "Start": 18446735277656711168,
+        "Size": 0,
+        "Service Key": "\\Driver\\PnpManager",
+        "Name": "PnpManager",
+        "Driver Name": "\\Driver\\PnpManager"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1045038048,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827416551424,
+        "Size": 315392,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\u7c00\u0285\uf800\uffff\u3c5f\u00f4\uf8a0\uffff\ubda0\u0242\ufa80\uffff\u0b10\u0240\ufa80\uffff\ufd50\u0244\ufa80\uffff"
+      },
+      {
+        "Offset(P)": 1046775120,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827422810112,
+        "Size": 679936,
+        "Service Key": "PEAUTH",
+        "Name": "",
+        "Driver Name": "\\Driver\\PEAUTH"
+      },
+      {
+        "Offset(P)": 1049909232,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827411214336,
+        "Size": 98304,
+        "Service Key": "rspndr",
+        "Name": "\u3eb0\u0013\uf8a0\uffff\u3160\u0320",
+        "Driver Name": "\\Driver\\rspndr"
+      },
+      {
+        "Offset(P)": 1050601360,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827410214912,
+        "Size": 98304,
+        "Service Key": "mpsdrv",
+        "Name": "\u0002",
+        "Driver Name": "\\Driver\\mpsdrv"
+      },
+      {
+        "Offset(P)": 1057791600,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398807552,
+        "Size": 237568,
+        "Service Key": "rdyboost",
+        "Name": "",
+        "Driver Name": "\u0001"
+      },
+      {
+        "Offset(P)": 1057848944,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398705152,
+        "Size": 311296,
+        "Service Key": "volsnap",
+        "Name": "",
+        "Driver Name": "\\Driver\\volsnap"
+      },
+      {
+        "Offset(P)": 1061316688,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391389696,
+        "Size": 1716224,
+        "Service Key": "Ntfs",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Ntfs"
+      },
+      {
+        "Offset(P)": 1061400672,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385352192,
+        "Size": 45056,
+        "Service Key": "amdxata",
+        "Name": "",
+        "Driver Name": "\\Driver\\amdxata"
+      },
+      {
+        "Offset(P)": 1072624272,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277656711168,
+        "Size": 0,
+        "Service Key": "\\Driver\\WMIxWDM",
+        "Name": "",
+        "Driver Name": "\\Driver\\WMIxWDM"
+      },
+      {
+        "Offset(P)": 1073075680,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827384926208,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "ycles1\u4d10\u5b89",
+        "Driver Name": "\u06c0\u026b\ufa80\uffff\u06c0\u026b\ufa80\uffff\uc400\u00c5\ufa80\uffff\uc400\u00c5\ufa80\uffff"
+      },
+      {
+        "Offset(P)": 1073077104,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827387535360,
+        "Size": 376832,
+        "Service Key": "\u0001",
+        "Name": "\u6330",
+        "Driver Name": "\u1c70\u00c6\ufa80\uffff\u0001"
+      }
+    ]
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [
+      {
+        "Offset(P)": 1045141888,
+        "Name": "runonce.exe",
+        "PID": 1896,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1045433136,
+        "Name": "pythonw.exe",
+        "PID": 1540,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-28 18:56:41 UTC+0000"
+      }
+    ]
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": [
+      {
+        "old": {
+          "Offset(P)": 53999152,
+          "Name": "??@\u0002\u0004?W\u000b??+",
+          "PID": 3893057418,
+          "pslist": "False",
+          "psscan": "False",
+          "thrdproc": "False",
+          "pspcid": "False",
+          "csrss": "True",
+          "session": "False",
+          "deskthrd": "False",
+          "ExitTime": "-"
+        },
+        "new": {
+          "Offset(P)": 53999152,
+          "Name": "??@\u0002\u0004?W\u000b??+",
+          "PID": 3893057418,
+          "pslist": "False",
+          "psscan": "False",
+          "thrdproc": "False",
+          "pspcid": "False",
+          "csrss": "True",
+          "session": "False",
+          "deskthrd": "False",
+          "ExitTime": "-"
+        }
+      },
+      {
+        "old": {
+          "Offset(P)": 1048819888,
+          "Name": "",
+          "PID": 1,
+          "pslist": "False",
+          "psscan": "False",
+          "thrdproc": "True",
+          "pspcid": "False",
+          "csrss": "False",
+          "session": "False",
+          "deskthrd": "False",
+          "ExitTime": ""
+        },
+        "new": {
+          "Offset(P)": 1048819888,
+          "Name": "",
+          "PID": 1,
+          "pslist": "False",
+          "psscan": "False",
+          "thrdproc": "True",
+          "pspcid": "False",
+          "csrss": "False",
+          "session": "False",
+          "deskthrd": "False",
+          "ExitTime": ""
+        }
+      }
+    ]
+  },
+  "dlllist": {
+    "added": [
+      {
+        "Pid": 488,
+        "Base": 4289462272,
+        "Size": 49152,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\system32\\lsass.exe"
+      },
+      {
+        "Pid": 488,
+        "Base": 1996226560,
+        "Size": 1740800,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 1993998336,
+        "Size": 1175552,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\kernel32.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791748116480,
+        "Size": 438272,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791781212160,
+        "Size": 651264,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\msvcrt.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791782981632,
+        "Size": 1232896,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791744970752,
+        "Size": 45056,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\SspiSrv.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791743332352,
+        "Size": 1470464,
+        "LoadCount": 19,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\lsasrv.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791760306176,
+        "Size": 126976,
+        "LoadCount": 156,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791745036288,
+        "Size": 151552,
+        "LoadCount": 19,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\SspiCli.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791761420288,
+        "Size": 897024,
+        "LoadCount": 23,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\ADVAPI32.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 1995177984,
+        "Size": 1024000,
+        "LoadCount": 60,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USER32.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791752966144,
+        "Size": 421888,
+        "LoadCount": 48,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\GDI32.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791760240640,
+        "Size": 57344,
+        "LoadCount": 15,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 488,
+        "Base": 8791753818112,
+        "Size": 823296,
+        "LoadCount": 15,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USP10.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 8791742414848,
+        "Size": 774144,
+        "LoadCount": 13,
+        "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+        "Path": "C:\\Windows\\system32\\SAMSRV.dll"
+      },
+      {
+        "Pid": 488,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 648,
+        "Base": 12,
+        "Size": 7078004,
+        "LoadCount": 115,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 732,
+        "Base": 4292280320,
+        "Size": 45056,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\system32\\LogonUI.exe"
+      },
+      {
+        "Pid": 732,
+        "Base": 1996226560,
+        "Size": 1740800,
+        "LoadCount": 65535,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 1993998336,
+        "Size": 1175552,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\kernel32.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791748116480,
+        "Size": 438272,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791781212160,
+        "Size": 651264,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\msvcrt.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791750737920,
+        "Size": 2109440,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\ole32.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791752966144,
+        "Size": 421888,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\GDI32.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 1995177984,
+        "Size": 1024000,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USER32.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791760240640,
+        "Size": 57344,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\LPK.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791753818112,
+        "Size": 823296,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USP10.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 8791782981632,
+        "Size": 1232896,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+      },
+      {
+        "Pid": 732,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 744,
+        "Base": 8791781212160,
+        "Size": 651264,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\msvcrt.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791760306176,
+        "Size": 126976,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791782981632,
+        "Size": 1232896,
+        "LoadCount": 65535,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791750737920,
+        "Size": 2109440,
+        "LoadCount": 13,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\ole32.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791752966144,
+        "Size": 421888,
+        "LoadCount": 62,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\GDI32.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 1995177984,
+        "Size": 1024000,
+        "LoadCount": 70,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USER32.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791760240640,
+        "Size": 57344,
+        "LoadCount": 14,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\LPK.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791753818112,
+        "Size": 823296,
+        "LoadCount": 14,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\USP10.dll"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791757160448,
+        "Size": 188416,
+        "LoadCount": 2,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\IMM32.DLL"
+      },
+      {
+        "Pid": 744,
+        "Base": 8791781867520,
+        "Size": 1085440,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+        "Path": "C:\\Windows\\system32\\MSCTF.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791777083392,
+        "Size": 1929216,
+        "LoadCount": 5,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "C:\\Windows\\system32\\SETUPAPI.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791747985408,
+        "Size": 106496,
+        "LoadCount": 5,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "C:\\Windows\\system32\\DEVOBJ.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791747723264,
+        "Size": 237568,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "C:\\Windows\\system32\\WINTRUST.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791749230592,
+        "Size": 1470464,
+        "LoadCount": 3,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "C:\\Windows\\system32\\CRYPT32.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791747395584,
+        "Size": 61440,
+        "LoadCount": 6,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "C:\\Windows\\system32\\MSASN1.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791707090944,
+        "Size": 1122304,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "c:\\windows\\system32\\schedsvc.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791734812672,
+        "Size": 53248,
+        "LoadCount": 3,
+        "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+        "Path": "c:\\windows\\system32\\pcwum.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791689527296,
+        "Size": 81920,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\wbem\\wbemsvc.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791688282112,
+        "Size": 540672,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\netcfgx.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791687168000,
+        "Size": 438272,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\hnetcfg.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791685595136,
+        "Size": 475136,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\System32\\netprofm.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791736975360,
+        "Size": 372736,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\DNSAPI.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791691821056,
+        "Size": 61440,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\wbem\\wbemprox.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791733501952,
+        "Size": 73728,
+        "LoadCount": 5,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\devrtl.DLL"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791685529600,
+        "Size": 32768,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\rasadhlp.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791685332992,
+        "Size": 155648,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\wbem\\wmiutils.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791684349952,
+        "Size": 106496,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 812,
+        "Base": 8791683825664,
+        "Size": 471040,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 812,
+        "Base": 8791721115648,
+        "Size": 352256,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\system32\\UxTheme.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791678582784,
+        "Size": 49152,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+        "Path": "C:\\Windows\\System32\\npmproxy.dll"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791745691648,
+        "Size": 593920,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:23 UTC+0000",
+        "Path": "\u01b6"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791670718464,
+        "Size": 770048,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:23 UTC+0000",
+        "Path": ""
+      },
+      {
+        "Pid": 812,
+        "Base": 8791670325248,
+        "Size": 90112,
+        "LoadCount": 2,
+        "LoadTime": "2022-04-28 18:57:23 UTC+0000",
+        "Path": "C:\\Windows\\system32\\NCObjAPI.DLL"
+      },
+      {
+        "Pid": 812,
+        "Base": 8791668621312,
+        "Size": 516096,
+        "LoadCount": 1,
+        "LoadTime": "2022-04-28 18:57:23 UTC+0000",
+        "Path": "C:\\Windows\\system32\\wbem\\wbemess.dll"
+      }
+    ],
+    "deleted": [
+      {
+        "Pid": 488,
+        "Base": 0,
+        "Size": 0,
+        "LoadCount": 0,
+        "LoadTime": "",
+        "Path": "Error reading PEB for pid"
+      }
+    ],
+    "both": [
+      {
+        "old": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 256,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 1234305024,
+          "Size": 24576,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\csrss.exe"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 1234305024,
+          "Size": 24576,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\csrss.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791747264512,
+          "Size": 77824,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CSRSRV.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791747264512,
+          "Size": 77824,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CSRSRV.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791747133440,
+          "Size": 69632,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\basesrv.DLL"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791747133440,
+          "Size": 69632,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\basesrv.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791746871296,
+          "Size": 229376,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\winsrv.DLL"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791746871296,
+          "Size": 229376,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\winsrv.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 11,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 11,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 12,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 12,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 69,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 69,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 219,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 219,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LPK.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LPK.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791746805760,
+          "Size": 49152,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\sxssrv.DLL"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791746805760,
+          "Size": 49152,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\sxssrv.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791745691648,
+          "Size": 593920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\sxs.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791745691648,
+          "Size": 593920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\sxs.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 392,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        },
+        "new": {
+          "Pid": 392,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 4291690496,
+          "Size": 339968,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\services.exe"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 4291690496,
+          "Size": 339968,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\services.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791745036288,
+          "Size": 151552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SspiCli.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791745036288,
+          "Size": 151552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SspiCli.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791746740224,
+          "Size": 61440,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\profapi.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791746740224,
+          "Size": 61440,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\profapi.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:12 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 480,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 496,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 496,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791733764096,
+          "Size": 421888,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\umpnpmgr.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791733764096,
+          "Size": 421888,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\umpnpmgr.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791733633024,
+          "Size": 126976,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\SPINF.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791733633024,
+          "Size": 126976,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\SPINF.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 72,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 72,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 65,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 65,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 14,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 14,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 14,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 14,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791733501952,
+          "Size": 73728,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\DEVRTL.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791733501952,
+          "Size": 73728,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "c:\\windows\\system32\\DEVRTL.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791757160448,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791757160448,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 8791781867520,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791781867520,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 584,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 584,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 14,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 744,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\System32\\svchost.exe"
+        },
+        "new": {
+          "Pid": 744,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\System32\\svchost.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 744,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 744,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 744,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 744,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 744,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 744,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:13 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 744,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 744,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 788,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 788,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 4287365120,
+          "Size": 45056,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\system32\\svchost.exe"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 1996226560,
+          "Size": 1740800,
+          "LoadCount": 65535,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 1993998336,
+          "Size": 1175552,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\kernel32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791748116480,
+          "Size": 438272,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\KERNELBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791781212160,
+          "Size": 651264,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\msvcrt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791760306176,
+          "Size": 126976,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\SYSTEM32\\sechost.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791782981632,
+          "Size": 1232896,
+          "LoadCount": 65535,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RPCRT4.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791750737920,
+          "Size": 2109440,
+          "LoadCount": 83,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791750737920,
+          "Size": 2109440,
+          "LoadCount": 86,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ole32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 328,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791752966144,
+          "Size": 421888,
+          "LoadCount": 345,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\GDI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 369,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 1995177984,
+          "Size": 1024000,
+          "LoadCount": 387,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USER32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 73,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LPK.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791760240640,
+          "Size": 57344,
+          "LoadCount": 77,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LPK.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 73,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791753818112,
+          "Size": 823296,
+          "LoadCount": 77,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\USP10.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791757160448,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791757160448,
+          "Size": 188416,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\IMM32.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791781867520,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791781867520,
+          "Size": 1085440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\MSCTF.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791745626112,
+          "Size": 61440,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTBASE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791761420288,
+          "Size": 897024,
+          "LoadCount": 67,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ADVAPI32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791761420288,
+          "Size": 897024,
+          "LoadCount": 67,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ADVAPI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791723671552,
+          "Size": 118784,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\mmcss.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791723671552,
+          "Size": 118784,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\mmcss.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791723212800,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\AVRT.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791723212800,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\AVRT.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791717314560,
+          "Size": 794624,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\gpsvc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791717314560,
+          "Size": 794624,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\gpsvc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791733239808,
+          "Size": 110592,
+          "LoadCount": 11,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\GPAPI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791733239808,
+          "Size": 110592,
+          "LoadCount": 11,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\GPAPI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791753424896,
+          "Size": 335872,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WLDAP32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791753424896,
+          "Size": 335872,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WLDAP32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791742349312,
+          "Size": 45056,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\Secur32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791742349312,
+          "Size": 45056,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\Secur32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791745036288,
+          "Size": 151552,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\SSPICLI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791745036288,
+          "Size": 151552,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\SSPICLI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791752900608,
+          "Size": 32768,
+          "LoadCount": 52,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\NSI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791752900608,
+          "Size": 32768,
+          "LoadCount": 52,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "C:\\Windows\\system32\\NSI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791744905216,
+          "Size": 40960,
+          "LoadCount": 10,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\SYSNTFY.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791744905216,
+          "Size": 40960,
+          "LoadCount": 10,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\SYSNTFY.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791716003840,
+          "Size": 86016,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\nlaapi.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791716003840,
+          "Size": 86016,
+          "LoadCount": 9,
+          "LoadTime": "2022-04-28 18:57:14 UTC+0000",
+          "Path": "c:\\windows\\system32\\nlaapi.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791715545088,
+          "Size": 225280,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\profsvc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791715545088,
+          "Size": 225280,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\profsvc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791779049472,
+          "Size": 880640,
+          "LoadCount": 48,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\OLEAUT32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791779049472,
+          "Size": 880640,
+          "LoadCount": 50,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\OLEAUT32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791733370880,
+          "Size": 122880,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\USERENV.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791733370880,
+          "Size": 122880,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\USERENV.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791746740224,
+          "Size": 61440,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\profapi.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791746740224,
+          "Size": 61440,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\profapi.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791776559104,
+          "Size": 462848,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SHLWAPI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791776559104,
+          "Size": 462848,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SHLWAPI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791716134912,
+          "Size": 102400,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\ATL.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791716134912,
+          "Size": 102400,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\ATL.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791713579008,
+          "Size": 65536,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\themeservice.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791713579008,
+          "Size": 65536,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "c:\\windows\\system32\\themeservice.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791746347008,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RpcRtRemote.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791746347008,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RpcRtRemote.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791746478080,
+          "Size": 249856,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WINSTA.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791746478080,
+          "Size": 249856,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WINSTA.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791759585280,
+          "Size": 626688,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CLBCatQ.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791759585280,
+          "Size": 626688,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CLBCatQ.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791713120256,
+          "Size": 49152,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dsrole.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791713120256,
+          "Size": 49152,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dsrole.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791738941440,
+          "Size": 94208,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTSP.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791738941440,
+          "Size": 94208,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:15 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CRYPTSP.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791712595968,
+          "Size": 45056,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:16 UTC+0000",
+          "Path": "C:\\Windows\\system32\\slc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791712595968,
+          "Size": 45056,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:16 UTC+0000",
+          "Path": "C:\\Windows\\system32\\slc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791735795712,
+          "Size": 290816,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:16 UTC+0000",
+          "Path": "C:\\Windows\\system32\\rsaenh.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791735795712,
+          "Size": 290816,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:16 UTC+0000",
+          "Path": "C:\\Windows\\system32\\rsaenh.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791710826496,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:18 UTC+0000",
+          "Path": "c:\\windows\\system32\\sens.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791710826496,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:18 UTC+0000",
+          "Path": "c:\\windows\\system32\\sens.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791760437248,
+          "Size": 315392,
+          "LoadCount": 30,
+          "LoadTime": "2022-04-28 18:57:18 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WS2_32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791760437248,
+          "Size": 315392,
+          "LoadCount": 30,
+          "LoadTime": "2022-04-28 18:57:18 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WS2_32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791708401664,
+          "Size": 385024,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\shsvcs.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791708401664,
+          "Size": 385024,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\shsvcs.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791747461120,
+          "Size": 221184,
+          "LoadCount": 27,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CFGMGR32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791747461120,
+          "Size": 221184,
+          "LoadCount": 27,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CFGMGR32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791777083392,
+          "Size": 1929216,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791747985408,
+          "Size": 106496,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791747723264,
+          "Size": 237568,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791749230592,
+          "Size": 1470464,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791747395584,
+          "Size": 61440,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791707090944,
+          "Size": 1122304,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791734812672,
+          "Size": 53248,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791762337792,
+          "Size": 14188544,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SHELL32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791762337792,
+          "Size": 14188544,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SHELL32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706959872,
+          "Size": 90112,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\NETAPI32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706959872,
+          "Size": 90112,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\NETAPI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706894336,
+          "Size": 49152,
+          "LoadCount": 7,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\netutils.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706894336,
+          "Size": 49152,
+          "LoadCount": 7,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\netutils.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791741104128,
+          "Size": 143360,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\srvcli.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791741104128,
+          "Size": 143360,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\srvcli.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706763264,
+          "Size": 86016,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\wkscli.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706763264,
+          "Size": 86016,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\wkscli.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791741300736,
+          "Size": 446464,
+          "LoadCount": 13,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\wevtapi.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791741300736,
+          "Size": 446464,
+          "LoadCount": 13,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\wevtapi.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791740841984,
+          "Size": 192512,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\AUTHZ.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791740841984,
+          "Size": 192512,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\AUTHZ.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791734222848,
+          "Size": 233472,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\UBPM.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791734222848,
+          "Size": 233472,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\UBPM.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706697728,
+          "Size": 40960,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\ktmw32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706697728,
+          "Size": 40960,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\ktmw32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791713185792,
+          "Size": 217088,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\XmlLite.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791713185792,
+          "Size": 217088,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "c:\\windows\\system32\\XmlLite.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706304512,
+          "Size": 352256,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\FVEAPI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706304512,
+          "Size": 352256,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\FVEAPI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706173440,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\FVECERTS.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706173440,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\FVECERTS.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791736778752,
+          "Size": 196608,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LOGONCLI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791736778752,
+          "Size": 196608,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\LOGONCLI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791734747136,
+          "Size": 40960,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\credssp.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791734747136,
+          "Size": 40960,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\credssp.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791706107904,
+          "Size": 61440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wiarpc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706107904,
+          "Size": 61440,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wiarpc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791705583616,
+          "Size": 487424,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\taskcomp.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791705583616,
+          "Size": 487424,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\taskcomp.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791731404800,
+          "Size": 49152,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VERSION.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791731404800,
+          "Size": 49152,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VERSION.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791705387008,
+          "Size": 184320,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ntmarta.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791705387008,
+          "Size": 184320,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ntmarta.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791738548224,
+          "Size": 348160,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\mswsock.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791738548224,
+          "Size": 348160,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\mswsock.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791732256768,
+          "Size": 28672,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\System32\\wshtcpip.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791732256768,
+          "Size": 28672,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\System32\\wshtcpip.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791738482688,
+          "Size": 28672,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\System32\\wship6.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791738482688,
+          "Size": 28672,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\System32\\wship6.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791740055552,
+          "Size": 204800,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\netjoin.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791740055552,
+          "Size": 204800,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\netjoin.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791710957568,
+          "Size": 69632,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WTSAPI32.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791710957568,
+          "Size": 69632,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\WTSAPI32.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791724523520,
+          "Size": 2048000,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791721508864,
+          "Size": 1228800,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\PROPSYS.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791721508864,
+          "Size": 1228800,
+          "LoadCount": 4,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": "C:\\Windows\\system32\\PROPSYS.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791702306816,
+          "Size": 872448,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\ikeext.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791702306816,
+          "Size": 872448,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\ikeext.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791709253632,
+          "Size": 339968,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\fwpuclnt.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791709253632,
+          "Size": 339968,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\fwpuclnt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791700668416,
+          "Size": 262144,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\wbem\\wmisvc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791700668416,
+          "Size": 262144,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\wbem\\wmisvc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791698046976,
+          "Size": 548864,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbemcomn.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791698046976,
+          "Size": 548864,
+          "LoadCount": 15,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbemcomn.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791697129472,
+          "Size": 249856,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\srvsvc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791697129472,
+          "Size": 249856,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\srvsvc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791710367744,
+          "Size": 159744,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\IPHLPAPI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791710367744,
+          "Size": 159744,
+          "LoadCount": 8,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\IPHLPAPI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791710302208,
+          "Size": 45056,
+          "LoadCount": 10,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\WINNSI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791710302208,
+          "Size": 45056,
+          "LoadCount": 10,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\WINNSI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791696932864,
+          "Size": 151552,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\browser.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791696932864,
+          "Size": 151552,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\browser.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791740514304,
+          "Size": 319488,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ncrypt.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791740514304,
+          "Size": 319488,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\ncrypt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791740317696,
+          "Size": 139264,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\bcrypt.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791740317696,
+          "Size": 139264,
+          "LoadCount": 6,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\bcrypt.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791735009280,
+          "Size": 311296,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\bcryptprimitives.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791735009280,
+          "Size": 311296,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\bcryptprimitives.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791708794880,
+          "Size": 69632,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dhcpcsvc6.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791708794880,
+          "Size": 69632,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dhcpcsvc6.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791708270592,
+          "Size": 98304,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dhcpcsvc.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791708270592,
+          "Size": 98304,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\dhcpcsvc.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791700930560,
+          "Size": 32768,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SSCORE.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791700930560,
+          "Size": 32768,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SSCORE.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791693131776,
+          "Size": 598016,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\iphlpsvc.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791693131776,
+          "Size": 598016,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\iphlpsvc.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791731470336,
+          "Size": 765952,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\FirewallAPI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791731470336,
+          "Size": 765952,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\FirewallAPI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791692541952,
+          "Size": 69632,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\rtutils.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791692541952,
+          "Size": 69632,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\rtutils.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791692214272,
+          "Size": 270336,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\sqmapi.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791692214272,
+          "Size": 270336,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\sqmapi.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791691886592,
+          "Size": 290816,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\WDSCORE.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791691886592,
+          "Size": 290816,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:20 UTC+0000",
+          "Path": "c:\\windows\\system32\\WDSCORE.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791691493376,
+          "Size": 327680,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CLUSAPI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791691493376,
+          "Size": 327680,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\CLUSAPI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791742218240,
+          "Size": 81920,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\cryptdll.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791742218240,
+          "Size": 81920,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\cryptdll.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791691362304,
+          "Size": 102400,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RESUTILS.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791691362304,
+          "Size": 102400,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\RESUTILS.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791695163392,
+          "Size": 1769472,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VSSAPI.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791695163392,
+          "Size": 1769472,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VSSAPI.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791694770176,
+          "Size": 94208,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VssTrace.DLL"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791694770176,
+          "Size": 94208,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\VssTrace.DLL"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791693000704,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\samcli.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791693000704,
+          "Size": 81920,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\samcli.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791722754048,
+          "Size": 118784,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SAMLIB.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791722754048,
+          "Size": 118784,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\SAMLIB.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791712661504,
+          "Size": 421888,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\es.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791712661504,
+          "Size": 421888,
+          "LoadCount": 2,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\es.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791690117120,
+          "Size": 1241088,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\wbemcore.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791690117120,
+          "Size": 1241088,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\wbemcore.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791689658368,
+          "Size": 454656,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\esscli.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791689658368,
+          "Size": 454656,
+          "LoadCount": 3,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\esscli.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791693787136,
+          "Size": 925696,
+          "LoadCount": 7,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\FastProx.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791693787136,
+          "Size": 925696,
+          "LoadCount": 7,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\wbem\\FastProx.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 8791692804096,
+          "Size": 159744,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\NTDSAPI.dll"
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791692804096,
+          "Size": 159744,
+          "LoadCount": 5,
+          "LoadTime": "2022-04-28 18:57:21 UTC+0000",
+          "Path": "C:\\Windows\\system32\\NTDSAPI.dll"
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 812,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "1970-01-01 00:00:00 UTC+0000",
+          "Path": ""
+        },
+        "new": {
+          "Pid": 812,
+          "Base": 8791706238976,
+          "Size": 36864,
+          "LoadCount": 1,
+          "LoadTime": "2022-04-28 18:57:19 UTC+0000",
+          "Path": ""
+        }
+      },
+      {
+        "old": {
+          "Pid": 0,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 0,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "added": [
+      {
+        "Offset(P)": 1047497824,
+        "Proto": "UDPv6",
+        "LocalAddr": "40c1:ad01:80fa:ffff:40c1:ad01:80fa:ffff:546",
+        "ForeignAddr": "*:*",
+        "State": "",
+        "PID": 744,
+        "Owner": "svchost.exe",
+        "Created": "2022-04-28 18:57:23 UTC+0000"
+      }
+    ],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [
+      {
+        "Offset(P)": 1050427040,
+        "Name": "bowser.sys",
+        "Base": 18446735827410092032,
+        "Size": 122880,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\bowser.sys"
+      },
+      {
+        "Offset(P)": 1052903472,
+        "Name": "Npfs.SYS",
+        "Base": 18446735827395342336,
+        "Size": 69632,
+        "File": "\\SystemRoot\\System32\\Drivers\\Npfs.SYS"
+      },
+      {
+        "Offset(P)": 1052905072,
+        "Name": "tdx.sys",
+        "Base": 18446735827390402560,
+        "Size": 139264,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys"
+      }
+    ],
+    "deleted": []
+  },
+  "handles": {
+    "added": [
+      {
+        "Offset(V)": 18446735964811759520,
+        "Pid": 4,
+        "Handle": 20,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964811756304,
+        "Pid": 4,
+        "Handle": 68,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\WMI\\SECURITY"
+      },
+      {
+        "Offset(V)": 18446738026428343408,
+        "Pid": 4,
+        "Handle": 84,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000002"
+      },
+      {
+        "Offset(V)": 18446738026428314000,
+        "Pid": 4,
+        "Handle": 96,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog.blf"
+      },
+      {
+        "Offset(V)": 18446738026427191376,
+        "Pid": 4,
+        "Handle": 136,
+        "Access": 1179785,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\System Volume Information\\{20173798-96c9-11ec-b30b-525400123456}{3808876b-c176-4e48-b7ae-04046e6cc752}"
+      },
+      {
+        "Offset(V)": 18446735964812982464,
+        "Pid": 4,
+        "Handle": 200,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\23"
+      },
+      {
+        "Offset(V)": 18446735964811817856,
+        "Pid": 4,
+        "Handle": 208,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\1"
+      },
+      {
+        "Offset(V)": 18446735964813569952,
+        "Pid": 4,
+        "Handle": 224,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\PCW\\SECURITY"
+      },
+      {
+        "Offset(V)": 18446735964813208848,
+        "Pid": 4,
+        "Handle": 236,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\131"
+      },
+      {
+        "Offset(V)": 18446735964811805056,
+        "Pid": 4,
+        "Handle": 244,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\24"
+      },
+      {
+        "Offset(V)": 18446735964811937792,
+        "Pid": 4,
+        "Handle": 248,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\6"
+      },
+      {
+        "Offset(V)": 18446735964811842896,
+        "Pid": 4,
+        "Handle": 252,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "NDIS\\IFTYPES\\71"
+      },
+      {
+        "Offset(V)": 18446735964813521200,
+        "Pid": 4,
+        "Handle": 288,
+        "Access": 983055,
+        "Type": "Directory",
+        "Details": "Harddisk0"
+      },
+      {
+        "Offset(V)": 18446738026428395920,
+        "Pid": 4,
+        "Handle": 292,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000001"
+      },
+      {
+        "Offset(V)": 18446738026428456528,
+        "Pid": 4,
+        "Handle": 304,
+        "Access": 1,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1"
+      },
+      {
+        "Offset(V)": 18446738026429077232,
+        "Pid": 4,
+        "Handle": 364,
+        "Access": 33685507,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1\\Boot\\BCD"
+      },
+      {
+        "Offset(V)": 18446738026429088768,
+        "Pid": 4,
+        "Handle": 368,
+        "Access": 33554435,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume1\\Boot\\BCD.LOG"
+      },
+      {
+        "Offset(V)": 18446738026427245952,
+        "Pid": 4,
+        "Handle": 412,
+        "Access": 2031743,
+        "Type": "TmRm",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026430728496,
+        "Pid": 4,
+        "Handle": 660,
+        "Access": 33554435,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\NetworkService\\NTUSER.DAT.LOG1"
+      },
+      {
+        "Offset(V)": 18446738026429593328,
+        "Pid": 4,
+        "Handle": 768,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\clfs\\Device\\HarddiskVolume2\\Windows\\ServiceProfiles\\LocalService\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "Offset(V)": 18446735964829566704,
+        "Pid": 4,
+        "Handle": 1088,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\GROUP POLICY\\STATE\\MACHINE"
+      },
+      {
+        "Offset(V)": 18446738026434419488,
+        "Pid": 4,
+        "Handle": 1224,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Users\\Administrator\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms"
+      },
+      {
+        "Offset(V)": 18446735964831340992,
+        "Pid": 4,
+        "Handle": 1252,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "TCPIP\\PARAMETERS\\PERSISTENTROUTES"
+      },
+      {
+        "Offset(V)": 18446738026433581776,
+        "Pid": 4,
+        "Handle": 1356,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\clfs\\Device\\HarddiskVolume2\\Users\\Administrator\\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM"
+      },
+      {
+        "Offset(V)": 18446738026435234384,
+        "Pid": 4,
+        "Handle": 1420,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026440269904,
+        "Pid": 4,
+        "Handle": 1472,
+        "Access": 1179787,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2"
+      },
+      {
+        "Offset(V)": 18446738026429968480,
+        "Pid": 336,
+        "Handle": 180,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 476 PID 384"
+      },
+      {
+        "Offset(V)": 18446738026429496000,
+        "Pid": 336,
+        "Handle": 192,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 484 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026429493920,
+        "Pid": 336,
+        "Handle": 196,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434308960,
+        "Pid": 336,
+        "Handle": 336,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1268 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026432446560,
+        "Pid": 336,
+        "Handle": 580,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 932 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026432449616,
+        "Pid": 336,
+        "Handle": 584,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432670560,
+        "Pid": 336,
+        "Handle": 680,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 344 PID 1020"
+      },
+      {
+        "Offset(V)": 18446738026433251808,
+        "Pid": 336,
+        "Handle": 784,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 948 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026434306144,
+        "Pid": 336,
+        "Handle": 936,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1264 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026434364368,
+        "Pid": 336,
+        "Handle": 972,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1304 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026434397856,
+        "Pid": 336,
+        "Handle": 1008,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1340 PID 584"
+      },
+      {
+        "Offset(V)": 18446738026434407264,
+        "Pid": 336,
+        "Handle": 1020,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1360 PID 1344"
+      },
+      {
+        "Offset(V)": 18446738026434404448,
+        "Pid": 336,
+        "Handle": 1028,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1356 PID 1344"
+      },
+      {
+        "Offset(V)": 18446738026434532800,
+        "Pid": 336,
+        "Handle": 1048,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1396 PID 648"
+      },
+      {
+        "Offset(V)": 18446738026434572384,
+        "Pid": 336,
+        "Handle": 1060,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1408 PID 808"
+      },
+      {
+        "Offset(V)": 18446735964832411440,
+        "Pid": 336,
+        "Handle": 1064,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434574592,
+        "Pid": 336,
+        "Handle": 1068,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1412 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026434544512,
+        "Pid": 336,
+        "Handle": 1076,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1400 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026434613344,
+        "Pid": 336,
+        "Handle": 1080,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1416 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026434618672,
+        "Pid": 336,
+        "Handle": 1088,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1424 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026434633824,
+        "Pid": 336,
+        "Handle": 1092,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1428 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026435301472,
+        "Pid": 336,
+        "Handle": 1096,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1440 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026434468416,
+        "Pid": 336,
+        "Handle": 1100,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1448 PID 648"
+      },
+      {
+        "Offset(V)": 18446738026434826336,
+        "Pid": 336,
+        "Handle": 1104,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1452 PID 1020"
+      },
+      {
+        "Offset(V)": 18446738026434834528,
+        "Pid": 336,
+        "Handle": 1108,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1460 PID 1344"
+      },
+      {
+        "Offset(V)": 18446738026434850912,
+        "Pid": 336,
+        "Handle": 1112,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1464 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026433854304,
+        "Pid": 336,
+        "Handle": 1116,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1468 PID 744"
+      },
+      {
+        "Offset(V)": 18446738026433951408,
+        "Pid": 336,
+        "Handle": 1124,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1484 PID 1020"
+      },
+      {
+        "Offset(V)": 18446738026434897120,
+        "Pid": 336,
+        "Handle": 1132,
+        "Access": 2097151,
+        "Type": "Process",
+        "Details": "dllhost.exe(1492)"
+      },
+      {
+        "Offset(V)": 18446738026435119968,
+        "Pid": 336,
+        "Handle": 1136,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1496 PID 1492"
+      },
+      {
+        "Offset(V)": 18446738026434998752,
+        "Pid": 336,
+        "Handle": 1140,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435045920,
+        "Pid": 336,
+        "Handle": 1144,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1504 PID 1492"
+      },
+      {
+        "Offset(V)": 18446738026435050336,
+        "Pid": 336,
+        "Handle": 1148,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1512 PID 1492"
+      },
+      {
+        "Offset(V)": 18446738026435049056,
+        "Pid": 336,
+        "Handle": 1152,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1516 PID 1492"
+      },
+      {
+        "Offset(V)": 18446738026435047520,
+        "Pid": 336,
+        "Handle": 1156,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1508 PID 1492"
+      },
+      {
+        "Offset(V)": 18446738026435231840,
+        "Pid": 336,
+        "Handle": 1164,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1584 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026435130960,
+        "Pid": 336,
+        "Handle": 1168,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1532 PID 496"
+      },
+      {
+        "Offset(V)": 18446738026435260512,
+        "Pid": 336,
+        "Handle": 1180,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1588 PID 1020"
+      },
+      {
+        "Offset(V)": 18446738026435219552,
+        "Pid": 336,
+        "Handle": 1184,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1608 PID 744"
+      },
+      {
+        "Offset(V)": 18446738026435695264,
+        "Pid": 336,
+        "Handle": 1196,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1724 PID 808"
+      },
+      {
+        "Offset(V)": 18446738026435657824,
+        "Pid": 336,
+        "Handle": 1200,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1728 PID 808"
+      },
+      {
+        "Offset(V)": 18446735964833880896,
+        "Pid": 336,
+        "Handle": 1208,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827123808,
+        "Pid": 384,
+        "Handle": 220,
+        "Access": 983043,
+        "Type": "KeyedEvent",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429968480,
+        "Pid": 384,
+        "Handle": 280,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 476 PID 384"
+      },
+      {
+        "Offset(V)": 18446738026434396256,
+        "Pid": 392,
+        "Handle": 296,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1336 PID 732"
+      },
+      {
+        "Offset(V)": 18446735964833913152,
+        "Pid": 392,
+        "Handle": 348,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435373776,
+        "Pid": 392,
+        "Handle": 380,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1648 PID 1620"
+      },
+      {
+        "Offset(V)": 18446735964830494464,
+        "Pid": 392,
+        "Handle": 408,
+        "Access": 983047,
+        "Type": "Section",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964815677200,
+        "Pid": 420,
+        "Handle": 308,
+        "Access": 1,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\WINLOGON\\NOTIFICATIONS\\COMPONENTS\\SESSIONENV"
+      },
+      {
+        "Offset(V)": 18446735964831308432,
+        "Pid": 420,
+        "Handle": 420,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964833914720,
+        "Pid": 420,
+        "Handle": 456,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\SYSTEM"
+      },
+      {
+        "Offset(V)": 18446738026435201472,
+        "Pid": 420,
+        "Handle": 480,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429496000,
+        "Pid": 480,
+        "Handle": 184,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 484 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026427590096,
+        "Pid": 480,
+        "Handle": 292,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432448816,
+        "Pid": 480,
+        "Handle": 532,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429496000,
+        "Pid": 480,
+        "Handle": 564,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 484 PID 480"
+      },
+      {
+        "Offset(V)": 18446735964831956080,
+        "Pid": 480,
+        "Handle": 636,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9"
+      },
+      {
+        "Offset(V)": 18446738026434300000,
+        "Pid": 480,
+        "Handle": 660,
+        "Access": 1441929,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\Winsock2\\CatalogChangeListener-1e0-0"
+      },
+      {
+        "Offset(V)": 18446738026434308112,
+        "Pid": 480,
+        "Handle": 700,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434307824,
+        "Pid": 480,
+        "Handle": 708,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434308400,
+        "Pid": 480,
+        "Handle": 728,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434308960,
+        "Pid": 480,
+        "Handle": 736,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1268 PID 480"
+      },
+      {
+        "Offset(V)": 18446738026434389520,
+        "Pid": 480,
+        "Handle": 764,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434316016,
+        "Pid": 496,
+        "Handle": 528,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434359792,
+        "Pid": 496,
+        "Handle": 532,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434370768,
+        "Pid": 496,
+        "Handle": 536,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434567440,
+        "Pid": 496,
+        "Handle": 540,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434370000,
+        "Pid": 496,
+        "Handle": 544,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434531984,
+        "Pid": 496,
+        "Handle": 552,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026430969440,
+        "Pid": 496,
+        "Handle": 556,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 712 PID 496"
+      },
+      {
+        "Offset(V)": 18446738026435141728,
+        "Pid": 496,
+        "Handle": 560,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435139888,
+        "Pid": 496,
+        "Handle": 564,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026431011152,
+        "Pid": 496,
+        "Handle": 568,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 740 PID 496"
+      },
+      {
+        "Offset(V)": 18446738026435145696,
+        "Pid": 496,
+        "Handle": 572,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964833863888,
+        "Pid": 496,
+        "Handle": 576,
+        "Access": 983551,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435142000,
+        "Pid": 496,
+        "Handle": 580,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435130960,
+        "Pid": 496,
+        "Handle": 584,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1532 PID 496"
+      },
+      {
+        "Offset(V)": 18446738026435132256,
+        "Pid": 496,
+        "Handle": 588,
+        "Access": 1179785,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows\\System32\\en-US\\lsm.exe.mui"
+      },
+      {
+        "Offset(V)": 18446738026435508048,
+        "Pid": 496,
+        "Handle": 592,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435226512,
+        "Pid": 496,
+        "Handle": 596,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435511632,
+        "Pid": 496,
+        "Handle": 600,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 7528,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831087136,
+        "Pid": 584,
+        "Handle": 44040,
+        "Access": 19771216,
+        "Type": "Thread",
+        "Details": "TID 4096 PID 0"
+      },
+      {
+        "Offset(V)": 18446735964831179296,
+        "Pid": 584,
+        "Handle": 44088,
+        "Access": 19764832,
+        "Type": "Thread",
+        "Details": "TID 19883480 PID 1199"
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 111880,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 118012,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831297808,
+        "Pid": 584,
+        "Handle": 137464,
+        "Access": 301584,
+        "Type": "Process",
+        "Details": "?(38103544)"
+      },
+      {
+        "Offset(V)": 18446735964828189216,
+        "Pid": 584,
+        "Handle": 137568,
+        "Access": 16892408,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964828189808,
+        "Pid": 584,
+        "Handle": 137716,
+        "Access": 16893000,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964830556800,
+        "Pid": 584,
+        "Handle": 137832,
+        "Access": 18469600,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 154984,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 195944,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 238952,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 281960,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 322920,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 367976,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 408936,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 449896,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964827870544,
+        "Pid": 584,
+        "Handle": 490856,
+        "Access": 0,
+        "Type": "",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432374112,
+        "Pid": 732,
+        "Handle": 344,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432373952,
+        "Pid": 732,
+        "Handle": 348,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432373824,
+        "Pid": 732,
+        "Handle": 352,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429558896,
+        "Pid": 744,
+        "Handle": 28,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432971936,
+        "Pid": 744,
+        "Handle": 552,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432235920,
+        "Pid": 744,
+        "Handle": 700,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "Audiosrv"
+      },
+      {
+        "Offset(V)": 18446738026432374752,
+        "Pid": 788,
+        "Handle": 592,
+        "Access": 1048579,
+        "Type": "Semaphore",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026409298128,
+        "Pid": 788,
+        "Handle": 600,
+        "Access": 1048608,
+        "Type": "File",
+        "Details": "\\Device\\HarddiskVolume2\\Windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac"
+      },
+      {
+        "Offset(V)": 18446738026432516640,
+        "Pid": 788,
+        "Handle": 784,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "UxSmsApiPort"
+      },
+      {
+        "Offset(V)": 18446738026433921472,
+        "Pid": 788,
+        "Handle": 872,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964833850704,
+        "Pid": 788,
+        "Handle": 924,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\SUPERFETCH"
+      },
+      {
+        "Offset(V)": 18446738026433902928,
+        "Pid": 788,
+        "Handle": 984,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\trkwks"
+      },
+      {
+        "Offset(V)": 18446738026433902592,
+        "Pid": 788,
+        "Handle": 988,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\NamedPipe\\trkwks"
+      },
+      {
+        "Offset(V)": 18446735964833860080,
+        "Pid": 788,
+        "Handle": 1036,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "MEMORY MANAGEMENT\\PREFETCHPARAMETERS"
+      },
+      {
+        "Offset(V)": 18446738026434484640,
+        "Pid": 788,
+        "Handle": 1056,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1380 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026434544336,
+        "Pid": 788,
+        "Handle": 1060,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434561648,
+        "Pid": 788,
+        "Handle": 1076,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434429024,
+        "Pid": 788,
+        "Handle": 1080,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1364 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026429493696,
+        "Pid": 788,
+        "Handle": 1108,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429493536,
+        "Pid": 788,
+        "Handle": 1116,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433695024,
+        "Pid": 788,
+        "Handle": 1148,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433861248,
+        "Pid": 788,
+        "Handle": 1188,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1472 PID 788"
+      },
+      {
+        "Offset(V)": 18446738026435243184,
+        "Pid": 788,
+        "Handle": 1240,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432372848,
+        "Pid": 812,
+        "Handle": 312,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432373200,
+        "Pid": 812,
+        "Handle": 316,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432375808,
+        "Pid": 812,
+        "Handle": 360,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432375296,
+        "Pid": 812,
+        "Handle": 368,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "IUserProfile2"
+      },
+      {
+        "Offset(V)": 18446738026432375024,
+        "Pid": 812,
+        "Handle": 376,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432375936,
+        "Pid": 812,
+        "Handle": 388,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964829409184,
+        "Pid": 812,
+        "Handle": 564,
+        "Access": 983103,
+        "Type": "Key",
+        "Details": "WINSOCK2\\PARAMETERS\\NAMESPACE_CATALOG5"
+      },
+      {
+        "Offset(V)": 18446738026433586272,
+        "Pid": 812,
+        "Handle": 1132,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433701952,
+        "Pid": 812,
+        "Handle": 1136,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435712752,
+        "Pid": 812,
+        "Handle": 1228,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831574112,
+        "Pid": 812,
+        "Handle": 1524,
+        "Access": 3,
+        "Type": "PcwObject",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433158160,
+        "Pid": 812,
+        "Handle": 1568,
+        "Access": 983551,
+        "Type": "File",
+        "Details": "\\Device\\LanmanServer"
+      },
+      {
+        "Offset(V)": 18446735964830046368,
+        "Pid": 812,
+        "Handle": 1624,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "DIAG\\WMI WRITER"
+      },
+      {
+        "Offset(V)": 18446738026433120928,
+        "Pid": 812,
+        "Handle": 1684,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432972064,
+        "Pid": 812,
+        "Handle": 1708,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964830209424,
+        "Pid": 812,
+        "Handle": 1732,
+        "Access": 131097,
+        "Type": "Key",
+        "Details": "MACHINE\\SOFTWARE\\MICROSOFT\\TRACING\\IPHLPSVC"
+      },
+      {
+        "Offset(V)": 18446735964831424608,
+        "Pid": 812,
+        "Handle": 1764,
+        "Access": 10,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026433120592,
+        "Pid": 812,
+        "Handle": 1828,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831425936,
+        "Pid": 812,
+        "Handle": 1872,
+        "Access": 3,
+        "Type": "PcwObject",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434365904,
+        "Pid": 812,
+        "Handle": 2188,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434365776,
+        "Pid": 812,
+        "Handle": 2192,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434365648,
+        "Pid": 812,
+        "Handle": 2196,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434364368,
+        "Pid": 812,
+        "Handle": 2216,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1304 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026434307488,
+        "Pid": 812,
+        "Handle": 2228,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434366048,
+        "Pid": 812,
+        "Handle": 2232,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434389376,
+        "Pid": 812,
+        "Handle": 2288,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434406576,
+        "Pid": 812,
+        "Handle": 2292,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434541840,
+        "Pid": 812,
+        "Handle": 2356,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1404 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026434539488,
+        "Pid": 812,
+        "Handle": 2392,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434539360,
+        "Pid": 812,
+        "Handle": 2396,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546608,
+        "Pid": 812,
+        "Handle": 2408,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434546480,
+        "Pid": 812,
+        "Handle": 2412,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434308688,
+        "Pid": 812,
+        "Handle": 2432,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434537536,
+        "Pid": 812,
+        "Handle": 2484,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026429076368,
+        "Pid": 812,
+        "Handle": 2532,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435611504,
+        "Pid": 812,
+        "Handle": 2552,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435142128,
+        "Pid": 812,
+        "Handle": 2612,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1536 PID 812"
+      },
+      {
+        "Offset(V)": 18446735964830550096,
+        "Pid": 812,
+        "Handle": 2632,
+        "Access": 131103,
+        "Type": "Key",
+        "Details": "USER\\S-1-5-21-3238137328-1388682902-249016802-500"
+      },
+      {
+        "Offset(V)": 18446738026433958544,
+        "Pid": 812,
+        "Handle": 2672,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1488 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435089152,
+        "Pid": 812,
+        "Handle": 2692,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1524 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435241680,
+        "Pid": 812,
+        "Handle": 2780,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1580 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435227232,
+        "Pid": 812,
+        "Handle": 2784,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435600480,
+        "Pid": 812,
+        "Handle": 2864,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1712 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435653728,
+        "Pid": 812,
+        "Handle": 2932,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1720 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435677024,
+        "Pid": 812,
+        "Handle": 2976,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1744 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026441801984,
+        "Pid": 812,
+        "Handle": 3000,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435678304,
+        "Pid": 812,
+        "Handle": 3020,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1748 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026435709024,
+        "Pid": 812,
+        "Handle": 3056,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1756 PID 812"
+      },
+      {
+        "Offset(V)": 18446738026432450144,
+        "Pid": 928,
+        "Handle": 24,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026432446560,
+        "Pid": 928,
+        "Handle": 120,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 932 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026409293232,
+        "Pid": 928,
+        "Handle": 236,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "OLE9EA497B3FD234A4EAFCC471B65D7"
+      },
+      {
+        "Offset(V)": 18446738026434405840,
+        "Pid": 928,
+        "Handle": 420,
+        "Access": 2052,
+        "Type": "EtwRegistration",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434474080,
+        "Pid": 928,
+        "Handle": 452,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1372 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026434625632,
+        "Pid": 928,
+        "Handle": 504,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1420 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026434563200,
+        "Pid": 928,
+        "Handle": 512,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434544512,
+        "Pid": 928,
+        "Handle": 520,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1400 PID 928"
+      },
+      {
+        "Offset(V)": 18446735964830814304,
+        "Pid": 928,
+        "Handle": 572,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435608816,
+        "Pid": 928,
+        "Handle": 576,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434399184,
+        "Pid": 928,
+        "Handle": 592,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831051872,
+        "Pid": 928,
+        "Handle": 616,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434537120,
+        "Pid": 928,
+        "Handle": 620,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831051872,
+        "Pid": 928,
+        "Handle": 624,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026434399344,
+        "Pid": 928,
+        "Handle": 644,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831264864,
+        "Pid": 928,
+        "Handle": 676,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964831305824,
+        "Pid": 928,
+        "Handle": 684,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435240464,
+        "Pid": 928,
+        "Handle": 708,
+        "Access": 35586051,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026435231840,
+        "Pid": 928,
+        "Handle": 720,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1584 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026435231840,
+        "Pid": 928,
+        "Handle": 728,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1584 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026435231840,
+        "Pid": 928,
+        "Handle": 744,
+        "Access": 2097151,
+        "Type": "Thread",
+        "Details": "TID 1584 PID 928"
+      },
+      {
+        "Offset(V)": 18446738026435234896,
+        "Pid": 928,
+        "Handle": 748,
+        "Access": 2031619,
+        "Type": "Event",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964834005088,
+        "Pid": 928,
+        "Handle": 752,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964834320480,
+        "Pid": 928,
+        "Handle": 756,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964834512992,
+        "Pid": 928,
+        "Handle": 764,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446735964834512992,
+        "Pid": 928,
+        "Handle": 768,
+        "Access": 14,
+        "Type": "Token",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026441801824,
+        "Pid": 928,
+        "Handle": 772,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      },
+      {
+        "Offset(V)": 18446738026430489536,
+        "Pid": 928,
+        "Handle": 776,
+        "Access": 2031617,
+        "Type": "Mutant",
+        "Details": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(V)": 18446738026428343408,
+        "Pid": 4,
+        "Handle": 84,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000002"
+      },
+      {
+        "Offset(V)": 18446738026428314000,
+        "Pid": 4,
+        "Handle": 96,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLog.blf"
+      },
+      {
+        "Offset(V)": 18446735964812982464,
+        "Pid": 4,
+        "Handle": 200,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "23"
+      },
+      {
+        "Offset(V)": 18446735964811817856,
+        "Pid": 4,
+        "Handle": 208,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "1"
+      },
+      {
+        "Offset(V)": 18446735964813208848,
+        "Pid": 4,
+        "Handle": 236,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "131"
+      },
+      {
+        "Offset(V)": 18446735964811937792,
+        "Pid": 4,
+        "Handle": 248,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "6"
+      },
+      {
+        "Offset(V)": 18446735964811842896,
+        "Pid": 4,
+        "Handle": 252,
+        "Access": 11,
+        "Type": "Key",
+        "Details": "71"
+      },
+      {
+        "Offset(V)": 18446738026428395920,
+        "Pid": 4,
+        "Handle": 292,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\\\$Extend\\$RmMetadata\\$TxfLog\\$TxfLogContainer00000000000000000001"
+      },
+      {
+        "Offset(V)": 18446738026429077232,
+        "Pid": 4,
+        "Handle": 364,
+        "Access": 33685507,
+        "Type": "File",
+        "Details": "\\Device\\\\Boot\\BCD"
+      },
+      {
+        "Offset(V)": 18446738026429088768,
+        "Pid": 4,
+        "Handle": 368,
+        "Access": 33554435,
+        "Type": "File",
+        "Details": "\\Device\\\u1520\u772e"
+      },
+      {
+        "Offset(V)": 18446738026431024928,
+        "Pid": 4,
+        "Handle": 756,
+        "Access": 1180063,
+        "Type": "File",
+        "Details": "\\Device\\clfs\u7250\u786f\u5379\u7574\u4362\u736c\u6469\u3233\uffd8\uffff\u686c\u0003\u0100\u01b9\u2363\u8ea1\u01e0\u01b9\u43fc\ubbb6\u0170\u01b9\ud71d\ua70f"
+      },
+      {
+        "Offset(V)": 18446735964815677200,
+        "Pid": 420,
+        "Handle": 308,
+        "Access": 1,
+        "Type": "Key",
+        "Details": "MACHINE\\SYSTEM\\CONTROLSET001\\CONTROL\\WINLOGON\\NOTIFICATIONS\\COMPONENTS\\?\u0001????L"
+      },
+      {
+        "Offset(V)": 18446735964828189216,
+        "Pid": 584,
+        "Handle": 137568,
+        "Access": 16892408,
+        "Type": "Thread",
+        "Details": "TID 19066576 PID 1"
+      },
+      {
+        "Offset(V)": 18446735964811365184,
+        "Pid": 584,
+        "Handle": 138056,
+        "Access": 440416,
+        "Type": "Process",
+        "Details": "?9??t(3014774)"
+      },
+      {
+        "Offset(V)": 18446738026409293232,
+        "Pid": 928,
+        "Handle": 236,
+        "Access": 2031617,
+        "Type": "ALPC Port",
+        "Details": "\u131f\u1f27\u2613\u121e\u1c24\u2311\u111b\u1a23\u2110\u1019\u1821\u1f0f\u0f17\u161f\u200f\u0e15\u151f\u200f\u0e15\u1420\u1f0e\u0d13\u121d\u1c0c\u0b11\u0f19\u160a\u090e\u0d14\u1108\u070b"
+      }
+    ]
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

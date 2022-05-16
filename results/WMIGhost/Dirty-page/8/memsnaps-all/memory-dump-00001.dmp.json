@@ -1,0 +1,2923 @@
+{
+  "devicetree": [
+    {
+      "Offset(P)": 1041124512,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827424223232,
+      "Size": 172032,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1042837104,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827417489408,
+      "Size": 122880,
+      "Service Key": "",
+      "Name": "bowser",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1042841696,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827417612288,
+      "Size": 98304,
+      "Service Key": "",
+      "Name": "mpsdrv",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1042846688,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827417710592,
+      "Size": 184320,
+      "Service Key": "",
+      "Name": "mrxsmb",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1042864592,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827418210304,
+      "Size": 147456,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1043572800,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827435257856,
+      "Size": 679936,
+      "Service Key": "",
+      "Name": "PEAUTH",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1043573712,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827418357760,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "secdrv",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1043649888,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827416584192,
+      "Size": 73728,
+      "Service Key": "",
+      "Name": "tcpipreg",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1047402336,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827437113344,
+      "Size": 98304,
+      "Service Key": "",
+      "Name": "rspndr",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1048549776,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827416666112,
+      "Size": 823296,
+      "Service Key": "",
+      "Name": "HTTP",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050287616,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827436883968,
+      "Size": 143360,
+      "Service Key": "",
+      "Name": "luafv",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050677344,
+      "Pointers": 5,
+      "Handles": 0,
+      "Start": 18446735827434725376,
+      "Size": 65536,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050751072,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827433353216,
+      "Size": 110592,
+      "Service Key": "",
+      "Name": "RasPppoe",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050776912,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827433598976,
+      "Size": 106496,
+      "Service Key": "",
+      "Name": "RasSstp",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050788928,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827433463808,
+      "Size": 135168,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050807920,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827433705472,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050859552,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827436351488,
+      "Size": 73728,
+      "Service Key": "",
+      "Name": "umbus",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050861168,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827433750528,
+      "Size": 5248,
+      "Service Key": "",
+      "Name": "swenum",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1050926112,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827436425216,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1052086816,
+      "Pointers": 12,
+      "Handles": 0,
+      "Start": 18446736789445804032,
+      "Size": 0,
+      "Service Key": "",
+      "Name": "Win32k",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1052679792,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827417894912,
+      "Size": 315392,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1053966432,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827399561216,
+      "Size": 28672,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1053988272,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827395317760,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "Msfs",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1053990512,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827395280896,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "RDPREFMP",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054027872,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827396001792,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054045088,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827393884160,
+      "Size": 57344,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054056048,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827395207168,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054071200,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827434283008,
+      "Size": 53248,
+      "Service Key": "",
+      "Name": "fdc",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054209296,
+      "Pointers": 9,
+      "Handles": 0,
+      "Start": 18446735827390496768,
+      "Size": 139264,
+      "Service Key": "",
+      "Name": "tdx",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054355552,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827434160128,
+      "Size": 61440,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054356464,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827434336256,
+      "Size": 118784,
+      "Service Key": "",
+      "Name": "Parport",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054357312,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827429888000,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "WfpLwf",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054611136,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827430785024,
+      "Size": 49152,
+      "Service Key": "",
+      "Name": "nsiproxy",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054625392,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827430453248,
+      "Size": 331776,
+      "Service Key": "",
+      "Name": "rdbss",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054675040,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827429502976,
+      "Size": 69632,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054703216,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827428966400,
+      "Size": 536576,
+      "Service Key": "",
+      "Name": "CSC",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054709168,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827430940672,
+      "Size": 122880,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054718368,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827434635264,
+      "Size": 90112,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054720912,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827434221568,
+      "Size": 61440,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054811280,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827434504192,
+      "Size": 57344,
+      "Service Key": "",
+      "Name": "vga",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1054838880,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827434561536,
+      "Size": 73728,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057840640,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735827398885376,
+      "Size": 237568,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057864272,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827398475776,
+      "Size": 65536,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057865328,
+      "Pointers": 10,
+      "Handles": 0,
+      "Start": 18446735827398541312,
+      "Size": 311296,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057871984,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827399122944,
+      "Size": 73728,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057872480,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827399196672,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1057873520,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827398852608,
+      "Size": 32768,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1058081296,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827399471104,
+      "Size": 90112,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061312800,
+      "Pointers": 7,
+      "Handles": 0,
+      "Start": 18446735827391565824,
+      "Size": 1716224,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061320688,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827391217664,
+      "Size": 110592,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061406032,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827385204736,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061647824,
+      "Pointers": 24,
+      "Handles": 0,
+      "Start": 18446735827394146304,
+      "Size": 995328,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061651744,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827391397888,
+      "Size": 40960,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1061653456,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827391328256,
+      "Size": 69632,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1062312144,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827434455040,
+      "Size": 49152,
+      "Service Key": "",
+      "Name": "Serenum",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1072585696,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827385761792,
+      "Size": 385024,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1072681616,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735277662633984,
+      "Size": 0,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1072685712,
+      "Pointers": 4,
+      "Handles": 0,
+      "Start": 18446735277656432640,
+      "Size": 0,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1072894288,
+      "Pointers": 26,
+      "Handles": 0,
+      "Start": 18446735827388362752,
+      "Size": 356352,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1072935008,
+      "Pointers": 5,
+      "Handles": 0,
+      "Start": 0,
+      "Size": 0,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073047520,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827387629568,
+      "Size": 671744,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073070864,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827387109376,
+      "Size": 86016,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073072800,
+      "Pointers": 7,
+      "Handles": 0,
+      "Start": 18446735827387023360,
+      "Size": 86016,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073075552,
+      "Pointers": 8,
+      "Handles": 0,
+      "Start": 18446735827384926208,
+      "Size": 106496,
+      "Service Key": "",
+      "Name": "mountmgr",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073076976,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827387195392,
+      "Size": 376832,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073114736,
+      "Pointers": 5,
+      "Handles": 0,
+      "Start": 18446735827387572224,
+      "Size": 32768,
+      "Service Key": "",
+      "Name": "intelide",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073122704,
+      "Pointers": 6,
+      "Handles": 0,
+      "Start": 18446735827389059072,
+      "Size": 36864,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073165568,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827388755968,
+      "Size": 40960,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073167984,
+      "Pointers": 9,
+      "Handles": 0,
+      "Start": 18446735827388796928,
+      "Size": 208896,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073214800,
+      "Pointers": 2,
+      "Handles": 0,
+      "Start": 18446735827385249792,
+      "Size": 45056,
+      "Service Key": "",
+      "Name": "",
+      "Driver Name": ""
+    },
+    {
+      "Offset(P)": 1073348208,
+      "Pointers": 3,
+      "Handles": 0,
+      "Start": 18446735827389562880,
+      "Size": 81920,
+      "Service Key": "",
+      "Name": "FileInfo",
+      "Driver Name": ""
+    }
+  ],
+  "handles": [],
+  "getsids": [],
+  "modscan": [
+    {
+      "Offset(P)": 1041123680,
+      "Name": "",
+      "Base": 18446735827424223232,
+      "Size": 172032,
+      "File": "\\SystemRoot\\system32\\DRIVERS\\cdrom.sys"
+    },
+    {
+      "Offset(P)": 1042835008,
+      "Name": "",
+      "Base": 18446735827417612288,
+      "Size": 98304,
+      "File": "\\SystemRoot\\System32\\drivers\\mpsdrv.sys"
+    },
+    {
+      "Offset(P)": 1042835232,
+      "Name": "",
+      "Base": 18446735827417710592,
+      "Size": 184320,
+      "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb.sys"
+    },
+    {
+      "Offset(P)": 1042860672,
+      "Name": "",
+      "Base": 18446735827418210304,
+      "Size": 147456,
+      "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb20.sys"
+    },
+    {
+      "Offset(P)": 1042865696,
+      "Name": "",
+      "Base": 18446735827417894912,
+      "Size": 315392,
+      "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb10.sys"
+    },
+    {
+      "Offset(P)": 1043555776,
+      "Name": "",
+      "Base": 18446735827435257856,
+      "Size": 679936,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1043565408,
+      "Name": "",
+      "Base": 18446735827416383488,
+      "Size": 200704,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1043567216,
+      "Name": "",
+      "Base": 18446735827418357760,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1043649216,
+      "Name": "",
+      "Base": 18446735827416584192,
+      "Size": 73728,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1043747936,
+      "Name": "",
+      "Base": 18446735827423158272,
+      "Size": 438272,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1043783904,
+      "Name": "",
+      "Base": 18446735827423596544,
+      "Size": 626688,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1045222176,
+      "Name": "",
+      "Base": 18446735827416666112,
+      "Size": 823296,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1047454560,
+      "Name": "",
+      "Base": 18446735827436470272,
+      "Size": 86016,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1048957600,
+      "Name": "",
+      "Base": 18446736789445804032,
+      "Size": 3211264,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1049103152,
+      "Name": "",
+      "Base": 18446736789451309056,
+      "Size": 40960,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1049272656,
+      "Name": "",
+      "Base": 18446735827436777472,
+      "Size": 49152,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050421328,
+      "Name": "",
+      "Base": 18446735827436883968,
+      "Size": 143360,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050754848,
+      "Name": "",
+      "Base": 18446735827433353216,
+      "Size": 110592,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050777808,
+      "Name": "",
+      "Base": 18446735827433598976,
+      "Size": 106496,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050790496,
+      "Name": "",
+      "Base": 18446735827433463808,
+      "Size": 135168,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050806544,
+      "Name": "",
+      "Base": 18446735827436077056,
+      "Size": 274432,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050812656,
+      "Name": "",
+      "Base": 18446735827433705472,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1050911760,
+      "Name": "",
+      "Base": 18446735827436425216,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1051153472,
+      "Name": "",
+      "Base": 18446736789449736192,
+      "Size": 122880,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1052015344,
+      "Name": "",
+      "Base": 18446735827436556288,
+      "Size": 57344,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1052068208,
+      "Name": "",
+      "Base": 18446735827436699648,
+      "Size": 77824,
+      "File": "\\SystemRoot\\System32\\Drivers\\dump_dumpfve.sys"
+    },
+    {
+      "Offset(P)": 1052080336,
+      "Name": "",
+      "Base": 18446735827436613632,
+      "Size": 49152,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1052746112,
+      "Name": "",
+      "Base": 18446735827436826624,
+      "Size": 57344,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1053459536,
+      "Name": "",
+      "Base": 18446735827434455040,
+      "Size": 49152,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1053904688,
+      "Name": "",
+      "Base": 18446735827395317760,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1053965984,
+      "Name": "",
+      "Base": 18446735827434881024,
+      "Size": 147456,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1053967360,
+      "Name": "",
+      "Base": 18446735827434037248,
+      "Size": 122880,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1053970224,
+      "Name": "",
+      "Base": 18446735827396001792,
+      "Size": 36864,
+      "File": "\\SystemRoot\\System32\\Drivers\\Null.SYS"
+    },
+    {
+      "Offset(P)": 1054028608,
+      "Name": "",
+      "Base": 18446735827393884160,
+      "Size": 57344,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054028832,
+      "Name": "",
+      "Base": 18446735827399561216,
+      "Size": 28672,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054039856,
+      "Name": "",
+      "Base": 18446735827433881600,
+      "Size": 155648,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054047568,
+      "Name": "",
+      "Base": 18446735827393941504,
+      "Size": 151552,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054063104,
+      "Name": "",
+      "Base": 18446735827434635264,
+      "Size": 90112,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054078288,
+      "Name": "",
+      "Base": 18446735827395280896,
+      "Size": 36864,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054079968,
+      "Name": "",
+      "Base": 18446735827390496768,
+      "Size": 139264,
+      "File": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys"
+    },
+    {
+      "Offset(P)": 1054183920,
+      "Name": "",
+      "Base": 18446735827429605376,
+      "Size": 282624,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054275808,
+      "Name": "",
+      "Base": 18446735827435028480,
+      "Size": 49152,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054414480,
+      "Name": "",
+      "Base": 18446735827434790912,
+      "Size": 90112,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054666768,
+      "Name": "",
+      "Base": 18446735827430879232,
+      "Size": 61440,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054667280,
+      "Name": "",
+      "Base": 18446735827430940672,
+      "Size": 122880,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054678480,
+      "Name": "",
+      "Base": 18446735827429502976,
+      "Size": 69632,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054711120,
+      "Name": "",
+      "Base": 18446735827428966400,
+      "Size": 536576,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1054808448,
+      "Name": "",
+      "Base": 18446735827434504192,
+      "Size": 57344,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072857200,
+      "Name": "",
+      "Base": 18446735277662633984,
+      "Size": 299008,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072857440,
+      "Name": "",
+      "Base": 18446735277656432640,
+      "Size": 6201344,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072883344,
+      "Name": "",
+      "Base": 18446735827385761792,
+      "Size": 385024,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072883584,
+      "Name": "",
+      "Base": 18446735827385679872,
+      "Size": 81920,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072883808,
+      "Name": "",
+      "Base": 18446735827385356288,
+      "Size": 323584,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072884048,
+      "Name": "",
+      "Base": 18446735277628690432,
+      "Size": 40960,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072885776,
+      "Name": "",
+      "Base": 18446735827386146816,
+      "Size": 786432,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072886112,
+      "Name": "",
+      "Base": 18446735827385204736,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072886336,
+      "Name": "",
+      "Base": 18446735827385032704,
+      "Size": 172032,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072886576,
+      "Name": "",
+      "Base": 18446735827389059072,
+      "Size": 36864,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072886800,
+      "Name": "",
+      "Base": 18446735827384926208,
+      "Size": 106496,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072887040,
+      "Name": "",
+      "Base": 18446735827386933248,
+      "Size": 65536,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072887280,
+      "Name": "",
+      "Base": 18446735827387572224,
+      "Size": 32768,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072887520,
+      "Name": "",
+      "Base": 18446735827387195392,
+      "Size": 376832,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072887760,
+      "Name": "",
+      "Base": 18446735827387109376,
+      "Size": 86016,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072887984,
+      "Name": "",
+      "Base": 18446735827387023360,
+      "Size": 86016,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072888224,
+      "Name": "",
+      "Base": 18446735827389005824,
+      "Size": 53248,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072888464,
+      "Name": "",
+      "Base": 18446735827388796928,
+      "Size": 208896,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072888688,
+      "Name": "",
+      "Base": 18446735827388755968,
+      "Size": 40960,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072888928,
+      "Name": "",
+      "Base": 18446735827388719104,
+      "Size": 36864,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072889152,
+      "Name": "",
+      "Base": 18446735827388362752,
+      "Size": 356352,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072889392,
+      "Name": "",
+      "Base": 18446735827388301312,
+      "Size": 61440,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072889616,
+      "Name": "",
+      "Base": 18446735827387629568,
+      "Size": 671744,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072889872,
+      "Name": "",
+      "Base": 18446735827385249792,
+      "Size": 45056,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072890320,
+      "Name": "",
+      "Base": 18446735827398541312,
+      "Size": 311296,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072890560,
+      "Name": "",
+      "Base": 18446735827398475776,
+      "Size": 65536,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072890800,
+      "Name": "",
+      "Base": 18446735827398172672,
+      "Size": 303104,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072891040,
+      "Name": "",
+      "Base": 18446735827396059136,
+      "Size": 2113536,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072891328,
+      "Name": "",
+      "Base": 18446735827393708032,
+      "Size": 176128,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072891568,
+      "Name": "",
+      "Base": 18446735827393314816,
+      "Size": 393216,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072891808,
+      "Name": "",
+      "Base": 18446735827394146304,
+      "Size": 995328,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072892064,
+      "Name": "",
+      "Base": 18446735827391397888,
+      "Size": 40960,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072892288,
+      "Name": "",
+      "Base": 18446735827391328256,
+      "Size": 69632,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072892512,
+      "Name": "",
+      "Base": 18446735827390029824,
+      "Size": 466944,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072892752,
+      "Name": "",
+      "Base": 18446735827391217664,
+      "Size": 110592,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072892976,
+      "Name": "",
+      "Base": 18446735827389644800,
+      "Size": 385024,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072893216,
+      "Name": "",
+      "Base": 18446735827391565824,
+      "Size": 1716224,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072893488,
+      "Name": "",
+      "Base": 18446735827389562880,
+      "Size": 81920,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072893728,
+      "Name": "",
+      "Base": 18446735827389251584,
+      "Size": 311296,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072893968,
+      "Name": "",
+      "Base": 18446735827398852608,
+      "Size": 32768,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072896672,
+      "Name": "",
+      "Base": 18446735827395411968,
+      "Size": 196608,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072896912,
+      "Name": "",
+      "Base": 18446735827399471104,
+      "Size": 90112,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072897136,
+      "Name": "",
+      "Base": 18446735827399233536,
+      "Size": 237568,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072897360,
+      "Name": "",
+      "Base": 18446735827399196672,
+      "Size": 36864,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072897600,
+      "Name": "",
+      "Base": 18446735827399122944,
+      "Size": 73728,
+      "File": ""
+    },
+    {
+      "Offset(P)": 1072897824,
+      "Name": "",
+      "Base": 18446735827398885376,
+      "Size": 237568,
+      "File": ""
+    }
+  ],
+  "mutantscan": [
+    {
+      "Offset(P)": 1038202224,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1038204080,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1038204368,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1038220848,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1038553440,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1038574592,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "_!MSFTHISTORY!_"
+    },
+    {
+      "Offset(P)": 1038668944,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "x"
+    },
+    {
+      "Offset(P)": 1038670144,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1039012720,
+      "Pointers": 3,
+      "Handles": 2,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1039012976,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1040306656,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1040488224,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1040667168,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041048944,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041669072,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041675840,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041720768,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041742432,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041753024,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041753568,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041764000,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041764160,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041766624,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1041969248,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1042044560,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1042829248,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043484272,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "MSCTF.CtfMonitorInstMutexWinlogon0"
+    },
+    {
+      "Offset(P)": 1043599824,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043706224,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043808192,
+      "Pointers": 4,
+      "Handles": 3,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "RasPbFile"
+    },
+    {
+      "Offset(P)": 1043808800,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043808960,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809120,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809280,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809440,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809600,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809760,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043809920,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043812448,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043817984,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043830240,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043846512,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043850640,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043851184,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043851344,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043871296,
+      "Pointers": 3,
+      "Handles": 2,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "d3b1bbc7-c020-4056-9ded-7c6f40b5a2fc"
+    },
+    {
+      "Offset(P)": 1043872000,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "3a886eb8-fe40-4d0a-b78b-9e0bcb683fb7"
+    },
+    {
+      "Offset(P)": 1043888544,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1043935888,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044087024,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044169536,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044202560,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044202720,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044221888,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1044374640,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "MSCTF.CtfMonitorInstMutexWinlogon1"
+    },
+    {
+      "Offset(P)": 1045207392,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1045207680,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1045511248,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1045594896,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1045641552,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046158048,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046521600,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046667200,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046677072,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046827776,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046884592,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046902496,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046906976,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046945472,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046996944,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1046997232,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047015360,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047017168,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047203648,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047367904,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047441744,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047470784,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047484496,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047649424,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1047876128,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1048041488,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "0",
+      "Thread": 18446738026440579936,
+      "CID": "",
+      "Name": "\u0650\u0107\uf8a0\uffff\u03b0\u00c3\ufa80\uffffrviceMUT"
+    },
+    {
+      "Offset(P)": 1049442896,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1049482016,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1049546848,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1049681856,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1049917008,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1049949840,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050144864,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050145216,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050145504,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050145792,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050146080,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050146368,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050146656,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050146944,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050147232,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050147520,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050147808,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050148096,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050148384,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050148672,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050153056,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050153408,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050153696,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050153984,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050154272,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050154560,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050154848,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050155136,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050155424,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050155712,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050156000,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050156288,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050156576,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050156864,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050269536,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050269824,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050270720,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050355120,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050595680,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1050647504,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": "{A3BD3259-3E4F-428a-84C8-F0463A9D3EB5}"
+    },
+    {
+      "Offset(P)": 1050663392,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1052634800,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1052676880,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1053487648,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1058535920,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1058859600,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1058864624,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1058874944,
+      "Pointers": 1,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    },
+    {
+      "Offset(P)": 1071722016,
+      "Pointers": 2,
+      "Handles": 1,
+      "Signal": "1",
+      "Thread": 0,
+      "CID": "",
+      "Name": ""
+    }
+  ],
+  "netscan": [],
+  "dlllist": [],
+  "ldrmodules": [],
+  "malfind": [],
+  "pslist": [],
+  "privs": [],
+  "svcscan": [],
+  "yarascan": [],
+  "timers": [],
+  "psxview": [
+    {
+      "Offset(P)": 1040861184,
+      "Name": "is32bit.exe",
+      "PID": 1656,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+    },
+    {
+      "Offset(P)": 1048164288,
+      "Name": "explorer.exe",
+      "PID": 1064,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:54 UTC+0000"
+    },
+    {
+      "Offset(P)": 1040980784,
+      "Name": "SearchFilterHo",
+      "PID": 1904,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1073494832,
+      "Name": "System",
+      "PID": 4,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1041365264,
+      "Name": "SearchProtocol",
+      "PID": 1976,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+    },
+    {
+      "Offset(P)": 1045453616,
+      "Name": "svchost.exe",
+      "PID": 1184,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1044203424,
+      "Name": "svchost.exe",
+      "PID": 1812,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:55 UTC+0000"
+    },
+    {
+      "Offset(P)": 1044331312,
+      "Name": "scrcons.exe",
+      "PID": 2156,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1048886064,
+      "Name": "winlogon.exe",
+      "PID": 436,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1049070384,
+      "Name": "csrss.exe",
+      "PID": 396,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1043389232,
+      "Name": "inject-x64.exe",
+      "PID": 1356,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+    },
+    {
+      "Offset(P)": 1050823120,
+      "Name": "smss.exe",
+      "PID": 256,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1049557808,
+      "Name": "lsm.exe",
+      "PID": 496,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1045202752,
+      "Name": "spoolsv.exe",
+      "PID": 1128,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1046564960,
+      "Name": "is32bit.exe",
+      "PID": 1212,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+    },
+    {
+      "Offset(P)": 1049098176,
+      "Name": "wininit.exe",
+      "PID": 384,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1044369504,
+      "Name": "inject-x86.exe",
+      "PID": 1548,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+    },
+    {
+      "Offset(P)": 1044199760,
+      "Name": "rundll32.exe",
+      "PID": 1796,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+    },
+    {
+      "Offset(P)": 1049848624,
+      "Name": "services.exe",
+      "PID": 480,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1043378848,
+      "Name": "pythonw.exe",
+      "PID": 1552,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+    },
+    {
+      "Offset(P)": 1041166432,
+      "Name": "SearchIndexer.",
+      "PID": 808,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1050080720,
+      "Name": "svchost.exe",
+      "PID": 604,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1048182880,
+      "Name": "LogonUI.exe",
+      "PID": 2344,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1052756336,
+      "Name": "WmiPrvSE.exe",
+      "PID": 2180,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1049265504,
+      "Name": "SearchProtocol",
+      "PID": 1260,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:56 UTC+0000"
+    },
+    {
+      "Offset(P)": 1046997808,
+      "Name": "svchost.exe",
+      "PID": 880,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    },
+    {
+      "Offset(P)": 1040317232,
+      "Name": "reader_sl.exe",
+      "PID": 1340,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+    },
+    {
+      "Offset(P)": 1049504560,
+      "Name": "lsass.exe",
+      "PID": 488,
+      "pslist": "False",
+      "psscan": "True",
+      "thrdproc": "False",
+      "pspcid": "False",
+      "csrss": "False",
+      "session": "False",
+      "deskthrd": "False",
+      "ExitTime": ""
+    }
+  ]
+}

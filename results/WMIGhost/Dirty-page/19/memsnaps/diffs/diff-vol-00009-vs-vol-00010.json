@@ -1,0 +1,247 @@
+{
+  "devicetree": {
+    "added": [],
+    "added_count": 0
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 1256,
+        "session": "True",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "userinit.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 1272,
+        "session": "True",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "dwm.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "True",
+        "pslist": "True",
+        "process_id": 928,
+        "session": "True",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "True",
+        "process_name": "spoolsv.exe",
+        "thrdproc": "True"
+      },
+      {
+        "csrss": "False",
+        "pslist": "True",
+        "process_id": 4158742644,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "False",
+        "psscan": "False",
+        "process_name": "??\u0011??\u000f>O?P??!{v?",
+        "thrdproc": "False"
+      }
+    ],
+    "added_count": 4
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "389b:cc00:80fa:ffff:389b:cc00:80fa:ffff",
+        "process_id": "14",
+        "offset": "0x3e76b810",
+        "local_address": null
+      },
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "387b:3d02:80fa:ffff:387b:3d02:80fa:ffff",
+        "process_id": "14",
+        "offset": "0x3e9fd770",
+        "local_address": null
+      }
+    ],
+    "added_count": 2
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "184",
+        "handle_type": "Thread",
+        "handle_name": "TID 2000 PID 1716"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "780",
+        "handle_type": "Thread",
+        "handle_name": "TID 2016 PID 1656"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1292",
+        "handle_type": "Thread",
+        "handle_name": "TID 2004 PID 1676"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1296",
+        "handle_type": "Thread",
+        "handle_name": "TID 2012 PID 1676"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1300",
+        "handle_type": "Thread",
+        "handle_name": "TID 2008 PID 1716"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1328",
+        "handle_type": "Thread",
+        "handle_name": "TID 2020 PID 1664"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1332",
+        "handle_type": "Thread",
+        "handle_name": "TID 2024 PID 1656"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 336,
+        "handle_value": "1336",
+        "handle_type": "Thread",
+        "handle_name": "TID 2028 PID 1664"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1656,
+        "handle_value": "236",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1656,
+        "handle_value": "252",
+        "handle_type": "Thread",
+        "handle_name": "TID 2016 PID 1656"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1664,
+        "handle_value": "236",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1664,
+        "handle_value": "252",
+        "handle_type": "Thread",
+        "handle_name": "TID 2020 PID 1664"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1676,
+        "handle_value": "236",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1676,
+        "handle_value": "252",
+        "handle_type": "Thread",
+        "handle_name": "TID 2004 PID 1676"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1716,
+        "handle_value": "240",
+        "handle_type": "Thread",
+        "handle_name": "TID 2000 PID 1716"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1716,
+        "handle_value": "252",
+        "handle_type": "Event",
+        "handle_name": ""
+      }
+    ],
+    "added_count": 16
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

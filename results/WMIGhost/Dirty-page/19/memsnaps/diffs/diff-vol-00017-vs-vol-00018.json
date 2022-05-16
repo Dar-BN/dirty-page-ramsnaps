@@ -1,0 +1,470 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "devices_attached": [
+          {
+            "attached_device_offset": "0xfffffa8002718040",
+            "attached_device_type": "FILE_DEVICE_BUS_EXTENDER",
+            "attached_device_name": " - \\Driver\\umbus",
+            "level": 0
+          }
+        ],
+        "device_offset": "0xfffffa8002717420",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": "0000004d"
+      },
+      {
+        "devices_attached": [],
+        "device_offset": "0xfffffa8001f43e20",
+        "device_type": "FILE_DEVICE_BUS_EXTENDER",
+        "device_name": ""
+      }
+    ],
+    "added_count": 2
+  },
+  "malfind": {
+    "added": [],
+    "added_count": 0
+  },
+  "psxview": {
+    "added": [
+      {
+        "csrss": "False",
+        "pslist": "False",
+        "process_id": 63729680,
+        "session": "False",
+        "pspcid": "False",
+        "deskthrd": "True",
+        "psscan": "False",
+        "process_name": "pq?\u0003????pq?\u0003????",
+        "thrdproc": "False"
+      }
+    ],
+    "added_count": 1
+  },
+  "hidden_processes": [
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 788,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "True",
+      "psscan": "False",
+      "process_name": "LogonUI.exe",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 63729680,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "True",
+      "psscan": "False",
+      "process_name": "pq?\u0003????pq?\u0003????",
+      "thrdproc": "False"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 1,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "8^Z\u0002????\u0007",
+      "thrdproc": "True"
+    },
+    {
+      "csrss": "False",
+      "pslist": "False",
+      "process_id": 49844,
+      "session": "False",
+      "pspcid": "False",
+      "deskthrd": "False",
+      "psscan": "False",
+      "process_name": "\f",
+      "thrdproc": "True"
+    }
+  ],
+  "dlllist": [],
+  "connections": {
+    "added": [
+      {
+        "protocol": "TCPv6",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "6804:7802:80fa:ffff:6804:7802:80fa:ffff",
+        "process_id": "3",
+        "offset": "0x3e7d86f0",
+        "local_address": null
+      },
+      {
+        "protocol": "TCPv4",
+        "local_port": "0",
+        "remote_port": "0",
+        "remote_address": "88.146.49.2",
+        "process_id": "3",
+        "offset": "0x3e92e360",
+        "local_address": null
+      }
+    ],
+    "added_count": 2
+  },
+  "services": {
+    "added": [],
+    "added_count": 0
+  },
+  "modules": {
+    "added": [],
+    "added_count": 0
+  },
+  "handles": {
+    "added": [
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 396,
+        "handle_value": "220",
+        "handle_type": "Thread",
+        "handle_name": "TID 1976 PID 1300"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 488,
+        "handle_value": "1436",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "1500",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048608",
+        "process_id": 1300,
+        "handle_value": "1544",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\u9e60\u00f6\uf8a0\uffff\ua0f0\u00f7\uf8a0\uffff\u9e96\u52c5\ub1e2\u0ed7\u0201"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1568",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1608",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_96.db"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1616",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_256.db"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1624",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\ua0f0\u00f7\uf8a0\uffff\u03d0\u00c3\ufa80\uffffY\\USER\\S-1-5-21-3238137328-1388682902-249016802-500_Classes\\Wow6432Node\\"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1632",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_sr.db"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1640",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1688",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_idx.db!rwWriterMutex"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1300,
+        "handle_value": "1692",
+        "handle_type": "Thread",
+        "handle_name": "TID 1976 PID 1300"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1696",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2Y\\USER\\S-1-5-21-3238137328-1388682902-249016802-500\\Software\\Microsoft\\Windows\\"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1300,
+        "handle_value": "1708",
+        "handle_type": "Thread",
+        "handle_name": "TID 1960 PID 1300"
+      },
+      {
+        "handle_granted_access": "2052",
+        "process_id": 1300,
+        "handle_value": "1712",
+        "handle_type": "EtwRegistration",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1716",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2Y\\USER\\S-1-5-21-3238137328-1388682902-249016802-500\\Software\\Microsoft\\Windows\\"
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1720",
+        "handle_type": "Event",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_idx.db!rwWriterEvent"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1724",
+        "handle_type": "Mutant",
+        "handle_name": "\u6a20\u009e\uf8a0\uffff"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1728",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_96.db!dfMaintainer"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1732",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_256.db!dfMaintainer"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1736",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_1024.db!dfMaintainer"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1740",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_sr.db!dfMaintainer"
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1744",
+        "handle_type": "Mutant",
+        "handle_name": "C::Users:Administrator:AppData:Local:Microsoft:Windows:Explorer:thumbcache_idx.db!ThumbnailCacheInit"
+      },
+      {
+        "handle_granted_access": "983047",
+        "process_id": 1300,
+        "handle_value": "1748",
+        "handle_type": "Section",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1752",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1760",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_96.db"
+      },
+      {
+        "handle_granted_access": "983047",
+        "process_id": 1300,
+        "handle_value": "1764",
+        "handle_type": "Section",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1768",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_256.db"
+      },
+      {
+        "handle_granted_access": "983047",
+        "process_id": 1300,
+        "handle_value": "1772",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1776",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\ua0f0\u00f7\uf8a0\uffff\u03d0\u00c3\ufa80\uffffY\\USER\\S-1-5-21-3238137328-1388682902-249016802-500_Classes\\Wow6432Node\\"
+      },
+      {
+        "handle_granted_access": "983047",
+        "process_id": 1300,
+        "handle_value": "1780",
+        "handle_type": "Section",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1784",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_sr.db"
+      },
+      {
+        "handle_granted_access": "2097151",
+        "process_id": 1300,
+        "handle_value": "1788",
+        "handle_type": "Thread",
+        "handle_name": "TID 1976 PID 1300"
+      },
+      {
+        "handle_granted_access": "35586051",
+        "process_id": 1300,
+        "handle_value": "1792",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1796",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1800",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1804",
+        "handle_type": "Driver",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031617",
+        "process_id": 1300,
+        "handle_value": "1808",
+        "handle_type": "ALPC Port",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1812",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1824",
+        "handle_type": "Event",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "2031619",
+        "process_id": 1300,
+        "handle_value": "1828",
+        "handle_type": "TmEn",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048576",
+        "process_id": 1300,
+        "handle_value": "1836",
+        "handle_type": "Thread",
+        "handle_name": "TID 1976 PID 1300"
+      },
+      {
+        "handle_granted_access": "1180063",
+        "process_id": 1300,
+        "handle_value": "1840",
+        "handle_type": "File",
+        "handle_name": "\\Device\\WMIDataDevice"
+      },
+      {
+        "handle_granted_access": "1048580",
+        "process_id": 1300,
+        "handle_value": "1848",
+        "handle_type": "",
+        "handle_name": ""
+      },
+      {
+        "handle_granted_access": "1048609",
+        "process_id": 1300,
+        "handle_value": "1852",
+        "handle_type": "File",
+        "handle_name": "\\Device\\HarddiskVolume2\\Windows\\System32\\prnfldr.dll"
+      }
+    ],
+    "added_count": 45
+  },
+  "timers": {
+    "added": [],
+    "added_count": 0
+  }
+}

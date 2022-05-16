@@ -1,0 +1,1672 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1042671792,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436470272,
+        "Size": 86016,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042837104,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417489408,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042841696,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417612288,
+        "Size": 98304,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042846688,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827417710592,
+        "Size": 184320,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042864592,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827418210304,
+        "Size": 147456,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043572800,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827435257856,
+        "Size": 679936,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043573712,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827418357760,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043589504,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827416383488,
+        "Size": 200704,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043649888,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827416584192,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1047402336,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827437113344,
+        "Size": 98304,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1048549776,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827416666112,
+        "Size": 823296,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050287616,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827436883968,
+        "Size": 143360,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050751072,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433353216,
+        "Size": 110592,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050776912,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827433598976,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "\u04c0\u4c50\u01df\ufa80\u04c0\u4c50\u01df",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050859552,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436351488,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050861168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433750528,
+        "Size": 5248,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1052086816,
+        "Pointers": 12,
+        "Handles": 0,
+        "Start": 18446736789445804032,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053988272,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395317760,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053990512,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395280896,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054071200,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434283008,
+        "Size": 53248,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054209296,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827390496768,
+        "Size": 139264,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054356464,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434336256,
+        "Size": 118784,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054357312,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827429888000,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054611136,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430785024,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "\u0e705\uf8a0\uffff",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054625392,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430453248,
+        "Size": 331776,
+        "Service Key": "",
+        "Name": "\u0103\u0305\u7050\u7573\u0004",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054703216,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827428966400,
+        "Size": 536576,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054709168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430940672,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054718368,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434635264,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054811280,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434504192,
+        "Size": 57344,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054838880,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434561536,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1057848944,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827398111232,
+        "Size": 65536,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061316688,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391414272,
+        "Size": 1716224,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061670512,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827391217664,
+        "Size": 40960,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061765216,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827389747200,
+        "Size": 81920,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062312144,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434455040,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062471664,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398520832,
+        "Size": 237568,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062536656,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398176768,
+        "Size": 311296,
+        "Service Key": "",
+        "Name": "volsnap",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072620256,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277662691328,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072624352,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277656489984,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072894288,
+        "Pointers": 26,
+        "Handles": 0,
+        "Start": 18446735827386351616,
+        "Size": 356352,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072932544,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827387834368,
+        "Size": 208896,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1072933632,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827388850176,
+        "Size": 53248,
+        "Service Key": "",
+        "Name": "vdrvroot",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073070640,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827384926208,
+        "Size": 376832,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073072784,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827388989440,
+        "Size": 86016,
+        "Service Key": "",
+        "Name": "volmgr",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073075552,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827384926208,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073573488,
+        "Pointers": 11,
+        "Handles": 0,
+        "Start": 18446735827389435904,
+        "Size": 311296,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1041124512,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827424223232,
+        "Size": 172032,
+        "Service Key": "",
+        "Name": "cdrom",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042671792,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436470272,
+        "Size": 86016,
+        "Service Key": "",
+        "Name": "NDProxy",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042837104,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417489408,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "bowser",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042841696,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417612288,
+        "Size": 98304,
+        "Service Key": "",
+        "Name": "mpsdrv",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042846688,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827417710592,
+        "Size": 184320,
+        "Service Key": "",
+        "Name": "mrxsmb",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1042864592,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827418210304,
+        "Size": 147456,
+        "Service Key": "",
+        "Name": "mrxsmb20",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043572800,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827435257856,
+        "Size": 679936,
+        "Service Key": "",
+        "Name": "PEAUTH",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043573712,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827418357760,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "secdrv",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1043649888,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827416584192,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "tcpipreg",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1047402336,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827437113344,
+        "Size": 98304,
+        "Service Key": "",
+        "Name": "rspndr",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1048549776,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827416666112,
+        "Size": 823296,
+        "Service Key": "",
+        "Name": "HTTP",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050287616,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827436883968,
+        "Size": 143360,
+        "Service Key": "",
+        "Name": "luafv",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050751072,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433353216,
+        "Size": 110592,
+        "Service Key": "",
+        "Name": "RasPppoe",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050776912,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827433598976,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "RasSstp",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050859552,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436351488,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "umbus",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1050861168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433750528,
+        "Size": 5248,
+        "Service Key": "",
+        "Name": "swenum",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1052086816,
+        "Pointers": 12,
+        "Handles": 0,
+        "Start": 18446736789445804032,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "Win32k",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053988272,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395317760,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "Msfs",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1053990512,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395280896,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "RDPREFMP",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054071200,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434283008,
+        "Size": 53248,
+        "Service Key": "",
+        "Name": "fdc",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054209296,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827390496768,
+        "Size": 139264,
+        "Service Key": "",
+        "Name": "tdx",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054356464,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434336256,
+        "Size": 118784,
+        "Service Key": "",
+        "Name": "Parport",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054357312,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827429888000,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "WfpLwf",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054611136,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430785024,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "nsiproxy",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054625392,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430453248,
+        "Size": 331776,
+        "Service Key": "",
+        "Name": "rdbss",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054703216,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827428966400,
+        "Size": 536576,
+        "Service Key": "",
+        "Name": "CSC",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054709168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430940672,
+        "Size": 122880,
+        "Service Key": "",
+        "Name": "DfsC",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054718368,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434635264,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "intelppm",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054811280,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827434504192,
+        "Size": 57344,
+        "Service Key": "",
+        "Name": "vga",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1054838880,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434561536,
+        "Size": 73728,
+        "Service Key": "",
+        "Name": "RTL8023x64",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1061406032,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827385204736,
+        "Size": 45056,
+        "Service Key": "",
+        "Name": "msahci",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062312144,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434455040,
+        "Size": 49152,
+        "Service Key": "",
+        "Name": "Serenum",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073075552,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827384926208,
+        "Size": 106496,
+        "Service Key": "",
+        "Name": "mountmgr",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073114736,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827387572224,
+        "Size": 32768,
+        "Service Key": "",
+        "Name": "intelide",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1073122704,
+        "Pointers": 6,
+        "Handles": 0,
+        "Start": 18446735827389059072,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "atapi",
+        "Driver Name": ""
+      }
+    ]
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [],
+    "deleted": [
+      {
+        "Offset(P)": 1040861184,
+        "Name": "is32bit.exe",
+        "PID": 1656,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+      },
+      {
+        "Offset(P)": 1048164288,
+        "Name": "explorer.exe",
+        "PID": 1064,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:54 UTC+0000"
+      },
+      {
+        "Offset(P)": 1040980784,
+        "Name": "SearchFilterHo",
+        "PID": 1904,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:55 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049504560,
+        "Name": "lsass.exe",
+        "PID": 488,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1073494832,
+        "Name": "System",
+        "PID": 4,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1041365264,
+        "Name": "SearchProtocol",
+        "PID": 1976,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+      },
+      {
+        "Offset(P)": 1045453616,
+        "Name": "svchost.exe",
+        "PID": 1184,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1050080720,
+        "Name": "svchost.exe",
+        "PID": 604,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1044203424,
+        "Name": "svchost.exe",
+        "PID": 1812,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:55 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049070384,
+        "Name": "csrss.exe",
+        "PID": 396,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1048886064,
+        "Name": "winlogon.exe",
+        "PID": 436,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1038928688,
+        "Name": "wmighost.dll",
+        "PID": 1612,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:51 UTC+0000"
+      },
+      {
+        "Offset(P)": 1040317232,
+        "Name": "reader_sl.exe",
+        "PID": 1340,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+      },
+      {
+        "Offset(P)": 1043389232,
+        "Name": "inject-x64.exe",
+        "PID": 1356,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:40 UTC+0000"
+      },
+      {
+        "Offset(P)": 1050823120,
+        "Name": "smss.exe",
+        "PID": 256,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1049557808,
+        "Name": "lsm.exe",
+        "PID": 496,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1045202752,
+        "Name": "spoolsv.exe",
+        "PID": 1128,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1049265504,
+        "Name": "SearchProtocol",
+        "PID": 1260,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:56 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049098176,
+        "Name": "wininit.exe",
+        "PID": 384,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1044199760,
+        "Name": "rundll32.exe",
+        "PID": 1796,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+      },
+      {
+        "Offset(P)": 1049848624,
+        "Name": "services.exe",
+        "PID": 480,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1043378848,
+        "Name": "pythonw.exe",
+        "PID": 1552,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:53 UTC+0000"
+      },
+      {
+        "Offset(P)": 1048182880,
+        "Name": "LogonUI.exe",
+        "PID": 2344,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1042107024,
+        "Name": "is32bit.exe",
+        "PID": 2096,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": "2022-04-24 17:38:45 UTC+0000"
+      },
+      {
+        "Offset(P)": 1052756336,
+        "Name": "WmiPrvSE.exe",
+        "PID": 2180,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1046997808,
+        "Name": "svchost.exe",
+        "PID": 880,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1044331312,
+        "Name": "scrcons.exe",
+        "PID": 2156,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "False",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ]
+  },
+  "hidden_processes": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "dlllist": {
+    "added": [],
+    "deleted": [],
+    "both": []
+  },
+  "connections": {
+    "added": [],
+    "deleted": []
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [
+      {
+        "Offset(P)": 1042824112,
+        "Name": "",
+        "Base": 8310671046772719620,
+        "Size": 45622768,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1042835008,
+        "Name": "",
+        "Base": 18446735827417612288,
+        "Size": 98304,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1042835232,
+        "Name": "",
+        "Base": 18446735827417710592,
+        "Size": 184320,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1042860672,
+        "Name": "",
+        "Base": 18446735827418210304,
+        "Size": 147456,
+        "File": "\u0106\u0003\u6553\u6341"
+      },
+      {
+        "Offset(P)": 1042865696,
+        "Name": "",
+        "Base": 18446735827417894912,
+        "Size": 315392,
+        "File": "\ue1886\uf8a0\uffff\ue1886\uf8a0\uffff\u3000"
+      },
+      {
+        "Offset(P)": 1047454560,
+        "Name": "",
+        "Base": 18446735827436470272,
+        "Size": 86016,
+        "File": "\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000\uec59\uf000=\u9fc0\uff53\uf000\u72a0\uc000\uff53\uf000\uff53\uf000\uff53\uf000\uff53\uf000"
+      },
+      {
+        "Offset(P)": 1049272656,
+        "Name": "",
+        "Base": 18446735827436777472,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050421328,
+        "Name": "",
+        "Base": 18446735827436883968,
+        "Size": 143360,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050754848,
+        "Name": "",
+        "Base": 18446735827433353216,
+        "Size": 110592,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1050806544,
+        "Name": "",
+        "Base": 18446735827436077056,
+        "Size": 274432,
+        "File": "\u0121\u1312"
+      },
+      {
+        "Offset(P)": 1052068208,
+        "Name": "",
+        "Base": 18446735827436699648,
+        "Size": 77824,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1052080336,
+        "Name": "",
+        "Base": 18446735827436613632,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1052746112,
+        "Name": "",
+        "Base": 18446735827436826624,
+        "Size": 57344,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1053904688,
+        "Name": "",
+        "Base": 18446735827395317760,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1053965984,
+        "Name": "",
+        "Base": 18446735827434881024,
+        "Size": 147456,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1053970224,
+        "Name": "",
+        "Base": 18446735827396001792,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054079968,
+        "Name": "",
+        "Base": 18446735827390496768,
+        "Size": 139264,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054275808,
+        "Name": "",
+        "Base": 18446735827435028480,
+        "Size": 49152,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054414480,
+        "Name": "",
+        "Base": 18446735827434790912,
+        "Size": 90112,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054666768,
+        "Name": "",
+        "Base": 18446735827430879232,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1054711120,
+        "Name": "",
+        "Base": 18446735827428966400,
+        "Size": 536576,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1058895888,
+        "Name": "",
+        "Base": 18446735827417915392,
+        "Size": 438272,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072885776,
+        "Name": "",
+        "Base": 18446735827388063744,
+        "Size": 786432,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886112,
+        "Name": "",
+        "Base": 18446735827386880000,
+        "Size": 45056,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886336,
+        "Name": "",
+        "Base": 18446735827386707968,
+        "Size": 172032,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886576,
+        "Name": "",
+        "Base": 18446735827385475072,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072886800,
+        "Name": "",
+        "Base": 18446735827385368576,
+        "Size": 106496,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887040,
+        "Name": "",
+        "Base": 18446735827385303040,
+        "Size": 65536,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887280,
+        "Name": "",
+        "Base": 18446735827389075456,
+        "Size": 32768,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887520,
+        "Name": "",
+        "Base": 18446735827384926208,
+        "Size": 376832,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887760,
+        "Name": "",
+        "Base": 18446735827388989440,
+        "Size": 86016,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072887984,
+        "Name": "",
+        "Base": 18446735827388903424,
+        "Size": 86016,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888224,
+        "Name": "",
+        "Base": 18446735827388850176,
+        "Size": 53248,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888464,
+        "Name": "",
+        "Base": 18446735827387834368,
+        "Size": 208896,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888688,
+        "Name": "",
+        "Base": 18446735827387793408,
+        "Size": 40960,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072888928,
+        "Name": "",
+        "Base": 18446735827387756544,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889152,
+        "Name": "",
+        "Base": 18446735827386351616,
+        "Size": 356352,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889392,
+        "Name": "",
+        "Base": 18446735827387695104,
+        "Size": 61440,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072889616,
+        "Name": "",
+        "Base": 18446735827387023360,
+        "Size": 671744,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072893968,
+        "Name": "",
+        "Base": 18446735827398488064,
+        "Size": 32768,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072896672,
+        "Name": "",
+        "Base": 18446735827399196672,
+        "Size": 196608,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072896912,
+        "Name": "",
+        "Base": 18446735827399106560,
+        "Size": 90112,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897136,
+        "Name": "",
+        "Base": 18446735827398868992,
+        "Size": 237568,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897360,
+        "Name": "",
+        "Base": 18446735827398832128,
+        "Size": 36864,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897600,
+        "Name": "",
+        "Base": 18446735827398758400,
+        "Size": 73728,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1072897824,
+        "Name": "",
+        "Base": 18446735827398520832,
+        "Size": 237568,
+        "File": ""
+      },
+      {
+        "Offset(P)": 1073464352,
+        "Name": "",
+        "Base": 18446736789453537280,
+        "Size": 36864,
+        "File": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1041123680,
+        "Name": "",
+        "Base": 18446735827424223232,
+        "Size": 172032,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\cdrom.sys"
+      },
+      {
+        "Offset(P)": 1042835008,
+        "Name": "",
+        "Base": 18446735827417612288,
+        "Size": 98304,
+        "File": "\\SystemRoot\\System32\\drivers\\mpsdrv.sys"
+      },
+      {
+        "Offset(P)": 1042835232,
+        "Name": "",
+        "Base": 18446735827417710592,
+        "Size": 184320,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb.sys"
+      },
+      {
+        "Offset(P)": 1042860672,
+        "Name": "",
+        "Base": 18446735827418210304,
+        "Size": 147456,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb20.sys"
+      },
+      {
+        "Offset(P)": 1042865696,
+        "Name": "",
+        "Base": 18446735827417894912,
+        "Size": 315392,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\mrxsmb10.sys"
+      },
+      {
+        "Offset(P)": 1049272656,
+        "Name": "",
+        "Base": 18446735827436777472,
+        "Size": 49152,
+        "File": "\\SystemRoot\\System32\\drivers\\Dxapi.sys"
+      },
+      {
+        "Offset(P)": 1050421328,
+        "Name": "",
+        "Base": 18446735827436883968,
+        "Size": 143360,
+        "File": "\\SystemRoot\\system32\\drivers\\luafv.sys"
+      },
+      {
+        "Offset(P)": 1050754848,
+        "Name": "",
+        "Base": 18446735827433353216,
+        "Size": 110592,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\raspppoe.sys"
+      },
+      {
+        "Offset(P)": 1052068208,
+        "Name": "",
+        "Base": 18446735827436699648,
+        "Size": 77824,
+        "File": "\\SystemRoot\\System32\\Drivers\\dump_dumpfve.sys"
+      },
+      {
+        "Offset(P)": 1052080336,
+        "Name": "",
+        "Base": 18446735827436613632,
+        "Size": 49152,
+        "File": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys"
+      },
+      {
+        "Offset(P)": 1052746112,
+        "Name": "",
+        "Base": 18446735827436826624,
+        "Size": 57344,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\monitor.sys"
+      },
+      {
+        "Offset(P)": 1053904688,
+        "Name": "",
+        "Base": 18446735827395317760,
+        "Size": 45056,
+        "File": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS"
+      },
+      {
+        "Offset(P)": 1053965984,
+        "Name": "",
+        "Base": 18446735827434881024,
+        "Size": 147456,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys"
+      },
+      {
+        "Offset(P)": 1053970224,
+        "Name": "",
+        "Base": 18446735827396001792,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\Drivers\\Null.SYS"
+      },
+      {
+        "Offset(P)": 1054079968,
+        "Name": "",
+        "Base": 18446735827390496768,
+        "Size": 139264,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\tdx.sys"
+      },
+      {
+        "Offset(P)": 1054275808,
+        "Name": "",
+        "Base": 18446735827435028480,
+        "Size": 49152,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\ndistapi.sys"
+      },
+      {
+        "Offset(P)": 1054414480,
+        "Name": "",
+        "Base": 18446735827434790912,
+        "Size": 90112,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys"
+      },
+      {
+        "Offset(P)": 1054666768,
+        "Name": "",
+        "Base": 18446735827430879232,
+        "Size": 61440,
+        "File": "\\SystemRoot\\System32\\drivers\\discache.sys"
+      },
+      {
+        "Offset(P)": 1054711120,
+        "Name": "",
+        "Base": 18446735827428966400,
+        "Size": 536576,
+        "File": "\\SystemRoot\\system32\\drivers\\csc.sys"
+      }
+    ]
+  },
+  "handles": {
+    "added": [],
+    "deleted": []
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

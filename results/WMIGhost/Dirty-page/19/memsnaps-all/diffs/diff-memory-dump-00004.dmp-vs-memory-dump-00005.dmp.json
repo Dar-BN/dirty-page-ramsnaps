@@ -1,0 +1,2020 @@
+{
+  "devicetree": {
+    "added": [
+      {
+        "Offset(P)": 1047653536,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827420069888,
+        "Size": 86016,
+        "Service Key": "lltdio",
+        "Name": "lltdio",
+        "Driver Name": "\\Driver\\lltdio"
+      },
+      {
+        "Offset(P)": 1048369040,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417477120,
+        "Size": 122880,
+        "Service Key": "\ufcb0\u0167\ufa80\uffff\ufb30\u0167",
+        "Name": "\u0c18\u0c0e\u2114\u785a\u5b3a\u0706",
+        "Driver Name": "\uffd8\uc085\u4d75\u8b48\u284e\u10b8"
+      },
+      {
+        "Offset(P)": 1048378176,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417600000,
+        "Size": 98304,
+        "Service Key": "\u0660\u02a5\uf8a0\uffff\u0267",
+        "Name": " ",
+        "Driver Name": "\u04e0\u02a7\uf8a0\uffff\u0845"
+      },
+      {
+        "Offset(P)": 1049701856,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827419926528,
+        "Size": 143360,
+        "Service Key": "luafv",
+        "Name": "luafv",
+        "Driver Name": "\\FileSystem\\luafv"
+      },
+      {
+        "Offset(P)": 1052572144,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827419512832,
+        "Size": 86016,
+        "Service Key": "NDProxy",
+        "Name": "NDProxy",
+        "Driver Name": "\\Driver\\NDProxy"
+      },
+      {
+        "Offset(P)": 1052872304,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827390619648,
+        "Size": 139264,
+        "Service Key": "tdx",
+        "Name": "tdx",
+        "Driver Name": "\\Driver\\tdx"
+      },
+      {
+        "Offset(P)": 1052875616,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393605632,
+        "Size": 36864,
+        "Service Key": "RDPREFMP",
+        "Name": "RDPREFMP",
+        "Driver Name": "\\Driver\\RDPREFMP"
+      },
+      {
+        "Offset(P)": 1052896816,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395207168,
+        "Size": 57344,
+        "Service Key": "VgaSave",
+        "Name": "VgaSave",
+        "Driver Name": "\\Driver\\VgaSave"
+      },
+      {
+        "Offset(P)": 1052908848,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395264512,
+        "Size": 45056,
+        "Service Key": "Msfs",
+        "Name": "Msfs",
+        "Driver Name": "\\FileSystem\\Msfs"
+      },
+      {
+        "Offset(P)": 1052912768,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395489792,
+        "Size": 172032,
+        "Service Key": "cdrom",
+        "Name": "cdrom",
+        "Driver Name": "\\Driver\\cdrom"
+      },
+      {
+        "Offset(P)": 1052985488,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827429146624,
+        "Size": 110592,
+        "Service Key": "Wanarpv6",
+        "Name": "Wanarpv6",
+        "Driver Name": "\\Driver\\Wanarpv6"
+      },
+      {
+        "Offset(P)": 1052994240,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395309568,
+        "Size": 69632,
+        "Service Key": "Npfs",
+        "Name": "Npfs",
+        "Driver Name": "\\FileSystem\\Npfs"
+      },
+      {
+        "Offset(P)": 1053029136,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827393531904,
+        "Size": 36864,
+        "Service Key": "RDPCDD",
+        "Name": "RDPCDD",
+        "Driver Name": "\\Driver\\RDPCDD"
+      },
+      {
+        "Offset(P)": 1053044096,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393568768,
+        "Size": 36864,
+        "Service Key": "RDPENCDD",
+        "Name": "RDPENCDD",
+        "Driver Name": "\\Driver\\RDPENCDD"
+      },
+      {
+        "Offset(P)": 1053294688,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429720064,
+        "Size": 45056,
+        "Service Key": "mssmbios",
+        "Name": "mssmbios",
+        "Driver Name": "\\Driver\\mssmbios"
+      },
+      {
+        "Offset(P)": 1053297328,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433566208,
+        "Size": 536576,
+        "Service Key": "CSC",
+        "Name": "CSC",
+        "Driver Name": "\\Driver\\CSC"
+      },
+      {
+        "Offset(P)": 1053298784,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429670912,
+        "Size": 49152,
+        "Service Key": "nsiproxy",
+        "Name": "nsiproxy",
+        "Driver Name": "\\Driver\\nsiproxy"
+      },
+      {
+        "Offset(P)": 1053490448,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430879232,
+        "Size": 155648,
+        "Service Key": "Psched",
+        "Name": "Psched",
+        "Driver Name": "\\Driver\\Psched"
+      },
+      {
+        "Offset(P)": 1053536352,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429998592,
+        "Size": 561152,
+        "Service Key": "AFD",
+        "Name": "AFD",
+        "Driver Name": "\\Driver\\AFD"
+      },
+      {
+        "Offset(P)": 1053548640,
+        "Pointers": 21,
+        "Handles": 0,
+        "Start": 18446735827429257216,
+        "Size": 81920,
+        "Service Key": "TermDD",
+        "Name": "TermDD",
+        "Driver Name": "\\Driver\\TermDD"
+      },
+      {
+        "Offset(P)": 1053570704,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827430842368,
+        "Size": 36864,
+        "Service Key": "WfpLwf",
+        "Name": "WfpLwf",
+        "Driver Name": "\\Driver\\WfpLwf"
+      },
+      {
+        "Offset(P)": 1053578800,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434225664,
+        "Size": 69632,
+        "Service Key": "blbdrive",
+        "Name": "blbdrive",
+        "Driver Name": "\\Driver\\blbdrive"
+      },
+      {
+        "Offset(P)": 1053603808,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827428966400,
+        "Size": 61440,
+        "Service Key": "NetBIOS",
+        "Name": "NetBIOS",
+        "Driver Name": "\\FileSystem\\NetBIOS"
+      },
+      {
+        "Offset(P)": 1053605168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429027840,
+        "Size": 118784,
+        "Service Key": "Serial",
+        "Name": "Serial",
+        "Driver Name": "\\Driver\\Serial"
+      },
+      {
+        "Offset(P)": 1053631328,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827429765120,
+        "Size": 61440,
+        "Service Key": "discache",
+        "Name": "discache",
+        "Driver Name": "\\Driver\\discache"
+      },
+      {
+        "Offset(P)": 1053694688,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827434450944,
+        "Size": 122880,
+        "Service Key": "i8042prt",
+        "Name": "\r\u0600",
+        "Driver Name": "\\Driver\\i8042prt"
+      },
+      {
+        "Offset(P)": 1054668976,
+        "Pointers": 12,
+        "Handles": 0,
+        "Start": 18446736789445935104,
+        "Size": 0,
+        "Service Key": "\\Driver\\Win32k",
+        "Name": "Win32k",
+        "Driver Name": "\\Driver\\Win32k"
+      },
+      {
+        "Offset(P)": 1057827840,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827398164480,
+        "Size": 65536,
+        "Service Key": "storflt",
+        "Name": "storflt",
+        "Driver Name": "\\Driver\\storflt"
+      },
+      {
+        "Offset(P)": 1057861232,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398922240,
+        "Size": 237568,
+        "Service Key": "fvevol",
+        "Name": "fvevol",
+        "Driver Name": "\\Driver\\fvevol"
+      },
+      {
+        "Offset(P)": 1058026224,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827398541312,
+        "Size": 32768,
+        "Service Key": "spldr",
+        "Name": "spldr",
+        "Driver Name": "\\Driver\\spldr"
+      },
+      {
+        "Offset(P)": 1058065760,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827398811648,
+        "Size": 73728,
+        "Service Key": "Mup",
+        "Name": "Mup",
+        "Driver Name": "\\FileSystem\\Mup"
+      },
+      {
+        "Offset(P)": 1058070624,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827398885376,
+        "Size": 36864,
+        "Service Key": "hwpolicy",
+        "Name": "hwpolicy",
+        "Driver Name": "\\Driver\\hwpolicy"
+      },
+      {
+        "Offset(P)": 1058074224,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827399159808,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "Disk",
+        "Driver Name": "\\Driver\\Disk"
+      },
+      {
+        "Offset(P)": 1058095200,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395661824,
+        "Size": 36864,
+        "Service Key": "Null",
+        "Name": "Null",
+        "Driver Name": "\\Driver\\Null"
+      },
+      {
+        "Offset(P)": 1061319568,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827392999424,
+        "Size": 110592,
+        "Service Key": "KSecDD",
+        "Name": "KSecDD",
+        "Driver Name": "\\Driver\\KSecDD"
+      },
+      {
+        "Offset(P)": 1061322352,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391283200,
+        "Size": 1716224,
+        "Service Key": "Ntfs",
+        "Name": "Ntfs",
+        "Driver Name": "\\FileSystem\\Ntfs"
+      },
+      {
+        "Offset(P)": 1061400672,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827386871808,
+        "Size": 45056,
+        "Service Key": "amdxata",
+        "Name": "amdxata",
+        "Driver Name": "\\Driver\\amdxata"
+      },
+      {
+        "Offset(P)": 1061418320,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827386826752,
+        "Size": 45056,
+        "Service Key": "msahci",
+        "Name": "msahci",
+        "Driver Name": "\\Driver\\msahci"
+      },
+      {
+        "Offset(P)": 1061662816,
+        "Pointers": 24,
+        "Handles": 0,
+        "Start": 18446735827393642496,
+        "Size": 995328,
+        "Service Key": "NDIS",
+        "Name": "NDIS",
+        "Driver Name": "\\Driver\\NDIS"
+      },
+      {
+        "Offset(P)": 1061664048,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393110016,
+        "Size": 69632,
+        "Service Key": "pcw",
+        "Name": "pcw",
+        "Driver Name": "\\Driver\\pcw"
+      },
+      {
+        "Offset(P)": 1061670512,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827393179648,
+        "Size": 40960,
+        "Service Key": "Fs_Rec",
+        "Name": "Fs_Rec",
+        "Driver Name": "\\FileSystem\\Fs_Rec"
+      },
+      {
+        "Offset(P)": 1061759088,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827389685760,
+        "Size": 81920,
+        "Service Key": "FileInfo",
+        "Name": "FileInfo",
+        "Driver Name": "\\FileSystem\\FileInfo"
+      },
+      {
+        "Offset(P)": 1061999424,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827389018112,
+        "Size": 53248,
+        "Service Key": "vdrvroot",
+        "Name": "vdrvroot",
+        "Driver Name": "\\Driver\\vdrvroot"
+      },
+      {
+        "Offset(P)": 1062006880,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827395031040,
+        "Size": 176128,
+        "Service Key": "KSecPkg",
+        "Name": "KSecPkg",
+        "Driver Name": "\\Driver\\KSecPkg"
+      },
+      {
+        "Offset(P)": 1062010480,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827395747840,
+        "Size": 2113536,
+        "Service Key": "Tcpip",
+        "Name": "Tcpip",
+        "Driver Name": ""
+      },
+      {
+        "Offset(P)": 1062484176,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398688768,
+        "Size": 311296,
+        "Service Key": "\u2f30\u0162\ufa80\uffff\u2f30\u0162\ufa80",
+        "Name": "\u0800",
+        "Driver Name": "\\Driver\\volsnap"
+      },
+      {
+        "Offset(P)": 1062538864,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398574080,
+        "Size": 237568,
+        "Service Key": "rdyboost",
+        "Name": "rdyboost",
+        "Driver Name": "\\Driver\\rdyboost"
+      },
+      {
+        "Offset(P)": 1071895376,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827419869184,
+        "Size": 57344,
+        "Service Key": "monitor",
+        "Name": "monitor",
+        "Driver Name": "\\Driver\\monitor"
+      },
+      {
+        "Offset(P)": 1072620176,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277662654464,
+        "Size": 0,
+        "Service Key": "\\Driver\\ACPI_HAL",
+        "Name": "ACPI_HAL",
+        "Driver Name": "\\Driver\\ACPI_HAL"
+      },
+      {
+        "Offset(P)": 1072894288,
+        "Pointers": 26,
+        "Handles": 0,
+        "Start": 18446735827388583936,
+        "Size": 356352,
+        "Service Key": "ACPI",
+        "Name": "ACPI",
+        "Driver Name": "\\Driver\\ACPI"
+      },
+      {
+        "Offset(P)": 1072937200,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 0,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "RAW",
+        "Driver Name": "\\FileSystem\\RAW"
+      },
+      {
+        "Offset(P)": 1073053008,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827387023360,
+        "Size": 671744,
+        "Service Key": "Wdf01000",
+        "Name": "Wdf01000",
+        "Driver Name": "\uff01\uffff\uffff\uffff\uffff\uffff\uffff\uffff\t\u0001\u6f49\u2020\uffff\uffff\uffff\uffff"
+      },
+      {
+        "Offset(P)": 1073072784,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827386568704,
+        "Size": 86016,
+        "Service Key": "volmgr",
+        "Name": "volmgr",
+        "Driver Name": "\\Driver\\volmgr"
+      },
+      {
+        "Offset(P)": 1073076416,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827389071360,
+        "Size": 32768,
+        "Service Key": "intelide",
+        "Name": "intelide",
+        "Driver Name": "\\Driver\\intelide"
+      },
+      {
+        "Offset(P)": 1073165424,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827386273792,
+        "Size": 208896,
+        "Service Key": "pci",
+        "Name": "pci",
+        "Driver Name": "\\Driver\\pci"
+      },
+      {
+        "Offset(P)": 1073238256,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827388977152,
+        "Size": 40960,
+        "Service Key": "msisadrv",
+        "Name": "msisadrv",
+        "Driver Name": "\\Driver\\msisadrv"
+      },
+      {
+        "Offset(P)": 1073573488,
+        "Pointers": 11,
+        "Handles": 0,
+        "Start": 18446735827389374464,
+        "Size": 311296,
+        "Service Key": "FltMgr",
+        "Name": "FltMgr",
+        "Driver Name": "\\FileSystem\\FltMgr"
+      },
+      {
+        "Offset(P)": 1073582544,
+        "Pointers": 70,
+        "Handles": 0,
+        "Start": 18446735277656453120,
+        "Size": 0,
+        "Service Key": "\\Driver\\PnpManager",
+        "Name": "PnpManager",
+        "Driver Name": "\\Driver\\PnpManager"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1048369040,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417477120,
+        "Size": 122880,
+        "Service Key": "\ufcb0\u0167\ufa80\uffff\ufb30\u0167",
+        "Name": "",
+        "Driver Name": "\uffd8\uc085\u4d75\u8b48\u284e\u10b8"
+      },
+      {
+        "Offset(P)": 1048378176,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827417600000,
+        "Size": 98304,
+        "Service Key": "\u0660\u02a5\uf8a0\uffff\u0267",
+        "Name": "",
+        "Driver Name": "\u04e0\u02a7\uf8a0\uffff\u0845"
+      },
+      {
+        "Offset(P)": 1049701856,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827419926528,
+        "Size": 143360,
+        "Service Key": "\u6160\u01ed\ufa80\uffff\u16f0",
+        "Name": "",
+        "Driver Name": "\u5001\u030e\ufa80\uffff\u6d73\u624d"
+      },
+      {
+        "Offset(P)": 1052572144,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827419512832,
+        "Size": 86016,
+        "Service Key": "NDProxy",
+        "Name": "",
+        "Driver Name": "\\Driver\\NDProxy"
+      },
+      {
+        "Offset(P)": 1052872304,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827390619648,
+        "Size": 139264,
+        "Service Key": "tdx",
+        "Name": "",
+        "Driver Name": "\\Driver\\tdx"
+      },
+      {
+        "Offset(P)": 1052875616,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393605632,
+        "Size": 36864,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\Driver\\RDPREFMP"
+      },
+      {
+        "Offset(P)": 1052896816,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395207168,
+        "Size": 57344,
+        "Service Key": "VgaSave",
+        "Name": "",
+        "Driver Name": "\\Driver\\VgaSave"
+      },
+      {
+        "Offset(P)": 1052908848,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395264512,
+        "Size": 45056,
+        "Service Key": "Msfs",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Msfs"
+      },
+      {
+        "Offset(P)": 1052912768,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395489792,
+        "Size": 172032,
+        "Service Key": "cdrom",
+        "Name": "",
+        "Driver Name": "\\Driver\\cdrom"
+      },
+      {
+        "Offset(P)": 1052985488,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827429146624,
+        "Size": 110592,
+        "Service Key": "Wanarpv6",
+        "Name": "",
+        "Driver Name": "\\Driver\\Wanarpv6"
+      },
+      {
+        "Offset(P)": 1052994240,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395309568,
+        "Size": 69632,
+        "Service Key": "Npfs",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Npfs"
+      },
+      {
+        "Offset(P)": 1053029136,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827393531904,
+        "Size": 36864,
+        "Service Key": "RDPCDD",
+        "Name": "",
+        "Driver Name": "\\Driver\\RDPCDD"
+      },
+      {
+        "Offset(P)": 1053044096,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393568768,
+        "Size": 36864,
+        "Service Key": "RDPENCDD",
+        "Name": "",
+        "Driver Name": "\\Driver\\RDPENCDD"
+      },
+      {
+        "Offset(P)": 1053294688,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429720064,
+        "Size": 45056,
+        "Service Key": "mssmbios",
+        "Name": "",
+        "Driver Name": "\\Driver\\mssmbios"
+      },
+      {
+        "Offset(P)": 1053297328,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827433566208,
+        "Size": 536576,
+        "Service Key": "CSC",
+        "Name": "",
+        "Driver Name": "\\Driver\\CSC"
+      },
+      {
+        "Offset(P)": 1053298784,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429670912,
+        "Size": 49152,
+        "Service Key": "nsiproxy",
+        "Name": "",
+        "Driver Name": "\\Driver\\nsiproxy"
+      },
+      {
+        "Offset(P)": 1053490448,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827430879232,
+        "Size": 155648,
+        "Service Key": "Psched",
+        "Name": "",
+        "Driver Name": "\\Driver\\Psched"
+      },
+      {
+        "Offset(P)": 1053536352,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429998592,
+        "Size": 561152,
+        "Service Key": "\uffff\uffff\uffff",
+        "Name": "",
+        "Driver Name": "\\Driver\\AFD"
+      },
+      {
+        "Offset(P)": 1053548640,
+        "Pointers": 21,
+        "Handles": 0,
+        "Start": 18446735827429257216,
+        "Size": 81920,
+        "Service Key": "TermDD",
+        "Name": "",
+        "Driver Name": "\\Driver\\TermDD"
+      },
+      {
+        "Offset(P)": 1053570704,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827430842368,
+        "Size": 36864,
+        "Service Key": "WfpLwf",
+        "Name": "",
+        "Driver Name": "\\Driver\\WfpLwf"
+      },
+      {
+        "Offset(P)": 1053578800,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827434225664,
+        "Size": 69632,
+        "Service Key": "blbdrive",
+        "Name": "",
+        "Driver Name": "\\Driver\\blbdrive"
+      },
+      {
+        "Offset(P)": 1053603808,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827428966400,
+        "Size": 61440,
+        "Service Key": "NetBIOS",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\NetBIOS"
+      },
+      {
+        "Offset(P)": 1053605168,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827429027840,
+        "Size": 118784,
+        "Service Key": "Serial",
+        "Name": "",
+        "Driver Name": "\\Driver\\Serial"
+      },
+      {
+        "Offset(P)": 1053631328,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827429765120,
+        "Size": 61440,
+        "Service Key": "discache",
+        "Name": "",
+        "Driver Name": "\\Driver\\discache"
+      },
+      {
+        "Offset(P)": 1053694688,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827434450944,
+        "Size": 122880,
+        "Service Key": "i8042prt",
+        "Name": "",
+        "Driver Name": "\\Driver\\i8042prt"
+      },
+      {
+        "Offset(P)": 1054668976,
+        "Pointers": 12,
+        "Handles": 0,
+        "Start": 18446736789445935104,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\Driver\\Win32k"
+      },
+      {
+        "Offset(P)": 1057827840,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827398164480,
+        "Size": 65536,
+        "Service Key": "storflt",
+        "Name": "",
+        "Driver Name": "\\Driver\\storflt"
+      },
+      {
+        "Offset(P)": 1057861232,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735827398922240,
+        "Size": 237568,
+        "Service Key": "fvevol",
+        "Name": "",
+        "Driver Name": "\\Driver\\fvevol"
+      },
+      {
+        "Offset(P)": 1058026224,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827398541312,
+        "Size": 32768,
+        "Service Key": "spldr",
+        "Name": "",
+        "Driver Name": "\\Driver\\spldr"
+      },
+      {
+        "Offset(P)": 1058065760,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827398811648,
+        "Size": 73728,
+        "Service Key": "Mup",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Mup"
+      },
+      {
+        "Offset(P)": 1058070624,
+        "Pointers": 2,
+        "Handles": 0,
+        "Start": 18446735827398885376,
+        "Size": 36864,
+        "Service Key": "hwpolicy",
+        "Name": "",
+        "Driver Name": "\\Driver\\hwpolicy"
+      },
+      {
+        "Offset(P)": 1058074224,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827399159808,
+        "Size": 90112,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\Driver\\Disk"
+      },
+      {
+        "Offset(P)": 1058095200,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827395661824,
+        "Size": 36864,
+        "Service Key": "Null",
+        "Name": "",
+        "Driver Name": "\\Driver\\Null"
+      },
+      {
+        "Offset(P)": 1061319568,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827392999424,
+        "Size": 110592,
+        "Service Key": "KSecDD",
+        "Name": "",
+        "Driver Name": "\\Driver\\KSecDD"
+      },
+      {
+        "Offset(P)": 1061322352,
+        "Pointers": 7,
+        "Handles": 0,
+        "Start": 18446735827391283200,
+        "Size": 1716224,
+        "Service Key": "Ntfs",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Ntfs"
+      },
+      {
+        "Offset(P)": 1061662816,
+        "Pointers": 24,
+        "Handles": 0,
+        "Start": 18446735827393642496,
+        "Size": 995328,
+        "Service Key": "AES_",
+        "Name": "",
+        "Driver Name": "\\Driver\\NDIS"
+      },
+      {
+        "Offset(P)": 1061664048,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827393110016,
+        "Size": 69632,
+        "Service Key": "pcw",
+        "Name": "",
+        "Driver Name": "\\Driver\\pcw"
+      },
+      {
+        "Offset(P)": 1061670512,
+        "Pointers": 8,
+        "Handles": 0,
+        "Start": 18446735827393179648,
+        "Size": 40960,
+        "Service Key": "Fs_Rec",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\Fs_Rec"
+      },
+      {
+        "Offset(P)": 1061759088,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827389685760,
+        "Size": 81920,
+        "Service Key": "FileInfo",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\FileInfo"
+      },
+      {
+        "Offset(P)": 1062484176,
+        "Pointers": 10,
+        "Handles": 0,
+        "Start": 18446735827398688768,
+        "Size": 311296,
+        "Service Key": "\u2f30\u0162\ufa80\uffff\u2f30\u0162\ufa80",
+        "Name": "",
+        "Driver Name": "\\Driver\\volsnap"
+      },
+      {
+        "Offset(P)": 1071650368,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827436662784,
+        "Size": 57344,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff"
+      },
+      {
+        "Offset(P)": 1072620176,
+        "Pointers": 4,
+        "Handles": 0,
+        "Start": 18446735277662654464,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\Driver\\ACPI_HAL"
+      },
+      {
+        "Offset(P)": 1072894288,
+        "Pointers": 25,
+        "Handles": 0,
+        "Start": 18446735827388583936,
+        "Size": 356352,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff"
+      },
+      {
+        "Offset(P)": 1072937200,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 0,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\FileSystem\\RAW"
+      },
+      {
+        "Offset(P)": 1073053008,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827387023360,
+        "Size": 671744,
+        "Service Key": "Wdf01000",
+        "Name": "",
+        "Driver Name": "\uff01\uffff\uffff\uffff\uffff\uffff\uffff\uffff\t\u0001\u6f49\u2020\uffff\uffff\uffff\uffff"
+      },
+      {
+        "Offset(P)": 1073072784,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827386568704,
+        "Size": 86016,
+        "Service Key": "volmgr",
+        "Name": "",
+        "Driver Name": "\\Driver\\volmgr"
+      },
+      {
+        "Offset(P)": 1073076416,
+        "Pointers": 5,
+        "Handles": 0,
+        "Start": 18446735827389071360,
+        "Size": 32768,
+        "Service Key": "intelide",
+        "Name": "",
+        "Driver Name": "\\Driver\\intelide"
+      },
+      {
+        "Offset(P)": 1073165424,
+        "Pointers": 9,
+        "Handles": 0,
+        "Start": 18446735827386273792,
+        "Size": 208896,
+        "Service Key": "pci",
+        "Name": "",
+        "Driver Name": "\\Driver\\pci"
+      },
+      {
+        "Offset(P)": 1073238256,
+        "Pointers": 3,
+        "Handles": 0,
+        "Start": 18446735827388977152,
+        "Size": 40960,
+        "Service Key": "msisadrv",
+        "Name": "",
+        "Driver Name": "\\Driver\\msisadrv"
+      },
+      {
+        "Offset(P)": 1073573488,
+        "Pointers": 11,
+        "Handles": 0,
+        "Start": 18446735827389374464,
+        "Size": 311296,
+        "Service Key": "FltMgr",
+        "Name": "",
+        "Driver Name": "P521"
+      },
+      {
+        "Offset(P)": 1073582544,
+        "Pointers": 70,
+        "Handles": 0,
+        "Start": 18446735277656453120,
+        "Size": 0,
+        "Service Key": "",
+        "Name": "",
+        "Driver Name": "\\Driver\\PnpManager"
+      }
+    ]
+  },
+  "malfind": {
+    "added": [],
+    "deleted": []
+  },
+  "psxview": {
+    "added": [
+      {
+        "Offset(P)": 1047693200,
+        "Name": "svchost.exe",
+        "PID": 284,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "True",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1050221360,
+        "Name": "svchost.exe",
+        "PID": 848,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "True",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1047425120,
+        "Name": "svchost.exe",
+        "PID": 888,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "True",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1050506640,
+        "Name": "svchost.exe",
+        "PID": 672,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1046607344,
+        "Name": "svchost.exe",
+        "PID": 724,
+        "pslist": "False",
+        "psscan": "True",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      },
+      {
+        "Offset(P)": 1047581936,
+        "Name": "",
+        "PID": 4096,
+        "pslist": "False",
+        "psscan": "False",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1049727568,
+        "Name": "",
+        "PID": 1,
+        "pslist": "False",
+        "psscan": "False",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ]
+  },
+  "hidden_processes": {
+    "added": [
+      {
+        "Offset(P)": 1047581936,
+        "Name": "",
+        "PID": 4096,
+        "pslist": "False",
+        "psscan": "False",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1049727568,
+        "Name": "",
+        "PID": 1,
+        "pslist": "False",
+        "psscan": "False",
+        "thrdproc": "True",
+        "pspcid": "False",
+        "csrss": "False",
+        "session": "False",
+        "deskthrd": "False",
+        "ExitTime": ""
+      }
+    ],
+    "both": []
+  },
+  "dlllist": {
+    "added": [],
+    "deleted": [],
+    "both": [
+      {
+        "old": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        },
+        "new": {
+          "Pid": 4,
+          "Base": 0,
+          "Size": 0,
+          "LoadCount": 0,
+          "LoadTime": "",
+          "Path": "Error reading PEB for pid"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "added": [
+      {
+        "Offset(P)": 1047808448,
+        "Proto": "UDPv4",
+        "LocalAddr": "0.0.0.0:5355",
+        "ForeignAddr": "*:*",
+        "State": "",
+        "PID": 284,
+        "Owner": "svchost.exe",
+        "Created": "2022-04-27 12:26:40 UTC+0000"
+      },
+      {
+        "Offset(P)": 1047219072,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49153",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 724,
+        "Owner": "svchost.exe",
+        "Created": ""
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1042959008,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49157",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 488,
+        "Owner": "lsass.exe",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1045749488,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49155",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 4294967295,
+        "Owner": "????????????????",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1046190672,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49156",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 1720,
+        "Owner": "svchost.exe",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1046609264,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49152",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 1220840264,
+        "Owner": "HL??$?",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1047219072,
+        "Proto": "TCPv4",
+        "LocalAddr": "0.0.0.0:49153",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 14744688,
+        "Owner": "???\u0001??????",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1040766064,
+        "Proto": "TCPv4",
+        "LocalAddr": "-:8000",
+        "ForeignAddr": "-:34730",
+        "State": "CLOSED",
+        "PID": 2000,
+        "Owner": "pythonw.exe",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1042961904,
+        "Proto": "TCPv4",
+        "LocalAddr": "-:0",
+        "ForeignAddr": "104.192.138.2:0",
+        "State": "CLOSED",
+        "PID": 2000,
+        "Owner": "pythonw.exe",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1043666768,
+        "Proto": "TCPv4",
+        "LocalAddr": "-:8000",
+        "ForeignAddr": "-:34672",
+        "State": "CLOSED",
+        "PID": 2000,
+        "Owner": "pythonw.exe",
+        "Created": ""
+      },
+      {
+        "Offset(P)": 1048861040,
+        "Proto": "TCPv4",
+        "LocalAddr": "-:139",
+        "ForeignAddr": "0.0.0.0:0",
+        "State": "LISTENING",
+        "PID": 36826408,
+        "Owner": "``h\u0002",
+        "Created": ""
+      }
+    ]
+  },
+  "services": {
+    "added": [],
+    "deleted": []
+  },
+  "modules": {
+    "added": [
+      {
+        "Offset(P)": 1047652080,
+        "Name": "rspndr.sys",
+        "Base": 18446735827420155904,
+        "Size": 98304,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rspndr.sys"
+      },
+      {
+        "Offset(P)": 1049701184,
+        "Name": "luafv.sys",
+        "Base": 18446735827419926528,
+        "Size": 143360,
+        "File": "\\SystemRoot\\system32\\drivers\\luafv.sys"
+      },
+      {
+        "Offset(P)": 1050497680,
+        "Name": "luafv.sys",
+        "Base": 18446735827436720128,
+        "Size": 143360,
+        "File": "VolumeShadowCopy3"
+      },
+      {
+        "Offset(P)": 1051722176,
+        "Name": "dump_atapi.sys",
+        "Base": 18446735827419705344,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\Drivers\\dump_atapi.sys"
+      },
+      {
+        "Offset(P)": 1052250944,
+        "Name": "framebuf.dll",
+        "Base": 18446736789454323712,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\framebuf.dll"
+      },
+      {
+        "Offset(P)": 1052837648,
+        "Name": "wfplwf.sys",
+        "Base": 18446735827430842368,
+        "Size": 36864,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\wfplwf.sys"
+      },
+      {
+        "Offset(P)": 1052877520,
+        "Name": "RDPCDD.sys",
+        "Base": 18446735827393531904,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\DRIVERS\\RDPCDD.sys"
+      },
+      {
+        "Offset(P)": 1052878784,
+        "Name": "tunnel.sys",
+        "Base": 18446735827434295296,
+        "Size": 155648,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\tunnel.sys"
+      },
+      {
+        "Offset(P)": 1052890464,
+        "Name": "dump_ataport.sys",
+        "Base": 18446735827419656192,
+        "Size": 49152,
+        "File": "\\SystemRoot\\System32\\Drivers\\dump_dumpata.sys"
+      },
+      {
+        "Offset(P)": 1052893920,
+        "Name": "Null.SYS",
+        "Base": 18446735827395661824,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\Drivers\\Null.SYS"
+      },
+      {
+        "Offset(P)": 1052896112,
+        "Name": "watchdog.sys",
+        "Base": 18446735827393466368,
+        "Size": 65536,
+        "File": "\\SystemRoot\\System32\\drivers\\watchdog.sys"
+      },
+      {
+        "Offset(P)": 1053007648,
+        "Name": "crashdmp.sys",
+        "Base": 18446735827419598848,
+        "Size": 57344,
+        "File": "\\SystemRoot\\System32\\Drivers\\crashdmp.sys"
+      },
+      {
+        "Offset(P)": 1053028368,
+        "Name": "Msfs.SYS",
+        "Base": 18446735827395264512,
+        "Size": 45056,
+        "File": "\\SystemRoot\\System32\\Drivers\\Msfs.SYS"
+      },
+      {
+        "Offset(P)": 1053038640,
+        "Name": "TDI.SYS",
+        "Base": 18446735827393220608,
+        "Size": 53248,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\TDI.SYS"
+      },
+      {
+        "Offset(P)": 1053044512,
+        "Name": "rdpencdd.sys",
+        "Base": 18446735827393568768,
+        "Size": 36864,
+        "File": "\\SystemRoot\\system32\\drivers\\rdpencdd.sys"
+      },
+      {
+        "Offset(P)": 1053316752,
+        "Name": "afd.sys",
+        "Base": 18446735827429998592,
+        "Size": 561152,
+        "File": "\\SystemRoot\\system32\\drivers\\afd.sys"
+      },
+      {
+        "Offset(P)": 1053488528,
+        "Name": "pacer.sys",
+        "Base": 18446735827430879232,
+        "Size": 155648,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\pacer.sys"
+      },
+      {
+        "Offset(P)": 1053529584,
+        "Name": "netbt.sys",
+        "Base": 18446735827430559744,
+        "Size": 282624,
+        "File": "\\SystemRoot\\System32\\DRIVERS\\netbt.sys"
+      },
+      {
+        "Offset(P)": 1053549200,
+        "Name": "csc.sys",
+        "Base": 18446735827433566208,
+        "Size": 536576,
+        "File": "\\SystemRoot\\system32\\drivers\\csc.sys"
+      },
+      {
+        "Offset(P)": 1053604224,
+        "Name": "serial.sys",
+        "Base": 18446735827429027840,
+        "Size": 118784,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\serial.sys"
+      },
+      {
+        "Offset(P)": 1053605584,
+        "Name": "netbios.sys",
+        "Base": 18446735827428966400,
+        "Size": 61440,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\netbios.sys"
+      },
+      {
+        "Offset(P)": 1053646400,
+        "Name": "Rtnic64.sys",
+        "Base": 18446735827434975232,
+        "Size": 73728,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\Rtnic64.sys"
+      },
+      {
+        "Offset(P)": 1053651200,
+        "Name": "kbdclass.sys",
+        "Base": 18446735827434573824,
+        "Size": 61440,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\kbdclass.sys"
+      },
+      {
+        "Offset(P)": 1053654480,
+        "Name": "i8042prt.sys",
+        "Base": 18446735827434450944,
+        "Size": 122880,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\i8042prt.sys"
+      },
+      {
+        "Offset(P)": 1053662080,
+        "Name": "dfsc.sys",
+        "Base": 18446735827434102784,
+        "Size": 122880,
+        "File": "\\SystemRoot\\System32\\Drivers\\dfsc.sys"
+      },
+      {
+        "Offset(P)": 1053670224,
+        "Name": "parport.sys",
+        "Base": 18446735827434749952,
+        "Size": 118784,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\parport.sys"
+      },
+      {
+        "Offset(P)": 1053676960,
+        "Name": "blbdrive.sys",
+        "Base": 18446735827434225664,
+        "Size": 69632,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\blbdrive.sys"
+      },
+      {
+        "Offset(P)": 1053819648,
+        "Name": "serenum.sys",
+        "Base": 18446735827434868736,
+        "Size": 49152,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\serenum.sys"
+      },
+      {
+        "Offset(P)": 1053860816,
+        "Name": "vgapnp.sys",
+        "Base": 18446735827434917888,
+        "Size": 57344,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\vgapnp.sys"
+      },
+      {
+        "Offset(P)": 1053873456,
+        "Name": "CompositeBus.sys",
+        "Base": 18446735827435139072,
+        "Size": 65536,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\CompositeBus.sys"
+      },
+      {
+        "Offset(P)": 1053879552,
+        "Name": "intelppm.sys",
+        "Base": 18446735827435048960,
+        "Size": 90112,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\intelppm.sys"
+      },
+      {
+        "Offset(P)": 1053891216,
+        "Name": "rasl2tp.sys",
+        "Base": 18446735827433250816,
+        "Size": 147456,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rasl2tp.sys"
+      },
+      {
+        "Offset(P)": 1053915760,
+        "Name": "AgileVpn.sys",
+        "Base": 18446735827433160704,
+        "Size": 90112,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\AgileVpn.sys"
+      },
+      {
+        "Offset(P)": 1053952176,
+        "Name": "raspppoe.sys",
+        "Base": 18446735827433447424,
+        "Size": 110592,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\raspppoe.sys"
+      },
+      {
+        "Offset(P)": 1053959824,
+        "Name": "raspptp.sys",
+        "Base": 18446735827429826560,
+        "Size": 135168,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\raspptp.sys"
+      },
+      {
+        "Offset(P)": 1053964960,
+        "Name": "umbus.sys",
+        "Base": 18446735827419394048,
+        "Size": 73728,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\umbus.sys"
+      },
+      {
+        "Offset(P)": 1054000464,
+        "Name": "rassstp.sys",
+        "Base": 18446735827390951424,
+        "Size": 106496,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rassstp.sys"
+      },
+      {
+        "Offset(P)": 1054053056,
+        "Name": "rdpbus.sys",
+        "Base": 18446735827435204608,
+        "Size": 45056,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\rdpbus.sys"
+      },
+      {
+        "Offset(P)": 1054072128,
+        "Name": "swenum.sys",
+        "Base": 18446735827435249664,
+        "Size": 8192,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\swenum.sys"
+      },
+      {
+        "Offset(P)": 1054080192,
+        "Name": "ks.sys",
+        "Base": 18446735827419119616,
+        "Size": 274432,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\ks.sys"
+      },
+      {
+        "Offset(P)": 1054196000,
+        "Name": "flpydisk.sys",
+        "Base": 18446735827419467776,
+        "Size": 45056,
+        "File": "\\SystemRoot\\system32\\DRIVERS\\flpydisk.sys"
+      },
+      {
+        "Offset(P)": 1072857200,
+        "Name": "hal.dll",
+        "Base": 18446735277662654464,
+        "Size": 299008,
+        "File": "\\SystemRoot\\system32\\hal.dll"
+      },
+      {
+        "Offset(P)": 1072857440,
+        "Name": "ntoskrnl.exe",
+        "Base": 18446735277656453120,
+        "Size": 6201344,
+        "File": "\\SystemRoot\\system32\\ntkrnlmp.exe"
+      },
+      {
+        "Offset(P)": 1072883344,
+        "Name": "CLFS.SYS",
+        "Base": 18446735827385888768,
+        "Size": 385024,
+        "File": "\\SystemRoot\\system32\\CLFS.SYS"
+      },
+      {
+        "Offset(P)": 1072883584,
+        "Name": "PSHED.dll",
+        "Base": 18446735827385806848,
+        "Size": 81920,
+        "File": "\\SystemRoot\\system32\\PSHED.dll"
+      },
+      {
+        "Offset(P)": 1072883808,
+        "Name": "mcupdate.dll",
+        "Base": 18446735827385483264,
+        "Size": 323584,
+        "File": "\\SystemRoot\\system32\\mcupdate_GenuineIntel.dll"
+      },
+      {
+        "Offset(P)": 1072884048,
+        "Name": "kdcom.dll",
+        "Base": 18446735277628833792,
+        "Size": 40960,
+        "File": "\\SystemRoot\\system32\\kdcom.dll"
+      },
+      {
+        "Offset(P)": 1072885776,
+        "Name": "CI.dll",
+        "Base": 18446735827387736064,
+        "Size": 786432,
+        "File": "\\SystemRoot\\system32\\CI.dll"
+      },
+      {
+        "Offset(P)": 1072886112,
+        "Name": "msahci.sys",
+        "Base": 18446735827386826752,
+        "Size": 45056,
+        "File": "\\SystemRoot\\system32\\drivers\\msahci.sys"
+      },
+      {
+        "Offset(P)": 1072886336,
+        "Name": "ataport.SYS",
+        "Base": 18446735827386654720,
+        "Size": 172032,
+        "File": "\\SystemRoot\\system32\\drivers\\ataport.SYS"
+      },
+      {
+        "Offset(P)": 1072886576,
+        "Name": "atapi.sys",
+        "Base": 18446735827387695104,
+        "Size": 36864,
+        "File": "\\SystemRoot\\system32\\drivers\\atapi.sys"
+      },
+      {
+        "Offset(P)": 1072886800,
+        "Name": "mountmgr.sys",
+        "Base": 18446735827385368576,
+        "Size": 106496,
+        "File": "\\SystemRoot\\System32\\drivers\\mountmgr.sys"
+      },
+      {
+        "Offset(P)": 1072887040,
+        "Name": "PCIIDEX.SYS",
+        "Base": 18446735827385303040,
+        "Size": 65536,
+        "File": "\\SystemRoot\\system32\\drivers\\PCIIDEX.SYS"
+      },
+      {
+        "Offset(P)": 1072887280,
+        "Name": "intelide.sys",
+        "Base": 18446735827389071360,
+        "Size": 32768,
+        "File": "\\SystemRoot\\system32\\drivers\\intelide.sys"
+      },
+      {
+        "Offset(P)": 1072887520,
+        "Name": "volmgrx.sys",
+        "Base": 18446735827384926208,
+        "Size": 376832,
+        "File": "\\SystemRoot\\System32\\drivers\\volmgrx.sys"
+      },
+      {
+        "Offset(P)": 1072887760,
+        "Name": "volmgr.sys",
+        "Base": 18446735827386568704,
+        "Size": 86016,
+        "File": "\\SystemRoot\\system32\\drivers\\volmgr.sys"
+      },
+      {
+        "Offset(P)": 1072887984,
+        "Name": "partmgr.sys",
+        "Base": 18446735827386482688,
+        "Size": 86016,
+        "File": "\\SystemRoot\\System32\\drivers\\partmgr.sys"
+      },
+      {
+        "Offset(P)": 1072888224,
+        "Name": "vdrvroot.sys",
+        "Base": 18446735827389018112,
+        "Size": 53248,
+        "File": "\\SystemRoot\\system32\\drivers\\vdrvroot.sys"
+      },
+      {
+        "Offset(P)": 1072888464,
+        "Name": "pci.sys",
+        "Base": 18446735827386273792,
+        "Size": 208896,
+        "File": "\\SystemRoot\\system32\\drivers\\pci.sys"
+      },
+      {
+        "Offset(P)": 1072888688,
+        "Name": "msisadrv.sys",
+        "Base": 18446735827388977152,
+        "Size": 40960,
+        "File": "\\SystemRoot\\system32\\drivers\\msisadrv.sys"
+      },
+      {
+        "Offset(P)": 1072888928,
+        "Name": "WMILIB.SYS",
+        "Base": 18446735827388940288,
+        "Size": 36864,
+        "File": "\\SystemRoot\\system32\\drivers\\WMILIB.SYS"
+      },
+      {
+        "Offset(P)": 1072889152,
+        "Name": "ACPI.sys",
+        "Base": 18446735827388583936,
+        "Size": 356352,
+        "File": "\\SystemRoot\\system32\\drivers\\ACPI.sys"
+      },
+      {
+        "Offset(P)": 1072889392,
+        "Name": "WDFLDR.SYS",
+        "Base": 18446735827388522496,
+        "Size": 61440,
+        "File": "\\SystemRoot\\system32\\drivers\\WDFLDR.SYS"
+      },
+      {
+        "Offset(P)": 1072889616,
+        "Name": "Wdf01000.sys",
+        "Base": 18446735827387023360,
+        "Size": 671744,
+        "File": "\\SystemRoot\\system32\\drivers\\Wdf01000.sys"
+      },
+      {
+        "Offset(P)": 1072889872,
+        "Name": "amdxata.sys",
+        "Base": 18446735827386871808,
+        "Size": 45056,
+        "File": "\\SystemRoot\\system32\\drivers\\amdxata.sys"
+      },
+      {
+        "Offset(P)": 1072890320,
+        "Name": "volsnap.sys",
+        "Base": 18446735827398230016,
+        "Size": 311296,
+        "File": "\\SystemRoot\\system32\\drivers\\volsnap.sys"
+      },
+      {
+        "Offset(P)": 1072890560,
+        "Name": "vmstorfl.sys",
+        "Base": 18446735827398164480,
+        "Size": 65536,
+        "File": "\\SystemRoot\\system32\\drivers\\vmstorfl.sys"
+      },
+      {
+        "Offset(P)": 1072890800,
+        "Name": "fwpkclnt.sys",
+        "Base": 18446735827397861376,
+        "Size": 303104,
+        "File": "\\SystemRoot\\System32\\drivers\\fwpkclnt.sys"
+      },
+      {
+        "Offset(P)": 1072891040,
+        "Name": "tcpip.sys",
+        "Base": 18446735827395747840,
+        "Size": 2113536,
+        "File": "\\SystemRoot\\System32\\drivers\\tcpip.sys"
+      },
+      {
+        "Offset(P)": 1072891328,
+        "Name": "ksecpkg.sys",
+        "Base": 18446735827395031040,
+        "Size": 176128,
+        "File": "\\SystemRoot\\System32\\Drivers\\ksecpkg.sys"
+      },
+      {
+        "Offset(P)": 1072891568,
+        "Name": "NETIO.SYS",
+        "Base": 18446735827394637824,
+        "Size": 393216,
+        "File": "\\SystemRoot\\system32\\drivers\\NETIO.SYS"
+      },
+      {
+        "Offset(P)": 1072891808,
+        "Name": "ndis.sys",
+        "Base": 18446735827393642496,
+        "Size": 995328,
+        "File": "\\SystemRoot\\system32\\drivers\\ndis.sys"
+      },
+      {
+        "Offset(P)": 1072892064,
+        "Name": "Fs_Rec.sys",
+        "Base": 18446735827393179648,
+        "Size": 40960,
+        "File": "\\SystemRoot\\System32\\Drivers\\Fs_Rec.sys"
+      },
+      {
+        "Offset(P)": 1072892288,
+        "Name": "pcw.sys",
+        "Base": 18446735827393110016,
+        "Size": 69632,
+        "File": "\\SystemRoot\\System32\\drivers\\pcw.sys"
+      },
+      {
+        "Offset(P)": 1072892512,
+        "Name": "cng.sys",
+        "Base": 18446735827390152704,
+        "Size": 466944,
+        "File": "\\SystemRoot\\System32\\Drivers\\cng.sys"
+      },
+      {
+        "Offset(P)": 1072892752,
+        "Name": "ksecdd.sys",
+        "Base": 18446735827392999424,
+        "Size": 110592,
+        "File": "\\SystemRoot\\System32\\Drivers\\ksecdd.sys"
+      },
+      {
+        "Offset(P)": 1072892976,
+        "Name": "msrpc.sys",
+        "Base": 18446735827389767680,
+        "Size": 385024,
+        "File": "\\SystemRoot\\System32\\Drivers\\msrpc.sys"
+      },
+      {
+        "Offset(P)": 1072893216,
+        "Name": "Ntfs.sys",
+        "Base": 18446735827391283200,
+        "Size": 1716224,
+        "File": "\\SystemRoot\\System32\\Drivers\\Ntfs.sys"
+      },
+      {
+        "Offset(P)": 1072893488,
+        "Name": "fileinfo.sys",
+        "Base": 18446735827389685760,
+        "Size": 81920,
+        "File": "\\SystemRoot\\system32\\drivers\\fileinfo.sys"
+      },
+      {
+        "Offset(P)": 1072893728,
+        "Name": "fltmgr.sys",
+        "Base": 18446735827389374464,
+        "Size": 311296,
+        "File": "\\SystemRoot\\system32\\drivers\\fltmgr.sys"
+      },
+      {
+        "Offset(P)": 1072893968,
+        "Name": "spldr.sys",
+        "Base": 18446735827398541312,
+        "Size": 32768,
+        "File": "\\SystemRoot\\System32\\Drivers\\spldr.sys"
+      },
+      {
+        "Offset(P)": 1072896672,
+        "Name": "CLASSPNP.SYS",
+        "Base": 18446735827399249920,
+        "Size": 196608,
+        "File": "\\SystemRoot\\system32\\drivers\\CLASSPNP.SYS"
+      },
+      {
+        "Offset(P)": 1072896912,
+        "Name": "disk.sys",
+        "Base": 18446735827399159808,
+        "Size": 90112,
+        "File": "\\SystemRoot\\system32\\drivers\\disk.sys"
+      },
+      {
+        "Offset(P)": 1072897136,
+        "Name": "fvevol.sys",
+        "Base": 18446735827398922240,
+        "Size": 237568,
+        "File": "\\SystemRoot\\System32\\DRIVERS\\fvevol.sys"
+      },
+      {
+        "Offset(P)": 1072897360,
+        "Name": "hwpolicy.sys",
+        "Base": 18446735827398885376,
+        "Size": 36864,
+        "File": "\\SystemRoot\\System32\\drivers\\hwpolicy.sys"
+      },
+      {
+        "Offset(P)": 1072897600,
+        "Name": "mup.sys",
+        "Base": 18446735827398811648,
+        "Size": 73728,
+        "File": "\\SystemRoot\\System32\\Drivers\\mup.sys"
+      },
+      {
+        "Offset(P)": 1072897824,
+        "Name": "rdyboost.sys",
+        "Base": 18446735827398574080,
+        "Size": 237568,
+        "File": "\\SystemRoot\\System32\\drivers\\rdyboost.sys"
+      }
+    ],
+    "deleted": [
+      {
+        "Offset(P)": 1047944704,
+        "Name": "HTTP.sys",
+        "Base": 18446735827416653824,
+        "Size": 823296,
+        "File": "\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff10\u6bbe\uff0f\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cbf\uff10\u6cc1\uff10\u6cc1\uff10\u6dc2"
+      },
+      {
+        "Offset(P)": 1050013968,
+        "Name": "lltdio.sys",
+        "Base": 18446735827436863488,
+        "Size": 86016,
+        "File": "\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4894\uff06\u4995\uff07\u4995\uff07\u4995\uff07\u4995\uff07\u4995\uff07\u4894\uff06\u4894\uff06\u4896\uff06\u4896\uff06\u4896\uff06\u4896"
+      },
+      {
+        "Offset(P)": 1052250944,
+        "Name": "framebuf.dll",
+        "Base": 18446736789454323712,
+        "Size": 36864,
+        "File": "eBus"
+      }
+    ]
+  },
+  "handles": {
+    "added": [],
+    "deleted": []
+  },
+  "timers": {
+    "added": [],
+    "deleted": []
+  }
+}

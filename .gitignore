@@ -1,0 +1,5 @@
+*.dmp
+pc-ram-*
+*~
+*.dmp.7z
+.ipynb_checkpoints
